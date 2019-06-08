@@ -272,10 +272,10 @@ def extract_ner(sent):
         #preds, _, conf = network.decode(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #feat = network.feature(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #ners = read_result(text, preds)
-        ners, confidences = mod.pred_ner(sent)
+        ners = mod.pred_ner(sent)
         #print(ners)
         subtypes = subtype_predictor.pred_ner(sent)
-        #print(subtypes)
+        print(subtypes)
     except:
         return [], [], []
 
@@ -318,13 +318,11 @@ def extract_ner(sent):
                 head_span = [sent.words[j-1].begin-1, sent.words[j-1].end]
                 #feats.append(feat[0, j-1, :].data.numpy())
                 named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
-                'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span, 
-                'confidence': confidences[wid].item()}
+                'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span}
                 ### gazateer
                 gazz = lookup_gazetteer(named_ent['mention'], named_ent['type'])
                 if gazz:
                     named_ent['type'] = gazz
-                    named_ent['confidence'] = 0.9
 
                 named_ents.append(named_ent)
     # process subtypes
@@ -348,8 +346,7 @@ def extract_ner(sent):
             char_end = sent.words[span[1]-1].end
             head_span = [sent.words[span[1]-1].begin-1, sent.words[span[1]-1].end]
             new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subtype': 'n/a', 'subsubtype': nertype[0][0],
-            'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span,
-            'confidence': nertype[0][1].item()}
+            'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span}
             named_ents.append(new_ent)
             
     # os.system('rm output.txt')

@@ -73,7 +73,7 @@ def extract_numerical(sent, nlp):
     num = []
     tmp = []
     for wid, (word, ner) in enumerate(ners):
-        if ner == 'NUMBER':
+        if ner == 'NUMBER' or ner == 'PERCENT':
             tmp.append(wid)
         elif tmp:
             text = sent.sub_string(tmp[0], tmp[-1]+1)
