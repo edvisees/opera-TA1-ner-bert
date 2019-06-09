@@ -51,7 +51,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         named_ents, ners, feats = extract_ner(sent)
         # print(named_ents)
         nominals = extract_nominals(sent, sent.annotation, ners)
-        # print(nominals)
+        #print(nominals)
         fillers = extract_filler(sent, sent.annotation, ners)
         # fillers =[]
         # print(fillers)
@@ -67,26 +67,27 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
             #mention['type'] = normalize_type(mention['type'])
             ner_type = mention['type'].lower()
-            if 'subsubtype' not in mention.keys():
+            if 'subtype' not in mention.keys():
                 #print(mention.keys())
-                ner_subsubtype = '.n/a'
+                ner_subtype = '.n/a'
             else:
-                ner_subsubtype = '.' + mention['subsubtype'].lower()
+                ner_subtype = '.' + mention['subtype'].lower()
             contain = False
+
             for n_ner in nist_ner:
                 low_n_ner = n_ner.lower()
                 #print(low_n_ner)
-                if ner_type in low_n_ner and ner_subsubtype in low_n_ner:
+                if ner_type in low_n_ner and ner_subtype in low_n_ner:
                     #print('consitent')
                     mention['type'] = n_ner
                     contain = True
                     break
                 elif ner_type == 'n/a':
-                    if ner_subsubtype in low_n_ner:
+                    if ner_subtype in low_n_ner:
                         mention['type'] = n_ner
                         contain = True
                         break
-                elif ner_subsubtype == '.n/a' or ner_subsubtype == '.na':
+                elif ner_subtype == '.n/a' or ner_subtype == '.na':
                     if ner_type == 'NUMERICAL'.lower() or ner_type == 'URL'.lower() or ner_type == 'TIME'.lower():
                         ner_type = 'VAL'
                     elif ner_type == 'title':
@@ -95,7 +96,8 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     contain = True
                     break
             if not contain:
-                print(ner_type, ner_subsubtype)
+                #print(mention, ner_type, ner_subtype)
+                break
                 #mention['type'] = 'ldcOnt:TTL'
             # for n_ner in nist_ner:
 

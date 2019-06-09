@@ -251,18 +251,22 @@ subtype_predictor = mod_subtype.NERPredictor()
 SUBTYPE_HIERARCHY = {}
 SUBTYPE_HIERARCHY['FAC'] = set(['ApartmentBuilding', 'GovernmentBuilding', 'House', 'OfficeBuilding', 'School', 'StoreShop', 'VotingFacility', 
                                 'Border', 'Checkpoint', 'Airport', 'MilitaryInstallation', 'TrainStation', 'Barricade', 'Bridge', 'Plaza', 'Tower',
-                                'Highway', 'Street'])
-SUBTYPE_HIERARCHY['GPE'] = set(['Country', 'OrganizationOfCountries', 'ProvinceState', 'City', 'Village'])
-SUBTYPE_HIERARCHY['LOC'] = set(['Address', 'Continent', 'AirSpace', 'CrimeScene', 'Field', 'Neighborhood', 'Region'])
+                                'Highway', 'Street'] + ['Building', 'GeographicalArea', 'Installation', 'Structure', 'Way'])
+SUBTYPE_HIERARCHY['GPE'] = set(['Country', 'OrganizationOfCountries', 'ProvinceState', 'City', 'Village'] + ['UrbanArea'])
+SUBTYPE_HIERARCHY['LOC'] = set(['Address', 'Continent', 'AirSpace', 'CrimeScene', 'Field', 'Neighborhood', 'Region'] + ['GeographicalPosition', 'Land', 'Position'])
 SUBTYPE_HIERARCHY['ORG'] = set(['Club', 'Team', 'BroadcastingCompany', 'Corporation', 'Manufacturer', 'NewsAgency', 'CriminalOrganization',
                                 'Agency', 'Council', 'FireDepartment', 'LawEnforcementAgency', 'LegislativeBody', 'MonitoringGroup', 'ProsecutorOffice',
-                                'Railway', 'Commission', 'GovernmentArmedForce', 'Intelligence', 'NonGovernmentMilitia'])
+                                'Railway', 'Commission', 'GovernmentArmedForce', 'Intelligence', 'NonGovernmentMilitia'] + ['Associaton', 'CommercialOrganization',
+                                'CriminalOrganization', 'Government', 'International', 'MilitaryOrganization', 'PoliticalOrganization'])
 SUBTYPE_HIERARCHY['PER'] = set(['Mercenary', 'Sniper', 'SportsFan', 'MilitaryOfficer', 'ChiefOfPolice', 'Governor', 'HeadOfGovernment', 'Mayor',
-                                'Ambassador', 'Firefighter', 'Journalist', 'Minister', 'Paramedic', 'Scientist', 'Spokesperson', 'Spy', 'ProtestLeader'])
+                                'Ambassador', 'Firefighter', 'Journalist', 'Minister', 'Paramedic', 'Scientist', 'Spokesperson', 'Spy', 'ProtestLeader'] + [
+                                'Combatant', 'Fan', 'MilitaryPersonnel', 'Politician', 'ProfessionalPosition', 'Protester'])
 SUBTYPE_HIERARCHY['VEH'] = set(['Airplane', 'CargoAircraft', 'Helicopter', 'FighterAircraft', 'MilitaryBoat', 'MilitaryTransportAircraft', 'Tank',
-                                'Rocket', 'Boat', 'yacht', 'Bus', 'Car', 'FireApparatus', 'Train', 'Truck'])
+                                'Rocket', 'Boat', 'yacht', 'Bus', 'Car', 'FireApparatus', 'Train', 'Truck'] + ['Aircraft' + 'MilitaryVehicle', 'Rocket', 
+                                'Watercraft', 'WheeledVehicle'])
 SUBTYPE_HIERARCHY['WEA'] = set(['Bomb', 'Grenade', 'Cannon', 'DaggerKnifeSword', 'PoisonGas', 'Artillery', 'Firearm', 'AirToAirMissile', 'AntiAircraftMissile',
-                                'Missile', 'SurfaceToAirMissile', 'Rock'])
+                                'Missile', 'SurfaceToAirMissile', 'Rock'] + ['Bomb', 'Bullets', 'Cannon', 'Club', 'DaggerKnifeSword', 'Gas', 
+                                'GrenadeLauncher', 'Gun', 'MissleSystem', 'ThrownProjectile'])
 
 def extract_ner(sent):
     try:
@@ -275,8 +279,9 @@ def extract_ner(sent):
         ners = mod.pred_ner(sent)
         #print(ners)
         subtypes = subtype_predictor.pred_ner(sent)
-        print(subtypes)
+        #print(subtypes)
     except:
+        raise
         return [], [], []
 
     # with open('tmp', 'w') as f:
@@ -334,10 +339,10 @@ def extract_ner(sent):
         match = False
         for ner in named_ents:
             if ner['token_span'] == span:
-                for subsubtype, _ in nertype:
-                    if subsubtype in SUBTYPE_HIERARCHY[ner['type']]:
-                        ner['subsubtype'] = subsubtype
-                        #print('***', subsubtype, ner['type'])
+                for subtype, _ in nertype:
+                    if subtype in SUBTYPE_HIERARCHY[ner['type']]:
+                        ner['subtype'] = subtype
+                        print('***', subtype, ner['type'])
                         match = True
                         break
         # no match
@@ -345,7 +350,7 @@ def extract_ner(sent):
             char_begin = sent.words[span[0]].begin - 1
             char_end = sent.words[span[1]-1].end
             head_span = [sent.words[span[1]-1].begin-1, sent.words[span[1]-1].end]
-            new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subtype': 'n/a', 'subsubtype': nertype[0][0],
+            new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subsubtype': 'n/a', 'subtype': nertype[0][0],
             'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span}
             named_ents.append(new_ent)
             

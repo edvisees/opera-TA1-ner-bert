@@ -131,30 +131,30 @@ def get_semantic_class_with_subtype(lemma):
         elif is_hypernym(PERSON_PROTESTER, term):
             subtype, subsubtype = 'protester', 'na'
         elif is_hypernym(PERSON_AMBASSADOR, term):
-            subtype, subsubtype = 'professional_position', 'ambassador'
+            subtype, subsubtype = 'professionalposition', 'ambassador'
         elif is_hypernym(PERSON_FIREFIGHTER, term):
-            subtype, subsubtype = 'professional_position', 'firefighter'
+            subtype, subsubtype = 'professionalposition', 'firefighter'
         elif is_hypernym(PERSON_JOURNALIST, term):
-            subtype, subsubtype = 'professional_position', 'journalist'
+            subtype, subsubtype = 'professionalposition', 'journalist'
         elif is_hypernym(PERSON_MINISTER, term):
-            subtype, subsubtype = 'professional_position', 'minister'
+            subtype, subsubtype = 'professionalposition', 'minister'
         elif is_hypernym(PERSON_PARAMEDIC, term):
-            subtype, subsubtype = 'professional_position', 'paramedic'
+            subtype, subsubtype = 'professionalposition', 'paramedic'
         elif is_hypernym(PERSON_SCIENTIST, term):
-            subtype, subsubtype = 'professional_position', 'scientist'
+            subtype, subsubtype = 'professionalposition', 'scientist'
         elif is_hypernym(PERSON_SPOKEPERSON, term):
-            subtype, subsubtype = 'professional_position', 'spokeperson'
+            subtype, subsubtype = 'professionalposition', 'spokeperson'
         elif is_hypernym(PERSON_SPY, term):
-            subtype, subsubtype = 'professional_position', 'spy'
+            subtype, subsubtype = 'professionalposition', 'spy'
 
     elif is_hypernym(ORGANIZATION, term):
         type = 'ORG'
         if is_hypernym(ORGANIZATION_GOVERNMENT, term):
-            subtype, subsubtype = 'government_organization', 'na'
+            subtype, subsubtype = 'governmentorganization', 'na'
         elif is_hypernym(ORGANIZATION_POLITICAL, term):
-            subtype, subsubtype = 'political_organization', 'na'
+            subtype, subsubtype = 'politicalorganization', 'na'
         elif is_hypernym(ORGANIZATION_MILITARY, term):
-            subtype, subsubtype = 'military_organization', 'na'
+            subtype, subsubtype = 'militaryorganization', 'na'
 
     elif is_hypernym(GPE, term):
         type = 'GPE'
@@ -177,13 +177,13 @@ def get_semantic_class_with_subtype(lemma):
         elif is_hypernym(VEHICLE_WATERCRAFT, term):
             subtype, subsubtype = 'watercraft', 'na'
         elif is_hypernym(VEHICLE_BUS, term):
-            subtype, subsubtype = 'wheeled_vehicle', 'bus'
+            subtype, subsubtype = 'wheeledvehicle', 'bus'
         elif is_hypernym(VEHICLE_CAR, term):
-            subtype, subsubtype = 'wheeled_vehicle', 'car'
+            subtype, subsubtype = 'wheeledvehicle', 'car'
         elif is_hypernym(VEHICLE_TRAIN, term):
-            subtype, subsubtype = 'wheeled_vehicle', 'train'
+            subtype, subsubtype = 'wheeledvehicle', 'train'
         elif is_hypernym(VEHICLE_TRUCK, term):
-            subtype, subsubtype = 'wheeled_vehicle', 'truck'
+            subtype, subsubtype = 'wheeledvehicle', 'truck'
 
     elif is_hypernym(CRIME, term):
         type = 'CRM'
