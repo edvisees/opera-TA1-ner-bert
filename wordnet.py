@@ -117,44 +117,44 @@ def get_semantic_class_with_subtype(lemma):
     if is_hypernym(PERSON, term):
         type = 'PER'
         if is_hypernym(PERSON_COMBATANT, term):
-            subtype = 'combatant'
+            subtype = 'Combatant'
             if is_hypernym(PERSON_MERCENARY, term):
-                subsubtype = 'mercenary'
+                subsubtype = 'Mercenary'
             elif is_hypernym(PERSON_SNIPER, term):
-                subsubtype = 'sniper'
+                subsubtype = 'Sniper'
         elif is_hypernym(PERSON_FAN, term):
-            subtype, subsubtype = 'fan', 'na'
+            subtype, subsubtype = 'Fan', 'n/a'
         elif is_hypernym(PERSON_POLICE, term):
-            subtype, subsubtype = 'police', 'na'
+            subtype, subsubtype = 'Police', 'n/a'
         elif is_hypernym(PERSON_POLITICIAN, term):
-            subtype, subsubtype = 'politician', 'na'
+            subtype, subsubtype = 'Politician', 'n/a'
         elif is_hypernym(PERSON_PROTESTER, term):
-            subtype, subsubtype = 'protester', 'na'
+            subtype, subsubtype = 'Protester', 'n/a'
         elif is_hypernym(PERSON_AMBASSADOR, term):
-            subtype, subsubtype = 'professionalposition', 'ambassador'
+            subtype, subsubtype = 'ProfessionalPosition', 'Ambassador'
         elif is_hypernym(PERSON_FIREFIGHTER, term):
-            subtype, subsubtype = 'professionalposition', 'firefighter'
+            subtype, subsubtype = 'ProfessionalPosition', 'Firefighter'
         elif is_hypernym(PERSON_JOURNALIST, term):
-            subtype, subsubtype = 'professionalposition', 'journalist'
+            subtype, subsubtype = 'ProfessionalPosition', 'Journalist'
         elif is_hypernym(PERSON_MINISTER, term):
-            subtype, subsubtype = 'professionalposition', 'minister'
+            subtype, subsubtype = 'ProfessionalPosition', 'Minister'
         elif is_hypernym(PERSON_PARAMEDIC, term):
-            subtype, subsubtype = 'professionalposition', 'paramedic'
+            subtype, subsubtype = 'ProfessionalPosition', 'Paramedic'
         elif is_hypernym(PERSON_SCIENTIST, term):
-            subtype, subsubtype = 'professionalposition', 'scientist'
+            subtype, subsubtype = 'ProfessionalPosition', 'Scientist'
         elif is_hypernym(PERSON_SPOKEPERSON, term):
-            subtype, subsubtype = 'professionalposition', 'spokeperson'
+            subtype, subsubtype = 'ProfessionalPosition', 'Spokeperson'
         elif is_hypernym(PERSON_SPY, term):
-            subtype, subsubtype = 'professionalposition', 'spy'
+            subtype, subsubtype = 'ProfessionalPosition', 'Spy'
 
     elif is_hypernym(ORGANIZATION, term):
         type = 'ORG'
         if is_hypernym(ORGANIZATION_GOVERNMENT, term):
-            subtype, subsubtype = 'governmentorganization', 'na'
+            subtype, subsubtype = 'Government', 'n/a'
         elif is_hypernym(ORGANIZATION_POLITICAL, term):
-            subtype, subsubtype = 'politicalorganization', 'na'
+            subtype, subsubtype = 'PoliticalOrganization', 'n/a'
         elif is_hypernym(ORGANIZATION_MILITARY, term):
-            subtype, subsubtype = 'militaryorganization', 'na'
+            subtype, subsubtype = 'MilitaryOrganization', 'n/a'
 
     elif is_hypernym(GPE, term):
         type = 'GPE'
@@ -171,19 +171,19 @@ def get_semantic_class_with_subtype(lemma):
     elif is_hypernym(VEHICLE, term):
         type = 'VEH'
         if is_hypernym(VEHICLE_AIRCRAFT, term):
-            subtype, subsubtype = 'aircraft', 'na'
+            subtype, subsubtype = 'Aircraft', 'n/a'
         elif is_hypernym(VEHICLE_ROCKET, term):
-            subtype, subsubtype = 'rocket', 'na'
+            subtype, subsubtype = 'Rocket', 'n/a'
         elif is_hypernym(VEHICLE_WATERCRAFT, term):
-            subtype, subsubtype = 'watercraft', 'na'
+            subtype, subsubtype = 'Watercraft', 'n/a'
         elif is_hypernym(VEHICLE_BUS, term):
-            subtype, subsubtype = 'wheeledvehicle', 'bus'
+            subtype, subsubtype = 'WheeledVehicle', 'Bus'
         elif is_hypernym(VEHICLE_CAR, term):
-            subtype, subsubtype = 'wheeledvehicle', 'car'
+            subtype, subsubtype = 'WheeledVehicle', 'Car'
         elif is_hypernym(VEHICLE_TRAIN, term):
-            subtype, subsubtype = 'wheeledvehicle', 'train'
+            subtype, subsubtype = 'WheeledVehicle', 'Train'
         elif is_hypernym(VEHICLE_TRUCK, term):
-            subtype, subsubtype = 'wheeledvehicle', 'truck'
+            subtype, subsubtype = 'WheeledVehicle', 'Truck'
 
     elif is_hypernym(CRIME, term):
         type = 'CRM'

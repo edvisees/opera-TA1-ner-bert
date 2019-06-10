@@ -95,9 +95,9 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     mention['type'] = 'ldcOnt:' + ner_type.upper()
                     contain = True
                     break
-            if not contain:
-                #print(mention, ner_type, ner_subtype)
-                break
+            # if not contain:
+            #     #print(mention, ner_type, ner_subtype)
+            #     break
                 #mention['type'] = 'ldcOnt:TTL'
             # for n_ner in nist_ner:
 
