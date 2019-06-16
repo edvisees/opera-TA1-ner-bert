@@ -52,6 +52,7 @@ class Sentence(object):
         doc = ''
         offset = 0
         for sent in sents:
+            #print(sent.begin, sent.)
             if sent.begin <= offset:
                 doc = doc[:sent.begin - offset - 1]
             for i in range(sent.begin - offset - 1):
@@ -63,7 +64,7 @@ class Sentence(object):
             offset = sent.end
             #if str.isalnum(sent_str[-1].encode('utf-8')):
             if str.isalnum(sent_str[-1]):
-                doc += '.'
+                doc += ';'
                 offset += 1
         return doc
 

@@ -35,7 +35,7 @@ def extract_NP_or_PRP(sent, nlp):
             end_offset = sent.words[word_span[1]-1].end
             head_index = find_head_of_np(tree)
             headword = sent.words[head_index].word
-            NPs.append({'word_span': word_span, 'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_index': head_index, 'head_span': [sent.words[head_index].begin-1, sent.words[head_index].end], 'headword': headword, 'category': 'NOM'})
+            NPs.append({'word_span': word_span, 'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_index': head_index, 'head_span': [sent.words[head_index].begin-1, sent.words[head_index].end], 'headword': headword, 'category': 'NOM', 'score': 0.9})
         if tree.children:
             for child in reversed(tree.children):
                 stack.append(child)

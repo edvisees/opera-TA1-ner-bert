@@ -267,6 +267,7 @@ SUBTYPE_HIERARCHY['VEH'] = set(['Airplane', 'CargoAircraft', 'Helicopter', 'Figh
 SUBTYPE_HIERARCHY['WEA'] = set(['Bomb', 'Grenade', 'Cannon', 'DaggerKnifeSword', 'PoisonGas', 'Artillery', 'Firearm', 'AirToAirMissile', 'AntiAircraftMissile',
                                 'Missile', 'SurfaceToAirMissile', 'Rock'] + ['Bomb', 'Bullets', 'Cannon', 'Club', 'DaggerKnifeSword', 'Gas', 
                                 'GrenadeLauncher', 'Gun', 'MissleSystem', 'ThrownProjectile'])
+#SUBTYPE_HIERARCHY['TTL'] = set([])
 
 def extract_ner(sent):
     try:
@@ -276,7 +277,7 @@ def extract_ner(sent):
         #preds, _, conf = network.decode(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #feat = network.feature(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #ners = read_result(text, preds)
-        ners = mod.pred_ner(sent)
+        ners, ner_probs = mod.pred_ner(sent)
         #print(ners)
         subtypes = subtype_predictor.pred_ner(sent)
         #print(subtypes)
@@ -313,23 +314,27 @@ def extract_ner(sent):
     named_ents = []
     for wid, word in enumerate(sent.words):
         if ners[wid][0] == 'B':
-                type = ners[wid][2:]
-                j = wid + 1
-                while j < len(sent.words) and ners[j][0] == 'I':
-                    j += 1
-                ner_span = (wid, j)
-                char_begin = sent.words[wid].begin - 1
-                char_end = sent.words[j-1].end
-                head_span = [sent.words[j-1].begin-1, sent.words[j-1].end]
-                #feats.append(feat[0, j-1, :].data.numpy())
-                named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
-                'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span}
-                ### gazateer
-                gazz = lookup_gazetteer(named_ent['mention'], named_ent['type'])
-                if gazz:
-                    named_ent['type'] = gazz
+            score = ner_probs[wid]
+            if score < 0.6:
+                score = 0.6
+            type = ners[wid][2:]
+            j = wid + 1
+            while j < len(sent.words) and ners[j][0] == 'I':
+                j += 1
+            ner_span = (wid, j)
+            char_begin = sent.words[wid].begin - 1
+            char_end = sent.words[j-1].end
+            head_span = [sent.words[j-1].begin-1, sent.words[j-1].end]
+            #feats.append(feat[0, j-1, :].data.numpy())
+            named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
+            'char_begin': char_begin, 'char_end': char_end,
+            'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span, 'score': str(score)}
+            ### gazateer
+            gazz = lookup_gazetteer(named_ent['mention'], named_ent['type'])
+            if gazz:
+                named_ent['type'] = gazz
 
-                named_ents.append(named_ent)
+            named_ents.append(named_ent)
     # process subtypes
     for span, nertype in subtypes.items():
         if len(nertype) > 10:
@@ -337,22 +342,30 @@ def extract_ner(sent):
         nertype.sort(key=lambda x: x[1], reverse=True)
         # find if mantches a ner
         match = False
+        #overlap = False
         for ner in named_ents:
-            if ner['token_span'] == span:
+            if ner['token_span'][1] == span[1]:
                 for subtype, _ in nertype:
-                    if subtype in SUBTYPE_HIERARCHY[ner['type']]:
+                    if ner['type'] != 'TTL' and subtype in SUBTYPE_HIERARCHY[ner['type']]:
                         ner['subtype'] = subtype
                         print('***', subtype, ner['type'])
                         match = True
                         break
+            # sub_range = range(span[0], span[1])
+            # type_range = range(ner['token_span'][0], ner['token_span'][1])
+            # xs = set(x)
+            # if len(xs.intersection(y)) > 0:
+            #     overlap = True
+            #     break
+
         # no match
-        if not match and len(nertype) <= 5:
-            char_begin = sent.words[span[0]].begin - 1
-            char_end = sent.words[span[1]-1].end
-            head_span = [sent.words[span[1]-1].begin-1, sent.words[span[1]-1].end]
-            new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subsubtype': 'n/a', 'subtype': nertype[0][0],
-            'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span}
-            named_ents.append(new_ent)
+        # if not match and len(nertype) <= 5:
+        #     char_begin = sent.words[span[0]].begin - 1
+        #     char_end = sent.words[span[1]-1].end
+        #     head_span = [sent.words[span[1]-1].begin-1, sent.words[span[1]-1].end]
+        #     new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subsubtype': 'n/a', 'subtype': nertype[0][0],
+        #     'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span}
+        #     named_ents.append(new_ent)
             
     # os.system('rm output.txt')
     return named_ents, ners, feats

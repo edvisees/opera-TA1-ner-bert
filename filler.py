@@ -59,7 +59,7 @@ def extract_time(sent, nlp):
             begin_offset = sent.words[tmp[0]].begin
             # print(len(sent.words), tmp)
             end_offset = sent.words[tmp[-1]].end
-            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'TIME'})
+            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'TIME', 'score':'0.9'})
             tmp = []
     
     return time
@@ -80,7 +80,7 @@ def extract_numerical(sent, nlp):
             begin_offset = sent.words[tmp[0]].begin
             # print(len(sent.words), tmp)
             end_offset = sent.words[tmp[-1]].end
-            num.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'NUMERICAL'})
+            num.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'NUMERICAL', 'score':'0.9'})
             tmp = []
     
     return num
@@ -89,5 +89,5 @@ def extract_url(sent):
     urls = []
     for word in sent.words:
         if is_url(word.word):
-            urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'URL'})
+            urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'URL', 'score': '0.9'})
     return urls
