@@ -11,6 +11,9 @@ from multiprocessing.dummy import Pool as ThreadPool
 import time
 from threading import Semaphore
 import json
+
+script_dir=os.path.dirname(os.path.realpath(__file__))
+
 nist_ner = []
 with open('LDCOntology_v0.1.jsonld') as f:
     ldc_onto = json.load(f)
@@ -72,18 +75,25 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 ner_subtype = '.n/a'
             else:
                 ner_subtype = '.' + mention['subtype'].lower()
+
+            if 'subsubtype' not in mention.keys():
+                #print(mention.keys())
+                ner_subsubtype = '.n/a'
+            else:
+                ner_subsubtype = '.' + mention['subsubtype'].lower()
+            contain = False
             contain = False
 
             for n_ner in nist_ner:
                 low_n_ner = n_ner.lower()
                 #print(low_n_ner)
-                if ner_type in low_n_ner and ner_subtype in low_n_ner:
+                if ner_type in low_n_ner and ner_subtype in low_n_ner and ner_subsubtype in low_n_ner:
                     #print('consitent')
                     mention['type'] = n_ner
                     contain = True
                     break
                 elif ner_type == 'n/a':
-                    if ner_subtype in low_n_ner:
+                    if ner_subtype in low_n_ner and low_n_ner.count('.') == 2:
                         mention['type'] = n_ner
                         contain = True
                         break
@@ -249,7 +259,7 @@ def main():
     decisions = None
     # with StanfordCoreNLP('/home/xianyang/stanford-corenlp-full-2017-06-09/') as nlp:
     # with StanfordCoreNLP('http://localhost', port=9006) as nlp:
-    with StanfordCoreNLP('./stanford-corenlp-full-2017-06-09/', memory='8g') as nlp:
+    with StanfordCoreNLP(os.path.join(script_dir, 'stanford-corenlp-full-2017-06-09'), memory='8g') as nlp:
         start_time = time.time()
         if read_raw:
             files = os.listdir(input_dir)
