@@ -66,8 +66,8 @@ def remove_spurious_mentions(mentions, ners):
                 continue
         if headword == "%":
             continue
-        if ners and ners[m['head_index']] != 'O':
-            continue
+        #if ners and ners[m['head_index']] != 'O':
+            #continue
          
         filtered.append(m)
     return filtered
@@ -95,4 +95,4 @@ def load_ontology_vocab():
 ontology = load_ontology_vocab()
 
 def filter_nominals(mentions):
-    return filter(lambda x: x['type'] != 'UNKNOWN' , mentions) #and x['headword'] in ontology
+    return filter(lambda x: x['type'] != 'n/a' or x['subtype'] != 'n/a' or x['subsubtype'] != 'n/a'  , mentions) #and x['headword'] in ontology

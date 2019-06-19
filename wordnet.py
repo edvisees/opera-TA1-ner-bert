@@ -105,7 +105,7 @@ def get_semantic_class(lemma):
     return result
 
 def get_semantic_class_with_subtype(lemma):
-    type = 'UNKNOWN'
+    type = 'n/a'
     subtype, subsubtype = 'n/a', 'n/a'
 
     term = wn.synsets(lemma)
@@ -113,6 +113,9 @@ def get_semantic_class_with_subtype(lemma):
         return type, subtype, subsubtype
 
     term = term[0]
+    #print(lemma)
+    # if lemma == 'police':
+    #     print('police xiangk')
 
     # if is_hypernym(PERSON, term):
     #     type = 'PER'
@@ -191,8 +194,8 @@ def get_semantic_class_with_subtype(lemma):
     elif is_hypernym(PERSON_SPY, term):
         type = 'PER'
         subtype, subsubtype = 'ProfessionalPosition', 'Spy'
-
-
+    if subtype != 'n/a' or subsubtype != 'n/a':
+        return type, subtype, subsubtype
     if is_hypernym(ORGANIZATION, term):
         type = 'ORG'
     if is_hypernym(ORGANIZATION_GOVERNMENT, term):
@@ -204,7 +207,8 @@ def get_semantic_class_with_subtype(lemma):
     elif is_hypernym(ORGANIZATION_MILITARY, term):
         type = 'ORG'
         subtype, subsubtype = 'MilitaryOrganization', 'n/a'
-
+    if subtype != 'n/a' or subsubtype != 'n/a':
+        return type, subtype, subsubtype
     if is_hypernym(GPE, term):
         type = 'GPE'
 
@@ -240,7 +244,8 @@ def get_semantic_class_with_subtype(lemma):
     elif is_hypernym(VEHICLE_TRUCK, term):
         type = 'VEH'
         subtype, subsubtype = 'WheeledVehicle', 'Truck'
-
+    if subtype != 'n/a' or subsubtype != 'n/a':
+        return type, subtype, subsubtype
     if is_hypernym(CRIME, term):
         type = 'CRM'
 

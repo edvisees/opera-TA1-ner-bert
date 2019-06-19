@@ -22,6 +22,41 @@ with open('LDCOntology_v0.1.jsonld') as f:
         if data['@type'] == 'entity_type':
             nist_ner.append(data['@id'])
 
+nist_key = {}
+stype_list = []
+sstype_list = []
+for nn in nist_ner:
+    ori_nn = nn
+    nn = nn.split(':')[1]
+    nn = nn.split('.')
+    if len(nn) == 1:
+        n_type = nn[0]
+    elif len(nn) == 2:
+        n_type, n_stype = nn
+        if n_stype not in stype_list:
+            stype_list.append(n_stype)
+            if n_stype.lower() in ['police', 'politician', 'protester', 'aircraft', 'militaryvehicle', 'rocket', 
+            'watercraft', 'bomb', 'bullets', 'missilesystem']:
+                nist_key[n_stype.lower()] = ori_nn
+    elif len(nn) == 3:
+        n_type, n_stype, n_sstype = nn
+        if n_stype not in stype_list:
+            stype_list.append(n_stype)
+        if n_sstype not in sstype_list:
+            sstype_list.append(n_sstype)
+            nist_key[n_sstype.lower()] = ori_nn
+    else:
+        print(nn)
+
+for key, item in nist_key.items():
+    print(key, item)
+print(nist_key['police'])
+with open('nist_key.pkl', 'wb') as f:
+    pickle.dump(nist_key, f)
+
+with open('nist_key.pkl', 'rb') as f:
+    nist_key = pickle.load(f)
+
 #LOCK = Semaphore(1)
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
@@ -55,6 +90,23 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         # print(named_ents)
         nominals = extract_nominals(sent, sent.annotation, ners)
         #print(nominals)
+        nom_list = []
+        ner_list = []
+        for i in range(len(nominals)):
+            
+            nom_mention = nominals[i]['mention']
+            nom_char_begin = nominals[i]['char_begin']
+            for j in range(len(named_ents)):
+                ner_mention = named_ents[j]['mention']
+                ner_char_begin = named_ents[j]['char_begin']
+                if nom_mention == ner_mention and ner_char_begin == nom_char_begin:
+                    if 'n/a' in nominals[i]['subtype']:
+                        nom_list.append(i)
+                    else:
+                        ner_list.append(j)
+        named_ents = [i for j, i in enumerate(named_ents) if j not in ner_list]
+        nominals = [i for j, i in enumerate(nominals) if j not in nom_list]
+        #print(nominals)
         fillers = extract_filler(sent, sent.annotation, ners)
         # fillers =[]
         # print(fillers)
@@ -82,18 +134,26 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             else:
                 ner_subsubtype = '.' + mention['subsubtype'].lower()
             contain = False
-            contain = False
+            unknown = 'n/a'
+            # for n_ner in nist_ner:
+            #     low_n_ner = n_ner.lower()
+            #     i
 
             for n_ner in nist_ner:
                 low_n_ner = n_ner.lower()
                 #print(low_n_ner)
-                if ner_type in low_n_ner and ner_subtype in low_n_ner and ner_subsubtype in low_n_ner:
+                if unknown not in ner_subsubtype:
+                    if ner_subsubtype in low_n_ner:
+                        mention['type'] = n_ner
+                        contain = True
+                        break
+                elif ner_type in low_n_ner and ner_subtype in low_n_ner:
                     #print('consitent')
                     mention['type'] = n_ner
                     contain = True
                     break
                 elif ner_type == 'n/a':
-                    if ner_subtype in low_n_ner and low_n_ner.count('.') == 2:
+                    if ner_subtype in low_n_ner:
                         mention['type'] = n_ner
                         contain = True
                         break
@@ -105,9 +165,20 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     mention['type'] = 'ldcOnt:' + ner_type.upper()
                     contain = True
                     break
-            # if not contain:
-            #     #print(mention, ner_type, ner_subtype)
-            #     break
+            if not contain:
+                print(mention, ner_type, ner_subtype)
+                exit()
+            single_mention = mention['mention'].lower()
+            has = 0
+            for sm in single_mention.split(' '):
+                if sm in nist_key:
+                    has += 1
+
+                    new_type = nist_key[sm]
+            if has == 1:
+                mention['type'] = new_type
+                print('get key from nistkey is %s and mention is %s' % (new_type, mention['mention']))
+
                 #mention['type'] = 'ldcOnt:TTL'
             # for n_ner in nist_ner:
 

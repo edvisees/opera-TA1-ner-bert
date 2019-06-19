@@ -85,9 +85,9 @@ def read_sent(sent):
     return examples
 
 num_labels = 17
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased',
-    do_lower_case=True, do_basic_tokenize=False)    
-model_dir = '../ner_unbert_finetune_2e-5'
+tokenizer = BertTokenizer.from_pretrained('bert-base-cased',
+    do_lower_case=False, do_basic_tokenize=False)    
+model_dir = '../ner_bert_finetune'
 output_model_file = os.path.join(model_dir, WEIGHTS_NAME)
 output_config_file = os.path.join(model_dir, CONFIG_NAME)
 config = BertConfig(output_config_file)
@@ -101,7 +101,7 @@ def pred_ner(sent):
     eval_examples = read_sent(sent)
     label_list = get_labels()
     eval_features = convert_examples_to_features(
-        eval_examples, label_list, 350, tokenizer)
+            eval_examples, label_list, 300, tokenizer)
     all_input_ids = torch.tensor([f.input_ids for f in eval_features], dtype=torch.long)
     all_input_mask = torch.tensor([f.input_mask for f in eval_features], dtype=torch.long)
     all_segment_ids = torch.tensor([f.segment_ids for f in eval_features], dtype=torch.long)
@@ -140,12 +140,8 @@ def pred_ner(sent):
         pred_prob.extend(active_prob)
     pred_ner_list = [label_list[p] for p in pred_list]
     sen_len = 0
-    sent_str = ''
     for w in sent.words:
         sen_len += 1
-        sent_str = ' '.join((sent_str, w.word))
-    if len(pred_ner_list) != sen_len:
-        print(sent_str)
     assert len(pred_ner_list) == sen_len
     return pred_ner_list, pred_prob
 
@@ -262,7 +258,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
         assert len(label_mask) == max_seq_length
 
         #label_id = label_map[example.label]
-        if ex_index < 2:
+        if ex_index < 0:
             logger.info("*** Example ***")
             logger.info("guid: %s" % (example.guid))
             logger.info("tokens: %s" % " ".join(
