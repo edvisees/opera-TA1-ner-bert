@@ -277,7 +277,10 @@ def extract_ner(sent):
         #preds, _, conf = network.decode(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #feat = network.feature(words, chars, target=labels, mask=None, leading_symbolic=conll03_data.NUM_SYMBOLIC_TAGS)
         #ners = read_result(text, preds)
+        #print(sent.get_text())
         ners, ner_probs = mod.pred_ner(sent)
+        #print(ners)
+        #exit()
         #print(ners)
         subtypes = subtype_predictor.pred_ner(sent)
         #print(subtypes)
@@ -348,7 +351,7 @@ def extract_ner(sent):
                 for subtype, _ in nertype:
                     if ner['type'] != 'TTL' and subtype in SUBTYPE_HIERARCHY[ner['type']]:
                         ner['subtype'] = subtype
-                        print('***', subtype, ner['type'])
+                        #print('***', subtype, ner['type'])
                         match = True
                         break
             # sub_range = range(span[0], span[1])

@@ -87,7 +87,7 @@ def read_sent(sent):
 num_labels = 17
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased',
     do_lower_case=False, do_basic_tokenize=False)    
-model_dir = '../ner_bert_finetune'
+model_dir = '../ner_cased_ft_3e-5'
 output_model_file = os.path.join(model_dir, WEIGHTS_NAME)
 output_config_file = os.path.join(model_dir, CONFIG_NAME)
 config = BertConfig(output_config_file)
@@ -129,11 +129,13 @@ def pred_ner(sent):
             logits = model(input_ids, segment_ids, input_mask)
         active_loss = label_masks.view(-1) == 1
         active_logits = logits.view(-1, num_labels)[active_loss]
+        active_logits = torch.nn.functional.softmax(active_logits, dim=1)
         # active_labels = label_ids.view(-1)[active_loss]
         active_logits = active_logits.detach().cpu().numpy()
-        x = active_logits
-        e_x = np.exp(x - np.max(x))
-        active_logits = e_x / e_x.sum(axis=0)
+        #x = active_logits
+        #e_x = np.exp(x - np.max(x))
+        #print(e_x.shape)
+        #active_logits = e_x / e_x.sum(axis=1)
         active_preds = np.argmax(active_logits, axis=1)
         active_prob = np.max(active_logits, axis=1)
         pred_list.extend(active_preds)

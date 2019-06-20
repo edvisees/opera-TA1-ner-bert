@@ -11,7 +11,6 @@ from multiprocessing.dummy import Pool as ThreadPool
 import time
 from threading import Semaphore
 import json
-import traceback
 
 script_dir=os.path.dirname(os.path.realpath(__file__))
 
@@ -49,15 +48,16 @@ for nn in nist_ner:
     else:
         print(nn)
 
-for key, item in nist_key.items():
-    print(key, item)
-print(nist_key['police'])
+# for key, item in nist_key.items():
+#     print(key, item)
+#print(nist_key['police'])
 with open('nist_key.pkl', 'wb') as f:
     pickle.dump(nist_key, f)
 
 with open('nist_key.pkl', 'rb') as f:
     nist_key = pickle.load(f)
-
+nist_key['force'] = nist_key['police']
+nist_key['forces'] = nist_key['police']
 #LOCK = Semaphore(1)
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
@@ -178,7 +178,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     new_type = nist_key[sm]
             if has == 1:
                 mention['type'] = new_type
-                print('get key from nistkey is %s and mention is %s' % (new_type, mention['mention']))
+                #print('get key from nistkey is %s and mention is %s' % (new_type, mention['mention']))
 
                 #mention['type'] = 'ldcOnt:TTL'
             # for n_ner in nist_ner:
@@ -337,12 +337,8 @@ def main():
             files = os.listdir(input_dir)
         else:
             files = filter(lambda x: x.endswith('.xml'), os.listdir(input_dir))
-        for file in sorted(files):
-            try:
-                success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
-            except Exception as err:
-                sys.stderr.write("ERROR: Exception occured while processing " + file + " \n")
-                traceback.print_exc()
+        for file in files:
+             success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
         #pool = ThreadPool(processes=8)
         #success = pool.map(lambda file: run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'), raw=read_raw), files)
         #pool.close()
