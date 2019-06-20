@@ -11,6 +11,7 @@ from multiprocessing.dummy import Pool as ThreadPool
 import time
 from threading import Semaphore
 import json
+import traceback
 
 script_dir=os.path.dirname(os.path.realpath(__file__))
 
@@ -336,8 +337,12 @@ def main():
             files = os.listdir(input_dir)
         else:
             files = filter(lambda x: x.endswith('.xml'), os.listdir(input_dir))
-        for file in files:
-             success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
+        for file in sorted(files):
+            try:
+                success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
+            except Exception as err:
+                sys.stderr.write("ERROR: Exception occured while processing " + file + " \n")
+                traceback.print_exc()
         #pool = ThreadPool(processes=8)
         #success = pool.map(lambda file: run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'), raw=read_raw), files)
         #pool.close()
