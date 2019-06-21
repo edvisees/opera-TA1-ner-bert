@@ -316,13 +316,15 @@ def extract_ner(sent):
     #         ners.append((int(id)-1, word, ner))
     named_ents = []
     for wid, word in enumerate(sent.words):
+        if wid >= len(ners):
+            break
         if ners[wid][0] == 'B':
             score = ner_probs[wid]
             if score < 0.6:
                 score = 0.6
             type = ners[wid][2:]
             j = wid + 1
-            while j < len(sent.words) and ners[j][0] == 'I':
+            while j < len(sent.words) and j < len(ners) and ners[j][0] == 'I':
                 j += 1
             ner_span = (wid, j)
             char_begin = sent.words[wid].begin - 1

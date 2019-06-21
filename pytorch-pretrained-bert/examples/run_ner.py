@@ -132,19 +132,15 @@ def pred_ner(sent):
         active_logits = torch.nn.functional.softmax(active_logits, dim=1)
         # active_labels = label_ids.view(-1)[active_loss]
         active_logits = active_logits.detach().cpu().numpy()
-        #x = active_logits
-        #e_x = np.exp(x - np.max(x))
-        #print(e_x.shape)
-        #active_logits = e_x / e_x.sum(axis=1)
         active_preds = np.argmax(active_logits, axis=1)
         active_prob = np.max(active_logits, axis=1)
         pred_list.extend(active_preds)
         pred_prob.extend(active_prob)
     pred_ner_list = [label_list[p] for p in pred_list]
-    sen_len = 0
-    for w in sent.words:
-        sen_len += 1
-    assert len(pred_ner_list) == sen_len
+    #sen_len = 0
+    #for w in sent.words:
+        #sen_len += 1
+    #assert len(pred_ner_list) == sen_len
     return pred_ner_list, pred_prob
 
 def read_ner_example(file, lower=False):
