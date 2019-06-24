@@ -18,7 +18,7 @@ from neuronlp2.io import get_logger, conll03_data, CoNLL03Writer
 from neuronlp2.models import BiRecurrentConvCRF, Embedding, ChainCRF
 from neuronlp2 import utils
 
-from gazetteer import lookup_gazetteer
+from gazetteer import lookup_gazetteer, look_gazetteer
 import importlib
 mod = importlib.import_module("pytorch-pretrained-bert.examples.run_ner")
 # from pytorch_pretrained_bert.examples.run_multi_ner import NERPredictor
@@ -316,6 +316,9 @@ def extract_ner(sent):
     #         ners.append((int(id)-1, word, ner))
     named_ents = []
     for wid, word in enumerate(sent.words):
+        # if word.word == 'Putin':
+        #     print(sent.get_text())
+        #     print(ners[wid])
         if wid >= len(ners):
             break
         if ners[wid][0] == 'B':
@@ -331,14 +334,23 @@ def extract_ner(sent):
             char_end = sent.words[j-1].end
             head_span = [sent.words[j-1].begin-1, sent.words[j-1].end]
             #feats.append(feat[0, j-1, :].data.numpy())
+            # if  word.word == 'Putin':
+            #     print(type)
             named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
             'char_begin': char_begin, 'char_end': char_end,
             'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span, 'score': str(score)}
+            # if  word.word == 'Putin':
+            #     print(named_ent)
             ### gazateer
-            gazz = lookup_gazetteer(named_ent['mention'], named_ent['type'])
+            gazz = look_gazetteer(named_ent['mention'], named_ent['type'])
             if gazz:
                 named_ent['type'] = gazz
-
+            # if  word.word == 'Putin':
+            #     print(named_ent)
+            # if word.word == 'Putin':
+            #     print(sent.get_text())
+            #     print(ners[wid], type)
+            #     print(named_ent)
             named_ents.append(named_ent)
     # process subtypes
     for span, nertype in subtypes.items():
@@ -373,6 +385,9 @@ def extract_ner(sent):
         #     named_ents.append(new_ent)
             
     # os.system('rm output.txt')
+    # for ne in named_ents:
+    #     if ne['mention'] == 'Putin':
+    #         print(ne)
     return named_ents, ners, feats
 
 

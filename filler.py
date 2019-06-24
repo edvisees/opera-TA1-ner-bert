@@ -5,6 +5,7 @@ title_list = set()
 with open('gazetteer/jobtitles.lst', 'r') as f:
     for line in f:
         title_list.add(line.strip().lower())
+title_list.add('president')
 
 def extract_filler(sent, nlp, ners):
     titles = extract_title(sent, nlp, ners)

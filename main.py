@@ -91,6 +91,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         # print(named_ents)
         nominals = extract_nominals(sent, sent.annotation, ners)
         #print(nominals)
+
         nom_list = []
         ner_list = []
         for i in range(len(nominals)):
@@ -109,8 +110,32 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         nominals = [i for j, i in enumerate(nominals) if j not in nom_list]
         #print(nominals)
         fillers = extract_filler(sent, sent.annotation, ners)
-        # fillers =[]
-        # print(fillers)
+        fil_list = []
+        fillers = sorted(fillers, key=lambda tupe: int(tupe['char_begin']))
+
+        f_i = 0
+        f_j = 1
+        new_fillers = []
+        if len(fillers) > 1:
+            #new_fillers = [fillers[0]]
+            while f_i < len(fillers) and f_j < len(fillers):
+                i_filler = fillers[f_i]
+                j_filler = fillers[f_j]
+                if i_filler['mention'] == j_filler['mention']:
+                    f_j += 1
+                    continue
+                if i_filler['mention'] in j_filler['mention'] or j_filler['mention'] in i_filler['mention']:
+                    if i_filler['char_end'] - i_filler['char_begin'] > j_filler['char_end'] - j_filler['char_begin']:
+                        f_j += 1
+                    else:
+                        f_i = f_j
+                        f_j += 1
+                else:
+                    new_fillers.append(i_filler)
+                    f_i = f_j
+                    f_j += 1
+            new_fillers.append(fillers[f_i])
+            fillers = new_fillers
 
         # for mention, feat in zip(named_ents, feats):
         #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
@@ -118,8 +143,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         #         mention['fineGrainedType'] = infer_type(feat, decisions, root=normalize_type(mention['type']))
         # for mention in nominals:
         #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
-
-        for m_id, mention in enumerate(named_ents + nominals + fillers):
+        for m_id, mention in enumerate(fillers):
             mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
             #mention['type'] = normalize_type(mention['type'])
             ner_type = mention['type'].lower()
@@ -168,7 +192,57 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     break
             if not contain:
                 print(mention, ner_type, ner_subtype)
-                exit()
+                
+        for m_id, mention in enumerate(named_ents + nominals):
+            mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id + len(fillers))
+            #mention['type'] = normalize_type(mention['type'])
+            ner_type = mention['type'].lower()
+            if 'subtype' not in mention.keys():
+                #print(mention.keys())
+                ner_subtype = '.n/a'
+            else:
+                ner_subtype = '.' + mention['subtype'].lower()
+
+            if 'subsubtype' not in mention.keys():
+                #print(mention.keys())
+                ner_subsubtype = '.n/a'
+            else:
+                ner_subsubtype = '.' + mention['subsubtype'].lower()
+            contain = False
+            unknown = 'n/a'
+            # for n_ner in nist_ner:
+            #     low_n_ner = n_ner.lower()
+            #     i
+
+            for n_ner in nist_ner:
+                low_n_ner = n_ner.lower()
+                #print(low_n_ner)
+                if unknown not in ner_subsubtype:
+                    if ner_subsubtype in low_n_ner:
+                        mention['type'] = n_ner
+                        contain = True
+                        break
+                elif ner_type in low_n_ner and ner_subtype in low_n_ner:
+                    #print('consitent')
+                    mention['type'] = n_ner
+                    contain = True
+                    break
+                elif ner_type == 'n/a':
+                    if ner_subtype in low_n_ner:
+                        mention['type'] = n_ner
+                        contain = True
+                        break
+                elif ner_subtype == '.n/a' or ner_subtype == '.na':
+                    if ner_type == 'NUMERICAL'.lower() or ner_type == 'URL'.lower() or ner_type == 'TIME'.lower():
+                        ner_type = 'VAL'
+                    elif ner_type == 'title':
+                        ner_type = 'TTL'
+                    mention['type'] = 'ldcOnt:' + ner_type.upper()
+                    contain = True
+                    break
+            if not contain:
+                print(mention, ner_type, ner_subtype)
+                
             single_mention = mention['mention'].lower()
             has = 0
             for sm in single_mention.split(' '):
@@ -226,68 +300,6 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
     #LOCK.release()
     return True
 
-    # try:    
-    #     LOCK.acquire()
-    #     out_doc = []
-    #     for sid, sent in enumerate(sents):
-    #         # nlp_dict = {}
-    #         # try:
-    #         #     nlp_dict['ner'] = nlp.ner(sent.get_text().encode('UTF-8'))
-    #         # except:
-    #         #     nlp_dict['ner'] = None
-    #         # try:
-    #         #     nlp_dict['parse'] = nlp.parse(sent.get_text().encode('UTF-8'))
-    #         # except:
-    #         #     nlp_dict['parse'] = None
-    #         # print(sent.get_text())
-    #         named_ents, ners, feats = extract_ner(sent)
-    #         # print(named_ents)
-    #         nominals = extract_nominals(sent, sent.annotation, ners)
-    #         # print(nominals)
-    #         fillers = extract_filler(sent, sent.annotation, ners)
-    #         # fillers =[]
-    #         # print(fillers)
-
-    #         # for mention, feat in zip(named_ents, feats):
-    #         #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
-    #         #     if mention['fineGrainedType'] == 'NULL':
-    #         #         mention['fineGrainedType'] = infer_type(feat, decisions, root=normalize_type(mention['type']))
-    #         # for mention in nominals:
-    #         #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
-
-    #         for m_id, mention in enumerate(named_ents + nominals + fillers):
-    #             mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
-    #             #mention['type'] = normalize_type(mention['type'])
-    #             ner_type = mention['type']
-    #             ner_subsubtype = mention['subsubtype']
-    #             contain = False
-    #             for n_ner in nist_ner:
-    #                 if ner_type in n_ner and ner_subsubtype in n_ner:
-    #                     mention['type'] = n_ner
-    #                     contain = True
-    #                     print(n_ner)
-    #                 elif ner_type == 'n/a' and ner_subsubtype in n_ner:
-    #                     mention['type'] = n_ner
-    #                     contain = True
-    #                     print(n_ner)
-    #             if not contain:
-    #                 print(ner_type, ner_subsubtype)
-    #                 exit()
-
-    #         out_doc.append({'docID': os.path.split(fname)[1], 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
-
-    #     if not out_fname:
-    #         out_fname = fname + '.json'
-    #     with open(out_fname, 'w') as f:
-    #         json.dump(out_doc, f, indent=1, sort_keys=True)
-
-    #     print('processed {}'.format(fname))
-    # except Exception as e:
-    #     print('error: {}; skipped {}'.format(str(e), fname))
-    # finally:
-    #     LOCK.release()
-    #     return True
-
 
 def normalize_type(t):
     if t == 'GPE':
@@ -339,7 +351,7 @@ def main():
             files = filter(lambda x: x.endswith('.xml'), os.listdir(input_dir))
         for file in files:
              success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
-        #pool = ThreadPool(processes=8)
+        #pool = ThreadPool(processes=6)
         #success = pool.map(lambda file: run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'), raw=read_raw), files)
         #pool.close()
         #pool.join()

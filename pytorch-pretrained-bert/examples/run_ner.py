@@ -87,7 +87,7 @@ def read_sent(sent):
 num_labels = 17
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased',
     do_lower_case=False, do_basic_tokenize=False)    
-model_dir = '../ner_cased_ft_3e-5'
+model_dir = '../ner_cased_ft_2e-5'
 output_model_file = os.path.join(model_dir, WEIGHTS_NAME)
 output_config_file = os.path.join(model_dir, CONFIG_NAME)
 config = BertConfig(output_config_file)

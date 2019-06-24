@@ -38,12 +38,38 @@ with open('gazetteer/ua.txt', 'r') as f:
         ukrainian_geonames.add(name)
 
 geo_names = russian_geonames.union(ukrainian_geonames)
+#print(organization_names)
+#exit()
+def look_gazetteer(mention, type):
+    mention = mention.strip().lower()
+    tokens = mention.split()
+    possible_type = []
+    if reduce(lambda a, b: a and b, [token in russian_names for token in tokens]):
+        possible_type.append('PER')
+    if mention in weapon_names:
+        possible_type.append('WEA')
+    if mention in country_names:
+        return 'GPE'
+    if mention in geo_names:
+        possible_type.append('LOC')
+        possible_type.append('GPE')
+    if mention in organization_names:
+        possible_type.append('ORG')
+    if mention in location_names:
+        possible_type.append('LOC')
+    if type in possible_type:
+        return None
+    if len(possible_type) == 1:
+        return possible_type[0]
+    else:
+        return None
 
 def lookup_gazetteer(mention, type):
     mention = mention.strip().lower()
     tokens = mention.split()
-    # bigrams = [ '{} {}'.format(tokens[i], tokens[i+1]) for i in range(len(tokens)-1) ]
+    
 
+    # bigrams = [ '{} {}'.format(tokens[i], tokens[i+1]) for i in range(len(tokens)-1) ] 
     if type != 'PER':
         if reduce(lambda a, b: a and b, [token in russian_names for token in tokens]):
             if mention in organization_names:
@@ -65,7 +91,7 @@ def lookup_gazetteer(mention, type):
         if type != 'GPE' and type != 'LOC':
             return 'GPE'
 
-    if mention in geo_names:
+    if mention in geo_names and mention not in russian_names:
         if type != 'GPE' and type != 'LOC':
             return 'LOC'
 
