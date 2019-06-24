@@ -18,7 +18,7 @@ from neuronlp2.io import get_logger, conll03_data, CoNLL03Writer
 from neuronlp2.models import BiRecurrentConvCRF, Embedding, ChainCRF
 from neuronlp2 import utils
 
-from gazetteer import lookup_gazetteer, look_gazetteer
+from gazetteer import lookup_gazetteer, look_gazetteer, lookup_per, lookup_city
 import importlib
 mod = importlib.import_module("pytorch-pretrained-bert.examples.run_ner")
 # from pytorch_pretrained_bert.examples.run_multi_ner import NERPredictor
@@ -345,12 +345,15 @@ def extract_ner(sent):
             gazz = look_gazetteer(named_ent['mention'], named_ent['type'])
             if gazz:
                 named_ent['type'] = gazz
-            # if  word.word == 'Putin':
-            #     print(named_ent)
-            # if word.word == 'Putin':
-            #     print(sent.get_text())
-            #     print(ners[wid], type)
-            #     print(named_ent)
+            if named_ent['type'] == 'PER':
+                per_gazz = lookup_per(named_ent['mention'], named_ent['type'])
+                if per_gazz:
+                    #print('get one!')
+                    named_ent['type'] = per_gazz
+            if named_ent['type'] == 'GPE':
+                city_gazz = lookup_city(named_ent['mention'], named_ent['type'])
+                if city_gazz:
+                    named_ent['type'] = city_gazz
             named_ents.append(named_ent)
     # process subtypes
     for span, nertype in subtypes.items():
@@ -361,33 +364,14 @@ def extract_ner(sent):
         match = False
         #overlap = False
         for ner in named_ents:
+            if ner['type'].startswith('ldc'):
+                continue
             if ner['token_span'][1] == span[1]:
                 for subtype, _ in nertype:
                     if ner['type'] != 'TTL' and subtype in SUBTYPE_HIERARCHY[ner['type']]:
                         ner['subtype'] = subtype
-                        #print('***', subtype, ner['type'])
                         match = True
                         break
-            # sub_range = range(span[0], span[1])
-            # type_range = range(ner['token_span'][0], ner['token_span'][1])
-            # xs = set(x)
-            # if len(xs.intersection(y)) > 0:
-            #     overlap = True
-            #     break
-
-        # no match
-        # if not match and len(nertype) <= 5:
-        #     char_begin = sent.words[span[0]].begin - 1
-        #     char_end = sent.words[span[1]-1].end
-        #     head_span = [sent.words[span[1]-1].begin-1, sent.words[span[1]-1].end]
-        #     new_ent = {'mention': sent.sub_string(*span), 'category': 'NAM', 'type': 'n/a', 'subsubtype': 'n/a', 'subtype': nertype[0][0],
-        #     'char_begin': char_begin, 'char_end': char_end, 'head_span': head_span, 'headword': sent.words[span[1]-1].word, 'token_span': span}
-        #     named_ents.append(new_ent)
-            
-    # os.system('rm output.txt')
-    # for ne in named_ents:
-    #     if ne['mention'] == 'Putin':
-    #         print(ne)
     return named_ents, ners, feats
 
 

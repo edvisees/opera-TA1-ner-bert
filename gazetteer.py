@@ -1,5 +1,16 @@
 from functools import reduce
+import operator
+with open('gazetteer/per.ga', 'r') as f:
+    per_kb_dic = {}
+    for line in f:
+        line = line.strip().split('\t')
+        per_kb_dic[line[0].lower()] = line[1]
 
+with open('gazetteer/cites.ga', 'r') as f:
+    city_kb_dic = {}
+    for line in f:
+        line = line.strip().split('\t')
+        city_kb_dic[line[0].lower()] = line[1]
 russian_names = set()
 with open('gazetteer/russian_names.lst', 'r') as f:
     for line in f:
@@ -40,6 +51,28 @@ with open('gazetteer/ua.txt', 'r') as f:
 geo_names = russian_geonames.union(ukrainian_geonames)
 #print(organization_names)
 #exit()
+def lookup_per(mention, type):
+    mention = mention.strip().lower()
+    find_type = {}
+    for key in per_kb_dic:
+        if key == mention:
+            final_match = key
+            return per_kb_dic[final_match]
+        if mention in key:
+            if per_kb_dic[key] not in find_type:
+                find_type[per_kb_dic[key]] = 1
+            else:
+                find_type[per_kb_dic[key]] += 1
+
+    if len(find_type) > 0:
+        return max(find_type.items(), key=operator.itemgetter(1))[0]
+    return None
+
+def lookup_city(mention, type):
+    mention = mention.strip().lower()
+    if mention in city_kb_dic:
+        return city_kb_dic[mention]
+    return None
 def look_gazetteer(mention, type):
     mention = mention.strip().lower()
     tokens = mention.split()
@@ -49,14 +82,15 @@ def look_gazetteer(mention, type):
     if mention in weapon_names:
         possible_type.append('WEA')
     if mention in country_names:
-        return 'GPE'
+        return 'ldcOnt:GPE.Country.Country'
     if mention in geo_names:
-        possible_type.append('LOC')
+        #possible_type.append('LOC')
         possible_type.append('GPE')
     if mention in organization_names:
         possible_type.append('ORG')
     if mention in location_names:
         possible_type.append('LOC')
+    
     if type in possible_type:
         return None
     if len(possible_type) == 1:

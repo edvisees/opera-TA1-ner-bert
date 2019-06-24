@@ -56,8 +56,9 @@ with open('nist_key.pkl', 'wb') as f:
 
 with open('nist_key.pkl', 'rb') as f:
     nist_key = pickle.load(f)
-nist_key['force'] = nist_key['police']
-nist_key['forces'] = nist_key['police']
+nist_key['force'] = 'ldcOnt:PER.MilitaryPersonnel'
+nist_key['forces'] = 'ldcOnt:PER.MilitaryPersonnel'
+nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
 #LOCK = Semaphore(1)
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
@@ -196,6 +197,8 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         for m_id, mention in enumerate(named_ents + nominals):
             mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id + len(fillers))
             #mention['type'] = normalize_type(mention['type'])
+            if mention['type'].startswith('ldc'):
+                continue
             ner_type = mention['type'].lower()
             if 'subtype' not in mention.keys():
                 #print(mention.keys())
