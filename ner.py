@@ -3,7 +3,9 @@ import os
 
 sys.path.append(".")
 sys.path.append("..")
-
+import nltk
+from nltk.corpus import stopwords
+eng_sp = set(stopwords.words('english'))
 import time
 import argparse
 import uuid
@@ -336,9 +338,12 @@ def extract_ner(sent):
             #feats.append(feat[0, j-1, :].data.numpy())
             # if  word.word == 'Putin':
             #     print(type)
+
             named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
             'char_begin': char_begin, 'char_end': char_end,
             'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': ner_span, 'score': str(score)}
+            if named_ent['mention'] in eng_sp:
+                continue
             # if  word.word == 'Putin':
             #     print(named_ent)
             ### gazateer

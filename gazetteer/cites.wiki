@@ -1110,7 +1110,7 @@ Zvenigorod	Звенигород	Moscow Oblast
 Zvenigovo	Звенигово	Mari El
 Zverevo	Зверево	Rostov Oblast
 Kyiv	Київ	Kyiv	S	2,868,702	2,611,327	+9.86%	Kiev
-Kyev	Київ	Kyiv	S	2,868,702	2,611,327	+9.86%	Kiev
+Kiev	Київ	Kyiv	S	2,868,702	2,611,327	+9.86%	Kiev
 Kharkiv	Харків	Kharkiv Oblast	O	1,451,132	1,470,902	−1.34%	Kharkiv
 Odessa	Одеса	Odessa Oblast	O	1,017,022	1,029,049	−1.17%	Odesa
 Dnipro	Дніпро	Dnipropetrovsk Oblast	O	993,094	1,080,846	−8.12%	Dnipro

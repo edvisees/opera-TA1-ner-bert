@@ -49,8 +49,9 @@ class Sentence(object):
 
     @staticmethod
     def get_original_doc(sents):
-        doc = ''
-        offset = 0
+        doc = ''.join(['.'] * sents[0].begin)
+        #doc = ''
+        offset = sents[0].begin - 1
         for sent in sents:
             #print(sent.begin, sent.)
             if sent.begin <= offset:
@@ -152,11 +153,13 @@ def read_raw_text(fname, nlp):
     props = {'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
     print('running raw corenlp for {} ...'.format(fname))
     try:
+
         nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
         nlp_annotation = json.loads(nlp_annotation)
         print('finished corenlp for {}'.format(fname))
         sents = []
         for sent_annot in nlp_annotation['sentences']:
+            #print('xiang')
             sent = Sentence(sent_annot['tokens'][0]['characterOffsetBegin']+1, sent_annot['tokens'][-1]['characterOffsetEnd'], sent_annot['index'])
             sent.annotation = {}
             sent.annotation['parse'] = sent_annot['parse']
@@ -205,6 +208,7 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
         props = {'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
         print('running corenlp for {} ...'.format(fname))
         try:
+            #print(doc)
             #nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
             nlp_annotation = nlp.annotate(doc, props)
             nlp_annotation = json.loads(nlp_annotation, strict=False)
@@ -214,6 +218,8 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
             # bp = raw_input('bp')
             new_sents = []
             for sent_annot in nlp_annotation['sentences']:
+                #print(sent_annot)
+                #exit()
                 sent = Sentence(sent_annot['tokens'][0]['characterOffsetBegin']+1, sent_annot['tokens'][-1]['characterOffsetEnd'], sent_annot['index'])
                 sent.annotation = {}
                 sent.annotation['parse'] = sent_annot['parse']
