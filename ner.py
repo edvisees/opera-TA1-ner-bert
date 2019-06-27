@@ -353,12 +353,15 @@ def extract_ner(sent):
             if named_ent['type'] == 'PER':
                 per_gazz = lookup_per(named_ent['mention'], named_ent['type'])
                 if per_gazz:
-                    #print('get one!')
                     named_ent['type'] = per_gazz
+                    #print(per_gazz)
             if named_ent['type'] == 'GPE':
-                city_gazz = lookup_city(named_ent['mention'], named_ent['type'])
-                if city_gazz:
-                    named_ent['type'] = city_gazz
+                if 'russian' in named_ent['mention'].lower() or 'ukrainian' in named_ent['mention'].lower():
+                    named_ent['type'] = 'ldcOnt:PER'
+                else:
+                    city_gazz = lookup_city(named_ent['mention'], named_ent['type'])
+                    if city_gazz:
+                        named_ent['type'] = city_gazz
             named_ents.append(named_ent)
     # process subtypes
     for span, nertype in subtypes.items():

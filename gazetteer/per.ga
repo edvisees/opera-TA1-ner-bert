@@ -1638,6 +1638,8 @@ Baltasar Engonga EDJO	ldcOnt:PER.ProfessionalPosition.Minister
 Angel MASIE Mibuy	ldcOnt:PER.ProfessionalPosition.Minister
 Anatolio NDONG MBA	ldcOnt:PER:ProfessionalPosition.Ambassador
 ISAIAS Afworki	ldcOnt:PER.Politician.HeadOfGovernment
+obama	ldcOnt:PER.Politician.HeadOfGovernment
+barack obama	ldcOnt:PER.Politician.HeadOfGovernment
 AREFAINE Berhe	ldcOnt:PER.ProfessionalPosition.Minister
 SEBHAT Ephrem	ldcOnt:PER.ProfessionalPosition.Minister
 SEMERE Russom	ldcOnt:PER.ProfessionalPosition.Minister

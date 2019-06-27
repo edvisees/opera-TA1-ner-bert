@@ -78,21 +78,8 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
     #LOCK.acquire()
     out_doc = []
     for sid, sent in enumerate(sents):
-        # nlp_dict = {}
-        # try:
-        #     nlp_dict['ner'] = nlp.ner(sent.get_text().encode('UTF-8'))
-        # except:
-        #     nlp_dict['ner'] = None
-        # try:
-        #     nlp_dict['parse'] = nlp.parse(sent.get_text().encode('UTF-8'))
-        # except:
-        #     nlp_dict['parse'] = None
-        # print(sent.get_text())
         named_ents, ners, feats = extract_ner(sent)
-        # print(named_ents)
         nominals = extract_nominals(sent, sent.annotation, ners)
-        #print(nominals)
-
         nom_list = []
         ner_list = []
         for i in range(len(nominals)):
@@ -251,7 +238,6 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             for sm in single_mention.split(' '):
                 if sm in nist_key:
                     has += 1
-
                     new_type = nist_key[sm]
             if has == 1:
                 mention['type'] = new_type
