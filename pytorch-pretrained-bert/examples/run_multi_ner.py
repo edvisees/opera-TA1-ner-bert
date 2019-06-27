@@ -95,7 +95,11 @@ def read_ner_example(file, limit=None, no_label=False):
 def tokenize_label(text, token_text, label):
     text = text.split()
     label = label.split()
-    assert len(text) == len(label)
+    if len(text) > len(label):
+        label += ['O'] * (len(text) - len(label))
+    elif len(text) < len(label):
+        label = label[:len(text)]
+    #assert len(text) == len(label)
     token_label = []
     idx = 0
     token_text_no = []

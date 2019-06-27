@@ -178,7 +178,13 @@ def get_labels():
 def tokenize_label(text, token_text, label):
     text = text.split()
     label = label.split()
-    assert len(text) == len(label)
+    #print(text, label)
+    #print(len(text), len(label))
+    #assert len(text) == len(label)
+    if len(text) > len(label):
+        label += ['O'] * (len(text) - len(label))
+    elif len(text) < len(label):
+        label = label[:len(text)]
     token_label = []
     idx = 0
     token_text_no = []
