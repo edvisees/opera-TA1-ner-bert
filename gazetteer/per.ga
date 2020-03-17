@@ -34,7 +34,7 @@ Mohammad Hanif ATMAR	ldcOnt:PER.Politician
 Rahmatullah NABIL, General	ldcOnt:PER.ProfessionalPosition.Minister
 Ghulam Jelani POPAL	ldcOnt:PER.ProfessionalPosition.Minister
 Khan Afzal HADAWAL	ldcOnt:PER.ProfessionalPosition.Minister
-Zahir TANIN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Zahir TANIN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Bujar NISHANI	ldcOnt:PER.Politician.HeadOfGovernment
 Edi RAMA	ldcOnt:PER.ProfessionalPosition.Minister
 Niko PELESHI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -58,8 +58,8 @@ Erion VELIAJ	ldcOnt:PER.ProfessionalPosition.Minister
 Edmond HAXHINASTO	ldcOnt:PER.ProfessionalPosition.Minister
 Englantina GJERMENI	ldcOnt:PER.ProfessionalPosition.Minister
 Ardian FULLANI	ldcOnt:PER.ProfessionalPosition.Minister
-Gilbert GALANXHI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ferit HOXHA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Gilbert GALANXHI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ferit HOXHA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Abdelaziz BOUTEFLIKA	ldcOnt:PER.Politician.HeadOfGovernment
 Abdelmalek SELLAL	ldcOnt:PER.ProfessionalPosition.Minister
 Abdelwahab NOURI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -95,8 +95,8 @@ Hadji Baba AMMI	ldcOnt:PER.ProfessionalPosition.Minister
 Abdelkader MESSAHEL	ldcOnt:PER.ProfessionalPosition.Minister
 Ahmed NOUI	ldcOnt:PER.Politician.HeadOfGovernment
 Mohamed LAKSACI	ldcOnt:PER.ProfessionalPosition.Minister
-Abdallah BAALI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sabri BOUKADOUM	ldcOnt:PER:ProfessionalPosition.Ambassador
+Abdallah BAALI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sabri BOUKADOUM	ldcOnt:PER.ProfessionalPosition.Ambassador
 Francois HOLLANDE	ldcOnt:PER.Politician.HeadOfGovernment
 Joan-Enric VIVES i SICILIA, Bishop	ldcOnt:PER.Politician.HeadOfGovernment
 Antoni MARTI Petit	ldcOnt:PER.Politician.HeadOfGovernment
@@ -109,7 +109,7 @@ Cristina RODRIGUEZ Galan	ldcOnt:PER.ProfessionalPosition.Minister
 Xavier ESPOT Zamora	ldcOnt:PER.ProfessionalPosition.Minister
 Antoni RIBERAYGUA Sasplugas	ldcOnt:PER.ProfessionalPosition.Minister
 Francesc CAMP Torres	ldcOnt:PER.ProfessionalPosition.Minister
-Narcis CASAL de Fonsdeviela	ldcOnt:PER:ProfessionalPosition.Ambassador
+Narcis CASAL de Fonsdeviela	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jose Eduardo DOS SANTOS	ldcOnt:PER.Politician.HeadOfGovernment
 Manuel Domingos VICENTE	ldcOnt:PER.Politician.HeadOfGovernment
 Afonso Pedro CANGA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -148,8 +148,8 @@ Edeltrudes Mauricio Fernandes GASPAR DA COSTA	ldcOnt:PER.ProfessionalPosition.Mi
 Manuel Helder "Kopelipa" VIEIRA DIAS	ldcOnt:PER.ProfessionalPosition.Minister
 Frederico Manuel dos Santos e Silva CARDOSO	ldcOnt:PER.ProfessionalPosition.Minister
 Jose de Lima MASSANO	ldcOnt:PER.ProfessionalPosition.Minister
-Agostinho NETO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ismael Abraao GASPAR MARTINS	ldcOnt:PER:ProfessionalPosition.Ambassador
+Agostinho NETO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ismael Abraao GASPAR MARTINS	ldcOnt:PER.ProfessionalPosition.Ambassador
 Rodney WILLIAMS	ldcOnt:PER.Politician.HeadOfGovernment
 Gaston BROWNE	ldcOnt:PER.ProfessionalPosition.Minister
 Lester BIRD	ldcOnt:PER.ProfessionalPosition.Minister
@@ -164,8 +164,8 @@ Samantha Nicole MARSHALL	ldcOnt:PER.ProfessionalPosition.Minister
 Asot Anthony MICHAEL	ldcOnt:PER.ProfessionalPosition.Minister
 Paul Chet GREENE	ldcOnt:PER.ProfessionalPosition.Minister
 Eustace Sylvester LAKE	ldcOnt:PER.ProfessionalPosition.Minister
-Deborah Mae LOVELL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Walton Alfonso WEBSON	ldcOnt:PER:ProfessionalPosition.Ambassador
+Deborah Mae LOVELL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Walton Alfonso WEBSON	ldcOnt:PER.ProfessionalPosition.Ambassador
 Cristina FERNANDEZ DE KIRCHNER	ldcOnt:PER.Politician.HeadOfGovernment
 Amado BOUDOU	ldcOnt:PER.Politician.HeadOfGovernment
 Jorge CAPITANICH	ldcOnt:PER.Politician
@@ -186,8 +186,8 @@ Cecilia RODRIGUEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Alicia KIRCHNER	ldcOnt:PER.ProfessionalPosition.Minister
 Carlos Enrique MEYER	ldcOnt:PER.ProfessionalPosition.Minister
 Alejandro VANOLI	ldcOnt:PER.Politician.HeadOfGovernment
-Maria Cecilia NAHON	ldcOnt:PER:ProfessionalPosition.Ambassador
-Maria Cristina PERCEVAL	ldcOnt:PER:ProfessionalPosition.Ambassador
+Maria Cecilia NAHON	ldcOnt:PER.ProfessionalPosition.Ambassador
+Maria Cristina PERCEVAL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Serzh SARGSIAN	ldcOnt:PER.Politician.HeadOfGovernment
 Hovik ABRAHAMYAN	ldcOnt:PER.ProfessionalPosition.Minister
 Vache GABRIELYAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -210,8 +210,8 @@ Armen YERITSIAN	ldcOnt:PER.ProfessionalPosition.Minister
 Gagik BEGLARIAN	ldcOnt:PER.ProfessionalPosition.Minister
 Narek SARGSYAN	ldcOnt:PER.ProfessionalPosition.Minister
 Artur JAVADIAN	ldcOnt:PER.ProfessionalPosition.Minister
-Tigran SARGSIAN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Zohrab MNATSAKANYAN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Tigran SARGSIAN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Zohrab MNATSAKANYAN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Fredis REFUNJOL	ldcOnt:PER.Politician.HeadOfGovernment
 Michiel Godfried EMAN	ldcOnt:PER.ProfessionalPosition.Minister
 Michelle HOOYBOER-WINKLAAR	ldcOnt:PER.ProfessionalPosition.Minister
@@ -249,8 +249,8 @@ Joshua Anthony FRYDENBERG	ldcOnt:PER.Politician
 Michaelia Claire CASH	ldcOnt:PER.ProfessionalPosition.Minister
 Peta CREDLIN	ldcOnt:PER.ProfessionalPosition.Minister
 Glenn Robert STEVENS	ldcOnt:PER.ProfessionalPosition.Minister
-Kim Christian BEAZLEY	ldcOnt:PER:ProfessionalPosition.Ambassador
-Gillian Elizabeth BIRD	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kim Christian BEAZLEY	ldcOnt:PER.ProfessionalPosition.Ambassador
+Gillian Elizabeth BIRD	ldcOnt:PER.ProfessionalPosition.Ambassador
 Heinz FISCHER	ldcOnt:PER.Politician.HeadOfGovernment
 Werner FAYMANN	ldcOnt:PER.Politician.HeadOfGovernment
 Michael SPINDELEGGER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -265,8 +265,8 @@ Rudolf HUNDSTORFER	ldcOnt:PER.ProfessionalPosition.Minister
 Gerald KLUG	ldcOnt:PER.ProfessionalPosition.Minister
 Doris BURES	ldcOnt:PER.ProfessionalPosition.Minister
 Ewald NOWOTNY	ldcOnt:PER.ProfessionalPosition.Minister
-Hans Peter MANZ	ldcOnt:PER:ProfessionalPosition.Ambassador
-Martin SAJDIK	ldcOnt:PER:ProfessionalPosition.Ambassador
+Hans Peter MANZ	ldcOnt:PER.ProfessionalPosition.Ambassador
+Martin SAJDIK	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ilham ALIYEV	ldcOnt:PER.Politician.HeadOfGovernment
 Artur RASIZADE	ldcOnt:PER.ProfessionalPosition.Minister
 Yaqub EYYUBOV	ldcOnt:PER.ProfessionalPosition.Minister
@@ -296,8 +296,8 @@ Azad RAHIMOV	ldcOnt:PER.ProfessionalPosition.Minister
 Fazil MAMEDOV	ldcOnt:PER.ProfessionalPosition.Minister
 Ziya MAMMADOV	ldcOnt:PER.ProfessionalPosition.Minister
 Elman RUSTAMOV	ldcOnt:PER.ProfessionalPosition.Minister
-Elin SULEYMANOV	ldcOnt:PER:ProfessionalPosition.Ambassador
-Yashar Teymur oglu ALIYEV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Elin SULEYMANOV	ldcOnt:PER.ProfessionalPosition.Ambassador
+Yashar Teymur oglu ALIYEV	ldcOnt:PER.ProfessionalPosition.Ambassador
 Arthur FOULKES	ldcOnt:PER.Politician.HeadOfGovernment
 Perry Gladstone CHRISTIE	ldcOnt:PER.ProfessionalPosition.Minister
 Philip DAVIS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -316,8 +316,8 @@ Obediah WILCHCOMBE	ldcOnt:PER.ProfessionalPosition.Minister
 Glenys Hanna MARTIN	ldcOnt:PER.ProfessionalPosition.Minister
 Daniel JOHNSON	ldcOnt:PER.ProfessionalPosition.Minister
 Wendy CRAIGG	ldcOnt:PER.ProfessionalPosition.Minister
-Cornelius SMITH	ldcOnt:PER:ProfessionalPosition.Ambassador
-Elliston RAHMING	ldcOnt:PER:ProfessionalPosition.Ambassador
+Cornelius SMITH	ldcOnt:PER.ProfessionalPosition.Ambassador
+Elliston RAHMING	ldcOnt:PER.ProfessionalPosition.Ambassador
 HAMAD bin Isa Al Khalifa	ldcOnt:PER.Politician
 KHALIFA bin Salman Al Khalifa	ldcOnt:PER.ProfessionalPosition.Minister
 SALMAN Bin Hamad Al Khalifa	ldcOnt:PER.ProfessionalPosition.Minister
@@ -346,8 +346,8 @@ KAMAL bin Ahmad Muhammad	ldcOnt:PER.ProfessionalPosition.Minister
 ISSAM bin Abdallah Khalaf	ldcOnt:PER.ProfessionalPosition.Minister
 ALI bin Fadhil al-Buaynayn	ldcOnt:PER.ProfessionalPosition.Minister
 Rashid bin Muhammad al-MARAJ	ldcOnt:PER.ProfessionalPosition.Minister
-ABDALLAH bin Muhammad bin Rashid Al Khalifa	ldcOnt:PER:ProfessionalPosition.Ambassador
-Jamal Faris al-RUWAYI	ldcOnt:PER:ProfessionalPosition.Ambassador
+ABDALLAH bin Muhammad bin Rashid Al Khalifa	ldcOnt:PER.ProfessionalPosition.Ambassador
+Jamal Faris al-RUWAYI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Abdul HAMID	ldcOnt:PER.Politician.HeadOfGovernment
 Sheikh HASINA	ldcOnt:PER.ProfessionalPosition.Minister
 Matia CHOWDHURY	ldcOnt:PER.ProfessionalPosition.Minister
@@ -382,8 +382,8 @@ Syed Mohsin ALI	ldcOnt:PER.ProfessionalPosition.Minister
 Emajuddin PRAMANIK	ldcOnt:PER.ProfessionalPosition.Minister
 Anisul Islam MAHMUD	ldcOnt:PER.ProfessionalPosition.Minister
 Atiur RAHMAN	ldcOnt:PER.ProfessionalPosition.Minister
-Akramul QADER	ldcOnt:PER:ProfessionalPosition.Ambassador
-Abdulkalam Abdul MOMEN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Akramul QADER	ldcOnt:PER.ProfessionalPosition.Ambassador
+Abdulkalam Abdul MOMEN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Elliot BELGRAVE	ldcOnt:PER.Politician.HeadOfGovernment
 Freundel STUART	ldcOnt:PER.ProfessionalPosition.Minister
 David ESTWICK	ldcOnt:PER.ProfessionalPosition.Minister
@@ -403,8 +403,8 @@ Michael LASHLEY	ldcOnt:PER.ProfessionalPosition.Minister
 Darcy BOYCE	ldcOnt:PER.ProfessionalPosition.Minister
 Patrick TODD	ldcOnt:PER.ProfessionalPosition.Minister
 DeLisle WORRELL	ldcOnt:PER.ProfessionalPosition.Minister
-John E. BEALE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Keith Hamilton Llewellyn MARSHALL	ldcOnt:PER:ProfessionalPosition.Ambassador
+John E. BEALE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Keith Hamilton Llewellyn MARSHALL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Aleksandr LUKASHENKO	ldcOnt:PER.Politician.HeadOfGovernment
 Mikhail MYASNIKOVICH	ldcOnt:PER.ProfessionalPosition.Minister
 Vladimir SEMASHKO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -441,7 +441,7 @@ Valery VAKULCHIK	ldcOnt:PER.ProfessionalPosition.Minister
 Leonid MALTSEV	ldcOnt:PER.ProfessionalPosition.Minister
 Aleksandr KONYUK	ldcOnt:PER.ProfessionalPosition.Minister
 Nadezhda YERMAKOVA	ldcOnt:PER.ProfessionalPosition.Minister
-Andrey DAPKYUNAS	ldcOnt:PER:ProfessionalPosition.Ambassador
+Andrey DAPKYUNAS	ldcOnt:PER.ProfessionalPosition.Ambassador
 PHILIPPE	ldcOnt:PER.Politician
 Charles Yvon MICHEL	ldcOnt:PER.ProfessionalPosition.Minister
 Alexander DE CROO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -459,8 +459,8 @@ Daniel BACQUELAINE	ldcOnt:PER.ProfessionalPosition.Minister
 Jean-Pascal LABILLE	ldcOnt:PER.ProfessionalPosition.Minister
 Maggie DE BLOCK	ldcOnt:PER.ProfessionalPosition.Minister
 Luc COENE	ldcOnt:PER.ProfessionalPosition.Minister
-Johan VERBEKE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Benedicte FRANKINET	ldcOnt:PER:ProfessionalPosition.Ambassador
+Johan VERBEKE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Benedicte FRANKINET	ldcOnt:PER.ProfessionalPosition.Ambassador
 Colville YOUNG, Sir	ldcOnt:PER.Politician.HeadOfGovernment
 Dean Oliver BARROW	ldcOnt:PER.ProfessionalPosition.Minister
 Gaspar VEGA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -479,8 +479,8 @@ John Birchman SALDIVAR	ldcOnt:PER.ProfessionalPosition.Minister
 Charles GIBSON	ldcOnt:PER.ProfessionalPosition.Minister
 Rene MONTERO	ldcOnt:PER.ProfessionalPosition.Minister
 Glenford YSAGUIRRE	ldcOnt:PER.ProfessionalPosition.Minister
-Nestor MENDEZ	ldcOnt:PER:ProfessionalPosition.Ambassador
-Lois Michele YOUNG	ldcOnt:PER:ProfessionalPosition.Ambassador
+Nestor MENDEZ	ldcOnt:PER.ProfessionalPosition.Ambassador
+Lois Michele YOUNG	ldcOnt:PER.ProfessionalPosition.Ambassador
 Thomas YAYI Boni	ldcOnt:PER.Politician.HeadOfGovernment
 Pascal KOUPAKI	ldcOnt:PER.ProfessionalPosition.Minister
 Issa AZIZOU	ldcOnt:PER.ProfessionalPosition.Minister
@@ -511,8 +511,8 @@ Saliou Idrissou AFFO	ldcOnt:PER.ProfessionalPosition.Minister
 Francois Adebayo ABIOLA	ldcOnt:PER.ProfessionalPosition.Minister
 Issifou KGUI N'DOURO	ldcOnt:PER.Politician.HeadOfGovernment
 Evariste Sebastien BONOU	ldcOnt:PER.ProfessionalPosition.Minister
-Cyrille Segbe OGUIN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Jean-Francis Regis ZINSOU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Cyrille Segbe OGUIN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Jean-Francis Regis ZINSOU	ldcOnt:PER.ProfessionalPosition.Ambassador
 George FERGUSSON	ldcOnt:PER.Politician.HeadOfGovernment
 Craig CANNONIER	ldcOnt:PER.Politician.HeadOfGovernment
 Wayne SCOTT	ldcOnt:PER.ProfessionalPosition.Minister
@@ -541,7 +541,7 @@ Ngeema Sangay TSHEMPO	ldcOnt:PER.ProfessionalPosition.Minister
 Dorji CHODEN	ldcOnt:PER.ProfessionalPosition.Minister
 Rinzin GYALTSHEN	ldcOnt:PER.ProfessionalPosition.Minister
 Daw TENZIN	ldcOnt:PER.ProfessionalPosition.Minister
-Kunzang C. NAMGYEL	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kunzang C. NAMGYEL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Juan Evo MORALES Ayma	ldcOnt:PER.Politician.HeadOfGovernment
 Alvaro GARCIA Linera	ldcOnt:PER.Politician.HeadOfGovernment
 Hugo Jose SILES Nunez del Prado	ldcOnt:PER.ProfessionalPosition.Minister
@@ -568,7 +568,7 @@ Tito Roland MONTANO Rivera	ldcOnt:PER.ProfessionalPosition.Minister
 Hector Enrique ARCE Zaconeta	ldcOnt:PER.Politician
 Marcelo ZABALAGA	ldcOnt:PER.Politician.HeadOfGovernment
 Freddy BERSATTI	ldcOnt:PER.ProfessionalPosition.Minister
-Sacha Sergio LLORENTI Soliz	ldcOnt:PER:ProfessionalPosition.Ambassador
+Sacha Sergio LLORENTI Soliz	ldcOnt:PER.ProfessionalPosition.Ambassador
 Mladen IVANIC	ldcOnt:PER.Politician
 Bakir IZETBEGOVIC	ldcOnt:PER.Politician
 Dragan COVIC	ldcOnt:PER.Politician
@@ -583,8 +583,8 @@ Josip GRUBES	ldcOnt:PER.ProfessionalPosition.Minister
 Dragan MEKTIC	ldcOnt:PER.ProfessionalPosition.Minister
 Slavko MATANOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Kemal KOZARIC	ldcOnt:PER.ProfessionalPosition.Minister
-Jadranka NEGODIC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Mirsada COLAKOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jadranka NEGODIC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Mirsada COLAKOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
 Marinko CAVARA	ldcOnt:PER.Politician.HeadOfGovernment
 Milan DUNOVIC	ldcOnt:PER.Politician.HeadOfGovernment
 Melika MAHMUTBEGOVIC	ldcOnt:PER.Politician.HeadOfGovernment
@@ -645,8 +645,8 @@ Tshenolo MABEO	ldcOnt:PER.ProfessionalPosition.Minister
 Thapelo OLOPENG	ldcOnt:PER.ProfessionalPosition.Minister
 Athalia MOLOKOMME	ldcOnt:PER.ProfessionalPosition.Minister
 Linah MOHOHLO	ldcOnt:PER.ProfessionalPosition.Minister
-Tebelelo Mazile SERETSE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Charles Thembani NTWAAGAE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Tebelelo Mazile SERETSE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Charles Thembani NTWAAGAE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Dilma ROUSSEFF	ldcOnt:PER.Politician.HeadOfGovernment
 Michel Miguel Elias TEMER Lulia	ldcOnt:PER.Politician.HeadOfGovernment
 Aloizio MERCADANTE Oliva	ldcOnt:PER.Politician
@@ -687,7 +687,7 @@ Edinho ARAUJO	ldcOnt:PER.ProfessionalPosition.Minister
 Nilma LINO GOMES	ldcOnt:PER.ProfessionalPosition.Minister
 Eleonora MENICUCCI de Oliveira	ldcOnt:PER.ProfessionalPosition.Minister
 Alexandre Antonio TOMBINI	ldcOnt:PER.Politician.HeadOfGovernment
-Antonio de Aguiar PATRIOTA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Antonio de Aguiar PATRIOTA	ldcOnt:PER.ProfessionalPosition.Ambassador
 HASSANAL Bolkiah, Sir	ldcOnt:PER.ProfessionalPosition.Minister
 Al-Muhtadee BILLAH, Crown Prince	ldcOnt:PER.ProfessionalPosition.Minister
 ABDULLAH bin Bakar	ldcOnt:PER.ProfessionalPosition.Minister
@@ -702,8 +702,8 @@ ADANAN bin Mohd Yusof	ldcOnt:PER.ProfessionalPosition.Minister
 BADARUDDIN bin Othman	ldcOnt:PER.ProfessionalPosition.Minister
 YAHYA bin Bakar	ldcOnt:PER.ProfessionalPosition.Minister
 MOHAMMAD bin Abd Rahman	ldcOnt:PER.ProfessionalPosition.Minister
-YUSOFF bin Abdul Hamid	ldcOnt:PER:ProfessionalPosition.Ambassador
-Abdul Ghafar ISMAIL	ldcOnt:PER:ProfessionalPosition.Ambassador
+YUSOFF bin Abdul Hamid	ldcOnt:PER.ProfessionalPosition.Ambassador
+Abdul Ghafar ISMAIL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Rosen PLEVNELIEV	ldcOnt:PER.Politician.HeadOfGovernment
 Margarita POPOVA	ldcOnt:PER.Politician.HeadOfGovernment
 Boyko BORISOV	ldcOnt:PER.ProfessionalPosition.Minister
@@ -728,8 +728,8 @@ Krasen KRALEV	ldcOnt:PER.ProfessionalPosition.Minister
 Nikolina ANGELKOVA	ldcOnt:PER.ProfessionalPosition.Minister
 Ivaylo MOSKOVSKI	ldcOnt:PER.ProfessionalPosition.Minister
 Ivan ISKROV	ldcOnt:PER.ProfessionalPosition.Minister
-Elena POPTODOROVA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Stefan TAFROV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Elena POPTODOROVA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Stefan TAFROV	ldcOnt:PER.ProfessionalPosition.Ambassador
 Michel KAFANDO	ldcOnt:PER.Politician.HeadOfGovernment
 Yacouba Issac ZIDA	ldcOnt:PER.ProfessionalPosition.Minister
 Francois LOMPO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -757,7 +757,7 @@ Nicole Angeline ZAN-YELEMOU	ldcOnt:PER.ProfessionalPosition.Minister
 Amina BAMBARA-BILA	ldcOnt:PER.ProfessionalPosition.Minister
 Bedializoun Moussa NEBIE	ldcOnt:PER.ProfessionalPosition.Minister
 Alain Thierry OUATTARA	ldcOnt:PER.Politician.HeadOfGovernment
-Der KOGDA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Der KOGDA	ldcOnt:PER.ProfessionalPosition.Ambassador
 THEIN SEIN	ldcOnt:PER.Politician.HeadOfGovernment
 NYAN TUN	ldcOnt:PER.Politician.HeadOfGovernment
 SAI MAUK KHAM, Doctor	ldcOnt:PER.Politician.HeadOfGovernment
@@ -798,8 +798,8 @@ SOE THEIN	ldcOnt:PER.Politician.HeadOfGovernment
 THEIN NYUNT	ldcOnt:PER.Politician.HeadOfGovernment
 TIN NAING THEIN	ldcOnt:PER.Politician.HeadOfGovernment
 KYAW KYAW MAUNG	ldcOnt:PER.ProfessionalPosition.Minister
-KYAW MYO HTUT	ldcOnt:PER:ProfessionalPosition.Ambassador
-TIN KYAW	ldcOnt:PER:ProfessionalPosition.Ambassador
+KYAW MYO HTUT	ldcOnt:PER.ProfessionalPosition.Ambassador
+TIN KYAW	ldcOnt:PER.ProfessionalPosition.Ambassador
 Pierre NKURUNZIZA	ldcOnt:PER.Politician.HeadOfGovernment
 Prosper BAZOMBANZA	ldcOnt:PER.Politician.HeadOfGovernment
 Gervais RUFYIKIRI	ldcOnt:PER.Politician.HeadOfGovernment
@@ -825,8 +825,8 @@ Virginie CIZA	ldcOnt:PER.ProfessionalPosition.Minister
 Jean-Marie NIBIRANTIJE	ldcOnt:PER.ProfessionalPosition.Minister
 Jean-Jacques NYENIMIGABO	ldcOnt:PER.ProfessionalPosition.Minister
 Jean CIZA	ldcOnt:PER.ProfessionalPosition.Minister
-Angele NIUHIRE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Albert SHINGIRO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Angele NIUHIRE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Albert SHINGIRO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jorge Carlos de Almeida FONSECA	ldcOnt:PER.Politician.HeadOfGovernment
 Jose Maria Pereira NEVES	ldcOnt:PER.ProfessionalPosition.Minister
 Maria Fernanda TAVARES Fernandes	ldcOnt:PER.ProfessionalPosition.Minister
@@ -851,8 +851,8 @@ Felisberto Alves VIEIRA	ldcOnt:PER.ProfessionalPosition.Minister
 Humberto Santos de BRITO	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Luis ROCHA	ldcOnt:PER.ProfessionalPosition.Minister
 Carlos BURGO	ldcOnt:PER.ProfessionalPosition.Minister
-Maria De Fatima Lima Da VEIGA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Fernando Jorge WAHNON FERREIRA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Maria De Fatima Lima Da VEIGA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Fernando Jorge WAHNON FERREIRA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Norodom SIHAMONI	ldcOnt:PER.Politician
 HUN SEN	ldcOnt:PER.ProfessionalPosition.Minister
 MEN SAM AN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -887,8 +887,8 @@ THONG KHON	ldcOnt:PER.ProfessionalPosition.Minister
 LIM KEAN-HAO	ldcOnt:PER.ProfessionalPosition.Minister
 Ing Kantha PHAVI, Doctor	ldcOnt:PER.ProfessionalPosition.Minister
 CHEA CHANTO	ldcOnt:PER.ProfessionalPosition.Minister
-HEM HENG	ldcOnt:PER:ProfessionalPosition.Ambassador
-RY TUY	ldcOnt:PER:ProfessionalPosition.Ambassador
+HEM HENG	ldcOnt:PER.ProfessionalPosition.Ambassador
+RY TUY	ldcOnt:PER.ProfessionalPosition.Ambassador
 Paul BIYA	ldcOnt:PER.Politician.HeadOfGovernment
 Philemon YANG	ldcOnt:PER.ProfessionalPosition.Minister
 Amadou ALI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -933,8 +933,8 @@ Basile Atangana KOUNA	ldcOnt:PER.ProfessionalPosition.Minister
 Marie Theresa Abena ONDOA	ldcOnt:PER.ProfessionalPosition.Minister
 Adoum GAROUA	ldcOnt:PER.ProfessionalPosition.Minister
 Philibert ANDZEMBE	ldcOnt:PER.ProfessionalPosition.Minister
-Joseph FOE-ATANGANA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Michel Tommo MONTHE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Joseph FOE-ATANGANA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Michel Tommo MONTHE	ldcOnt:PER.ProfessionalPosition.Ambassador
 David JOHNSTON	ldcOnt:PER.Politician.HeadOfGovernment
 Stephen Joseph HARPER	ldcOnt:PER.ProfessionalPosition.Minister
 Bernard VALCOURT	ldcOnt:PER.ProfessionalPosition.Minister
@@ -977,8 +977,8 @@ Anthony Peter CLEMENT	ldcOnt:PER.Politician.HeadOfGovernment
 Peter VAN LOAN	ldcOnt:PER.Politician
 Marjory LEBRETON	ldcOnt:PER.Politician
 Stephen POLOZ	ldcOnt:PER.ProfessionalPosition.Minister
-Gary DOER	ldcOnt:PER:ProfessionalPosition.Ambassador
-Guillermo RISHCHYNSKI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Gary DOER	ldcOnt:PER.ProfessionalPosition.Ambassador
+Guillermo RISHCHYNSKI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Catherine SAMBA-PANZA	ldcOnt:PER.Politician.HeadOfGovernment
 Mahamat KAMOUN	ldcOnt:PER.ProfessionalPosition.Minister
 Eloi ANGUIMATE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1005,8 +1005,8 @@ Andre Ringui LE GAILLARD	ldcOnt:PER.ProfessionalPosition.Minister
 Herbert Gontran DJONO AHABA	ldcOnt:PER.ProfessionalPosition.Minister
 Marie Noelle ANDET-KOYARA	ldcOnt:PER.ProfessionalPosition.Minister
 Alphonse KOYAMBA	ldcOnt:PER.ProfessionalPosition.Minister
-Emmanuel TOUABOY	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ambroisine KPONGO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Emmanuel TOUABOY	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ambroisine KPONGO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Idriss DEBY Itno, Lieutenant General	ldcOnt:PER.Politician.HeadOfGovernment
 Emmanuel NADINGAR	ldcOnt:PER.ProfessionalPosition.Minister
 Albert Pahimi PADACKE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1051,8 +1051,8 @@ Khadidja HASSABALLAH	ldcOnt:PER.ProfessionalPosition.Minister
 Mahadie Outhman ISSA	ldcOnt:PER.ProfessionalPosition.Minister
 Naima ABDELMOUTI	ldcOnt:PER.ProfessionalPosition.Minister
 Raoul Laouna GONG	ldcOnt:PER.ProfessionalPosition.Minister
-Mahamat Nasser HASSANE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Cherif Mahamat ZENE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mahamat Nasser HASSANE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Cherif Mahamat ZENE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Michelle BACHELET Jeria	ldcOnt:PER.Politician.HeadOfGovernment
 Carlos FURCHE	ldcOnt:PER.ProfessionalPosition.Minister
 Marcelo DIAZ	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1078,8 +1078,8 @@ Marcos BARRAZA	ldcOnt:PER.ProfessionalPosition.Minister
 Natalia RIFFO	ldcOnt:PER.ProfessionalPosition.Minister
 Andres GOMEZ-LOBO	ldcOnt:PER.ProfessionalPosition.Minister
 Rodrigo VERGARA Montes	ldcOnt:PER.Politician.HeadOfGovernment
-Juan Gabriel VALDES Soublette	ldcOnt:PER:ProfessionalPosition.Ambassador
-Cristian BARROS Melet	ldcOnt:PER:ProfessionalPosition.Ambassador
+Juan Gabriel VALDES Soublette	ldcOnt:PER.ProfessionalPosition.Ambassador
+Cristian BARROS Melet	ldcOnt:PER.ProfessionalPosition.Ambassador
 XI Jinping	ldcOnt:PER.Politician.HeadOfGovernment
 LI Yuanchao	ldcOnt:PER.Politician.HeadOfGovernment
 LI Keqiang	ldcOnt:PER.Politician.HeadOfGovernment
@@ -1116,8 +1116,8 @@ YANG Chuantang	ldcOnt:PER.ProfessionalPosition.Minister
 CHEN Lei	ldcOnt:PER.ProfessionalPosition.Minister
 LIU Jiayi	ldcOnt:PER.ProfessionalPosition.Minister
 ZHOU Xiaochuan	ldcOnt:PER.ProfessionalPosition.Minister
-CUI Tiankai	ldcOnt:PER:ProfessionalPosition.Ambassador
-LIU Jieyi	ldcOnt:PER:ProfessionalPosition.Ambassador
+CUI Tiankai	ldcOnt:PER.ProfessionalPosition.Ambassador
+LIU Jieyi	ldcOnt:PER.ProfessionalPosition.Ambassador
 LEUNG Chun-ying	ldcOnt:PER.Politician
 Carrie LAM Cheng Yuet-ngor	ldcOnt:PER.ProfessionalPosition.Minister
 Paul TANG Kwok-wai	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1172,8 +1172,8 @@ Natalie ABELLO	ldcOnt:PER.ProfessionalPosition.Minister
 Simon GAVIRIA Munoz	ldcOnt:PER.ProfessionalPosition.Minister
 Eduardo MONTEALEGRE Lynett	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Dario URIBE Escobar	ldcOnt:PER.Politician.HeadOfGovernment
-Luis Carlos VILLEGAS Echeverri	ldcOnt:PER:ProfessionalPosition.Ambassador
-Maria Emma MEJIA Velez	ldcOnt:PER:ProfessionalPosition.Ambassador
+Luis Carlos VILLEGAS Echeverri	ldcOnt:PER.ProfessionalPosition.Ambassador
+Maria Emma MEJIA Velez	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ikililou DHOININE	ldcOnt:PER.Politician.HeadOfGovernment
 Mohamed Ali SOILIHI	ldcOnt:PER.Politician.HeadOfGovernment
 Fouad MOHADJI, , Doctor	ldcOnt:PER.Politician.HeadOfGovernment
@@ -1186,7 +1186,7 @@ Abdou Nassur MADI	ldcOnt:PER.ProfessionalPosition.Minister
 Abdoulkarim MOHAMED	ldcOnt:PER.ProfessionalPosition.Minister
 Bahiat MASSOUNDI	ldcOnt:PER.ProfessionalPosition.Minister
 Abdou Mohamed CHANFIOU	ldcOnt:PER.ProfessionalPosition.Minister
-Soilihi Mohamed SOILIHI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Soilihi Mohamed SOILIHI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Joseph KABILA	ldcOnt:PER.Politician.HeadOfGovernment
 Augustin MATATA PONYO Mapon	ldcOnt:PER.ProfessionalPosition.Minister
 Alexandre LUBA Ntambo	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1216,8 +1216,8 @@ Charles NAWEJ Mundele	ldcOnt:PER.ProfessionalPosition.Minister
 Justin KALUMBA Mwana Ngongo	ldcOnt:PER.ProfessionalPosition.Minister
 Banza MUKALAYI Sungu	ldcOnt:PER.ProfessionalPosition.Minister
 Deogratias MUTOMBO Mwana Nyembo	ldcOnt:PER.ProfessionalPosition.Minister
-Faida Maramuke MITIFU	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ignace GATA MAVITA wa Lufuta	ldcOnt:PER:ProfessionalPosition.Ambassador
+Faida Maramuke MITIFU	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ignace GATA MAVITA wa Lufuta	ldcOnt:PER.ProfessionalPosition.Ambassador
 Denis SASSOU-Nguesso	ldcOnt:PER.Politician.HeadOfGovernment
 Rodolphe ADADA	ldcOnt:PER.ProfessionalPosition.Minister
 Isidore MVOUBA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1256,8 +1256,8 @@ Josue-Rodrigue NGOUONIMBA	ldcOnt:PER.ProfessionalPosition.Minister
 Jean Baptiste ONDAYE	ldcOnt:PER.ProfessionalPosition.Minister
 Josui Rodrigue NGOUONIMBA	ldcOnt:PER.ProfessionalPosition.Minister
 Martin Parfait Aimi COUSSOUD MAVOUNGOU	ldcOnt:PER.ProfessionalPosition.Minister
-Serge MOMBOULI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Raymond Serge BALE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Serge MOMBOULI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Raymond Serge BALE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Henry PUNA	ldcOnt:PER.ProfessionalPosition.Minister
 Teariki HEATHER	ldcOnt:PER.ProfessionalPosition.Minister
 Kiriau TUREPU	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1288,8 +1288,8 @@ Carolina MAURI	ldcOnt:PER.ProfessionalPosition.Minister
 Alejandra MORA	ldcOnt:PER.ProfessionalPosition.Minister
 Ana Lorena BRENES	ldcOnt:PER.ProfessionalPosition.Minister
 Olivier CASTRO	ldcOnt:PER.Politician.HeadOfGovernment
-Roman MACAYA Hayes	ldcOnt:PER:ProfessionalPosition.Ambassador
-Juan Carlos MENDOZA Garcia	ldcOnt:PER:ProfessionalPosition.Ambassador
+Roman MACAYA Hayes	ldcOnt:PER.ProfessionalPosition.Ambassador
+Juan Carlos MENDOZA Garcia	ldcOnt:PER.ProfessionalPosition.Ambassador
 Alassane Dramane OUATTARA	ldcOnt:PER.Politician.HeadOfGovernment
 Paul Kofi KOFI	ldcOnt:PER.Politician.HeadOfGovernment
 Daniel Kablan DUNCAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1320,8 +1320,8 @@ Roger KAKOU	ldcOnt:PER.ProfessionalPosition.Minister
 Gaoussou TOURE	ldcOnt:PER.ProfessionalPosition.Minister
 Babaud DARRET	ldcOnt:PER.ProfessionalPosition.Minister
 Alain Michel LOBOGNON	ldcOnt:PER.ProfessionalPosition.Minister
-Daouda DIABATE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Youssoufou BAMBA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Daouda DIABATE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Youssoufou BAMBA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Kolinda GRABAR-KITAROVIC	ldcOnt:PER.Politician.HeadOfGovernment
 Zoran MILANOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Vesna PUSIC	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1345,8 +1345,8 @@ Vedran MORNAR	ldcOnt:PER.ProfessionalPosition.Minister
 Darko LORENCIN	ldcOnt:PER.ProfessionalPosition.Minister
 Predrag MATIC	ldcOnt:PER.ProfessionalPosition.Minister
 Boris VUJCIC	ldcOnt:PER.ProfessionalPosition.Minister
-Josip PARO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Vladimir DROBNJAK	ldcOnt:PER:ProfessionalPosition.Ambassador
+Josip PARO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Vladimir DROBNJAK	ldcOnt:PER.ProfessionalPosition.Ambassador
 Raul CASTRO Ruz, General	ldcOnt:PER.Politician.HeadOfGovernment
 Miguel DIAZ-CANEL Bermudez	ldcOnt:PER.Politician.HeadOfGovernment
 Gladys BEJERANO Portela	ldcOnt:PER.Politician.HeadOfGovernment
@@ -1384,7 +1384,7 @@ Manuel MARRERO Cruz	ldcOnt:PER.ProfessionalPosition.Minister
 Cesar Ignacio AROCHA Masid	ldcOnt:PER.ProfessionalPosition.Minister
 Dario DELGADO Cura	ldcOnt:PER.ProfessionalPosition.Minister
 Ernesto MEDINA Villaveiran	ldcOnt:PER.Politician.HeadOfGovernment
-Rodolfo REYES Rodriguez	ldcOnt:PER:ProfessionalPosition.Ambassador
+Rodolfo REYES Rodriguez	ldcOnt:PER.ProfessionalPosition.Ambassador
 Nikos ANASTASIADIS	ldcOnt:PER.Politician.HeadOfGovernment
 Nikos KOUGIALIS	ldcOnt:PER.ProfessionalPosition.Minister
 Georgios LAKKOTRYPIS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1398,8 +1398,8 @@ Sokratis CHASIKOS	ldcOnt:PER.ProfessionalPosition.Minister
 Ionas NIKOLAOU	ldcOnt:PER.ProfessionalPosition.Minister
 Zeta AIMILIANIDOU	ldcOnt:PER.ProfessionalPosition.Minister
 Chrystallas GIORKATZI	ldcOnt:PER.ProfessionalPosition.Minister
-Georgios CHACALLI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Nikolaos AIMILIOU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Georgios CHACALLI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Nikolaos AIMILIOU	ldcOnt:PER.ProfessionalPosition.Ambassador
 Milos ZEMAN	ldcOnt:PER.Politician.HeadOfGovernment
 Bohuslav SOBOTKA	ldcOnt:PER.ProfessionalPosition.Minister
 Andrej BABIS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1419,8 +1419,8 @@ Michaela MARKSOVA-TOMINOVA	ldcOnt:PER.ProfessionalPosition.Minister
 Karla SLECHTOVA	ldcOnt:PER.ProfessionalPosition.Minister
 Dan TOK	ldcOnt:PER.ProfessionalPosition.Minister
 Miroslav SINGER	ldcOnt:PER.ProfessionalPosition.Minister
-Petr GANDALOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Edita HRDA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Petr GANDALOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Edita HRDA	ldcOnt:PER.ProfessionalPosition.Ambassador
 MARGRETHE II	ldcOnt:PER.Politician
 Helle THORNING-SCHMIDT	ldcOnt:PER.ProfessionalPosition.Minister
 Morten OSTERGAARD	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1443,8 +1443,8 @@ Sofie Carsten NIELSEN	ldcOnt:PER.ProfessionalPosition.Minister
 Benny ENGELBRECHT	ldcOnt:PER.ProfessionalPosition.Minister
 Magnus HEUNICKE	ldcOnt:PER.ProfessionalPosition.Minister
 Lars ROHDE	ldcOnt:PER.ProfessionalPosition.Minister
-Peter TAKSOE-JENSEN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ib PETERSEN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Peter TAKSOE-JENSEN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ib PETERSEN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ismail Omar GUELLEH	ldcOnt:PER.Politician.HeadOfGovernment
 Abdoulkader Kamil MOHAMED	ldcOnt:PER.ProfessionalPosition.Minister
 Mohamed Ahmed AWALEH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1463,7 +1463,7 @@ Abdi Houssein AHMED	ldcOnt:PER.ProfessionalPosition.Minister
 Aden Ali ADEN	ldcOnt:PER.ProfessionalPosition.Minister
 Hasna Barkat DAOUD	ldcOnt:PER.ProfessionalPosition.Minister
 Ahmed OSMAN Ali	ldcOnt:PER.ProfessionalPosition.Minister
-Roble OLHAYE Oudine	ldcOnt:PER:ProfessionalPosition.Ambassador
+Roble OLHAYE Oudine	ldcOnt:PER.ProfessionalPosition.Ambassador
 Charles SAVARIN	ldcOnt:PER.Politician.HeadOfGovernment
 Roosevelt SKERRIT	ldcOnt:PER.ProfessionalPosition.Minister
 Miriam BLANCHARD	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1483,7 +1483,7 @@ Robert TONGE	ldcOnt:PER.ProfessionalPosition.Minister
 Ian DOUGLAS	ldcOnt:PER.ProfessionalPosition.Minister
 Justina CHARLES	ldcOnt:PER.ProfessionalPosition.Minister
 Levi PETER	ldcOnt:PER.ProfessionalPosition.Minister
-Vince HENDERSON	ldcOnt:PER:ProfessionalPosition.Ambassador
+Vince HENDERSON	ldcOnt:PER.ProfessionalPosition.Ambassador
 Danilo MEDINA Sanchez	ldcOnt:PER.Politician.HeadOfGovernment
 Margarita CEDENO DE FERNANDEZ	ldcOnt:PER.Politician.HeadOfGovernment
 Angel Francisco ESTEVEZ Bourdierd	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1509,8 +1509,8 @@ Jorge Felix MINAYA Contreras	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Ramon PERALTA	ldcOnt:PER.ProfessionalPosition.Minister
 Francisco DOMINGUEZ Brito	ldcOnt:PER.ProfessionalPosition.Minister
 Hector VALDEZ Albizu	ldcOnt:PER.ProfessionalPosition.Minister
-Anibal de Jesus DE CASTRO Rodriguez	ldcOnt:PER:ProfessionalPosition.Ambassador
-Francisco Antonio CORTORREAL	ldcOnt:PER:ProfessionalPosition.Ambassador
+Anibal de Jesus DE CASTRO Rodriguez	ldcOnt:PER.ProfessionalPosition.Ambassador
+Francisco Antonio CORTORREAL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Rafael CORREA Delgado	ldcOnt:PER.Politician.HeadOfGovernment
 Jorge GLAS Espinel	ldcOnt:PER.Politician.HeadOfGovernment
 Javier PONCE Cevallos	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1545,7 +1545,7 @@ Rafael PROVEDA Bonilla	ldcOnt:PER.ProfessionalPosition.Minister
 Pabel MUNOZ	ldcOnt:PER.ProfessionalPosition.Minister
 Vinicio ALVARADO Espinel	ldcOnt:PER.Politician.HeadOfGovernment
 Diego MARTINEZ	ldcOnt:PER.Politician.HeadOfGovernment
-Julio Xavier LASSO Mendoza	ldcOnt:PER:ProfessionalPosition.Ambassador
+Julio Xavier LASSO Mendoza	ldcOnt:PER.ProfessionalPosition.Ambassador
 Abdelfattah Said ELSISI	ldcOnt:PER.Politician.HeadOfGovernment
 Ibrahim MEHLAB	ldcOnt:PER.ProfessionalPosition.Minister
 Salah al-Din HELAL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1586,8 +1586,8 @@ Hany DAHY	ldcOnt:PER.ProfessionalPosition.Minister
 Laila Rashid ISKANDER	ldcOnt:PER.ProfessionalPosition.Minister
 Khaled ABDEL-AZIZ	ldcOnt:PER.ProfessionalPosition.Minister
 Hisham RAMEZ	ldcOnt:PER.ProfessionalPosition.Minister
-Mohamed TAWFIK	ldcOnt:PER:ProfessionalPosition.Ambassador
-Amr Abde-latif ABOULATTA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mohamed TAWFIK	ldcOnt:PER.ProfessionalPosition.Ambassador
+Amr Abde-latif ABOULATTA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Salvador SANCHEZ CEREN	ldcOnt:PER.Politician.HeadOfGovernment
 Oscar ORTIZ	ldcOnt:PER.Politician.HeadOfGovernment
 Orestes ORTEZ	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1605,8 +1605,8 @@ Gerson MARTINEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Napoleon DUARTE Duran	ldcOnt:PER.ProfessionalPosition.Minister
 Luis MARTINEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Oscar CABRERA Melgar	ldcOnt:PER.Politician.HeadOfGovernment
-Francisco Roberto ALTSCHUL Fuentes	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ruben Ignacio ZAMORA Rivas	ldcOnt:PER:ProfessionalPosition.Ambassador
+Francisco Roberto ALTSCHUL Fuentes	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ruben Ignacio ZAMORA Rivas	ldcOnt:PER.ProfessionalPosition.Ambassador
 Teodoro OBIANG Nguema Mbasogo, Brigadier General (Retired)	ldcOnt:PER.Politician.HeadOfGovernment
 Ignacio MILAM Tang	ldcOnt:PER.Politician.HeadOfGovernment
 Teodoro "Teodorin" Nguema OBIANG Mangue	ldcOnt:PER.Politician.HeadOfGovernment
@@ -1636,7 +1636,7 @@ Tomas Mecheba Fernandez GALILEA	ldcOnt:PER.ProfessionalPosition.Minister
 Alejandro EVUNA Owono Asangono	ldcOnt:PER.ProfessionalPosition.Minister
 Baltasar Engonga EDJO	ldcOnt:PER.ProfessionalPosition.Minister
 Angel MASIE Mibuy	ldcOnt:PER.ProfessionalPosition.Minister
-Anatolio NDONG MBA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Anatolio NDONG MBA	ldcOnt:PER.ProfessionalPosition.Ambassador
 ISAIAS Afworki	ldcOnt:PER.Politician.HeadOfGovernment
 obama	ldcOnt:PER.Politician.HeadOfGovernment
 barack obama	ldcOnt:PER.Politician.HeadOfGovernment
@@ -1658,7 +1658,7 @@ ASKALU Menkerios	ldcOnt:PER.ProfessionalPosition.Minister
 WOLDENKIEL Abraha	ldcOnt:PER.ProfessionalPosition.Minister
 KIBREAB Woldemariam	ldcOnt:PER.ProfessionalPosition.Minister
 BERHANE Gebrehiwet Solomon	ldcOnt:PER.ProfessionalPosition.Minister
-GIRMA Asmerom Tesfay	ldcOnt:PER:ProfessionalPosition.Ambassador
+GIRMA Asmerom Tesfay	ldcOnt:PER.ProfessionalPosition.Ambassador
 Toomas Hendrik ILVES	ldcOnt:PER.Politician.HeadOfGovernment
 Taavi ROIVAS	ldcOnt:PER.ProfessionalPosition.Minister
 Ivari PADAR	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1675,8 +1675,8 @@ Hanno PEVKUR	ldcOnt:PER.ProfessionalPosition.Minister
 Andres ANVELT	ldcOnt:PER.ProfessionalPosition.Minister
 Helmen KUTT	ldcOnt:PER.ProfessionalPosition.Minister
 Ardo HANSSON	ldcOnt:PER.ProfessionalPosition.Minister
-Eerik MARMEI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Margus KOLGA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Eerik MARMEI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Margus KOLGA	ldcOnt:PER.ProfessionalPosition.Ambassador
 MULATU Teshome	ldcOnt:PER.Politician.HeadOfGovernment
 HAILEMARIAM Desalegn	ldcOnt:PER.ProfessionalPosition.Minister
 ASTER Mamo	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1705,8 +1705,8 @@ MEKURIA Haile	ldcOnt:PER.ProfessionalPosition.Minister
 ALEMAYEHU Tegenu	ldcOnt:PER.ProfessionalPosition.Minister
 ZENEBU Tadesse	ldcOnt:PER.ProfessionalPosition.Minister
 TEKLEWOLD Atnafu	ldcOnt:PER.ProfessionalPosition.Minister
-GIRMA Birru Geda	ldcOnt:PER:ProfessionalPosition.Ambassador
-TEKEDA Alemu Wolde Mariam	ldcOnt:PER:ProfessionalPosition.Ambassador
+GIRMA Birru Geda	ldcOnt:PER.ProfessionalPosition.Ambassador
+TEKEDA Alemu Wolde Mariam	ldcOnt:PER.ProfessionalPosition.Ambassador
 Epeli NAILATIKAU	ldcOnt:PER.Politician.HeadOfGovernment
 Josaia Voreqe BAINIMARAMA, Rear Admiral (Retired)	ldcOnt:PER.ProfessionalPosition.Minister
 Inia SERUIRATU	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1724,8 +1724,8 @@ Parveen KUMAR	ldcOnt:PER.ProfessionalPosition.Minister
 Rosy Sofia AKBAR	ldcOnt:PER.ProfessionalPosition.Minister
 Laisenia Bale TUITUBOU	ldcOnt:PER.ProfessionalPosition.Minister
 Barry WHITESIDE	ldcOnt:PER.ProfessionalPosition.Minister
-Winston THOMPSON	ldcOnt:PER:ProfessionalPosition.Ambassador
-Peter THOMSON	ldcOnt:PER:ProfessionalPosition.Ambassador
+Winston THOMPSON	ldcOnt:PER.ProfessionalPosition.Ambassador
+Peter THOMSON	ldcOnt:PER.ProfessionalPosition.Ambassador
 Sauli NIINISTO	ldcOnt:PER.Politician.HeadOfGovernment
 Cai-Goran Alexander STUBB	ldcOnt:PER.ProfessionalPosition.Minister
 Antti RINNE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1745,8 +1745,8 @@ Lauri IHALAINEN	ldcOnt:PER.ProfessionalPosition.Minister
 Laura RATY	ldcOnt:PER.ProfessionalPosition.Minister
 Paula RISIKKO	ldcOnt:PER.ProfessionalPosition.Minister
 Erkki LIIKANEN	ldcOnt:PER.ProfessionalPosition.Minister
-Ritva Inkeri KOUKKU-RONDE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Kai Jurgen Mikael SAUER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ritva Inkeri KOUKKU-RONDE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Kai Jurgen Mikael SAUER	ldcOnt:PER.ProfessionalPosition.Ambassador
 Francois HOLLANDE	ldcOnt:PER.Politician.HeadOfGovernment
 Manuel VALLS	ldcOnt:PER.ProfessionalPosition.Minister
 Stephane LE FOLL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1766,8 +1766,8 @@ George PAU-LANGEVIN	ldcOnt:PER.ProfessionalPosition.Minister
 Marisol TOURAINE	ldcOnt:PER.ProfessionalPosition.Minister
 Patrick KANNER	ldcOnt:PER.ProfessionalPosition.Minister
 Christian NOYER	ldcOnt:PER.ProfessionalPosition.Minister
-Gerard ARAUD	ldcOnt:PER:ProfessionalPosition.Ambassador
-Francois DELATTRE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Gerard ARAUD	ldcOnt:PER.ProfessionalPosition.Ambassador
+Francois DELATTRE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ali Ben BONGO Ondimba	ldcOnt:PER.Politician.HeadOfGovernment
 Daniel ONA ONDO	ldcOnt:PER.ProfessionalPosition.Minister
 Luc OYOUBI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1791,8 +1791,8 @@ Etienne NGOUBOU	ldcOnt:PER.ProfessionalPosition.Minister
 Denise MEKAMNE	ldcOnt:PER.ProfessionalPosition.Minister
 Gabriel TCHANGO	ldcOnt:PER.ProfessionalPosition.Minister
 Paulette MENGUE M'Owono	ldcOnt:PER.ProfessionalPosition.Minister
-Carlos Victor BOUNGOU	ldcOnt:PER:ProfessionalPosition.Ambassador
-Noel Nelson MESSONE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Carlos Victor BOUNGOU	ldcOnt:PER.ProfessionalPosition.Ambassador
+Noel Nelson MESSONE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Yahya JAMMEH	ldcOnt:PER.Politician.HeadOfGovernment
 Isatou NJIE-SAIDY	ldcOnt:PER.Politician.HeadOfGovernment
 Solomon OWENS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1812,7 +1812,7 @@ Benjamin A. ROBERTS	ldcOnt:PER.ProfessionalPosition.Minister
 Abdou JOBE	ldcOnt:PER.ProfessionalPosition.Minister
 Gala GARBA-JAHUMPA	ldcOnt:PER.ProfessionalPosition.Minister
 Alieu K. JAMMEH	ldcOnt:PER.ProfessionalPosition.Minister
-Mamadou TANGARA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mamadou TANGARA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Giorgi MARGVELASHVILI	ldcOnt:PER.Politician.HeadOfGovernment
 Davit USUPASHVILI	ldcOnt:PER.Politician
 Irakli GARIBASHVILI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1837,8 +1837,8 @@ Davit BAKRADZE	ldcOnt:PER.ProfessionalPosition.Minister
 Paata ZAKAREISHVILI	ldcOnt:PER.ProfessionalPosition.Minister
 Irine IMERLISHVILI	ldcOnt:PER.ProfessionalPosition.Minister
 Giorgi KADAGIDZE	ldcOnt:PER.ProfessionalPosition.Minister
-Archil GEGESHIDZE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Kakha IMNADZE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Archil GEGESHIDZE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Kakha IMNADZE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Joachim GAUCK	ldcOnt:PER.Politician.HeadOfGovernment
 Angela MERKEL	ldcOnt:PER.Politician.HeadOfGovernment
 Sigmar GABRIEL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1857,8 +1857,8 @@ Christian SCHMIDT	ldcOnt:PER.ProfessionalPosition.Minister
 Alexander DOBRINDT	ldcOnt:PER.ProfessionalPosition.Minister
 Peter ALTMAIER	ldcOnt:PER.ProfessionalPosition.Minister
 Jens WEIDMANN	ldcOnt:PER.Politician.HeadOfGovernment
-Peter WITTIG	ldcOnt:PER:ProfessionalPosition.Ambassador
-Harald BRAUN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Peter WITTIG	ldcOnt:PER.ProfessionalPosition.Ambassador
+Harald BRAUN	ldcOnt:PER.ProfessionalPosition.Ambassador
 John Dramani MAHAMA	ldcOnt:PER.Politician.HeadOfGovernment
 Kwesi AMISSAH-ARTHUR	ldcOnt:PER.Politician.HeadOfGovernment
 Henry Seidu DAANAA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1887,7 +1887,7 @@ Dzifa ATTIVOR	ldcOnt:PER.ProfessionalPosition.Minister
 Collins DAUDA	ldcOnt:PER.ProfessionalPosition.Minister
 Elvis AFRIYIE-ANKRAH	ldcOnt:PER.ProfessionalPosition.Minister
 Henry Kofi WAMPAH	ldcOnt:PER.ProfessionalPosition.Minister
-Kenneth Kweku KANDA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kenneth Kweku KANDA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Prokopios PAVLOPOULOS	ldcOnt:PER.Politician.HeadOfGovernment
 Alexios TSIPRAS	ldcOnt:PER.ProfessionalPosition.Minister
 Ioannis DRAGASAKIS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1906,8 +1906,8 @@ Panagiotis NIKOLOUDIS	ldcOnt:PER.ProfessionalPosition.Minister
 Alexandros FLAMBOURARIS	ldcOnt:PER.ProfessionalPosition.Minister
 Gavriil SAKELLARIDIS	ldcOnt:PER.Politician
 Ioannis STOURNARAS	ldcOnt:PER.ProfessionalPosition.Minister
-Christos PANAGOPOULOS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Aikaterini BOURA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Christos PANAGOPOULOS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Aikaterini BOURA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Cecile LA GRENADE	ldcOnt:PER.Politician.HeadOfGovernment
 Keith MITCHELL	ldcOnt:PER.ProfessionalPosition.Minister
 Elvin NIMROD	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1923,8 +1923,8 @@ Emmalin PIERRE	ldcOnt:PER.ProfessionalPosition.Minister
 Alexandra OTWAY-NOEL	ldcOnt:PER.ProfessionalPosition.Minister
 Alvin DABREO	ldcOnt:PER.ProfessionalPosition.Minister
 Cajeton HOOD	ldcOnt:PER.ProfessionalPosition.Minister
-Ethelstan Angus FRIDAY	ldcOnt:PER:ProfessionalPosition.Ambassador
-Denis Godwin ANTOINE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ethelstan Angus FRIDAY	ldcOnt:PER.ProfessionalPosition.Ambassador
+Denis Godwin ANTOINE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Otto Fernando PEREZ MOLINA	ldcOnt:PER.Politician.HeadOfGovernment
 Ingrid Roxana BALDETTI Elias	ldcOnt:PER.Politician.HeadOfGovernment
 Elmer LOPEZ Rodriguez	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1944,8 +1944,8 @@ Thelma ALDANA	ldcOnt:PER.ProfessionalPosition.Minister
 Vladimir Osman AGUILAR Guerra	ldcOnt:PER.Politician
 Gustavo MARTINEZ	ldcOnt:PER.Politician.HeadOfGovernment
 Julio Roberto SUAREZ Guerra	ldcOnt:PER.Politician.HeadOfGovernment
-Julio LIGORRIA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Luis Fernando CARRERA Castro	ldcOnt:PER:ProfessionalPosition.Ambassador
+Julio LIGORRIA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Luis Fernando CARRERA Castro	ldcOnt:PER.ProfessionalPosition.Ambassador
 Alpha CONDE	ldcOnt:PER.Politician.HeadOfGovernment
 Mohamed Said FOFANA	ldcOnt:PER.ProfessionalPosition.Minister
 Emile YOMBOUNO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1980,7 +1980,7 @@ Alhassane CONDE	ldcOnt:PER.ProfessionalPosition.Minister
 Ibrahima BANGOURA	ldcOnt:PER.ProfessionalPosition.Minister
 Sanoussy Gbatama SOW	ldcOnt:PER.ProfessionalPosition.Minister
 Louceny NABE	ldcOnt:PER.ProfessionalPosition.Minister
-Mamadi TOURE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mamadi TOURE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jose Mario VAZ	ldcOnt:PER.Politician.HeadOfGovernment
 Domingos Simoes PEREIRA	ldcOnt:PER.ProfessionalPosition.Minister
 Baciro DJA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -1999,7 +1999,7 @@ Ademir Nelson BELO	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Antonio DE ALMEIDA	ldcOnt:PER.ProfessionalPosition.Minister
 Antonio Serifo EMBALO	ldcOnt:PER.ProfessionalPosition.Minister
 Bilony NHASSE	ldcOnt:PER.ProfessionalPosition.Minister
-Joao SOARES DA GAMA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Joao SOARES DA GAMA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Donald RAMOTAR	ldcOnt:PER.Politician.HeadOfGovernment
 Samuel HINDS	ldcOnt:PER.ProfessionalPosition.Minister
 Leslie RAMSAMMY, Doctor	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2020,8 +2020,8 @@ Robeson BENN	ldcOnt:PER.ProfessionalPosition.Minister
 Frank ANTHONY, Doctor	ldcOnt:PER.ProfessionalPosition.Minister
 Roger LUNCHEON	ldcOnt:PER.Politician.HeadOfGovernment
 Dolly S. SINGH	ldcOnt:PER.ProfessionalPosition.Minister
-Bayney KARRAN	ldcOnt:PER:ProfessionalPosition.Ambassador
-George Wilfred TALBOT	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bayney KARRAN	ldcOnt:PER.ProfessionalPosition.Ambassador
+George Wilfred TALBOT	ldcOnt:PER.ProfessionalPosition.Ambassador
 Michel MARTELLY	ldcOnt:PER.Politician.HeadOfGovernment
 Evans PAUL	ldcOnt:PER.ProfessionalPosition.Minister
 Fresner DORCIN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2044,8 +2044,8 @@ Yves Rose MORQUETTE	ldcOnt:PER.ProfessionalPosition.Minister
 Jimmy ALBERT	ldcOnt:PER.ProfessionalPosition.Minister
 Jean Fritz JEAN-LOUIS	ldcOnt:PER.ProfessionalPosition.Minister
 Charles CASTEL	ldcOnt:PER.ProfessionalPosition.Minister
-Paul ALTIDOR	ldcOnt:PER:ProfessionalPosition.Ambassador
-Denis REGIS	ldcOnt:PER:ProfessionalPosition.Ambassador
+Paul ALTIDOR	ldcOnt:PER.ProfessionalPosition.Ambassador
+Denis REGIS	ldcOnt:PER.ProfessionalPosition.Ambassador
 FRANCIS, Pope	ldcOnt:PER.ProfessionalPosition.Minister
 Pietro PAROLIN, Cardinal	ldcOnt:PER.ProfessionalPosition.Minister
 Jean-Louis TAURAN, Cardinal	ldcOnt:PER.Politician
@@ -2074,8 +2074,8 @@ Reinaldo SANCHEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Julian PACHECO Tinoco	ldcOnt:PER.ProfessionalPosition.Minister
 Nelly JEREZ	ldcOnt:PER.ProfessionalPosition.Minister
 Oscar CHINCHILLA Banegas	ldcOnt:PER.ProfessionalPosition.Minister
-Jorge Alberto MILLA Reyes	ldcOnt:PER:ProfessionalPosition.Ambassador
-Mary Elizabeth FLORES Flake	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jorge Alberto MILLA Reyes	ldcOnt:PER.ProfessionalPosition.Ambassador
+Mary Elizabeth FLORES Flake	ldcOnt:PER.ProfessionalPosition.Ambassador
 Janos ADER	ldcOnt:PER.Politician.HeadOfGovernment
 Viktor ORBAN	ldcOnt:PER.ProfessionalPosition.Minister
 Zsolt SEMJEN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2089,8 +2089,8 @@ Laszlo TROCSANYI	ldcOnt:PER.ProfessionalPosition.Minister
 Miklos SESZTAK	ldcOnt:PER.ProfessionalPosition.Minister
 Mihaly VARGA	ldcOnt:PER.ProfessionalPosition.Minister
 Gyorgy MATOLCSY	ldcOnt:PER.ProfessionalPosition.Minister
-Reka SZEMERKENYI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Katalin BOGYAY	ldcOnt:PER:ProfessionalPosition.Ambassador
+Reka SZEMERKENYI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Katalin BOGYAY	ldcOnt:PER.ProfessionalPosition.Ambassador
 Olafur Ragnar GRIMSSON	ldcOnt:PER.Politician.HeadOfGovernment
 Sigmundur David GUNNLAUGSSON	ldcOnt:PER.ProfessionalPosition.Minister
 Illugi GUNNARSSON	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2103,8 +2103,8 @@ Ragnheidur Elin ARNADOTTIR	ldcOnt:PER.ProfessionalPosition.Minister
 Olof NORDAL	ldcOnt:PER.ProfessionalPosition.Minister
 Eyglo HARDARDOTTIR	ldcOnt:PER.ProfessionalPosition.Minister
 Mar GUDMUNDSSON	ldcOnt:PER.ProfessionalPosition.Minister
-Geir Hilmar HAARDE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Einar GUNNARSSON	ldcOnt:PER:ProfessionalPosition.Ambassador
+Geir Hilmar HAARDE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Einar GUNNARSSON	ldcOnt:PER.ProfessionalPosition.Ambassador
 Pranab MUKHERJEE	ldcOnt:PER.Politician.HeadOfGovernment
 Mohammad Hamid ANSARI	ldcOnt:PER.Politician.HeadOfGovernment
 Narendra MODI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2149,8 +2149,8 @@ V. K. SINGH	ldcOnt:PER.ProfessionalPosition.Minister
 Santosh Kumar GANGWAR	ldcOnt:PER.ProfessionalPosition.Minister
 Sarbananda SONOWAL	ldcOnt:PER.ProfessionalPosition.Minister
 Raghuram RAJAN	ldcOnt:PER.ProfessionalPosition.Minister
-Subrahmanyam JAISHANKAR	ldcOnt:PER:ProfessionalPosition.Ambassador
-Asoke Kumar MUKERJI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Subrahmanyam JAISHANKAR	ldcOnt:PER.ProfessionalPosition.Ambassador
+Asoke Kumar MUKERJI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Joko "Jokowi" WIDODO	ldcOnt:PER.Politician.HeadOfGovernment
 Muhammad Jusuf KALLA	ldcOnt:PER.Politician.HeadOfGovernment
 Sofyan DJALIL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2191,8 +2191,8 @@ H. M. PRASETYO	ldcOnt:PER.ProfessionalPosition.Minister
 Andi WIDJAJANTO	ldcOnt:PER.ProfessionalPosition.Minister
 Marciano NORMAN	ldcOnt:PER.ProfessionalPosition.Minister
 Agus Dermawan Wintarto MARTOWARDOJO	ldcOnt:PER.ProfessionalPosition.Minister
-Budi BOWOLEKSONO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Desra PERCAYA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Budi BOWOLEKSONO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Desra PERCAYA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ali Hoseini-KHAMENEI, Ayatollah	ldcOnt:PER.Politician
 Hasan Fereidun RUHANI, Hojjat ol-Eslam	ldcOnt:PER.Politician.HeadOfGovernment
 Mohsen HAJI-MIRZAIE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2226,7 +2226,7 @@ Abbas Ahmad AKHUNDI	ldcOnt:PER.ProfessionalPosition.Minister
 Mohammad FARHADI	ldcOnt:PER.ProfessionalPosition.Minister
 Mahmud GUDARZI	ldcOnt:PER.ProfessionalPosition.Minister
 Valiollah SEIF	ldcOnt:PER.ProfessionalPosition.Minister
-Qolam Ali KHOSHRU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Qolam Ali KHOSHRU	ldcOnt:PER.ProfessionalPosition.Ambassador
 Fuad MASUM	ldcOnt:PER.Politician.HeadOfGovernment
 Ayad ALLAWI	ldcOnt:PER.Politician.HeadOfGovernment
 Nuri al-MALIKI	ldcOnt:PER.Politician.HeadOfGovernment
@@ -2266,8 +2266,8 @@ Saman Abdallah SAID	ldcOnt:PER.ProfessionalPosition.Minister
 Ahmad Abdallah al-JABURI	ldcOnt:PER.ProfessionalPosition.Minister
 Bayan Nuri TAWFIQ	ldcOnt:PER.ProfessionalPosition.Minister
 Ali al-ALLAQ	ldcOnt:PER.ProfessionalPosition.Minister
-Luqman Abd al-Rahim FAYLI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Muhammad Ali al-HAKIM	ldcOnt:PER:ProfessionalPosition.Ambassador
+Luqman Abd al-Rahim FAYLI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Muhammad Ali al-HAKIM	ldcOnt:PER.ProfessionalPosition.Ambassador
 Michael Daniel HIGGINS	ldcOnt:PER.Politician.HeadOfGovernment
 Enda KENNY	ldcOnt:PER.ProfessionalPosition.Minister
 Joan BURTON	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2286,8 +2286,8 @@ Brendan HOWLIN	ldcOnt:PER.ProfessionalPosition.Minister
 Paschal DONOHOE	ldcOnt:PER.ProfessionalPosition.Minister
 Maire WHELAN	ldcOnt:PER.ProfessionalPosition.Minister
 Patrick HONOHAN	ldcOnt:PER.ProfessionalPosition.Minister
-Anne Colette ANDERSON	ldcOnt:PER:ProfessionalPosition.Ambassador
-David Denis DONOGHUE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Anne Colette ANDERSON	ldcOnt:PER.ProfessionalPosition.Ambassador
+David Denis DONOGHUE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Reuben RIVLIN	ldcOnt:PER.Politician.HeadOfGovernment
 Binyamin "Bibi" NETANYAHU	ldcOnt:PER.ProfessionalPosition.Minister
 Yair SHAMIR	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2310,8 +2310,8 @@ Yisrael KATZ	ldcOnt:PER.ProfessionalPosition.Minister
 Meir COHEN	ldcOnt:PER.ProfessionalPosition.Minister
 Yehuda WEINSTEIN	ldcOnt:PER.ProfessionalPosition.Minister
 Karnit FLUG	ldcOnt:PER.ProfessionalPosition.Minister
-Ron DERMER	ldcOnt:PER:ProfessionalPosition.Ambassador
-Ron PROSOR	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ron DERMER	ldcOnt:PER.ProfessionalPosition.Ambassador
+Ron PROSOR	ldcOnt:PER.ProfessionalPosition.Ambassador
 Sergio MATTARELLA	ldcOnt:PER.Politician.HeadOfGovernment
 Matteo RENZI	ldcOnt:PER.ProfessionalPosition.Minister
 Claudio DE VINCENTI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2332,8 +2332,8 @@ Giuliano POLETTI	ldcOnt:PER.ProfessionalPosition.Minister
 Maria Anna MADIA	ldcOnt:PER.ProfessionalPosition.Minister
 Maria Carmela LANZETTA	ldcOnt:PER.ProfessionalPosition.Minister
 Ignazio VISCO	ldcOnt:PER.ProfessionalPosition.Minister
-Claudio BISOGNIERO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sebastiano CARDI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Claudio BISOGNIERO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sebastiano CARDI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Patrick Linton ALLEN	ldcOnt:PER.Politician.HeadOfGovernment
 Portia SIMPSON-MILLER	ldcOnt:PER.ProfessionalPosition.Minister
 Roger CLARKE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2357,8 +2357,8 @@ Horace DALLEY	ldcOnt:PER.ProfessionalPosition.Minister
 Natalie NEITA-HEADLEY	ldcOnt:PER.ProfessionalPosition.Minister
 Patrick ATKINSON	ldcOnt:PER.ProfessionalPosition.Minister
 Bryan WYNTER	ldcOnt:PER.ProfessionalPosition.Minister
-Stephen VASCIANNIE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Earle Courtenay RATTRAY	ldcOnt:PER:ProfessionalPosition.Ambassador
+Stephen VASCIANNIE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Earle Courtenay RATTRAY	ldcOnt:PER.ProfessionalPosition.Ambassador
 AKIHITO	ldcOnt:PER.Politician
 Shinzo ABE	ldcOnt:PER.ProfessionalPosition.Minister
 Taro ASO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2380,8 +2380,8 @@ Sanae TAKAICHI	ldcOnt:PER.ProfessionalPosition.Minister
 Shigeru ISHIBA	ldcOnt:PER.ProfessionalPosition.Minister
 Haruko ARIMURA	ldcOnt:PER.ProfessionalPosition.Minister
 Haruhiko KURODA	ldcOnt:PER.ProfessionalPosition.Minister
-Kenichiro SASAE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Motohide YOSHIKAWA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kenichiro SASAE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Motohide YOSHIKAWA	ldcOnt:PER.ProfessionalPosition.Ambassador
 ABDALLAH II	ldcOnt:PER.Politician
 Abdullah NSOUR	ldcOnt:PER.ProfessionalPosition.Minister
 Nasser JUDEH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2412,8 +2412,8 @@ Salameh NEIMAT	ldcOnt:PER.ProfessionalPosition.Minister
 Mohammad MOMANI	ldcOnt:PER.ProfessionalPosition.Minister
 Ahmad ZIADAT	ldcOnt:PER.ProfessionalPosition.Minister
 Ziad FARIZ	ldcOnt:PER.ProfessionalPosition.Minister
-Alia Hatough-BOURAN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Dina KAWAR	ldcOnt:PER:ProfessionalPosition.Ambassador
+Alia Hatough-BOURAN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Dina KAWAR	ldcOnt:PER.ProfessionalPosition.Ambassador
 Nursultan NAZARBAYEV	ldcOnt:PER.Politician.HeadOfGovernment
 Karim MASIMOV	ldcOnt:PER.ProfessionalPosition.Minister
 Bakytzhan SAGINTAYEV	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2435,8 +2435,8 @@ Nurlan YERMEKBAYEV	ldcOnt:PER.ProfessionalPosition.Minister
 Nurtay ABYKAYEV	ldcOnt:PER.ProfessionalPosition.Minister
 Askhat DAULBAYEV	ldcOnt:PER.ProfessionalPosition.Minister
 Kayrat KELIMBETOV	ldcOnt:PER.ProfessionalPosition.Minister
-Kayrat UMAROV	ldcOnt:PER:ProfessionalPosition.Ambassador
-Kayrat ABDRAKHMANOV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kayrat UMAROV	ldcOnt:PER.ProfessionalPosition.Ambassador
+Kayrat ABDRAKHMANOV	ldcOnt:PER.ProfessionalPosition.Ambassador
 Uhuru KENYATTA	ldcOnt:PER.Politician.HeadOfGovernment
 William RUTO	ldcOnt:PER.Politician.HeadOfGovernment
 Felix KOSGEY	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2458,8 +2458,8 @@ Henry K. ROTICH	ldcOnt:PER.ProfessionalPosition.Minister
 Hassan WARIO Arero	ldcOnt:PER.ProfessionalPosition.Minister
 Michael KAMAU	ldcOnt:PER.ProfessionalPosition.Minister
 Githu MUIGAI	ldcOnt:PER.ProfessionalPosition.Minister
-Elkanah ODEMBO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Macharia KAMAU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Elkanah ODEMBO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Macharia KAMAU	ldcOnt:PER.ProfessionalPosition.Ambassador
 Anote TONG	ldcOnt:PER.Politician.HeadOfGovernment
 Teima ONORIO	ldcOnt:PER.Politician.HeadOfGovernment
 Pinto KATIA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2474,7 +2474,7 @@ Tawita TEMOKU	ldcOnt:PER.ProfessionalPosition.Minister
 Waysang KUM KEE	ldcOnt:PER.ProfessionalPosition.Minister
 Tangariki REETE	ldcOnt:PER.ProfessionalPosition.Minister
 Titabu TABANE	ldcOnt:PER.ProfessionalPosition.Minister
-Makurita BAARO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Makurita BAARO	ldcOnt:PER.ProfessionalPosition.Ambassador
 KIM Il Sung	ldcOnt:PER.Politician.HeadOfGovernment
 KIM Jong Il	ldcOnt:PER.ProfessionalPosition.Minister
 KIM Jong Un	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2551,7 +2551,7 @@ CHOE Sang Gon	ldcOnt:PER.ProfessionalPosition.Minister
 RI Sung Ho	ldcOnt:PER.Politician
 JANG Chol	ldcOnt:PER.Politician.HeadOfGovernment
 KIM Chon Gyun	ldcOnt:PER.Politician.HeadOfGovernment
-JA Song Nam	ldcOnt:PER:ProfessionalPosition.Ambassador
+JA Song Nam	ldcOnt:PER.ProfessionalPosition.Ambassador
 PARK Geun-hye	ldcOnt:PER.Politician.HeadOfGovernment
 LEE Wan-koo	ldcOnt:PER.ProfessionalPosition.Minister
 CHOI Kyung-hwan	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2584,8 +2584,8 @@ LEE Byung-kee	ldcOnt:PER.Politician.HeadOfGovernment
 KIM Kwan-jin	ldcOnt:PER.Politician.HeadOfGovernment
 LEE Byung-ho	ldcOnt:PER.ProfessionalPosition.Minister
 LEE Ju-yeol	ldcOnt:PER.ProfessionalPosition.Minister
-AHN Ho-young	ldcOnt:PER:ProfessionalPosition.Ambassador
-OH Joon	ldcOnt:PER:ProfessionalPosition.Ambassador
+AHN Ho-young	ldcOnt:PER.ProfessionalPosition.Ambassador
+OH Joon	ldcOnt:PER.ProfessionalPosition.Ambassador
 Atifete JAHJAGA	ldcOnt:PER.Politician.HeadOfGovernment
 Isa MUSTAFA	ldcOnt:PER.ProfessionalPosition.Minister
 Hashim THACI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2611,7 +2611,7 @@ Hykmete BAJRAMI	ldcOnt:PER.ProfessionalPosition.Minister
 Rasim DEMIRI	ldcOnt:PER.ProfessionalPosition.Minister
 Edita TAHIRI	ldcOnt:PER.ProfessionalPosition.Minister
 Michel SVETCHINE	ldcOnt:PER.ProfessionalPosition.Minister
-Akan ISMAILI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Akan ISMAILI	ldcOnt:PER.ProfessionalPosition.Ambassador
 SABAH al-Ahmad al-Jabir al-Sabah	ldcOnt:PER.Politician
 JABIR AL-MUBARAK al-Hamad al-Sabah	ldcOnt:PER.ProfessionalPosition.Minister
 SABAH AL-KHALID al-Hamad al-Sabah	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2631,8 +2631,8 @@ Yaqub al-SAYN	ldcOnt:PER.ProfessionalPosition.Minister
 HIND Sabih al-Sabih	ldcOnt:PER.ProfessionalPosition.Minister
 Yasir ABUL	ldcOnt:PER.ProfessionalPosition.Minister
 Muhammad al-HASHIL	ldcOnt:PER.ProfessionalPosition.Minister
-SALIM al-Abdallah al-Jabir al-Sabah	ldcOnt:PER:ProfessionalPosition.Ambassador
-Mansur Ayad al-UTAYBI	ldcOnt:PER:ProfessionalPosition.Ambassador
+SALIM al-Abdallah al-Jabir al-Sabah	ldcOnt:PER.ProfessionalPosition.Ambassador
+Mansur Ayad al-UTAYBI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Almazbek ATAMBAEV	ldcOnt:PER.Politician.HeadOfGovernment
 Temir SARIEV	ldcOnt:PER.ProfessionalPosition.Minister
 Tayyrbek SARPASHEV	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2658,8 +2658,8 @@ Argynbek MALABAEV	ldcOnt:PER.ProfessionalPosition.Minister
 Busurmankul TABALDIEV, Colonel General	ldcOnt:PER.ProfessionalPosition.Minister
 Indira JOLDUBAEVA	ldcOnt:PER.ProfessionalPosition.Minister
 Tolkunbek ABDYGULOV	ldcOnt:PER.ProfessionalPosition.Minister
-Kadyr TOKTOGULOV	ldcOnt:PER:ProfessionalPosition.Ambassador
-Taalaybek KYDYROV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kadyr TOKTOGULOV	ldcOnt:PER.ProfessionalPosition.Ambassador
+Taalaybek KYDYROV	ldcOnt:PER.ProfessionalPosition.Ambassador
 CHOUMMALI Saignason, Lieutenant General	ldcOnt:PER.Politician.HeadOfGovernment
 BOUN-GNANG Volachit	ldcOnt:PER.Politician.HeadOfGovernment
 THONGSING Thammavong	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2699,8 +2699,8 @@ SOMPHONG Mongkhonvilay	ldcOnt:PER.ProfessionalPosition.Minister
 SOUBANH Sritthirath	ldcOnt:PER.Politician.HeadOfGovernment
 BOUNTHONG Chitmani	ldcOnt:PER.ProfessionalPosition.Minister
 SAMPAO Phaysith	ldcOnt:PER.ProfessionalPosition.Minister
-SENG Soukhathivong	ldcOnt:PER:ProfessionalPosition.Ambassador
-KHIANE Phansourivong	ldcOnt:PER:ProfessionalPosition.Ambassador
+SENG Soukhathivong	ldcOnt:PER.ProfessionalPosition.Ambassador
+KHIANE Phansourivong	ldcOnt:PER.ProfessionalPosition.Ambassador
 Andris BERZINS	ldcOnt:PER.Politician.HeadOfGovernment
 Laimdota STRAUJUMA	ldcOnt:PER.ProfessionalPosition.Minister
 Janis DUKLAVS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2717,8 +2717,8 @@ Dzintars RASNACS	ldcOnt:PER.ProfessionalPosition.Minister
 Anrijs MATISS	ldcOnt:PER.ProfessionalPosition.Minister
 Uldis AUGULIS	ldcOnt:PER.ProfessionalPosition.Minister
 Ilmars RIMSEVICS	ldcOnt:PER.ProfessionalPosition.Minister
-Andris RAZANS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Janis MAZEIKS	ldcOnt:PER:ProfessionalPosition.Ambassador
+Andris RAZANS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Janis MAZEIKS	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tamam SALAM	ldcOnt:PER.ProfessionalPosition.Minister
 Samir MOQBIL	ldcOnt:PER.ProfessionalPosition.Minister
 Akram SHUHAYIB	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2744,8 +2744,8 @@ Abd al-Mutalib HANAWI	ldcOnt:PER.ProfessionalPosition.Minister
 Nabil DE FREIJ	ldcOnt:PER.ProfessionalPosition.Minister
 Muhammad FNAYSH	ldcOnt:PER.ProfessionalPosition.Minister
 Riad SALAMEH	ldcOnt:PER.ProfessionalPosition.Minister
-Antoine CHEDID	ldcOnt:PER:ProfessionalPosition.Ambassador
-Nawaf SALAM	ldcOnt:PER:ProfessionalPosition.Ambassador
+Antoine CHEDID	ldcOnt:PER.ProfessionalPosition.Ambassador
+Nawaf SALAM	ldcOnt:PER.ProfessionalPosition.Ambassador
 LETSIE III	ldcOnt:PER.Politician
 Thomas Motsoahae THABANE	ldcOnt:PER.ProfessionalPosition.Minister
 Mothejoa METSING	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2771,8 +2771,8 @@ Lebesa MALOI	ldcOnt:PER.ProfessionalPosition.Minister
 Sekh'ulumi Paul NTSOAOLE	ldcOnt:PER.ProfessionalPosition.Minister
 Pitso MAISA	ldcOnt:PER.ProfessionalPosition.Minister
 Rets'elisitsoe Adelaide MATLANYANE	ldcOnt:PER.ProfessionalPosition.Minister
-Eliachim Molapi SEBATANE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Kelebone Albert MAOPE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Eliachim Molapi SEBATANE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Kelebone Albert MAOPE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ellen JOHNSON SIRLEAF	ldcOnt:PER.Politician.HeadOfGovernment
 Joseph BOAKAI	ldcOnt:PER.Politician.HeadOfGovernment
 Florence CHENOWETH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2794,8 +2794,8 @@ S. Tornolah VARPILAH	ldcOnt:PER.ProfessionalPosition.Minister
 Eugene NAGBE	ldcOnt:PER.ProfessionalPosition.Minister
 Edward MCLAIN, Jr.	ldcOnt:PER.Politician.HeadOfGovernment
 Joseph MILLS JONES	ldcOnt:PER.ProfessionalPosition.Minister
-Jeremiah SULUNTEH	ldcOnt:PER:ProfessionalPosition.Ambassador
-Marjon Vashti KAMARA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jeremiah SULUNTEH	ldcOnt:PER.ProfessionalPosition.Ambassador
+Marjon Vashti KAMARA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Nuri Abu SAHMAYN	ldcOnt:PER.Politician.HeadOfGovernment
 Saleh Muhammad Saleh al-MAKHZOM	ldcOnt:PER.Politician.HeadOfGovernment
 Ali ZAYDAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2827,7 +2827,7 @@ Abd al-Qadir Muhammad AHMAD	ldcOnt:PER.ProfessionalPosition.Minister
 Al-Hadi Sulayman HANSHI	ldcOnt:PER.ProfessionalPosition.Minister
 Abd al-Salam Abdallah GHUWAYLA	ldcOnt:PER.ProfessionalPosition.Minister
 Sadiq Abd al-KABIR	ldcOnt:PER.ProfessionalPosition.Minister
-Ibrahim DABBASHI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ibrahim DABBASHI	ldcOnt:PER.ProfessionalPosition.Ambassador
 HANS ADAM II, Prince	ldcOnt:PER.Politician.HeadOfGovernment
 Klaus TSCHUETSCHER	ldcOnt:PER.ProfessionalPosition.Minister
 Martin MEYER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2835,8 +2835,8 @@ Aurelia FRICK	ldcOnt:PER.ProfessionalPosition.Minister
 Hugo QUADERER	ldcOnt:PER.ProfessionalPosition.Minister
 Renate MUESSNER	ldcOnt:PER.ProfessionalPosition.Minister
 Josef FEHR	ldcOnt:PER.ProfessionalPosition.Minister
-Claudia FRITSCHE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Christian WENAWESER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Claudia FRITSCHE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Christian WENAWESER	ldcOnt:PER.ProfessionalPosition.Ambassador
 Dalia GRYBAUSKAITE	ldcOnt:PER.Politician.HeadOfGovernment
 Algirdas BUTKEVICIUS	ldcOnt:PER.ProfessionalPosition.Minister
 Virginija BALTRAITIENE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2853,8 +2853,8 @@ Juozas OLEKAS	ldcOnt:PER.ProfessionalPosition.Minister
 Algimanta PABEDINSKIENE	ldcOnt:PER.ProfessionalPosition.Minister
 Rimantas SINKEVICIUS	ldcOnt:PER.ProfessionalPosition.Minister
 Vitas VASILIAUSKAS	ldcOnt:PER.ProfessionalPosition.Minister
-Zygimantas PAVILIONIS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Raimonda MURMOKAITE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Zygimantas PAVILIONIS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Raimonda MURMOKAITE	ldcOnt:PER.ProfessionalPosition.Ambassador
 HENRI	ldcOnt:PER.Politician
 Xavier BETTEL	ldcOnt:PER.ProfessionalPosition.Minister
 Etienne SCHNEIDER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2872,8 +2872,8 @@ Nicolas SCHMIT	ldcOnt:PER.ProfessionalPosition.Minister
 Romain SCHNEIDER	ldcOnt:PER.ProfessionalPosition.Minister
 Francois BAUSCH	ldcOnt:PER.ProfessionalPosition.Minister
 Gaston REINESCH	ldcOnt:PER.ProfessionalPosition.Minister
-Jean-Louis WOLZFELD	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sylvie LUCAS	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jean-Louis WOLZFELD	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sylvie LUCAS	ldcOnt:PER.ProfessionalPosition.Ambassador
 Gjorge IVANOV	ldcOnt:PER.Politician.HeadOfGovernment
 Nikola GRUEVSKI	ldcOnt:PER.ProfessionalPosition.Minister
 Zoran STAVRESKI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2902,7 +2902,7 @@ Jerry NAUMOFF	ldcOnt:PER.ProfessionalPosition.Minister
 Bill PAVLESKI	ldcOnt:PER.ProfessionalPosition.Minister
 Vele SAMAK	ldcOnt:PER.ProfessionalPosition.Minister
 Petar GOSEV	ldcOnt:PER.ProfessionalPosition.Minister
-Vasile ANDONOSKI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Vasile ANDONOSKI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Hery Martial RAJAONARIMAMPIANINA Rakotoarimanana	ldcOnt:PER.Politician.HeadOfGovernment
 Jean RAVELONARIVO, General	ldcOnt:PER.ProfessionalPosition.Minister
 Roland RAVATOMANGA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2935,8 +2935,8 @@ Didier Gerard PAZA, General	ldcOnt:PER.ProfessionalPosition.Minister
 Rivo RAKOTOVAO	ldcOnt:PER.ProfessionalPosition.Minister
 Valarien Joeli LALAHARISAINA	ldcOnt:PER.Politician.HeadOfGovernment
 Gaston RAVELOJAONA	ldcOnt:PER.ProfessionalPosition.Minister
-Jocelyn Bertin RADIFERA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Zina ANDRIANARIVELO-RAZAFY	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jocelyn Bertin RADIFERA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Zina ANDRIANARIVELO-RAZAFY	ldcOnt:PER.ProfessionalPosition.Ambassador
 Arthur Peter MUTHARIKA	ldcOnt:PER.Politician.HeadOfGovernment
 Saulos CHILIMA	ldcOnt:PER.Politician.HeadOfGovernment
 Allan CHIYEMBEKEZA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2958,8 +2958,8 @@ Francis KASAIRA	ldcOnt:PER.ProfessionalPosition.Minister
 Grace Obama CHIUMIA	ldcOnt:PER.ProfessionalPosition.Minister
 Alexious NAMPOTA	ldcOnt:PER.ProfessionalPosition.Minister
 Charles CHUKA	ldcOnt:PER.ProfessionalPosition.Minister
-Stephen Dick Tennyson MATENSE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Brian Granthen BOWLER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Stephen Dick Tennyson MATENSE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Brian Granthen BOWLER	ldcOnt:PER.ProfessionalPosition.Ambassador
 ABDUL HALIM Mu'adzam Shah	ldcOnt:PER.Politician
 NAJIB Razak	ldcOnt:PER.ProfessionalPosition.Minister
 MUHYIDDIN bin Mohamed Yassin	ldcOnt:PER.ProfessionalPosition.Minister
@@ -2994,8 +2994,8 @@ Paul LOW Seng Kuan	ldcOnt:PER.ProfessionalPosition.Minister
 NANCY Shukri	ldcOnt:PER.ProfessionalPosition.Minister
 SHAHIDAN Kassim	ldcOnt:PER.ProfessionalPosition.Minister
 ZETI Akhtar Aziz	ldcOnt:PER.ProfessionalPosition.Minister
-AWANG ADEK bin Hussin	ldcOnt:PER:ProfessionalPosition.Ambassador
-RAMLAN bin Ibrahim	ldcOnt:PER:ProfessionalPosition.Ambassador
+AWANG ADEK bin Hussin	ldcOnt:PER.ProfessionalPosition.Ambassador
+RAMLAN bin Ibrahim	ldcOnt:PER.ProfessionalPosition.Ambassador
 Abdulla YAMEEN Abdul Gayoom	ldcOnt:PER.Politician.HeadOfGovernment
 Mohamed JAMEEL Ahmed	ldcOnt:PER.Politician.HeadOfGovernment
 Moosa Ali JALEEL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3014,7 +3014,7 @@ Mohamed "Mundhu" Hussein SHAREEF	ldcOnt:PER.Politician.HeadOfGovernment
 Ahmed ADHEEB Abdul Ghafoor	ldcOnt:PER.ProfessionalPosition.Minister
 Mohamed ANIL	ldcOnt:PER.ProfessionalPosition.Minister
 AZEEMA Adam	ldcOnt:PER.ProfessionalPosition.Minister
-Ahmed SAREER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ahmed SAREER	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ibrahim Boubacar KEITA	ldcOnt:PER.Politician.HeadOfGovernment
 Modibo KEITA	ldcOnt:PER.ProfessionalPosition.Minister
 Abdel Karim KONATE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3046,8 +3046,8 @@ Abdoulaye Idrissa MAIGA	ldcOnt:PER.ProfessionalPosition.Minister
 Cheickna Seydi Ahamady DIAWARA	ldcOnt:PER.ProfessionalPosition.Minister
 Dramane DEMBELE	ldcOnt:PER.ProfessionalPosition.Minister
 Sangare Oumou BA	ldcOnt:PER.ProfessionalPosition.Minister
-Tiena COULIBALY	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sekou KASSE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Tiena COULIBALY	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sekou KASSE	ldcOnt:PER.ProfessionalPosition.Ambassador
 George ABELA	ldcOnt:PER.Politician.HeadOfGovernment
 Joseph MUSCAT	ldcOnt:PER.ProfessionalPosition.Minister
 Louis GRECH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3065,8 +3065,8 @@ Helena DALLI	ldcOnt:PER.ProfessionalPosition.Minister
 Karmenu VELLA	ldcOnt:PER.ProfessionalPosition.Minister
 Joe MIZZI	ldcOnt:PER.ProfessionalPosition.Minister
 Joseph BONNICI	ldcOnt:PER.ProfessionalPosition.Minister
-Marisa MICALLEF	ldcOnt:PER:ProfessionalPosition.Ambassador
-Christopher GRIMA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Marisa MICALLEF	ldcOnt:PER.ProfessionalPosition.Ambassador
+Christopher GRIMA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Christopher Jorebon LOEAK	ldcOnt:PER.Politician.HeadOfGovernment
 Wilbur HEINE	ldcOnt:PER.Politician.HeadOfGovernment
 Hilda HEINE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3080,8 +3080,8 @@ Michael KONELIOS	ldcOnt:PER.ProfessionalPosition.Minister
 Thomas HEINE	ldcOnt:PER.ProfessionalPosition.Minister
 Casten N. NEMRA	ldcOnt:PER.ProfessionalPosition.Minister
 Ann Marie MULLER	ldcOnt:PER.ProfessionalPosition.Minister
-Charles Rudolph PAUL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Amatlain Elizabeth KABUA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Charles Rudolph PAUL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Amatlain Elizabeth KABUA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Mohamed Ould Abdel AZIZ	ldcOnt:PER.Politician.HeadOfGovernment
 Yahya Ould HADEMINE	ldcOnt:PER.ProfessionalPosition.Minister
 Brahim M'bareck Ould Mohamed MOKHTAR	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3111,8 +3111,8 @@ Mohamed Ould KHOUNA	ldcOnt:PER.ProfessionalPosition.Minister
 Coumba BA	ldcOnt:PER.ProfessionalPosition.Minister
 Hawa TANDIA	ldcOnt:PER.ProfessionalPosition.Minister
 Khadijetou Mbareck FALL	ldcOnt:PER.ProfessionalPosition.Minister
-Mohamed Lemine El HAYCEN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sidi Mohamed Ould BOUBACAR	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mohamed Lemine El HAYCEN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sidi Mohamed Ould BOUBACAR	ldcOnt:PER.ProfessionalPosition.Ambassador
 Rajkeswur Kailash PURRYAG	ldcOnt:PER.Politician.HeadOfGovernment
 Anerood JUGNAUTH, Sir	ldcOnt:PER.ProfessionalPosition.Minister
 Xavier-Luc DUVAL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3159,7 +3159,7 @@ Maria Del Rosario ROBLES Berlanga	ldcOnt:PER.ProfessionalPosition.Minister
 Claudia RUIZ MASSIEU Salinas	ldcOnt:PER.ProfessionalPosition.Minister
 Arely GOMEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Agustin CARSTENS Carstens	ldcOnt:PER.ProfessionalPosition.Minister
-Jorge MONTANO Martinez	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jorge MONTANO Martinez	ldcOnt:PER.ProfessionalPosition.Ambassador
 Emanuel "Manny" MORI	ldcOnt:PER.Politician.HeadOfGovernment
 Alik L. ALIK	ldcOnt:PER.Politician.HeadOfGovernment
 Casiano D. SHONIBER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3170,8 +3170,8 @@ Maketo ROBERT	ldcOnt:PER.ProfessionalPosition.Minister
 Marion HENRY	ldcOnt:PER.ProfessionalPosition.Minister
 Francis ITIMAI	ldcOnt:PER.ProfessionalPosition.Minister
 Isaac V. FIGIR	ldcOnt:PER.ProfessionalPosition.Minister
-Asterio R. TAKESY	ldcOnt:PER:ProfessionalPosition.Ambassador
-Jane J. CHIGIYAL	ldcOnt:PER:ProfessionalPosition.Ambassador
+Asterio R. TAKESY	ldcOnt:PER.ProfessionalPosition.Ambassador
+Jane J. CHIGIYAL	ldcOnt:PER.ProfessionalPosition.Ambassador
 Nicolae TIMOFTI	ldcOnt:PER.Politician.HeadOfGovernment
 Chiril GABURICI	ldcOnt:PER.ProfessionalPosition.Minister
 Stephane BRIDE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3195,8 +3195,8 @@ Mihai BALAN	ldcOnt:PER.ProfessionalPosition.Minister
 Alexei BARBANEAGRA	ldcOnt:PER.ProfessionalPosition.Minister
 Corneliu GURIN	ldcOnt:PER.ProfessionalPosition.Minister
 Dorin DRAGUTANU	ldcOnt:PER.Politician.HeadOfGovernment
-Igor MUNTEANU	ldcOnt:PER:ProfessionalPosition.Ambassador
-Vladimir LUPAN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Igor MUNTEANU	ldcOnt:PER.ProfessionalPosition.Ambassador
+Vladimir LUPAN	ldcOnt:PER.ProfessionalPosition.Ambassador
 ALBERT II, Prince	ldcOnt:PER.Politician.HeadOfGovernment
 Michel ROGER	ldcOnt:PER.Politician.HeadOfGovernment
 Jose BADIA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3204,8 +3204,8 @@ Marco PICCININI	ldcOnt:PER.ProfessionalPosition.Minister
 Stephane VALERI	ldcOnt:PER.ProfessionalPosition.Minister
 Paul MASSERON	ldcOnt:PER.ProfessionalPosition.Minister
 Marie-Pierre GRAMAGLIA	ldcOnt:PER.ProfessionalPosition.Minister
-Gilles NOGHES	ldcOnt:PER:ProfessionalPosition.Ambassador
-Isabelle PICCO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Gilles NOGHES	ldcOnt:PER.ProfessionalPosition.Ambassador
+Isabelle PICCO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tsakhia ELBEGDORJ	ldcOnt:PER.Politician.HeadOfGovernment
 Chimed SAIKHANBILEG	ldcOnt:PER.ProfessionalPosition.Minister
 Ukhnaa KHURELSUKH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3227,8 +3227,8 @@ Sodnomzundui ERDENE	ldcOnt:PER.ProfessionalPosition.Minister
 Namkhai TUMURKHUU	ldcOnt:PER.ProfessionalPosition.Minister
 Sangajav BAYARTSOGT	ldcOnt:PER.ProfessionalPosition.Minister
 Naidansuren ZOLJARGAL	ldcOnt:PER.ProfessionalPosition.Minister
-Bulgaa ALTANGEREL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Od OCH	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bulgaa ALTANGEREL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Od OCH	ldcOnt:PER.ProfessionalPosition.Ambassador
 Filip VUJANOVIC	ldcOnt:PER.Politician.HeadOfGovernment
 Milo DJUKANOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Rafet HUSOVIC	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3250,8 +3250,8 @@ Sanja VLAHOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Branimir GVOZDENOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Ivan BRAJOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Marjia VUCINOVIC	ldcOnt:PER.ProfessionalPosition.Minister
-Srdan DARMANOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Milorad SCEPANOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
+Srdan DARMANOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Milorad SCEPANOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
 MOHAMMED VI	ldcOnt:PER.Politician
 Abdelillah BENKIRANE	ldcOnt:PER.ProfessionalPosition.Minister
 Aziz AKHANNOUCH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3293,8 +3293,8 @@ Mohamed MOUBDII	ldcOnt:PER.ProfessionalPosition.Minister
 Abdellatif LOUDIYI	ldcOnt:PER.ProfessionalPosition.Minister
 Mohamed EL OUAFA	ldcOnt:PER.ProfessionalPosition.Minister
 Abdellatif JOUAHRI	ldcOnt:PER.ProfessionalPosition.Minister
-Mohammed Rachad BOUHLAL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Omar HILALE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mohammed Rachad BOUHLAL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Omar HILALE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Filipe Jacinto NYUSI	ldcOnt:PER.Politician.HeadOfGovernment
 Carlos Agostinho DO ROSARIO	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Condugua Antonio PACHECO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3320,8 +3320,8 @@ Alberto NKUTUMULA	ldcOnt:PER.ProfessionalPosition.Minister
 Adelaide Anchia AMURANE	ldcOnt:PER.Politician.HeadOfGovernment
 Beatriz da Consolacao Mateus BUCHILI	ldcOnt:PER.ProfessionalPosition.Minister
 Ernesto GOVE	ldcOnt:PER.ProfessionalPosition.Minister
-Amelia Narciso Matos SUMBANA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Antonio GUMENDE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Amelia Narciso Matos SUMBANA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Antonio GUMENDE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Hage GEINGOB	ldcOnt:PER.Politician.HeadOfGovernment
 Nicky IYAMBO	ldcOnt:PER.Politician.HeadOfGovernment
 Saara KUUGONGELWA-AMADHILA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3351,15 +3351,15 @@ Sophia SHANINGWE	ldcOnt:PER.ProfessionalPosition.Minister
 Alpheus NARUSEB	ldcOnt:PER.ProfessionalPosition.Minister
 Jerry EKANDJO	ldcOnt:PER.ProfessionalPosition.Minister
 Ipumbu Wendelinus SHIIMI	ldcOnt:PER.ProfessionalPosition.Minister
-Martin ANDJABA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Wilfried Inotira EMVULA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Martin ANDJABA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Wilfried Inotira EMVULA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Baron Divavesi WAQA	ldcOnt:PER.Politician.HeadOfGovernment
 Aaron COOK	ldcOnt:PER.ProfessionalPosition.Minister
 Charmaine SCOTTY	ldcOnt:PER.ProfessionalPosition.Minister
 David ADEANG	ldcOnt:PER.Politician.HeadOfGovernment
 Valdon DOWIYOGO	ldcOnt:PER.ProfessionalPosition.Minister
 Shadlog BERNICKE	ldcOnt:PER.ProfessionalPosition.Minister
-Marlene Inemwin MOSES	ldcOnt:PER:ProfessionalPosition.Ambassador
+Marlene Inemwin MOSES	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ram Baran YADAV, Doctor	ldcOnt:PER.Politician.HeadOfGovernment
 Paramananda JHA	ldcOnt:PER.Politician.HeadOfGovernment
 Sushil KOIRALA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3386,7 +3386,7 @@ Narayan KHADKA	ldcOnt:PER.ProfessionalPosition.Minister
 Neelam K. C. KHADKA	ldcOnt:PER.ProfessionalPosition.Minister
 Purushottam PAUDEL	ldcOnt:PER.ProfessionalPosition.Minister
 Yuvraj KHATIWADA	ldcOnt:PER.ProfessionalPosition.Minister
-Durga Prasad BHATTARAI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Durga Prasad BHATTARAI	ldcOnt:PER.ProfessionalPosition.Ambassador
 WILLEM-ALEXANDER	ldcOnt:PER.Politician
 Mark RUTTE	ldcOnt:PER.ProfessionalPosition.Minister
 Lodewijk ASSCHER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3402,8 +3402,8 @@ Melanie SCHULTZ VAN HAEGEN-Maas Geesteranus	ldcOnt:PER.ProfessionalPosition.Mini
 Ronald Hans Anton PLASTERK	ldcOnt:PER.ProfessionalPosition.Minister
 Ard VAN DER STEUR	ldcOnt:PER.ProfessionalPosition.Minister
 Klaas Henderikus Willem KNOT	ldcOnt:PER.Politician.HeadOfGovernment
-Rudolf Simon BEKINK	ldcOnt:PER:ProfessionalPosition.Ambassador
-Karel Jan Gustaaf VAN OOSTEROM	ldcOnt:PER:ProfessionalPosition.Ambassador
+Rudolf Simon BEKINK	ldcOnt:PER.ProfessionalPosition.Ambassador
+Karel Jan Gustaaf VAN OOSTEROM	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jeremiah MATEPARAE	ldcOnt:PER.Politician.HeadOfGovernment
 John Phillip KEY	ldcOnt:PER.ProfessionalPosition.Minister
 Simon William ENGLISH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3434,8 +3434,8 @@ Anne TOLLEY	ldcOnt:PER.ProfessionalPosition.Minister
 Christopher FINLAYSON	ldcOnt:PER.ProfessionalPosition.Minister
 Te Ururoa FLAVELL	ldcOnt:PER.ProfessionalPosition.Minister
 Graeme WHEELER	ldcOnt:PER.ProfessionalPosition.Minister
-Michael Kenneth MOORE	ldcOnt:PER:ProfessionalPosition.Ambassador
-James Kenneth MCLAY	ldcOnt:PER:ProfessionalPosition.Ambassador
+Michael Kenneth MOORE	ldcOnt:PER.ProfessionalPosition.Ambassador
+James Kenneth MCLAY	ldcOnt:PER.ProfessionalPosition.Ambassador
 Daniel ORTEGA Saavedra	ldcOnt:PER.Politician.HeadOfGovernment
 Moises Omar HALLESLEVENS Acevedo	ldcOnt:PER.Politician.HeadOfGovernment
 Ariel BUCARDO Rocha	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3453,8 +3453,8 @@ Mario SALINAS	ldcOnt:PER.ProfessionalPosition.Minister
 Pablo MARTINEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Hernan ESTRADA Santamaria	ldcOnt:PER.ProfessionalPosition.Minister
 Leonardo Ovidio REYES Ramirez	ldcOnt:PER.Politician.HeadOfGovernment
-Francisco Obadiah CAMPBELL Hooker	ldcOnt:PER:ProfessionalPosition.Ambassador
-Maria RUBIALES de Chamorro	ldcOnt:PER:ProfessionalPosition.Ambassador
+Francisco Obadiah CAMPBELL Hooker	ldcOnt:PER.ProfessionalPosition.Ambassador
+Maria RUBIALES de Chamorro	ldcOnt:PER.ProfessionalPosition.Ambassador
 ISSOUFOU Mahamadou	ldcOnt:PER.Politician.HeadOfGovernment
 Brigi RAFINI	ldcOnt:PER.ProfessionalPosition.Minister
 Abouba ALBADE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3487,7 +3487,7 @@ Habi Mahamadou SALISSOU	ldcOnt:PER.ProfessionalPosition.Minister
 Wassalke BOUKHARI	ldcOnt:PER.ProfessionalPosition.Minister
 Abdoulkarim Dan MALLAM	ldcOnt:PER.ProfessionalPosition.Minister
 Saidou SIDIBE	ldcOnt:PER.Politician.HeadOfGovernment
-Baboucar BOUREIMA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Baboucar BOUREIMA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Goodluck JONATHAN	ldcOnt:PER.Politician.HeadOfGovernment
 Namadi SAMBO	ldcOnt:PER.Politician.HeadOfGovernment
 Akinwunmi Ayo ADESINA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3523,8 +3523,8 @@ Zainab MAINA	ldcOnt:PER.ProfessionalPosition.Minister
 Mike ONOLEMEMEN	ldcOnt:PER.ProfessionalPosition.Minister
 Bolaji ABDULLAHI	ldcOnt:PER.ProfessionalPosition.Minister
 Godwin EMEFIELE	ldcOnt:PER.ProfessionalPosition.Minister
-Adebowale ADEFUYE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Joy OGWU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Adebowale ADEFUYE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Joy OGWU	ldcOnt:PER.ProfessionalPosition.Ambassador
 HARALD V	ldcOnt:PER.Politician
 Erna SOLBERG	ldcOnt:PER.ProfessionalPosition.Minister
 Solveig HORNE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3545,10 +3545,10 @@ Tord LIEN	ldcOnt:PER.ProfessionalPosition.Minister
 Monica MAELAND	ldcOnt:PER.ProfessionalPosition.Minister
 Ketil SOLVIK-OLSEN	ldcOnt:PER.ProfessionalPosition.Minister
 Oystein OLSEN	ldcOnt:PER.ProfessionalPosition.Minister
-Kare AAS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Geir Otto PEDERSEN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Kare AAS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Geir Otto PEDERSEN	ldcOnt:PER.ProfessionalPosition.Ambassador
 QABOOS bin Said Al Said	ldcOnt:PER.ProfessionalPosition.Minister
-THUWAYNI bin Shihab Al Said	ldcOnt:PER:ProfessionalPosition.Ambassador
+THUWAYNI bin Shihab Al Said	ldcOnt:PER.ProfessionalPosition.Ambassador
 FAHD bin Mahmud Al Said	ldcOnt:PER.ProfessionalPosition.Minister
 Fuad bin Jafar bin Muhammad al-SAJWANI	ldcOnt:PER.ProfessionalPosition.Minister
 Abdallah bin Muhammad bin Abdallah al-SALIMI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3586,8 +3586,8 @@ SHABIB bin Taymur Al Said	ldcOnt:PER.Politician
 Umar bin Abd al-Munim al-ZAWAWI	ldcOnt:PER.Politician
 Abdallah bin Salih Khalfan al-HABSI, Lieutenant General	ldcOnt:PER.Politician
 Hamud bin Sangur bin Hashim al-ZADJALI	ldcOnt:PER.Politician.HeadOfGovernment
-Hunaina bint Sultan bin Ahmad al-MUGHAIRI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Lyutha bint Sultan bin Ahmad al-MUGHAIRI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Hunaina bint Sultan bin Ahmad al-MUGHAIRI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Lyutha bint Sultan bin Ahmad al-MUGHAIRI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Mamnoon HUSSAIN	ldcOnt:PER.Politician.HeadOfGovernment
 Mohammad Nawaz SHARIF	ldcOnt:PER.ProfessionalPosition.Minister
 Khurram Dastgir KHAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3610,8 +3610,8 @@ Khawaja Saad RAFIQUE	ldcOnt:PER.ProfessionalPosition.Minister
 Abdul Quadir BALOCH	ldcOnt:PER.ProfessionalPosition.Minister
 Abbas Khan AFRIDI	ldcOnt:PER.ProfessionalPosition.Minister
 Ashraf Mahmood WATHRA	ldcOnt:PER.ProfessionalPosition.Minister
-Jalil Abbas JILANI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Maleeha LODHI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jalil Abbas JILANI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Maleeha LODHI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Thomas Esang REMENGESAU, Jr.	ldcOnt:PER.Politician.HeadOfGovernment
 Antonio BELLS	ldcOnt:PER.Politician.HeadOfGovernment
 Baklai TEMENGIL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3621,8 +3621,8 @@ Flemming Umiich SENGEBAU	ldcOnt:PER.ProfessionalPosition.Minister
 Charles OBICHANG	ldcOnt:PER.ProfessionalPosition.Minister
 Billy KUARTEI	ldcOnt:PER.ProfessionalPosition.Minister
 Victoria ROE	ldcOnt:PER.ProfessionalPosition.Minister
-Hersey KYOTA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Caleb Tyndale Okauchi OTTO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Hersey KYOTA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Caleb Tyndale Okauchi OTTO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Juan Carlos VARELA	ldcOnt:PER.Politician.HeadOfGovernment
 Isabel de SAINT MALO de Alvarado	ldcOnt:PER.Politician.HeadOfGovernment
 Jorge ARANGO Arias	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3640,8 +3640,8 @@ Alcibiades VASQUEZ	ldcOnt:PER.ProfessionalPosition.Minister
 Luis Ernesto CARLES Rudy	ldcOnt:PER.ProfessionalPosition.Minister
 Ana BELFON Vejas	ldcOnt:PER.ProfessionalPosition.Minister
 Dario BERBEY	ldcOnt:PER.ProfessionalPosition.Minister
-Emanuel Arturo GONZALEZ-REVILLA Lince	ldcOnt:PER:ProfessionalPosition.Ambassador
-Laura Elena FLORES Herrera	ldcOnt:PER:ProfessionalPosition.Ambassador
+Emanuel Arturo GONZALEZ-REVILLA Lince	ldcOnt:PER.ProfessionalPosition.Ambassador
+Laura Elena FLORES Herrera	ldcOnt:PER.ProfessionalPosition.Ambassador
 Michael OGIO	ldcOnt:PER.Politician.HeadOfGovernment
 Peter Paire O'NEILL	ldcOnt:PER.ProfessionalPosition.Minister
 Leo DION	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3677,8 +3677,8 @@ Ano PALA	ldcOnt:PER.ProfessionalPosition.Minister
 Patrick PRUAITCH	ldcOnt:PER.ProfessionalPosition.Minister
 Francis AWESA	ldcOnt:PER.ProfessionalPosition.Minister
 Loi BAKANI	ldcOnt:PER.ProfessionalPosition.Minister
-Rupa Abraham MALINA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Robert Guba AISI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Rupa Abraham MALINA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Robert Guba AISI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Horacio CARTES Jara	ldcOnt:PER.Politician.HeadOfGovernment
 Juan AFARA Maciel	ldcOnt:PER.Politician.HeadOfGovernment
 Jorge Raul GATTINI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3693,8 +3693,8 @@ Antonio Carlos BARRIOS Fernandez	ldcOnt:PER.ProfessionalPosition.Minister
 Ramon JIMENEZ Gaona	ldcOnt:PER.ProfessionalPosition.Minister
 Ana Maria BAIARDI Quensnel	ldcOnt:PER.ProfessionalPosition.Minister
 Carlos Gustavo FERNANDEZ Valdovinos	ldcOnt:PER.Politician.HeadOfGovernment
-Fernando PFANNL CABALLERO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Federico Alberto GONZALEZ FRANCO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Fernando PFANNL CABALLERO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Federico Alberto GONZALEZ FRANCO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ollanta Moises HUMALA Tasso	ldcOnt:PER.Politician.HeadOfGovernment
 Marisol ESPINOZA Cruz	ldcOnt:PER.Politician.HeadOfGovernment
 Pedro CATERIANO Bellido	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3717,8 +3717,8 @@ Piero GHEZZI	ldcOnt:PER.ProfessionalPosition.Minister
 Jose GALLARDO Ku	ldcOnt:PER.ProfessionalPosition.Minister
 Marcela Huaita	ldcOnt:PER.ProfessionalPosition.Minister
 Julio VELARDE	ldcOnt:PER.Politician.HeadOfGovernment
-Harold Winston FORSYTH Mejia	ldcOnt:PER:ProfessionalPosition.Ambassador
-Gustavo Adolf MEZA-CUADRA Velasquez	ldcOnt:PER:ProfessionalPosition.Ambassador
+Harold Winston FORSYTH Mejia	ldcOnt:PER.ProfessionalPosition.Ambassador
+Gustavo Adolf MEZA-CUADRA Velasquez	ldcOnt:PER.ProfessionalPosition.Ambassador
 Benigno AQUINO III	ldcOnt:PER.Politician.HeadOfGovernment
 Jejomar Cabaiatam BINAY	ldcOnt:PER.Politician.HeadOfGovernment
 Paquito OCHOA, Jr.	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3746,8 +3746,8 @@ Gregory DOMINGO	ldcOnt:PER.ProfessionalPosition.Minister
 Joseph Emilio A. ABAYA	ldcOnt:PER.ProfessionalPosition.Minister
 Cesar P. GARCIA, Jr.	ldcOnt:PER.Politician
 Amando TETANGCO, Jr.	ldcOnt:PER.ProfessionalPosition.Minister
-Jose CUISIA, Jr.	ldcOnt:PER:ProfessionalPosition.Ambassador
-Lourdes Ortiz YPARRAGUIRRE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jose CUISIA, Jr.	ldcOnt:PER.ProfessionalPosition.Ambassador
+Lourdes Ortiz YPARRAGUIRRE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Bronislaw KOMOROWSKI	ldcOnt:PER.Politician.HeadOfGovernment
 Ewa KOPACZ	ldcOnt:PER.ProfessionalPosition.Minister
 Janusz PIECHOCINSKI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3769,8 +3769,8 @@ Andrzej BIERNAT	ldcOnt:PER.ProfessionalPosition.Minister
 Wlodzimierz KARPINSKI	ldcOnt:PER.ProfessionalPosition.Minister
 Jacek CICHOCKI	ldcOnt:PER.ProfessionalPosition.Minister
 Marek BELKA	ldcOnt:PER.Politician.HeadOfGovernment
-Ryszard SCHNEPF	ldcOnt:PER:ProfessionalPosition.Ambassador
-Boguslaw WINID	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ryszard SCHNEPF	ldcOnt:PER.ProfessionalPosition.Ambassador
+Boguslaw WINID	ldcOnt:PER.ProfessionalPosition.Ambassador
 Anibal Antonio CAVACO SILVA	ldcOnt:PER.Politician.HeadOfGovernment
 Pedro Manuel PASSOS COELHO Mamede	ldcOnt:PER.ProfessionalPosition.Minister
 Paulo Sacadura Cabral PORTAS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3788,8 +3788,8 @@ Paula TEIXEIRA DA CRUZ	ldcOnt:PER.ProfessionalPosition.Minister
 Jose Pedro AGUIAR-BRANCO	ldcOnt:PER.ProfessionalPosition.Minister
 Luis MARQUES GUEDES	ldcOnt:PER.ProfessionalPosition.Minister
 Carlos COSTA	ldcOnt:PER.ProfessionalPosition.Minister
-Nuno Filipe Alves Salvador e BRITO	ldcOnt:PER:ProfessionalPosition.Ambassador
-Alvaro Jose Costa de MENDONCA E MOURA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Nuno Filipe Alves Salvador e BRITO	ldcOnt:PER.ProfessionalPosition.Ambassador
+Alvaro Jose Costa de MENDONCA E MOURA	ldcOnt:PER.ProfessionalPosition.Ambassador
 TAMIM bin Hamad Al Thani	ldcOnt:PER.ProfessionalPosition.Minister
 ABDALLAH bin Hamad Al Thani	ldcOnt:PER.Politician
 ABDALLAH bin Nasir bin Khalifa Al Thani	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3813,8 +3813,8 @@ Jasim Saif Ahmad al-SULAITI	ldcOnt:PER.ProfessionalPosition.Minister
 Salih bin Ghanim bin Nasir al-ALI	ldcOnt:PER.ProfessionalPosition.Minister
 HAMAD bin Ali al-Atiyah	ldcOnt:PER.ProfessionalPosition.Minister
 ABDALLAH bin Saud Al Thani	ldcOnt:PER.ProfessionalPosition.Minister
-Muhammad bin Jaham Abd al-Aziz al-KUWARI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Sheikha Alya Ahmed Saif AL THANI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Muhammad bin Jaham Abd al-Aziz al-KUWARI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Sheikha Alya Ahmed Saif AL THANI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Klaus IOHANNIS	ldcOnt:PER.Politician.HeadOfGovernment
 Victor PONTA	ldcOnt:PER.ProfessionalPosition.Minister
 Liviu Nicolae DRAGNEA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3839,8 +3839,8 @@ Eugen NICOLICEA	ldcOnt:PER.ProfessionalPosition.Minister
 Angel TILVAR	ldcOnt:PER.ProfessionalPosition.Minister
 Liviu-Marian POP	ldcOnt:PER.ProfessionalPosition.Minister
 Mugur ISARESCU	ldcOnt:PER.ProfessionalPosition.Minister
-Iulian BUGA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Simona-Mirela MICULESCU	ldcOnt:PER:ProfessionalPosition.Ambassador
+Iulian BUGA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Simona-Mirela MICULESCU	ldcOnt:PER.ProfessionalPosition.Ambassador
 Vladimir Vladimirovich PUTIN	ldcOnt:PER.Politician.HeadOfGovernment
 Dmitriy Anatolyevich MEDVEDEV	ldcOnt:PER.Politician.HeadOfGovernment
 Igor Ivanovich SHUVALOV	ldcOnt:PER.Politician.HeadOfGovernment
@@ -3879,8 +3879,8 @@ Aleksandr Vasilyevich BORTNIKOV	ldcOnt:PER.ProfessionalPosition.Minister
 Nikolay Platonovich PATRUSHEV	ldcOnt:PER.ProfessionalPosition.Minister
 Yuriy Yakovlevich CHAYKA	ldcOnt:PER.ProfessionalPosition.Minister
 Elvira Sakhipzadovna NABIULLINA	ldcOnt:PER.ProfessionalPosition.Minister
-Sergey Ivanovich KISLYAK	ldcOnt:PER:ProfessionalPosition.Ambassador
-Vitaliy Ivanovich CHURKIN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Sergey Ivanovich KISLYAK	ldcOnt:PER.ProfessionalPosition.Ambassador
+Vitaliy Ivanovich CHURKIN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Paul KAGAME	ldcOnt:PER.Politician.HeadOfGovernment
 Anastase MUREKEZI	ldcOnt:PER.ProfessionalPosition.Minister
 Geraldine MUKESHIMAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3915,7 +3915,7 @@ Albert NSENGIYUMVA	ldcOnt:PER.ProfessionalPosition.Minister
 Alexis NZAHABWANIMANA	ldcOnt:PER.ProfessionalPosition.Minister
 Francis GATARE	ldcOnt:PER.ProfessionalPosition.Minister
 John RWANGOMBWA	ldcOnt:PER.ProfessionalPosition.Minister
-Mathilde MUKANTABANA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mathilde MUKANTABANA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Cuthbert Montraville SEBASTIAN	ldcOnt:PER.Politician.HeadOfGovernment
 Timothy HARRIS	ldcOnt:PER.ProfessionalPosition.Minister
 Shawn RICHARDS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3926,8 +3926,8 @@ Ian LIBURD	ldcOnt:PER.ProfessionalPosition.Minister
 Lindsay GRANT	ldcOnt:PER.ProfessionalPosition.Minister
 Wendy PHIPPS	ldcOnt:PER.ProfessionalPosition.Minister
 Vincent BYRON, Jr.	ldcOnt:PER.ProfessionalPosition.Minister
-Jacinth HENRY-MARTIN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Delano Frank BART	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jacinth HENRY-MARTIN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Delano Frank BART	ldcOnt:PER.ProfessionalPosition.Ambassador
 Pearlette LOUISY, Dame	ldcOnt:PER.Politician.HeadOfGovernment
 Kenny ANTHONY	ldcOnt:PER.ProfessionalPosition.Minister
 Moses JEAN BAPTISTE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3942,8 +3942,8 @@ James FLETCHER	ldcOnt:PER.ProfessionalPosition.Minister
 Harold DALSON	ldcOnt:PER.ProfessionalPosition.Minister
 Lorne THEOPHILUS	ldcOnt:PER.ProfessionalPosition.Minister
 Shawn EDWARD	ldcOnt:PER.ProfessionalPosition.Minister
-Michael LOUIS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Menissa RAMBALLY	ldcOnt:PER:ProfessionalPosition.Ambassador
+Michael LOUIS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Menissa RAMBALLY	ldcOnt:PER.ProfessionalPosition.Ambassador
 Frederick Nathaniel BALLANTYNE, Sir	ldcOnt:PER.Politician.HeadOfGovernment
 Ralph Everard GONSALVES	ldcOnt:PER.ProfessionalPosition.Minister
 Girlyn MIGUEL	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3956,8 +3956,8 @@ Maxwell CHARLES	ldcOnt:PER.ProfessionalPosition.Minister
 Cecil MCKIE	ldcOnt:PER.ProfessionalPosition.Minister
 Julian FRANCIS	ldcOnt:PER.ProfessionalPosition.Minister
 Judith JONES-MORGAN	ldcOnt:PER.ProfessionalPosition.Minister
-La Celia Aritha PRINCE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Inga Rhonda KING	ldcOnt:PER:ProfessionalPosition.Ambassador
+La Celia Aritha PRINCE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Inga Rhonda KING	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tui Atua Tupua Tupuola Efi TAMASESE	ldcOnt:PER.Politician.HeadOfGovernment
 Fatiaalofa Aiono Lupesolia'i Sailele Malielegaoi TUILAEPA	ldcOnt:PER.ProfessionalPosition.Minister
 Fonotoe Pierre Lauofo MEREDITH	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3974,7 +3974,7 @@ Falemoe Lei'ataua TOLOFUAIVALELEI	ldcOnt:PER.ProfessionalPosition.Minister
 Enokati Posala MANU'ALESAGALALA	ldcOnt:PER.ProfessionalPosition.Minister
 Aumua Ming Leung WAI	ldcOnt:PER.ProfessionalPosition.Minister
 Atalina ENARI	ldcOnt:PER.ProfessionalPosition.Minister
-Ali'ioaiga Feturi ELISAIA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ali'ioaiga Feturi ELISAIA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Denis AMICI	ldcOnt:PER.Politician.HeadOfGovernment
 Antonella MULARONI	ldcOnt:PER.Politician.HeadOfGovernment
 Pasquale VALENTINI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -3987,7 +3987,7 @@ Francesco MUSSONI	ldcOnt:PER.ProfessionalPosition.Minister
 Romeo MORRI	ldcOnt:PER.ProfessionalPosition.Minister
 Gian Carlo VENTURINI	ldcOnt:PER.ProfessionalPosition.Minister
 Fabio BERARDI	ldcOnt:PER.ProfessionalPosition.Minister
-Daniele BODINI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Daniele BODINI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Manuel Pinto DA COSTA	ldcOnt:PER.Politician.HeadOfGovernment
 Patrice Emery TROVOADA	ldcOnt:PER.ProfessionalPosition.Minister
 Antonio Alvaro DA GRACA DIAS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4005,7 +4005,7 @@ Osvaldo Cravid Viegas D'ABREU	ldcOnt:PER.ProfessionalPosition.Minister
 Demonstenes Vasconcelos Pires dos SANTOS	ldcOnt:PER.ProfessionalPosition.Minister
 Benjamin Vera CRUZ	ldcOnt:PER.ProfessionalPosition.Minister
 Albertino Francisco BOA MORTE	ldcOnt:PER.ProfessionalPosition.Minister
-Carlos Filomeno Azevedo Agostinho das NEVES	ldcOnt:PER:ProfessionalPosition.Ambassador
+Carlos Filomeno Azevedo Agostinho das NEVES	ldcOnt:PER.ProfessionalPosition.Ambassador
 SALMAN bin Abd al-Aziz Al Saud	ldcOnt:PER.ProfessionalPosition.Minister
 MUQRIN bin Abd al-Aziz Al Saud	ldcOnt:PER.ProfessionalPosition.Minister
 MUHAMMAD BIN NAYIF bin Abd al-Aziz Al Saud	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4037,8 +4037,8 @@ Mutalib bin Abdallah al-NAFISA	ldcOnt:PER.ProfessionalPosition.Minister
 Assam bin Saad bin SAID	ldcOnt:PER.ProfessionalPosition.Minister
 Abd al-Aziz bin Abdallah AL AL-SHAYKH	ldcOnt:PER.ProfessionalPosition.Minister
 Fahd bin Abdallah al-MUBARAK	ldcOnt:PER.ProfessionalPosition.Minister
-Adil al-Ahmad al-JUBAYR	ldcOnt:PER:ProfessionalPosition.Ambassador
-Abdallah bin Yahya al-MUALLAMI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Adil al-Ahmad al-JUBAYR	ldcOnt:PER.ProfessionalPosition.Ambassador
+Abdallah bin Yahya al-MUALLAMI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Macky SALL	ldcOnt:PER.Politician.HeadOfGovernment
 Mohammed Abdallah Boun DIONNE	ldcOnt:PER.ProfessionalPosition.Minister
 Seydou GUEYE	ldcOnt:PER.Politician.HeadOfGovernment
@@ -4073,8 +4073,8 @@ Pape DIOUF	ldcOnt:PER.ProfessionalPosition.Minister
 Anta SARR	ldcOnt:PER.ProfessionalPosition.Minister
 Benoit SAMBOU	ldcOnt:PER.ProfessionalPosition.Minister
 Mouhamadou Mactar CISSE	ldcOnt:PER.ProfessionalPosition.Minister
-Babacar DIAGNE	ldcOnt:PER:ProfessionalPosition.Ambassador
-Fode SECK	ldcOnt:PER:ProfessionalPosition.Ambassador
+Babacar DIAGNE	ldcOnt:PER.ProfessionalPosition.Ambassador
+Fode SECK	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tomislav NIKOLIC	ldcOnt:PER.Politician.HeadOfGovernment
 Aleksandar VUCIC	ldcOnt:PER.ProfessionalPosition.Minister
 Ivica DACIC	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4096,8 +4096,8 @@ Vanja UDOVICIC	ldcOnt:PER.ProfessionalPosition.Minister
 Velimir ILIC	ldcOnt:PER.ProfessionalPosition.Minister
 Jadranka JOKSIMOVIC	ldcOnt:PER.ProfessionalPosition.Minister
 Jorgovanka TABAKOVIC	ldcOnt:PER.ProfessionalPosition.Minister
-Djerdj MATKOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Milan MILANOVIC	ldcOnt:PER:ProfessionalPosition.Ambassador
+Djerdj MATKOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Milan MILANOVIC	ldcOnt:PER.ProfessionalPosition.Ambassador
 James Alix MICHEL	ldcOnt:PER.Politician.HeadOfGovernment
 Danny FAURE	ldcOnt:PER.Politician.HeadOfGovernment
 Macsuzy MONDON	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4113,7 +4113,7 @@ Christian LIONNET	ldcOnt:PER.ProfessionalPosition.Minister
 Vincent MERITON	ldcOnt:PER.ProfessionalPosition.Minister
 Alain ST. ANGE	ldcOnt:PER.ProfessionalPosition.Minister
 Caroline ABEL	ldcOnt:PER.ProfessionalPosition.Minister
-Marie-Louise POTTER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Marie-Louise POTTER	ldcOnt:PER.ProfessionalPosition.Ambassador
 Ernest Bai KOROMA	ldcOnt:PER.Politician.HeadOfGovernment
 Samuel SAM-SUMANA	ldcOnt:PER.Politician.HeadOfGovernment
 Sam SESAY	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4145,8 +4145,8 @@ William Juana SMITH	ldcOnt:PER.ProfessionalPosition.Minister
 Ali KAMARA	ldcOnt:PER.ProfessionalPosition.Minister
 Muctarr CONTEH	ldcOnt:PER.ProfessionalPosition.Minister
 Shehu Sambadeen SESAY	ldcOnt:PER.ProfessionalPosition.Minister
-Bockari Kortu STEVENS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Vandi Chidi MINAH	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bockari Kortu STEVENS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Vandi Chidi MINAH	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tony TAN Keng Yam	ldcOnt:PER.Politician.HeadOfGovernment
 LEE Hsien Loong	ldcOnt:PER.ProfessionalPosition.Minister
 Tharman SHANMUGARATNAM	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4166,8 +4166,8 @@ LUI Tuck Yew	ldcOnt:PER.ProfessionalPosition.Minister
 Grace FU Hai Yen	ldcOnt:PER.ProfessionalPosition.Minister
 LIM Swee Say	ldcOnt:PER.ProfessionalPosition.Minister
 S. ISWARAN	ldcOnt:PER.ProfessionalPosition.Minister
-Ashok Kumar MIRPURI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Karen TAN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ashok Kumar MIRPURI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Karen TAN	ldcOnt:PER.ProfessionalPosition.Ambassador
 Andrej KISKA	ldcOnt:PER.Politician.HeadOfGovernment
 Robert FICO	ldcOnt:PER.ProfessionalPosition.Minister
 Robert KALINAK	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4185,8 +4185,8 @@ Tomas BOREC	ldcOnt:PER.ProfessionalPosition.Minister
 Jan RICHTER	ldcOnt:PER.ProfessionalPosition.Minister
 Jan POCIATEK	ldcOnt:PER.ProfessionalPosition.Minister
 Jozef MAKUCH	ldcOnt:PER.ProfessionalPosition.Minister
-Peter KMEC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Frantisek RUZICKA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Peter KMEC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Frantisek RUZICKA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Borut PAHOR	ldcOnt:PER.Politician.HeadOfGovernment
 Miro CERAR	ldcOnt:PER.ProfessionalPosition.Minister
 Karl ERJAVEC	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4204,8 +4204,8 @@ Anja Kopac MRAK	ldcOnt:PER.ProfessionalPosition.Minister
 Alenka SMERKOLJ	ldcOnt:PER.ProfessionalPosition.Minister
 Gorazd ZMAVC	ldcOnt:PER.ProfessionalPosition.Minister
 Bostjan JAZBEC	ldcOnt:PER.ProfessionalPosition.Minister
-Bozo CERAR	ldcOnt:PER:ProfessionalPosition.Ambassador
-Andrej LOGAR	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bozo CERAR	ldcOnt:PER.ProfessionalPosition.Ambassador
+Andrej LOGAR	ldcOnt:PER.ProfessionalPosition.Ambassador
 Frank Ofagioro KABUI	ldcOnt:PER.Politician.HeadOfGovernment
 Manasseh Damukana SOGAVARE	ldcOnt:PER.ProfessionalPosition.Minister
 Douglas ETE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4232,7 +4232,7 @@ John Dean KUKU	ldcOnt:PER.ProfessionalPosition.Minister
 Freda A. B. Tuki SORIACOMUA	ldcOnt:PER.ProfessionalPosition.Minister
 Jimson FIAU TANAGADA	ldcOnt:PER.ProfessionalPosition.Minister
 Denton RARAWA	ldcOnt:PER.ProfessionalPosition.Minister
-Collin David BECK	ldcOnt:PER:ProfessionalPosition.Ambassador
+Collin David BECK	ldcOnt:PER.ProfessionalPosition.Ambassador
 HASSAN SHEIKH Mohamud	ldcOnt:PER.Politician.HeadOfGovernment
 Omar Abdirashid Ali SHARMARKE	ldcOnt:PER.ProfessionalPosition.Minister
 Ridwan HIRSI Mohamed	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4266,7 +4266,7 @@ Sahra Mohamed Ali SAMATAR	ldcOnt:PER.ProfessionalPosition.Minister
 Numan Sheikh ISAMAIL	ldcOnt:PER.ProfessionalPosition.Minister
 Mohamed Abdullahi HASSAN	ldcOnt:PER.ProfessionalPosition.Minister
 Bashir Isse ALI	ldcOnt:PER.ProfessionalPosition.Minister
-Elmi Ahmed DUALE	ldcOnt:PER:ProfessionalPosition.Ambassador
+Elmi Ahmed DUALE	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jacob ZUMA	ldcOnt:PER.Politician.HeadOfGovernment
 Matamela Cyril RAMAPHOSA	ldcOnt:PER.Politician.HeadOfGovernment
 Senzeni ZOKWANA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4305,8 +4305,8 @@ Nomvula MOKONYANE	ldcOnt:PER.ProfessionalPosition.Minister
 Jeffrey Thamsanqa RADEBE	ldcOnt:PER.ProfessionalPosition.Minister
 Susan SHABANGU	ldcOnt:PER.ProfessionalPosition.Minister
 Elias Lesetja KGANYAGO	ldcOnt:PER.ProfessionalPosition.Minister
-Ebrahim RASOOL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Jeremiah Nyamane Kingsley MAMABOLO	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ebrahim RASOOL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Jeremiah Nyamane Kingsley MAMABOLO	ldcOnt:PER.ProfessionalPosition.Ambassador
 Salva KIIR Mayardit	ldcOnt:PER.Politician.HeadOfGovernment
 James Wani IGGA	ldcOnt:PER.Politician.HeadOfGovernment
 Beda Machar DENG	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4330,7 +4330,7 @@ Stephen Dhieu DAU	ldcOnt:PER.ProfessionalPosition.Minister
 Rebecca Joshua OKWACHI	ldcOnt:PER.ProfessionalPosition.Minister
 Kuong Danhier GATLUK	ldcOnt:PER.ProfessionalPosition.Minister
 Cornelio Koryom MAYIK	ldcOnt:PER.ProfessionalPosition.Minister
-Francis Mading DENG	ldcOnt:PER:ProfessionalPosition.Ambassador
+Francis Mading DENG	ldcOnt:PER.ProfessionalPosition.Ambassador
 FELIPE VI, King	ldcOnt:PER.Politician.HeadOfGovernment
 Mariano RAJOY Brey	ldcOnt:PER.Politician.HeadOfGovernment
 Soraya SAENZ DE SANTAMARIA Anton	ldcOnt:PER.Politician.HeadOfGovernment
@@ -4347,8 +4347,8 @@ Jorge FERNANDEZ DIAZ	ldcOnt:PER.ProfessionalPosition.Minister
 Rafael CATALA Polo	ldcOnt:PER.ProfessionalPosition.Minister
 Ana PASTOR Julian	ldcOnt:PER.ProfessionalPosition.Minister
 Luis Maria LINDE de Castro	ldcOnt:PER.ProfessionalPosition.Minister
-Ramon GIL-CASARES Satrustegui	ldcOnt:PER:ProfessionalPosition.Ambassador
-Roman OYARZUN Marchesi	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ramon GIL-CASARES Satrustegui	ldcOnt:PER.ProfessionalPosition.Ambassador
+Roman OYARZUN Marchesi	ldcOnt:PER.ProfessionalPosition.Ambassador
 Maithripala SIRISENA	ldcOnt:PER.Politician.HeadOfGovernment
 Ranil WICKREMESINGHE	ldcOnt:PER.ProfessionalPosition.Minister
 Karu JAYASURIYA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4385,8 +4385,8 @@ Navin DISSANAYAKA	ldcOnt:PER.ProfessionalPosition.Minister
 Rauf HAKEEM	ldcOnt:PER.ProfessionalPosition.Minister
 Chandrani BANDARA	ldcOnt:PER.ProfessionalPosition.Minister
 Arjuna MAHENDRAN	ldcOnt:PER.ProfessionalPosition.Minister
-Prasad KARIYAWASAM	ldcOnt:PER:ProfessionalPosition.Ambassador
-Amrith Rohan PERERA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Prasad KARIYAWASAM	ldcOnt:PER.ProfessionalPosition.Ambassador
+Amrith Rohan PERERA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Umar Hassan Ahmad al-BASHIR, Field Marshal	ldcOnt:PER.Politician.HeadOfGovernment
 BAKRI Hassan Salih	ldcOnt:PER.Politician.HeadOfGovernment
 Hasabu Mohamed ABDEL RAHIM	ldcOnt:PER.Politician.HeadOfGovernment
@@ -4441,8 +4441,8 @@ Ismanto ADNA	ldcOnt:PER.ProfessionalPosition.Minister
 Raymond SAPOEN	ldcOnt:PER.ProfessionalPosition.Minister
 Valisi PINAS	ldcOnt:PER.ProfessionalPosition.Minister
 Gilmore HOEFDRAAD	ldcOnt:PER.ProfessionalPosition.Minister
-Jaques R. KROSS	ldcOnt:PER:ProfessionalPosition.Ambassador
-Henry Leonard MAC-DONALD	ldcOnt:PER:ProfessionalPosition.Ambassador
+Jaques R. KROSS	ldcOnt:PER.ProfessionalPosition.Ambassador
+Henry Leonard MAC-DONALD	ldcOnt:PER.ProfessionalPosition.Ambassador
 MSWATI III	ldcOnt:PER.Politician
 Barnabus Sibusiso DLAMINI	ldcOnt:PER.ProfessionalPosition.Minister
 Paul DLAMINI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4465,8 +4465,8 @@ David NGCAMPHALALA	ldcOnt:PER.ProfessionalPosition.Minister
 Mduduzi DLAMINI	ldcOnt:PER.ProfessionalPosition.Minister
 Jabulani MABUZA	ldcOnt:PER.ProfessionalPosition.Minister
 Majozi SITHOLE	ldcOnt:PER.ProfessionalPosition.Minister
-Abednigo Mandla NTSHANGASE, Reverend	ldcOnt:PER:ProfessionalPosition.Ambassador
-Zwelethu MNISI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Abednigo Mandla NTSHANGASE, Reverend	ldcOnt:PER.ProfessionalPosition.Ambassador
+Zwelethu MNISI	ldcOnt:PER.ProfessionalPosition.Ambassador
 CARL XVI GUSTAF	ldcOnt:PER.Politician
 Stefan LOFVEN	ldcOnt:PER.ProfessionalPosition.Minister
 Asa ROMSON	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4493,8 +4493,8 @@ Annika STRANDHALL	ldcOnt:PER.ProfessionalPosition.Minister
 Kristina PERSSON	ldcOnt:PER.ProfessionalPosition.Minister
 Aida HADZIALIC	ldcOnt:PER.ProfessionalPosition.Minister
 Stefan INGVES	ldcOnt:PER.ProfessionalPosition.Minister
-Bjorn LYRVALL	ldcOnt:PER:ProfessionalPosition.Ambassador
-Bjorn Olof SKOOG	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bjorn LYRVALL	ldcOnt:PER.ProfessionalPosition.Ambassador
+Bjorn Olof SKOOG	ldcOnt:PER.ProfessionalPosition.Ambassador
 Simonetta SOMMARUGA	ldcOnt:PER.Politician.HeadOfGovernment
 Johann SCHNEIDER-AMMANN	ldcOnt:PER.Politician.HeadOfGovernment
 Ueli MAURER	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4504,8 +4504,8 @@ Alain BERSET	ldcOnt:PER.ProfessionalPosition.Minister
 Doris LEUTHARD	ldcOnt:PER.ProfessionalPosition.Minister
 Corina CASANOVA	ldcOnt:PER.Politician.HeadOfGovernment
 Jean STURDER	ldcOnt:PER.Politician.HeadOfGovernment
-Martin DAHINDEN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Paul SEGER	ldcOnt:PER:ProfessionalPosition.Ambassador
+Martin DAHINDEN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Paul SEGER	ldcOnt:PER.ProfessionalPosition.Ambassador
 Bashar al-ASAD	ldcOnt:PER.Politician.HeadOfGovernment
 Najah al-ATTAR	ldcOnt:PER.Politician.HeadOfGovernment
 Wael al-HALQI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4544,7 +4544,7 @@ Hasib Elias SHAMMAS	ldcOnt:PER.ProfessionalPosition.Minister
 Nazira Farah SARKIS	ldcOnt:PER.ProfessionalPosition.Minister
 Ali HAYDAR	ldcOnt:PER.ProfessionalPosition.Minister
 Adib MAYALAH	ldcOnt:PER.ProfessionalPosition.Minister
-Bashar al-JAFARI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Bashar al-JAFARI	ldcOnt:PER.ProfessionalPosition.Ambassador
 MA Ying-jeou	ldcOnt:PER.Politician.HeadOfGovernment
 WU Den-yih	ldcOnt:PER.Politician.HeadOfGovernment
 JIANG Yi-huah	ldcOnt:PER.Politician.HeadOfGovernment
@@ -4595,7 +4595,7 @@ TUNG Hsiang-lung	ldcOnt:PER.ProfessionalPosition.Minister
 WU Shiow-ming	ldcOnt:PER.ProfessionalPosition.Minister
 FUNG Ming-chu	ldcOnt:PER.ProfessionalPosition.Minister
 PERNG Fai-nan	ldcOnt:PER.ProfessionalPosition.Minister
-SHEN Lyushun	ldcOnt:PER:ProfessionalPosition.Ambassador
+SHEN Lyushun	ldcOnt:PER.ProfessionalPosition.Ambassador
 Emomali RAHMON	ldcOnt:PER.Politician.HeadOfGovernment
 Qohir RASULZODA	ldcOnt:PER.ProfessionalPosition.Minister
 Davlatali SAID	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4619,8 +4619,8 @@ Saymumin YATIMOV, Lieutenant General	ldcOnt:PER.Politician
 Yusuf RAHMONOV	ldcOnt:PER.ProfessionalPosition.Minister
 Rustam NAZARZODA, Lieutenant General	ldcOnt:PER.ProfessionalPosition.Minister
 Jamshed NURMAHMADZODA	ldcOnt:PER.ProfessionalPosition.Minister
-Farhod SALIM	ldcOnt:PER:ProfessionalPosition.Ambassador
-Mahmadamin MAHMADAMINOV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Farhod SALIM	ldcOnt:PER.ProfessionalPosition.Ambassador
+Mahmadamin MAHMADAMINOV	ldcOnt:PER.ProfessionalPosition.Ambassador
 Jakaya Mrisho KIKWETE	ldcOnt:PER.Politician.HeadOfGovernment
 Mohamed Gharib BILAL, Doctor	ldcOnt:PER.Politician.HeadOfGovernment
 Mizengo Kayanza Peter PINDA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4657,8 +4657,8 @@ Jenister MHAGAMA	ldcOnt:PER.ProfessionalPosition.Minister
 Hawa Abdulrahman GHASIA	ldcOnt:PER.ProfessionalPosition.Minister
 George Mcheche MASAJU	ldcOnt:PER.ProfessionalPosition.Minister
 Benno NDULU	ldcOnt:PER.ProfessionalPosition.Minister
-Liberata Rutageruka MULAMULA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Tuvako Nathaniel MANONGI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Liberata Rutageruka MULAMULA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Tuvako Nathaniel MANONGI	ldcOnt:PER.ProfessionalPosition.Ambassador
 PHUMIPHON Adunyadet	ldcOnt:PER.Politician
 PRAYUT Chan-ocha, General	ldcOnt:PER.ProfessionalPosition.Minister
 PRAWIT Wongsuwan, General	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4686,8 +4686,8 @@ ADUL Sangsingkaew	ldcOnt:PER.ProfessionalPosition.Minister
 KOPKAN Watthanawarangkun	ldcOnt:PER.ProfessionalPosition.Minister
 PRACHIN Chantong	ldcOnt:PER.ProfessionalPosition.Minister
 PRASAN Trairatworakun	ldcOnt:PER.ProfessionalPosition.Minister
-PHISAN Manawaphat	ldcOnt:PER:ProfessionalPosition.Ambassador
-WIRACHAI Plasai	ldcOnt:PER:ProfessionalPosition.Ambassador
+PHISAN Manawaphat	ldcOnt:PER.ProfessionalPosition.Ambassador
+WIRACHAI Plasai	ldcOnt:PER.ProfessionalPosition.Ambassador
 Taur Matan RUAK	ldcOnt:PER.Politician.HeadOfGovernment
 Kay Rala Xanana GUSMAO	ldcOnt:PER.ProfessionalPosition.Minister
 Fernando "Lasama" de ARAUJO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4706,7 +4706,7 @@ Isabel GUTERRES	ldcOnt:PER.ProfessionalPosition.Minister
 Jorge da Conceicao TEME	ldcOnt:PER.ProfessionalPosition.Minister
 Francisco Kalbuadi LAY	ldcOnt:PER.ProfessionalPosition.Minister
 Pedro LAY da Silva	ldcOnt:PER.ProfessionalPosition.Minister
-Sofia Mesquita BORGES	ldcOnt:PER:ProfessionalPosition.Ambassador
+Sofia Mesquita BORGES	ldcOnt:PER.ProfessionalPosition.Ambassador
 Faure GNASSINGBE	ldcOnt:PER.Politician.HeadOfGovernment
 Kwesi Seleagodji AHOOMEY-ZUNU	ldcOnt:PER.ProfessionalPosition.Minister
 Ouro Koura AGADZI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4742,8 +4742,8 @@ Bissoune NABAGOU	ldcOnt:PER.ProfessionalPosition.Minister
 Kokou SEMODJI	ldcOnt:PER.Politician.HeadOfGovernment
 Manzinewe BITHO	ldcOnt:PER.ProfessionalPosition.Minister
 Kossi TENOU	ldcOnt:PER.ProfessionalPosition.Minister
-Limbiye Edawe Kadangha BARIKI	ldcOnt:PER:ProfessionalPosition.Ambassador
-Kodjo MENAN	ldcOnt:PER:ProfessionalPosition.Ambassador
+Limbiye Edawe Kadangha BARIKI	ldcOnt:PER.ProfessionalPosition.Ambassador
+Kodjo MENAN	ldcOnt:PER.ProfessionalPosition.Ambassador
 TUPOU VI	ldcOnt:PER.Politician
 Samiuela Akilisi POHIVA	ldcOnt:PER.ProfessionalPosition.Minister
 Siaosi SOVALENI	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4759,7 +4759,7 @@ Poasi Mataele TEI	ldcOnt:PER.ProfessionalPosition.Minister
 Tevita LAVEMAAU	ldcOnt:PER.ProfessionalPosition.Minister
 Neil ADSETT	ldcOnt:PER.ProfessionalPosition.Minister
 Sione Ngongo KIOA	ldcOnt:PER.ProfessionalPosition.Minister
-Mahe 'Uli'uli Sandhurst TUPOUNIUA, Jr.	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mahe 'Uli'uli Sandhurst TUPOUNIUA, Jr.	ldcOnt:PER.ProfessionalPosition.Ambassador
 Anthony Thomas Aquinas CARMONA	ldcOnt:PER.Politician.HeadOfGovernment
 Kamla PERSAD-BISSESSAR	ldcOnt:PER.ProfessionalPosition.Minister
 Lincoln DOUGLAS	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4799,8 +4799,8 @@ Vernella ALLEYNE-TOPPIN	ldcOnt:PER.ProfessionalPosition.Minister
 Rodger SAMUEL	ldcOnt:PER.ProfessionalPosition.Minister
 Garvin NICHOLAS	ldcOnt:PER.ProfessionalPosition.Minister
 Ewart WILIAMS	ldcOnt:PER.ProfessionalPosition.Minister
-Neil PARSAN	ldcOnt:PER:ProfessionalPosition.Ambassador
-Rodney CHARLES	ldcOnt:PER:ProfessionalPosition.Ambassador
+Neil PARSAN	ldcOnt:PER.ProfessionalPosition.Ambassador
+Rodney CHARLES	ldcOnt:PER.ProfessionalPosition.Ambassador
 Beji CAID ESSEBSI	ldcOnt:PER.Politician.HeadOfGovernment
 Habib ESSID	ldcOnt:PER.ProfessionalPosition.Minister
 Saad SEDDIK	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4827,9 +4827,9 @@ Ridha LAHOUAL	ldcOnt:PER.ProfessionalPosition.Minister
 Mahmoud Ben ROMDHANE	ldcOnt:PER.ProfessionalPosition.Minister
 Samira MERAI-FRIAA	ldcOnt:PER.ProfessionalPosition.Minister
 Maher Ben DHIA	ldcOnt:PER.ProfessionalPosition.Minister
-Mohamed ENNACEUR	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mohamed ENNACEUR	ldcOnt:PER.ProfessionalPosition.Ambassador
 Chedli AYARI	ldcOnt:PER.ProfessionalPosition.Minister
-Mohamed Khaled KHIARI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mohamed Khaled KHIARI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Recep Tayyip ERDOGAN	ldcOnt:PER.Politician.HeadOfGovernment
 Ahmet DAVUTOGLU	ldcOnt:PER.ProfessionalPosition.Minister
 Yalcin AKDOGAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4858,8 +4858,8 @@ Fikri ISIK	ldcOnt:PER.ProfessionalPosition.Minister
 Feridun BILGIN	ldcOnt:PER.ProfessionalPosition.Minister
 Akif Cagatay KILIC	ldcOnt:PER.ProfessionalPosition.Minister
 Erdem BASCI	ldcOnt:PER.ProfessionalPosition.Minister
-Serdar KILIC	ldcOnt:PER:ProfessionalPosition.Ambassador
-Yasar Halit CEVIK	ldcOnt:PER:ProfessionalPosition.Ambassador
+Serdar KILIC	ldcOnt:PER.ProfessionalPosition.Ambassador
+Yasar Halit CEVIK	ldcOnt:PER.ProfessionalPosition.Ambassador
 Gurbanguly BERDIMUHAMEDOW	ldcOnt:PER.Politician.HeadOfGovernment
 Myrat ARTYKOW	ldcOnt:PER.ProfessionalPosition.Minister
 Samuhammet DURDYLYYEW	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4899,8 +4899,8 @@ Seyitmyrat TAGANOW	ldcOnt:PER.ProfessionalPosition.Minister
 Yagsygeldi KAKAYEW	ldcOnt:PER.ProfessionalPosition.Minister
 Amanmyrat HALLYYEW	ldcOnt:PER.ProfessionalPosition.Minister
 Merdan ANNADURDYYEW	ldcOnt:PER.ProfessionalPosition.Minister
-Mered ORAZOW	ldcOnt:PER:ProfessionalPosition.Ambassador
-Aksoltan ATAYEWA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Mered ORAZOW	ldcOnt:PER.ProfessionalPosition.Ambassador
+Aksoltan ATAYEWA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Iakopa Italeli TAEIA	ldcOnt:PER.Politician.HeadOfGovernment
 Enele SOPOAGA	ldcOnt:PER.ProfessionalPosition.Minister
 Vete SAKAIO	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4910,7 +4910,7 @@ Maatia TOAFA	ldcOnt:PER.ProfessionalPosition.Minister
 Taukelina FINIKASO	ldcOnt:PER.ProfessionalPosition.Minister
 Namoliki NEEMIA	ldcOnt:PER.ProfessionalPosition.Minister
 Pita ELISALA	ldcOnt:PER.ProfessionalPosition.Minister
-Aunese Makoi SIMATI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Aunese Makoi SIMATI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Yoweri Kaguta MUSEVENI	ldcOnt:PER.Politician.HeadOfGovernment
 Edward SSEKANDI	ldcOnt:PER.Politician.HeadOfGovernment
 Ruhakana RUGUNDA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -4986,8 +4986,8 @@ Ronald KIBUULE	ldcOnt:PER.ProfessionalPosition.Minister
 Vincent NYANZI	ldcOnt:PER.Politician.HeadOfGovernment
 Peter NYOMBI	ldcOnt:PER.ProfessionalPosition.Minister
 Emmanuel TUMUSIIME-MUTEBILE	ldcOnt:PER.ProfessionalPosition.Minister
-Oliver WONEKHA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Richard NDUHUURA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Oliver WONEKHA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Richard NDUHUURA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Petro POROSHENKO	ldcOnt:PER.Politician.HeadOfGovernment
 Volodymyr HROYSMAN	ldcOnt:PER.ProfessionalPosition.Minister
 Arseniy YATSENYUK	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5016,7 +5016,7 @@ Valentyn NALYVAYCHENKO	ldcOnt:PER.ProfessionalPosition.Minister
 Oleksandr TURCHYNOV	ldcOnt:PER.ProfessionalPosition.Minister
 Viktor SHOKIN	ldcOnt:PER.ProfessionalPosition.Minister
 Valeriya HONTAREVA	ldcOnt:PER.ProfessionalPosition.Minister
-Yuriy SERHEYEV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Yuriy SERHEYEV	ldcOnt:PER.ProfessionalPosition.Ambassador
 KHALIFA bin Zayid Al Nuhayyan	ldcOnt:PER.Politician.HeadOfGovernment
 MUHAMMAD BIN RASHID Al Maktum	ldcOnt:PER.Politician.HeadOfGovernment
 MANSUR bin Zayid Al Nuhayyan	ldcOnt:PER.Politician.HeadOfGovernment
@@ -5043,8 +5043,8 @@ Reem Ibrahim al-HASHIMI	ldcOnt:PER.ProfessionalPosition.Minister
 Sultan Ahmad Al JABIR	ldcOnt:PER.ProfessionalPosition.Minister
 Maitha Salim al-SHAMSI	ldcOnt:PER.ProfessionalPosition.Minister
 Mubarak Rashid al-MANSURI	ldcOnt:PER.ProfessionalPosition.Minister
-Yusif bin Mani bin Said al-UTAYBA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Lana Zaki NUSAYBA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Yusif bin Mani bin Said al-UTAYBA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Lana Zaki NUSAYBA	ldcOnt:PER.ProfessionalPosition.Ambassador
 ELIZABETH II	ldcOnt:PER.Politician
 David William Donald CAMERON	ldcOnt:PER.ProfessionalPosition.Minister
 Nicholas William Peter CLEGG	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5072,8 +5072,8 @@ Francis Anthony Aylmer MAUDE	ldcOnt:PER.ProfessionalPosition.Minister
 Daniel Grian ALEXANDER	ldcOnt:PER.ProfessionalPosition.Minister
 Michael GOVE	ldcOnt:PER.ProfessionalPosition.Minister
 Mark CARNEY	ldcOnt:PER.ProfessionalPosition.Minister
-Peter John WESTMACOTT, Sir	ldcOnt:PER:ProfessionalPosition.Ambassador
-Matthew RYCROFT	ldcOnt:PER:ProfessionalPosition.Ambassador
+Peter John WESTMACOTT, Sir	ldcOnt:PER.ProfessionalPosition.Ambassador
+Matthew RYCROFT	ldcOnt:PER.ProfessionalPosition.Ambassador
 Tabare Ramon VAZQUEZ Rosas	ldcOnt:PER.Politician.HeadOfGovernment
 Raul SENDIC	ldcOnt:PER.Politician.HeadOfGovernment
 Tabare AGUERRE	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5090,8 +5090,8 @@ Marina ARISMENDI	ldcOnt:PER.ProfessionalPosition.Minister
 Liliam KECHICHIAN	ldcOnt:PER.ProfessionalPosition.Minister
 Victor ROSSI	ldcOnt:PER.ProfessionalPosition.Minister
 Mario BERGARA	ldcOnt:PER.Politician.HeadOfGovernment
-Carlos PITA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Gonzalo KONCKE Pizzorno	ldcOnt:PER:ProfessionalPosition.Ambassador
+Carlos PITA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Gonzalo KONCKE Pizzorno	ldcOnt:PER.ProfessionalPosition.Ambassador
 Islom KARIMOV	ldcOnt:PER.Politician.HeadOfGovernment
 Shavkat MIRZIYOYEV	ldcOnt:PER.ProfessionalPosition.Minister
 Rustam AZIMOV	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5118,8 +5118,8 @@ Viktor MAHMUDOV, Lieutenant General	ldcOnt:PER.ProfessionalPosition.Minister
 Rustam INOYATOV, Colonel General	ldcOnt:PER.ProfessionalPosition.Minister
 Ixtiyor ABDULLAYEV	ldcOnt:PER.ProfessionalPosition.Minister
 Fayzulla MULLAJANOV	ldcOnt:PER.ProfessionalPosition.Minister
-Baxtiyor GULOMOV	ldcOnt:PER:ProfessionalPosition.Ambassador
-Muzaffar A. MADRAHIMOV	ldcOnt:PER:ProfessionalPosition.Ambassador
+Baxtiyor GULOMOV	ldcOnt:PER.ProfessionalPosition.Ambassador
+Muzaffar A. MADRAHIMOV	ldcOnt:PER.ProfessionalPosition.Ambassador
 Baldwin LONSDALE	ldcOnt:PER.Politician.HeadOfGovernment
 Joe NATUMAN	ldcOnt:PER.ProfessionalPosition.Minister
 Ham LINI Vanuararoa	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5135,7 +5135,7 @@ Alfred CARLOT	ldcOnt:PER.ProfessionalPosition.Minister
 Ralph REGENVANU	ldcOnt:PER.ProfessionalPosition.Minister
 Thomas LAKEN	ldcOnt:PER.ProfessionalPosition.Minister
 Don KEN	ldcOnt:PER.ProfessionalPosition.Minister
-Odo TEVI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Odo TEVI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Nicolas MADURO Moros	ldcOnt:PER.Politician.HeadOfGovernment
 Jorge Alberto ARREAZA Montserrat	ldcOnt:PER.Politician.HeadOfGovernment
 Jose Luis BERROTERAN	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5167,7 +5167,7 @@ Andreina TARAZON	ldcOnt:PER.ProfessionalPosition.Minister
 Antonio ALVAREZ	ldcOnt:PER.ProfessionalPosition.Minister
 Luisa ORTEGA Diaz	ldcOnt:PER.ProfessionalPosition.Minister
 Nelson Jose MERENTES Diaz	ldcOnt:PER.Politician.HeadOfGovernment
-Rafael Dario RAMIREZ Carreno	ldcOnt:PER:ProfessionalPosition.Ambassador
+Rafael Dario RAMIREZ Carreno	ldcOnt:PER.ProfessionalPosition.Ambassador
 Truong Tan SANG	ldcOnt:PER.Politician.HeadOfGovernment
 Nguyen Thi DOAN	ldcOnt:PER.Politician.HeadOfGovernment
 Nguyen Tan DUNG	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5197,8 +5197,8 @@ Huynh Phong TRANH	ldcOnt:PER.ProfessionalPosition.Minister
 Vu Duc DAM	ldcOnt:PER.ProfessionalPosition.Minister
 Giang Seo PHU	ldcOnt:PER.ProfessionalPosition.Minister
 Nguyen Van BINH	ldcOnt:PER.ProfessionalPosition.Minister
-Nguyen Quoc CUONG	ldcOnt:PER:ProfessionalPosition.Ambassador
-Le Hoai TRUNG	ldcOnt:PER:ProfessionalPosition.Ambassador
+Nguyen Quoc CUONG	ldcOnt:PER.ProfessionalPosition.Ambassador
+Le Hoai TRUNG	ldcOnt:PER.ProfessionalPosition.Ambassador
 Abd Rabuh Mansur HADI, Field Marshal	ldcOnt:PER.Politician.HeadOfGovernment
 Khalid Mahfuz BAHAH	ldcOnt:PER.ProfessionalPosition.Minister
 Farid Ahmad MUJAWWAR	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5233,7 +5233,7 @@ Rafat al-AKHALI	ldcOnt:PER.ProfessionalPosition.Minister
 Hasan ZAYD	ldcOnt:PER.ProfessionalPosition.Minister
 Ghalib Abdallah Misad MUTLAQ	ldcOnt:PER.ProfessionalPosition.Minister
 Muhammad Awadh Ali bin HUMAM	ldcOnt:PER.ProfessionalPosition.Minister
-Khalid Husayn Muhammad al-YAMANI	ldcOnt:PER:ProfessionalPosition.Ambassador
+Khalid Husayn Muhammad al-YAMANI	ldcOnt:PER.ProfessionalPosition.Ambassador
 Edgar LUNGU	ldcOnt:PER.Politician.HeadOfGovernment
 Inonge WINA	ldcOnt:PER.Politician.HeadOfGovernment
 Given LUBINDA	ldcOnt:PER.ProfessionalPosition.Minister
@@ -5255,8 +5255,8 @@ Christopher Bwalya YALUMA	ldcOnt:PER.ProfessionalPosition.Minister
 Jean KAPATA	ldcOnt:PER.ProfessionalPosition.Minister
 Vincent MWALE	ldcOnt:PER.ProfessionalPosition.Minister
 Denny KALYALYA	ldcOnt:PER.ProfessionalPosition.Minister
-Palan MULONDA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Patricia Mwaba KASESE-BOTA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Palan MULONDA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Patricia Mwaba KASESE-BOTA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Robert Gabriel MUGABE	ldcOnt:PER.Politician.HeadOfGovernment
 Emmerson Dambudzo MNANGAGWA	ldcOnt:PER.Politician.HeadOfGovernment
 Phelekezela MPHOKO	ldcOnt:PER.Politician.HeadOfGovernment
@@ -5285,7 +5285,7 @@ Obert MPOFU	ldcOnt:PER.ProfessionalPosition.Minister
 Christopher MUTSVANGWA	ldcOnt:PER.ProfessionalPosition.Minister
 Christopher MUSHOWE	ldcOnt:PER.ProfessionalPosition.Minister
 John Panonetsa MANGUDYA	ldcOnt:PER.ProfessionalPosition.Minister
-Ammon MUTEMBWA	ldcOnt:PER:ProfessionalPosition.Ambassador
-Frederick Musiiwa Makamure SHAVA	ldcOnt:PER:ProfessionalPosition.Ambassador
+Ammon MUTEMBWA	ldcOnt:PER.ProfessionalPosition.Ambassador
+Frederick Musiiwa Makamure SHAVA	ldcOnt:PER.ProfessionalPosition.Ambassador
 Viktor Yanukovych	ldcOnt:PER.Politician.HeadOfGovernment
 Viktor Yanukouvych	ldcOnt:PER.Politician.HeadOfGovernment
