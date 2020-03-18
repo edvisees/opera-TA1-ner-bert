@@ -78,8 +78,6 @@ def read_sent(sent):
     label = ''
     idx = 0
     for i, w in enumerate(sent.words):
-        # if len(sent.words) == 28:
-        #     print(w.word)
         example = ' '.join((example, w.word))
         label = ' '.join((label, 'O'))
     guid = str(idx)
@@ -88,11 +86,17 @@ def read_sent(sent):
         #print(example, label, len(example), len(label))
     examples.append(NERExample(guid, example.strip(), label.strip()))
     return examples
-
-num_labels = 25
+def get_labels():
+    label_file = '../data/KBP-19/labels.txt'
+    with open(label_file) as f:
+        return [line.strip() for line in f]
+    return ['B-GPE', 'I-GPE', 'O', 'B-PER', 'I-PER',
+    'B-ORG', 'I-ORG', 'B-LOC', 'I-LOC', 'B-TTL', 'I-TTL',
+    'I-FAC', 'B-FAC', 'B-VEH', 'I-VEH', 'B-WEA', 'I-WEA']
+num_labels = len(get_labels())
 tokenizer = BertTokenizer.from_pretrained('bert-base-cased',
     do_lower_case=False, do_basic_tokenize=False)    
-model_dir = '../eng_bert_ner_ft_2e-5'
+model_dir = '../KBP_19_bert_ner_5e-5'
 output_model_file = os.path.join(model_dir, WEIGHTS_NAME)
 output_config_file = os.path.join(model_dir, CONFIG_NAME)
 config = BertConfig(output_config_file)
@@ -174,15 +178,10 @@ def read_ner_example(file, lower=False):
                 example = ' '.join((example, line_split[1]))
             label = ' '.join((label, line_split[4]))
             if line_split[4] not in get_labels():
-                print(line_split[4], 'xiang')
+                print(line_split[4])
     return examples
 
-def get_labels():
-    return ['B-GPE', 'I-GPE', 'O', 'B-PER', 'I-PER',
-    'B-ORG', 'I-ORG', 'B-LOC', 'I-LOC', 'B-TTL', 'I-TTL',
-    'I-FAC', 'B-FAC', 'B-VEH', 'I-VEH', 'B-WEA', 'I-WEA',
-    'I-LAW', 'B-LAW', 'B-SID', 'I-SID', 'B-COM', 'I-COM',
-    'B-VAL', 'I-VAL']
+
 
 def tokenize_label(text, token_text, label):
     text = text.split(' ')
