@@ -1,0 +1,468 @@
+[
+ {
+  "docID": "HC00002ZB.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "HC00002ZB.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e0",
+    "char_begin": 158,
+    "char_end": 162,
+    "head_span": [
+     158,
+     162
+    ],
+    "mention": "2008",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e1",
+    "char_begin": 178,
+    "char_end": 187,
+    "head_span": [
+     183,
+     187
+    ],
+    "mention": "this year",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Ukraine Provides Evidence of Russian Military in Civil Unrest;   A Russian special forces soldier, above with beard, shown during the conflict in Georgia in 2008 and in Ukraine this year, right.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e2",
+    "category": "NAM",
+    "char_begin": 1,
+    "char_end": 8,
+    "head_span": [
+     1,
+     8
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.7264489",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e3",
+    "category": "NAM",
+    "char_begin": 1,
+    "char_end": 8,
+    "head_span": [
+     1,
+     8
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9941229",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e4",
+    "category": "NAM",
+    "char_begin": 30,
+    "char_end": 37,
+    "head_span": [
+     30,
+     37
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.95634896",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e5",
+    "category": "NAM",
+    "char_begin": 68,
+    "char_end": 75,
+    "head_span": [
+     68,
+     75
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.9930763",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e6",
+    "category": "NAM",
+    "char_begin": 68,
+    "char_end": 75,
+    "head_span": [
+     68,
+     75
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.99427766",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e7",
+    "category": "NAM",
+    "char_begin": 147,
+    "char_end": 154,
+    "head_span": [
+     147,
+     154
+    ],
+    "headword": "Georgia",
+    "mention": "Georgia",
+    "score": "0.9804043",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e8",
+    "category": "NAM",
+    "char_begin": 147,
+    "char_end": 154,
+    "head_span": [
+     147,
+     154
+    ],
+    "headword": "Georgia",
+    "mention": "Georgia",
+    "score": "0.99581784",
+    "subsubtype": "n/a",
+    "subtype": "Country",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e9",
+    "category": "NAM",
+    "char_begin": 170,
+    "char_end": 177,
+    "head_span": [
+     170,
+     177
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.99319744",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     30,
+     31
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e10",
+    "category": "NAM",
+    "char_begin": 170,
+    "char_end": 177,
+    "head_span": [
+     170,
+     177
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.99447954",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     30,
+     31
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e11",
+    "category": "NOM",
+    "char_begin": 30,
+    "char_end": 46,
+    "head_index": 5,
+    "head_span": [
+     38,
+     46
+    ],
+    "headword": "Military",
+    "mention": "Russian Military",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "type": "ldcOnt:ORG.MilitaryOrganization",
+    "word_span": [
+     4,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s1-e12",
+    "category": "NOM",
+    "char_begin": 66,
+    "char_end": 117,
+    "head_index": 14,
+    "head_span": [
+     91,
+     98
+    ],
+    "headword": "soldier",
+    "mention": "A Russian special forces soldier, above with beard,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     10,
+     20
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "HC00002ZB.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Soldiers in a group photo of a reconnaissance unit, which was taken in Russia, were later photographed operating in towns in eastern Ukraine.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e0",
+    "category": "NAM",
+    "char_begin": 268,
+    "char_end": 274,
+    "head_span": [
+     268,
+     274
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.99153405",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e1",
+    "category": "NAM",
+    "char_begin": 268,
+    "char_end": 274,
+    "head_span": [
+     268,
+     274
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.99022114",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e2",
+    "category": "NAM",
+    "char_begin": 322,
+    "char_end": 337,
+    "head_span": [
+     330,
+     337
+    ],
+    "headword": "Ukraine",
+    "mention": "eastern Ukraine",
+    "score": "0.73297924",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     23,
+     25
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e3",
+    "category": "NAM",
+    "char_begin": 330,
+    "char_end": 337,
+    "head_span": [
+     330,
+     337
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9442244",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     25
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e4",
+    "category": "NOM",
+    "char_begin": 197,
+    "char_end": 275,
+    "head_index": 0,
+    "head_span": [
+     197,
+     205
+    ],
+    "headword": "Soldiers",
+    "mention": "Soldiers in a group photo of a reconnaissance unit, which was taken in Russia,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     0,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s2-e5",
+    "category": "NOM",
+    "char_begin": 313,
+    "char_end": 337,
+    "head_index": 21,
+    "head_span": [
+     313,
+     318
+    ],
+    "headword": "towns",
+    "mention": "towns in eastern Ukraine",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     21,
+     25
+    ]
+   }
+  ],
+  "offset": 197
+ },
+ {
+  "docID": "HC00002ZB.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The equipment, including the helmets, used by the Donbass self-defense forces appears similar to that of the Russian special operations forces.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s3-e0",
+    "category": "NAM",
+    "char_begin": 390,
+    "char_end": 397,
+    "head_span": [
+     390,
+     397
+    ],
+    "headword": "Donbass",
+    "mention": "Donbass",
+    "score": "0.99108607",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s3-e1",
+    "category": "NAM",
+    "char_begin": 449,
+    "char_end": 456,
+    "head_span": [
+     449,
+     456
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.9927735",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC00002ZB.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 449,
+    "char_end": 456,
+    "head_span": [
+     449,
+     456
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.9846613",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 340
+ }
+]

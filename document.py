@@ -149,12 +149,12 @@ def read_raw_text(fname, nlp):
     with open(fname, 'r') as f:
         doc = f.readlines()
         doc = '\n'.join(doc)
-
+    print(doc)
     props = {'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
     print('running raw corenlp for {} ...'.format(fname))
-    try:
+    if True:
 
-        nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
+        nlp_annotation = nlp.annotate(doc, props)
         nlp_annotation = json.loads(nlp_annotation)
         print('finished corenlp for {}'.format(fname))
         sents = []
@@ -169,7 +169,7 @@ def read_raw_text(fname, nlp):
                 ner.append((token['originalText'], token['ner']))
             sent.annotation['ner'] = ner
             sents.append(sent)
-    except:
+    else:
         print('corenlp error on {}'.format(fname))
         return None, None
     
@@ -184,11 +184,11 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
     root = tree.getroot()
     flag = False
     sents = []
-    lang = root.attrib['lang']
-    if lang != 'eng':
+    #lang = root.attrib['lang']
+    #if lang != 'eng':
         # sys.stdout.write('Not English!\n')
         # sys.stdout.flush()
-        return None, None
+    #    return None, None
     for sent_id, seg in enumerate(root[0][0]):
         text = seg.find('ORIGINAL_TEXT').text
         sent = Sentence(int(seg.attrib['start_char']), int(seg.attrib['end_char']), sent_id)
@@ -205,7 +205,7 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
     doc = Sentence.get_original_doc(sents)
     # print(doc.encode('UTF-8'))
     if nlp:
-        props = {'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
+        props = {'timeout': '500000', 'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
         print('running corenlp for {} ...'.format(fname))
         try:
             #print(doc)

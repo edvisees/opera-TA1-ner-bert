@@ -62,6 +62,7 @@ nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
 #LOCK = Semaphore(1)
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
+    #raw = True
     print('processing {}'.format(fname))
     try:
         if raw:
@@ -69,7 +70,8 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
         else:
             sents, doc = read_ltf_offset(fname, nlp=nlp)
         if sents is None or doc is None:
-            print('skipped {}'.format(fname))
+
+            print('ner skipped {}'.format(fname))
             return
     except Exception as e:
         print('error: {}; skipped {}'.format(str(e), fname))
@@ -171,7 +173,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         contain = True
                         break
                 elif ner_subtype == '.n/a' or ner_subtype == '.na':
-                    if ner_type == 'NUMERICAL'.lower() or ner_type == 'URL'.lower() or ner_type == 'TIME'.lower():
+                    if ner_type == 'NUMERICAL'.lower() or ner_type == 'URL'.lower():
                         ner_type = 'VAL'
                     elif ner_type == 'title':
                         ner_type = 'TTL'
@@ -339,7 +341,7 @@ def main():
         else:
             files = filter(lambda x: x.endswith('.xml'), os.listdir(input_dir))
         for file in files:
-             success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
+            success = run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'))
         #pool = ThreadPool(processes=6)
         #success = pool.map(lambda file: run_document(os.path.join(input_dir, file), nlp, ontology, decisions, out_fname=os.path.join(output_dir, file + '.json'), raw=read_raw), files)
         #pool.close()

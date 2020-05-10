@@ -23,6 +23,7 @@ from neuronlp2 import utils
 from gazetteer import lookup_gazetteer, look_gazetteer, lookup_per, lookup_city
 import importlib
 mod = importlib.import_module("pytorch-pretrained-bert.examples.run_ner")
+kbp_mod = importlib.import_module("pytorch-pretrained-bert.examples.run_kbp_ner")
 # from pytorch_pretrained_bert.examples.run_multi_ner import NERPredictor
 mod_subtype = importlib.import_module("pytorch-pretrained-bert.examples.run_multi_ner")
 
@@ -281,6 +282,7 @@ def extract_ner(sent):
         #ners = read_result(text, preds)
         #print(sent.get_text())
         ners, ner_probs = mod.pred_ner(sent)
+        kbp_ners, kbp_ner_probs = kbp_mod.pred_ner(sent)
         #print(ners)
         #exit()
         #print(ners)
@@ -317,12 +319,38 @@ def extract_ner(sent):
     #         id, word, _, _, _, ner = line.strip().split()
     #         ners.append((int(id)-1, word, ner))
     named_ents = []
+
     for wid, word in enumerate(sent.words):
         # if word.word == 'Putin':
         #     print(sent.get_text())
         #     print(ners[wid])
         if wid >= len(ners):
             break
+        if kbp_ners[wid][0] == 'B':
+            score = kbp_ner_probs[wid]
+            if score < 0.6:
+                score = 0.6
+            type = kbp_ners[wid][2:]
+            type = type.split('.')
+            type[0] = type[0].upper()
+            for i in range(1, len(type)):
+                type[i] = type[i].lower().capitalize() 
+            type = '.'.join(type)
+            j = wid + 1
+            while j < len(sent.words) and j < len(kbp_ners) and kbp_ners[j][0] == 'I':
+                j += 1
+            kbp_ner_span = (wid, j)
+            char_begin = sent.words[wid].begin - 1
+            char_end = sent.words[j-1].end
+            head_span = [sent.words[j-1].begin-1, sent.words[j-1].end]
+            #feats.append(feat[0, j-1, :].data.numpy())
+            # if  word.word == 'Putin':
+            #     print(type)
+
+            named_ent = {'mention': sent.sub_string(wid, j), 'category': 'NAM', 'type': type, 'subtype': 'n/a', 'subsubtype': 'n/a',
+            'char_begin': char_begin, 'char_end': char_end,
+            'head_span': head_span, 'headword': sent.words[j-1].word, 'token_span': kbp_ner_span, 'score': str(score)}
+            named_ents.append(named_ent)
         if ners[wid][0] == 'B':
             score = ner_probs[wid]
             if score < 0.6:
@@ -372,7 +400,7 @@ def extract_ner(sent):
         match = False
         #overlap = False
         for ner in named_ents:
-            if ner['type'].startswith('ldc'):
+            if ner['type'].startswith('ldc') or len(ner['type'].split('.')) > 1:
                 continue
             if ner['token_span'][1] == span[1]:
                 for subtype, _ in nertype:
