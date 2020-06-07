@@ -7,6 +7,12 @@ with open('gazetteer/jobtitles.lst', 'r') as f:
         title_list.add(line.strip().lower())
 title_list.add('president')
 
+mhi_list = set()
+with open('gazetteer/mhi.lst', 'r') as f:
+    mhi_kb_dic = {}
+    for line in f:
+        mhi_list.add(line.strip().lower())
+
 def extract_filler(sent, nlp, ners):
     titles = extract_title(sent, nlp, ners)
     times = extract_time(sent, nlp)
@@ -15,6 +21,8 @@ def extract_filler(sent, nlp, ners):
     all_fillers = titles + times + numericals + urls
 
     return all_fillers
+
+
 
 def extract_title(sent, nlp, ners):
     titles = []
@@ -89,6 +97,8 @@ def extract_numerical(sent, nlp):
 def extract_url(sent):
     urls = []
     for word in sent.words:
+        if word.word in mhi_list:
+            urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:MHI.Disease', 'score': '0.9'})
         if is_url(word.word):
             urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'URL', 'score': '0.9'})
     return urls

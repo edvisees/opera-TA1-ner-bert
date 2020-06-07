@@ -1,0 +1,1476 @@
+[
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Corruption and Death, Part II;    Some businesses (and their owners) are inherently dangerous.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s1-e0",
+    "category": "NOM",
+    "char_begin": 35,
+    "char_end": 50,
+    "head_index": 8,
+    "head_span": [
+     40,
+     50
+    ],
+    "headword": "businesses",
+    "mention": "Some businesses",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s1-e1",
+    "category": "NOM",
+    "char_begin": 35,
+    "char_end": 69,
+    "head_index": 12,
+    "head_span": [
+     62,
+     68
+    ],
+    "headword": "owners",
+    "mention": "Some businesses (and their owners)",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     7,
+     14
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "For instance, see virtually any company owned by Mr. Akhmetov, and you will understand what I mean.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s2-e0",
+    "category": "NAM",
+    "char_begin": 149,
+    "char_end": 157,
+    "head_span": [
+     149,
+     157
+    ],
+    "headword": "Akhmetov",
+    "mention": "Akhmetov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER.MILITARYPERSONNEL.MILITARYOFFICER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s2-e1",
+    "category": "NAM",
+    "char_begin": 149,
+    "char_end": 157,
+    "head_span": [
+     149,
+     157
+    ],
+    "headword": "Akhmetov",
+    "mention": "Akhmetov",
+    "score": "0.996885",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s2-e2",
+    "category": "NOM",
+    "char_begin": 114,
+    "char_end": 135,
+    "head_index": 6,
+    "head_span": [
+     128,
+     135
+    ],
+    "headword": "company",
+    "mention": "virtually any company",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     4,
+     7
+    ]
+   }
+  ],
+  "offset": 96
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s3-e0",
+    "char_begin": 255,
+    "char_end": 258,
+    "head_span": [
+     255,
+     258
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Many of those who knew most about Akhmetovs activities are now dead, so they can never be compelled to testify in court.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s3-e1",
+    "category": "NAM",
+    "char_begin": 230,
+    "char_end": 239,
+    "head_span": [
+     230,
+     239
+    ],
+    "headword": "Akhmetovs",
+    "mention": "Akhmetovs",
+    "score": "0.9948036",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s3-e2",
+    "category": "NOM",
+    "char_begin": 310,
+    "char_end": 315,
+    "head_index": 22,
+    "head_span": [
+     310,
+     315
+    ],
+    "headword": "court",
+    "mention": "court",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Court",
+    "word_span": [
+     22,
+     23
+    ]
+   }
+  ],
+  "offset": 196
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e0",
+    "char_begin": 320,
+    "char_end": 327,
+    "head_span": [
+     322,
+     327
+    ],
+    "mention": "9 March",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e1",
+    "char_begin": 363,
+    "char_end": 371,
+    "head_span": [
+     363,
+     371
+    ],
+    "mention": "lawmaker",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "On 9 March, Akhmetovs fellow Party of Regions lawmaker, Stanislav Melnyk, was found shot dead in his home with a suicide note.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e2",
+    "category": "NAM",
+    "char_begin": 329,
+    "char_end": 338,
+    "head_span": [
+     329,
+     338
+    ],
+    "headword": "Akhmetovs",
+    "mention": "Akhmetovs",
+    "score": "0.9968495",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e3",
+    "category": "NAM",
+    "char_begin": 346,
+    "char_end": 362,
+    "head_span": [
+     355,
+     362
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9439213",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     9
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e4",
+    "category": "NAM",
+    "char_begin": 346,
+    "char_end": 362,
+    "head_span": [
+     355,
+     362
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9066373",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     9
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e5",
+    "category": "NAM",
+    "char_begin": 373,
+    "char_end": 389,
+    "head_span": [
+     383,
+     389
+    ],
+    "headword": "Melnyk",
+    "mention": "Stanislav Melnyk",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e6",
+    "category": "NAM",
+    "char_begin": 373,
+    "char_end": 389,
+    "head_span": [
+     383,
+     389
+    ],
+    "headword": "Melnyk",
+    "mention": "Stanislav Melnyk",
+    "score": "0.99858105",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e7",
+    "category": "NOM",
+    "char_begin": 329,
+    "char_end": 371,
+    "head_index": 6,
+    "head_span": [
+     346,
+     351
+    ],
+    "headword": "Party",
+    "mention": "Akhmetovs fellow Party of Regions lawmaker",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     4,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e8",
+    "category": "NOM",
+    "char_begin": 355,
+    "char_end": 371,
+    "head_index": 9,
+    "head_span": [
+     363,
+     371
+    ],
+    "headword": "lawmaker",
+    "mention": "Regions lawmaker",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     8,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s4-e9",
+    "category": "NOM",
+    "char_begin": 414,
+    "char_end": 422,
+    "head_index": 20,
+    "head_span": [
+     418,
+     422
+    ],
+    "headword": "home",
+    "mention": "his home",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     19,
+     21
+    ]
+   }
+  ],
+  "offset": 317
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Widely known as Akhmetovs guard, Melnyk ran a security firm that looked after the assets of Systems Capital Management, a holding company set up by Akhmetov to manage his diverse range of investments.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e0",
+    "category": "NAM",
+    "char_begin": 460,
+    "char_end": 469,
+    "head_span": [
+     460,
+     469
+    ],
+    "headword": "Akhmetovs",
+    "mention": "Akhmetovs",
+    "score": "0.9891858",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e1",
+    "category": "NAM",
+    "char_begin": 477,
+    "char_end": 483,
+    "head_span": [
+     477,
+     483
+    ],
+    "headword": "Melnyk",
+    "mention": "Melnyk",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e2",
+    "category": "NAM",
+    "char_begin": 477,
+    "char_end": 483,
+    "head_span": [
+     477,
+     483
+    ],
+    "headword": "Melnyk",
+    "mention": "Melnyk",
+    "score": "0.9972908",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e3",
+    "category": "NAM",
+    "char_begin": 536,
+    "char_end": 562,
+    "head_span": [
+     552,
+     562
+    ],
+    "headword": "Management",
+    "mention": "Systems Capital Management",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     20
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.MANUFACTURER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e4",
+    "category": "NAM",
+    "char_begin": 536,
+    "char_end": 562,
+    "head_span": [
+     552,
+     562
+    ],
+    "headword": "Management",
+    "mention": "Systems Capital Management",
+    "score": "0.99135274",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     20
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e5",
+    "category": "NAM",
+    "char_begin": 592,
+    "char_end": 600,
+    "head_span": [
+     592,
+     600
+    ],
+    "headword": "Akhmetov",
+    "mention": "Akhmetov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     27,
+     28
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e6",
+    "category": "NAM",
+    "char_begin": 592,
+    "char_end": 600,
+    "head_span": [
+     592,
+     600
+    ],
+    "headword": "Akhmetov",
+    "mention": "Akhmetov",
+    "score": "0.9980161",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     27,
+     28
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e7",
+    "category": "NOM",
+    "char_begin": 460,
+    "char_end": 475,
+    "head_index": 4,
+    "head_span": [
+     470,
+     475
+    ],
+    "headword": "guard",
+    "mention": "Akhmetovs guard",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e8",
+    "category": "NOM",
+    "char_begin": 488,
+    "char_end": 643,
+    "head_index": 10,
+    "head_span": [
+     499,
+     503
+    ],
+    "headword": "firm",
+    "mention": "a security firm that looked after the assets of Systems Capital Management, a holding company set up by Akhmetov to manage his diverse range of investments",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:MON.Assets.Assets",
+    "word_span": [
+     8,
+     35
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s5-e9",
+    "category": "NOM",
+    "char_begin": 536,
+    "char_end": 581,
+    "head_index": 23,
+    "head_span": [
+     574,
+     581
+    ],
+    "headword": "company",
+    "mention": "Systems Capital Management, a holding company",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     17,
+     24
+    ]
+   }
+  ],
+  "offset": 444
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e0",
+    "char_begin": 719,
+    "char_end": 727,
+    "head_span": [
+     719,
+     727
+    ],
+    "mention": "governor",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Three days after Melnyks death, another former Regions MP and the former governor of Zaphorizhia region, Oleksandr Peklushenko, was found shot in the neck at his home.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e1",
+    "category": "NAM",
+    "char_begin": 663,
+    "char_end": 670,
+    "head_span": [
+     663,
+     670
+    ],
+    "headword": "Melnyks",
+    "mention": "Melnyks",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.VILLAGE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e2",
+    "category": "NAM",
+    "char_begin": 663,
+    "char_end": 670,
+    "head_span": [
+     663,
+     670
+    ],
+    "headword": "Melnyks",
+    "mention": "Melnyks",
+    "score": "0.9918377",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 693,
+    "char_end": 700,
+    "head_span": [
+     693,
+     700
+    ],
+    "headword": "Regions",
+    "mention": "Regions",
+    "score": "0.72665846",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e4",
+    "category": "NAM",
+    "char_begin": 731,
+    "char_end": 742,
+    "head_span": [
+     731,
+     742
+    ],
+    "headword": "Zaphorizhia",
+    "mention": "Zaphorizhia",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:LOC.POSITION.REGION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e5",
+    "category": "NAM",
+    "char_begin": 731,
+    "char_end": 742,
+    "head_span": [
+     731,
+     742
+    ],
+    "headword": "Zaphorizhia",
+    "mention": "Zaphorizhia",
+    "score": "0.9731353",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e6",
+    "category": "NAM",
+    "char_begin": 751,
+    "char_end": 772,
+    "head_span": [
+     761,
+     772
+    ],
+    "headword": "Peklushenko",
+    "mention": "Oleksandr Peklushenko",
+    "score": "0.99786806",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     18,
+     20
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e7",
+    "category": "NOM",
+    "char_begin": 678,
+    "char_end": 703,
+    "head_index": 9,
+    "head_span": [
+     701,
+     703
+    ],
+    "headword": "MP",
+    "mention": "another former Regions MP",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     6,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e8",
+    "category": "NOM",
+    "char_begin": 678,
+    "char_end": 749,
+    "head_index": 13,
+    "head_span": [
+     719,
+     727
+    ],
+    "headword": "governor",
+    "mention": "another former Regions MP and the former governor of Zaphorizhia region",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "type": "ldcOnt:PER.Politician",
+    "word_span": [
+     6,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e9",
+    "category": "NOM",
+    "char_begin": 731,
+    "char_end": 749,
+    "head_index": 16,
+    "head_span": [
+     743,
+     749
+    ],
+    "headword": "region",
+    "mention": "Zaphorizhia region",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC.Position.Region",
+    "word_span": [
+     15,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s6-e10",
+    "category": "NOM",
+    "char_begin": 804,
+    "char_end": 812,
+    "head_index": 29,
+    "head_span": [
+     808,
+     812
+    ],
+    "headword": "home",
+    "mention": "his home",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     28,
+     30
+    ]
+   }
+  ],
+  "offset": 646
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e0",
+    "char_begin": 817,
+    "char_end": 821,
+    "head_span": [
+     817,
+     821
+    ],
+    "mention": "2011",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e1",
+    "char_begin": 908,
+    "char_end": 911,
+    "head_span": [
+     910,
+     911
+    ],
+    "mention": "50%",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "In 2011, the first year of his governorship, Akhmetovs enormous subsidiary Metinvest acquired 50% of a company called Industrial, giving it control over a majority stake in Zaporizhias former state steel producer, Zaporizhstal (worth about $5 billion).",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e2",
+    "category": "NAM",
+    "char_begin": 859,
+    "char_end": 868,
+    "head_span": [
+     859,
+     868
+    ],
+    "headword": "Akhmetovs",
+    "mention": "Akhmetovs",
+    "score": "0.9874422",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e3",
+    "category": "NAM",
+    "char_begin": 889,
+    "char_end": 898,
+    "head_span": [
+     889,
+     898
+    ],
+    "headword": "Metinvest",
+    "mention": "Metinvest",
+    "score": "0.6296835",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.CORPORATION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e4",
+    "category": "NAM",
+    "char_begin": 889,
+    "char_end": 898,
+    "head_span": [
+     889,
+     898
+    ],
+    "headword": "Metinvest",
+    "mention": "Metinvest",
+    "score": "0.99636143",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e5",
+    "category": "NAM",
+    "char_begin": 932,
+    "char_end": 942,
+    "head_span": [
+     932,
+     942
+    ],
+    "headword": "Industrial",
+    "mention": "Industrial",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.CORPORATION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e6",
+    "category": "NAM",
+    "char_begin": 932,
+    "char_end": 942,
+    "head_span": [
+     932,
+     942
+    ],
+    "headword": "Industrial",
+    "mention": "Industrial",
+    "score": "0.9816683",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e7",
+    "category": "NAM",
+    "char_begin": 987,
+    "char_end": 998,
+    "head_span": [
+     987,
+     998
+    ],
+    "headword": "Zaporizhias",
+    "mention": "Zaporizhias",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     31,
+     32
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e8",
+    "category": "NAM",
+    "char_begin": 987,
+    "char_end": 998,
+    "head_span": [
+     987,
+     998
+    ],
+    "headword": "Zaporizhias",
+    "mention": "Zaporizhias",
+    "score": "0.95045507",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     31,
+     32
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e9",
+    "category": "NAM",
+    "char_begin": 1028,
+    "char_end": 1040,
+    "head_span": [
+     1028,
+     1040
+    ],
+    "headword": "Zaporizhstal",
+    "mention": "Zaporizhstal",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     37,
+     38
+    ],
+    "type": "ldcOnt:FAC.BUILDING"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e10",
+    "category": "NAM",
+    "char_begin": 1028,
+    "char_end": 1040,
+    "head_span": [
+     1028,
+     1040
+    ],
+    "headword": "Zaporizhstal",
+    "mention": "Zaporizhstal",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     37,
+     38
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s7-e11",
+    "category": "NOM",
+    "char_begin": 915,
+    "char_end": 924,
+    "head_index": 19,
+    "head_span": [
+     917,
+     924
+    ],
+    "headword": "company",
+    "mention": "a company",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     18,
+     20
+    ]
+   }
+  ],
+  "offset": 814
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e0",
+    "char_begin": 1256,
+    "char_end": 1266,
+    "head_span": [
+     1259,
+     1266
+    ],
+    "mention": "26 January",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e1",
+    "char_begin": 1271,
+    "char_end": 1282,
+    "head_span": [
+     1274,
+     1282
+    ],
+    "mention": "28 February",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Shortly prior to the deaths of Melnyk and Peklushenko, the lives of Mykhaylo Chechetov, Oleksiy Kolesnik, Mykola Serhiyenko, Serhiy Walter and Oleksandr Bordyuh were all cut short between 26 January and 28 February.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e2",
+    "category": "NAM",
+    "char_begin": 1099,
+    "char_end": 1105,
+    "head_span": [
+     1099,
+     1105
+    ],
+    "headword": "Melnyk",
+    "mention": "Melnyk",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e3",
+    "category": "NAM",
+    "char_begin": 1099,
+    "char_end": 1105,
+    "head_span": [
+     1099,
+     1105
+    ],
+    "headword": "Melnyk",
+    "mention": "Melnyk",
+    "score": "0.99430746",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e4",
+    "category": "NAM",
+    "char_begin": 1110,
+    "char_end": 1121,
+    "head_span": [
+     1110,
+     1121
+    ],
+    "headword": "Peklushenko",
+    "mention": "Peklushenko",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e5",
+    "category": "NAM",
+    "char_begin": 1110,
+    "char_end": 1121,
+    "head_span": [
+     1110,
+     1121
+    ],
+    "headword": "Peklushenko",
+    "mention": "Peklushenko",
+    "score": "0.99598134",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e6",
+    "category": "NAM",
+    "char_begin": 1136,
+    "char_end": 1154,
+    "head_span": [
+     1145,
+     1154
+    ],
+    "headword": "Chechetov",
+    "mention": "Mykhaylo Chechetov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:LOC.POSITION.REGION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e7",
+    "category": "NAM",
+    "char_begin": 1136,
+    "char_end": 1154,
+    "head_span": [
+     1145,
+     1154
+    ],
+    "headword": "Chechetov",
+    "mention": "Mykhaylo Chechetov",
+    "score": "0.9978168",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e8",
+    "category": "NAM",
+    "char_begin": 1156,
+    "char_end": 1172,
+    "head_span": [
+     1164,
+     1172
+    ],
+    "headword": "Kolesnik",
+    "mention": "Oleksiy Kolesnik",
+    "score": "0.9979171",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e9",
+    "category": "NAM",
+    "char_begin": 1174,
+    "char_end": 1191,
+    "head_span": [
+     1181,
+     1191
+    ],
+    "headword": "Serhiyenko",
+    "mention": "Mykola Serhiyenko",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e10",
+    "category": "NAM",
+    "char_begin": 1174,
+    "char_end": 1191,
+    "head_span": [
+     1181,
+     1191
+    ],
+    "headword": "Serhiyenko",
+    "mention": "Mykola Serhiyenko",
+    "score": "0.99792165",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e11",
+    "category": "NAM",
+    "char_begin": 1193,
+    "char_end": 1206,
+    "head_span": [
+     1200,
+     1206
+    ],
+    "headword": "Walter",
+    "mention": "Serhiy Walter",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     24
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e12",
+    "category": "NAM",
+    "char_begin": 1193,
+    "char_end": 1206,
+    "head_span": [
+     1200,
+     1206
+    ],
+    "headword": "Walter",
+    "mention": "Serhiy Walter",
+    "score": "0.9987417",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     24
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e13",
+    "category": "NAM",
+    "char_begin": 1211,
+    "char_end": 1228,
+    "head_span": [
+     1221,
+     1228
+    ],
+    "headword": "Bordyuh",
+    "mention": "Oleksandr Bordyuh",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     25,
+     27
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s8-e14",
+    "category": "NAM",
+    "char_begin": 1211,
+    "char_end": 1228,
+    "head_span": [
+     1221,
+     1228
+    ],
+    "headword": "Bordyuh",
+    "mention": "Oleksandr Bordyuh",
+    "score": "0.9981211",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     25,
+     27
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1068
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "All appointed by the Party of Regions, all were under investigation by the new government.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1305,
+    "char_end": 1321,
+    "head_span": [
+     1314,
+     1321
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9104625",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     7
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s9-e1",
+    "category": "NOM",
+    "char_begin": 1301,
+    "char_end": 1321,
+    "head_index": 4,
+    "head_span": [
+     1305,
+     1310
+    ],
+    "headword": "Party",
+    "mention": "the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     3,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s9-e2",
+    "category": "NOM",
+    "char_begin": 1314,
+    "char_end": 1321,
+    "head_index": 6,
+    "head_span": [
+     1314,
+     1321
+    ],
+    "headword": "Regions",
+    "mention": "Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     6,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s9-e3",
+    "category": "NOM",
+    "char_begin": 1355,
+    "char_end": 1373,
+    "head_index": 15,
+    "head_span": [
+     1363,
+     1373
+    ],
+    "headword": "government",
+    "mention": "the new government",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     13,
+     16
+    ]
+   }
+  ],
+  "offset": 1284
+ },
+ {
+  "docID": "HC000T6EI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6EI.ltf.xml-s10-e0",
+    "char_begin": 1380,
+    "char_end": 1491,
+    "head_span": [
+     1380,
+     1491
+    ],
+    "mention": "http://www.newsweek.com/2015/04/17/ukraine-plagued-succession-unlikely-suicides-former-ruling-party-320584.html",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "See; http://www.newsweek.com/2015/04/17/ukraine-plagued-succession-unlikely-suicides-former-ruling-party-320584.html;  Ah, the price of success;",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 1375
+ }
+]

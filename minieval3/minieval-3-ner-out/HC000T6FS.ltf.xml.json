@@ -1,0 +1,2265 @@
+[
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e0",
+    "char_begin": 136,
+    "char_end": 140,
+    "head_span": [
+     136,
+     140
+    ],
+    "mention": "2015",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e1",
+    "char_begin": 302,
+    "char_end": 311,
+    "head_span": [
+     302,
+     311
+    ],
+    "mention": "Assistant",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e2",
+    "char_begin": 367,
+    "char_end": 373,
+    "head_span": [
+     367,
+     373
+    ],
+    "mention": "Monday",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Ukraine Remains Most Dangerous Place for Reporters - UN;  Journalists killed in the Ukrainian conflict are remembered at the MEDIA ACE 2015 press festival held by the Russian Defense Ministry in Moscow;  Ukraine remains the most dangerous destination for journalists reporting from conflict zones, UN Assistant Secretary-General for Human Rights Ivan Simonovic said Monday.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e3",
+    "category": "NAM",
+    "char_begin": 1,
+    "char_end": 8,
+    "head_span": [
+     1,
+     8
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.86079544",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e4",
+    "category": "NAM",
+    "char_begin": 1,
+    "char_end": 8,
+    "head_span": [
+     1,
+     8
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.99326843",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e5",
+    "category": "NAM",
+    "char_begin": 54,
+    "char_end": 56,
+    "head_span": [
+     54,
+     56
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.89671206",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE.ORGANIZATIONOFCOUNTRIES.ORGANIZATIONOFCOUNTRIES"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e6",
+    "category": "NAM",
+    "char_begin": 54,
+    "char_end": 56,
+    "head_span": [
+     54,
+     56
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.7671915",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e7",
+    "category": "NAM",
+    "char_begin": 85,
+    "char_end": 94,
+    "head_span": [
+     85,
+     94
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.99175346",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e8",
+    "category": "NAM",
+    "char_begin": 85,
+    "char_end": 94,
+    "head_span": [
+     85,
+     94
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9932811",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e9",
+    "category": "NAM",
+    "char_begin": 126,
+    "char_end": 135,
+    "head_span": [
+     132,
+     135
+    ],
+    "headword": "ACE",
+    "mention": "MEDIA ACE",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     22
+    ],
+    "type": "ldcOnt:ORG.INTERNATIONAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e10",
+    "category": "NAM",
+    "char_begin": 126,
+    "char_end": 131,
+    "head_span": [
+     126,
+     131
+    ],
+    "headword": "MEDIA",
+    "mention": "MEDIA",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e11",
+    "category": "NAM",
+    "char_begin": 168,
+    "char_end": 192,
+    "head_span": [
+     184,
+     192
+    ],
+    "headword": "Ministry",
+    "mention": "Russian Defense Ministry",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     31
+    ],
+    "type": "ldcOnt:ORG.GOVERNMENT.AGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e12",
+    "category": "NAM",
+    "char_begin": 168,
+    "char_end": 192,
+    "head_span": [
+     184,
+     192
+    ],
+    "headword": "Ministry",
+    "mention": "Russian Defense Ministry",
+    "score": "0.914155",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     31
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e13",
+    "category": "NAM",
+    "char_begin": 196,
+    "char_end": 202,
+    "head_span": [
+     196,
+     202
+    ],
+    "headword": "Moscow",
+    "mention": "Moscow",
+    "score": "0.9621552",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     32,
+     33
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e14",
+    "category": "NAM",
+    "char_begin": 196,
+    "char_end": 202,
+    "head_span": [
+     196,
+     202
+    ],
+    "headword": "Moscow",
+    "mention": "Moscow",
+    "score": "0.99548775",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     32,
+     33
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e15",
+    "category": "NAM",
+    "char_begin": 205,
+    "char_end": 212,
+    "head_span": [
+     205,
+     212
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9885747",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e16",
+    "category": "NAM",
+    "char_begin": 205,
+    "char_end": 212,
+    "head_span": [
+     205,
+     212
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.99496573",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e17",
+    "category": "NAM",
+    "char_begin": 299,
+    "char_end": 301,
+    "head_span": [
+     299,
+     301
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.8847242",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     47,
+     48
+    ],
+    "type": "ldcOnt:GPE.ORGANIZATIONOFCOUNTRIES.ORGANIZATIONOFCOUNTRIES"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e18",
+    "category": "NAM",
+    "char_begin": 299,
+    "char_end": 301,
+    "head_span": [
+     299,
+     301
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.8288759",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     47,
+     48
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e19",
+    "category": "NAM",
+    "char_begin": 347,
+    "char_end": 361,
+    "head_span": [
+     352,
+     361
+    ],
+    "headword": "Simonovic",
+    "mention": "Ivan Simonovic",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     53,
+     55
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION.SPOKESPERSON"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e20",
+    "category": "NAM",
+    "char_begin": 347,
+    "char_end": 361,
+    "head_span": [
+     352,
+     361
+    ],
+    "headword": "Simonovic",
+    "mention": "Ivan Simonovic",
+    "score": "0.9856818",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     53,
+     55
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e21",
+    "category": "NOM",
+    "char_begin": 17,
+    "char_end": 51,
+    "head_index": 4,
+    "head_span": [
+     32,
+     37
+    ],
+    "headword": "Place",
+    "mention": "Most Dangerous Place for Reporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     2,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e22",
+    "category": "NOM",
+    "char_begin": 42,
+    "char_end": 51,
+    "head_index": 6,
+    "head_span": [
+     42,
+     51
+    ],
+    "headword": "Reporters",
+    "mention": "Reporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     6,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e23",
+    "category": "NOM",
+    "char_begin": 54,
+    "char_end": 103,
+    "head_index": 10,
+    "head_span": [
+     59,
+     70
+    ],
+    "headword": "Journalists",
+    "mention": "UN;  Journalists killed in the Ukrainian conflict",
+    "score": 0.9,
+    "subsubtype": "Journalist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist",
+    "word_span": [
+     8,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e24",
+    "category": "NOM",
+    "char_begin": 164,
+    "char_end": 202,
+    "head_index": 30,
+    "head_span": [
+     184,
+     192
+    ],
+    "headword": "Ministry",
+    "mention": "the Russian Defense Ministry in Moscow",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     27,
+     33
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e25",
+    "category": "NOM",
+    "char_begin": 221,
+    "char_end": 297,
+    "head_index": 39,
+    "head_span": [
+     240,
+     251
+    ],
+    "headword": "destination",
+    "mention": "the most dangerous destination for journalists reporting from conflict zones",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     36,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e26",
+    "category": "NOM",
+    "char_begin": 256,
+    "char_end": 297,
+    "head_index": 41,
+    "head_span": [
+     256,
+     267
+    ],
+    "headword": "journalists",
+    "mention": "journalists reporting from conflict zones",
+    "score": 0.9,
+    "subsubtype": "Journalist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist",
+    "word_span": [
+     41,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s1-e27",
+    "category": "NOM",
+    "char_begin": 283,
+    "char_end": 297,
+    "head_index": 45,
+    "head_span": [
+     292,
+     297
+    ],
+    "headword": "zones",
+    "mention": "conflict zones",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     44,
+     46
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e0",
+    "char_begin": 465,
+    "char_end": 472,
+    "head_span": [
+     469,
+     472
+    ],
+    "mention": "the day",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Plane with released LifeNews journalists arrives in Grozny;  VIENNA (Sputnik) Earlier in the day, a conference titled Journalists Safety, Media Freedom and Pluralism in Times of Conflict, hosted by the Organization for Security and Co-operation in Europe (OSCE), was opened in Vienna.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e1",
+    "category": "NAM",
+    "char_begin": 396,
+    "char_end": 404,
+    "head_span": [
+     396,
+     404
+    ],
+    "headword": "LifeNews",
+    "mention": "LifeNews",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e2",
+    "category": "NAM",
+    "char_begin": 396,
+    "char_end": 404,
+    "head_span": [
+     396,
+     404
+    ],
+    "headword": "LifeNews",
+    "mention": "LifeNews",
+    "score": "0.9954732",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e3",
+    "category": "NAM",
+    "char_begin": 428,
+    "char_end": 434,
+    "head_span": [
+     428,
+     434
+    ],
+    "headword": "Grozny",
+    "mention": "Grozny",
+    "score": "0.8443053",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e4",
+    "category": "NAM",
+    "char_begin": 428,
+    "char_end": 434,
+    "head_span": [
+     428,
+     434
+    ],
+    "headword": "Grozny",
+    "mention": "Grozny",
+    "score": "0.9975674",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e5",
+    "category": "NAM",
+    "char_begin": 437,
+    "char_end": 443,
+    "head_span": [
+     437,
+     443
+    ],
+    "headword": "VIENNA",
+    "mention": "VIENNA",
+    "score": "0.6583758",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e6",
+    "category": "NAM",
+    "char_begin": 437,
+    "char_end": 443,
+    "head_span": [
+     437,
+     443
+    ],
+    "headword": "VIENNA",
+    "mention": "VIENNA",
+    "score": "0.7368972",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e7",
+    "category": "NAM",
+    "char_begin": 445,
+    "char_end": 452,
+    "head_span": [
+     445,
+     452
+    ],
+    "headword": "Sputnik",
+    "mention": "Sputnik",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e8",
+    "category": "NAM",
+    "char_begin": 445,
+    "char_end": 452,
+    "head_span": [
+     445,
+     452
+    ],
+    "headword": "Sputnik",
+    "mention": "Sputnik",
+    "score": "0.8788589",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e9",
+    "category": "NAM",
+    "char_begin": 578,
+    "char_end": 623,
+    "head_span": [
+     621,
+     623
+    ],
+    "headword": "in",
+    "mention": "Organization for Security and Co-operation in",
+    "score": "0.81436646",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     36,
+     42
+    ],
+    "type": "ldcOnt:ORG.INTERNATIONAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e10",
+    "category": "NAM",
+    "char_begin": 578,
+    "char_end": 630,
+    "head_span": [
+     624,
+     630
+    ],
+    "headword": "Europe",
+    "mention": "Organization for Security and Co-operation in Europe",
+    "score": "0.97009575",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     36,
+     43
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e11",
+    "category": "NAM",
+    "char_begin": 624,
+    "char_end": 630,
+    "head_span": [
+     624,
+     630
+    ],
+    "headword": "Europe",
+    "mention": "Europe",
+    "score": "0.79051304",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     42,
+     43
+    ],
+    "type": "ldcOnt:LOC.LAND.CONTINENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e12",
+    "category": "NAM",
+    "char_begin": 632,
+    "char_end": 636,
+    "head_span": [
+     632,
+     636
+    ],
+    "headword": "OSCE",
+    "mention": "OSCE",
+    "score": "0.6666815",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     44,
+     45
+    ],
+    "type": "ldcOnt:ORG.INTERNATIONAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e13",
+    "category": "NAM",
+    "char_begin": 632,
+    "char_end": 636,
+    "head_span": [
+     632,
+     636
+    ],
+    "headword": "OSCE",
+    "mention": "OSCE",
+    "score": "0.9671303",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     44,
+     45
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e14",
+    "category": "NAM",
+    "char_begin": 653,
+    "char_end": 659,
+    "head_span": [
+     653,
+     659
+    ],
+    "headword": "Vienna",
+    "mention": "Vienna",
+    "score": "0.98525363",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     50,
+     51
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e15",
+    "category": "NAM",
+    "char_begin": 653,
+    "char_end": 659,
+    "head_span": [
+     653,
+     659
+    ],
+    "headword": "Vienna",
+    "mention": "Vienna",
+    "score": "0.99654406",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     50,
+     51
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e16",
+    "category": "NOM",
+    "char_begin": 376,
+    "char_end": 637,
+    "head_index": 0,
+    "head_span": [
+     376,
+     381
+    ],
+    "headword": "Plane",
+    "mention": "Plane with released LifeNews journalists arrives in Grozny;  VIENNA (Sputnik) Earlier in the day, a conference titled Journalists Safety, Media Freedom and Pluralism in Times of Conflict, hosted by the Organization for Security and Co-operation in Europe (OSCE)",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft",
+    "word_span": [
+     0,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e17",
+    "category": "NOM",
+    "char_begin": 405,
+    "char_end": 416,
+    "head_index": 4,
+    "head_span": [
+     405,
+     416
+    ],
+    "headword": "journalists",
+    "mention": "journalists",
+    "score": 0.9,
+    "subsubtype": "Journalist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist",
+    "word_span": [
+     4,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e18",
+    "category": "NOM",
+    "char_begin": 465,
+    "char_end": 486,
+    "head_index": 19,
+    "head_span": [
+     476,
+     486
+    ],
+    "headword": "conference",
+    "mention": "the day, a conference",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     15,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e19",
+    "category": "NOM",
+    "char_begin": 494,
+    "char_end": 541,
+    "head_index": 27,
+    "head_span": [
+     532,
+     541
+    ],
+    "headword": "Pluralism",
+    "mention": "Journalists Safety, Media Freedom and Pluralism",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     21,
+     28
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s2-e20",
+    "category": "NOM",
+    "char_begin": 574,
+    "char_end": 603,
+    "head_index": 36,
+    "head_span": [
+     578,
+     590
+    ],
+    "headword": "Organization",
+    "mention": "the Organization for Security",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     35,
+     39
+    ]
+   }
+  ],
+  "offset": 376
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Simonovic noted that media workers in Ukraine are endangered not only in the zone of armed conflict between government forces and independence supporters, citing the recent murder of opposition journalist Oles Buzina.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e0",
+    "category": "NAM",
+    "char_begin": 662,
+    "char_end": 671,
+    "head_span": [
+     662,
+     671
+    ],
+    "headword": "Simonovic",
+    "mention": "Simonovic",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e1",
+    "category": "NAM",
+    "char_begin": 662,
+    "char_end": 671,
+    "head_span": [
+     662,
+     671
+    ],
+    "headword": "Simonovic",
+    "mention": "Simonovic",
+    "score": "0.9813936",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 700,
+    "char_end": 707,
+    "head_span": [
+     700,
+     707
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.986292",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e3",
+    "category": "NAM",
+    "char_begin": 700,
+    "char_end": 707,
+    "head_span": [
+     700,
+     707
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9924043",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e4",
+    "category": "NAM",
+    "char_begin": 867,
+    "char_end": 878,
+    "head_span": [
+     872,
+     878
+    ],
+    "headword": "Buzina",
+    "mention": "Oles Buzina",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     31,
+     33
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e5",
+    "category": "NAM",
+    "char_begin": 867,
+    "char_end": 878,
+    "head_span": [
+     872,
+     878
+    ],
+    "headword": "Buzina",
+    "mention": "Oles Buzina",
+    "score": "0.99711084",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     31,
+     33
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e6",
+    "category": "NOM",
+    "char_begin": 683,
+    "char_end": 707,
+    "head_index": 4,
+    "head_span": [
+     689,
+     696
+    ],
+    "headword": "workers",
+    "mention": "media workers in Ukraine",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e7",
+    "category": "NOM",
+    "char_begin": 735,
+    "char_end": 815,
+    "head_index": 13,
+    "head_span": [
+     739,
+     743
+    ],
+    "headword": "zone",
+    "mention": "the zone of armed conflict between government forces and independence supporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     12,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e8",
+    "category": "NOM",
+    "char_begin": 770,
+    "char_end": 815,
+    "head_index": 22,
+    "head_span": [
+     805,
+     815
+    ],
+    "headword": "supporters",
+    "mention": "government forces and independence supporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     18,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s3-e9",
+    "category": "NOM",
+    "char_begin": 845,
+    "char_end": 866,
+    "head_index": 30,
+    "head_span": [
+     856,
+     866
+    ],
+    "headword": "journalist",
+    "mention": "opposition journalist",
+    "score": 0.9,
+    "subsubtype": "Journalist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist",
+    "word_span": [
+     29,
+     31
+    ]
+   }
+  ],
+  "offset": 662
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e0",
+    "char_begin": 888,
+    "char_end": 896,
+    "head_span": [
+     888,
+     896
+    ],
+    "mention": "official",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e1",
+    "char_begin": 938,
+    "char_end": 945,
+    "head_span": [
+     938,
+     945
+    ],
+    "mention": "current",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "The UN official stressed that Buzina was a critic of the current Ukrainian government adding that it is still unclear who is responsible for his murder.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e2",
+    "category": "NAM",
+    "char_begin": 885,
+    "char_end": 887,
+    "head_span": [
+     885,
+     887
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.96568996",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE.ORGANIZATIONOFCOUNTRIES.ORGANIZATIONOFCOUNTRIES"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e3",
+    "category": "NAM",
+    "char_begin": 885,
+    "char_end": 887,
+    "head_span": [
+     885,
+     887
+    ],
+    "headword": "UN",
+    "mention": "UN",
+    "score": "0.9344877",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e4",
+    "category": "NAM",
+    "char_begin": 911,
+    "char_end": 917,
+    "head_span": [
+     911,
+     917
+    ],
+    "headword": "Buzina",
+    "mention": "Buzina",
+    "score": "0.63403136",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     6
+    ],
+    "type": "ldcOnt:PER.POLITICIAN.HEADOFGOVERNMENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e5",
+    "category": "NAM",
+    "char_begin": 911,
+    "char_end": 917,
+    "head_span": [
+     911,
+     917
+    ],
+    "headword": "Buzina",
+    "mention": "Buzina",
+    "score": "0.9985618",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     6
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e6",
+    "category": "NAM",
+    "char_begin": 946,
+    "char_end": 955,
+    "head_span": [
+     946,
+     955
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9909044",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e7",
+    "category": "NAM",
+    "char_begin": 946,
+    "char_end": 955,
+    "head_span": [
+     946,
+     955
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9907121",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e8",
+    "category": "NOM",
+    "char_begin": 881,
+    "char_end": 896,
+    "head_index": 2,
+    "head_span": [
+     888,
+     896
+    ],
+    "headword": "official",
+    "mention": "The UN official",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e9",
+    "category": "NOM",
+    "char_begin": 922,
+    "char_end": 1032,
+    "head_index": 8,
+    "head_span": [
+     924,
+     930
+    ],
+    "headword": "critic",
+    "mention": "a critic of the current Ukrainian government adding that it is still unclear who is responsible for his murder",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     7,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s4-e10",
+    "category": "NOM",
+    "char_begin": 934,
+    "char_end": 1032,
+    "head_index": 13,
+    "head_span": [
+     956,
+     966
+    ],
+    "headword": "government",
+    "mention": "the current Ukrainian government adding that it is still unclear who is responsible for his murder",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     10,
+     26
+    ]
+   }
+  ],
+  "offset": 881
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e0",
+    "char_begin": 1043,
+    "char_end": 1045,
+    "head_span": [
+     1043,
+     1045
+    ],
+    "mention": "45",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e1",
+    "char_begin": 1064,
+    "char_end": 1069,
+    "head_span": [
+     1064,
+     1069
+    ],
+    "mention": "April",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e2",
+    "char_begin": 1081,
+    "char_end": 1084,
+    "head_span": [
+     1081,
+     1084
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Buzina, 45, was shot dead in April in Kiev by two masked gunmen.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e3",
+    "category": "NAM",
+    "char_begin": 1035,
+    "char_end": 1041,
+    "head_span": [
+     1035,
+     1041
+    ],
+    "headword": "Buzina",
+    "mention": "Buzina",
+    "score": "0.85994077",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e4",
+    "category": "NAM",
+    "char_begin": 1035,
+    "char_end": 1041,
+    "head_span": [
+     1035,
+     1041
+    ],
+    "headword": "Buzina",
+    "mention": "Buzina",
+    "score": "0.99647933",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e5",
+    "category": "NAM",
+    "char_begin": 1073,
+    "char_end": 1077,
+    "head_span": [
+     1073,
+     1077
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98627245",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e6",
+    "category": "NAM",
+    "char_begin": 1073,
+    "char_end": 1077,
+    "head_span": [
+     1073,
+     1077
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.99370944",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s5-e7",
+    "category": "NOM",
+    "char_begin": 1092,
+    "char_end": 1098,
+    "head_index": 14,
+    "head_span": [
+     1092,
+     1098
+    ],
+    "headword": "gunmen",
+    "mention": "gunmen",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     14,
+     15
+    ]
+   }
+  ],
+  "offset": 1035
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e0",
+    "char_begin": 1143,
+    "char_end": 1146,
+    "head_span": [
+     1143,
+     1146
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e1",
+    "char_begin": 1244,
+    "char_end": 1251,
+    "head_span": [
+     1244,
+     1251
+    ],
+    "mention": "current",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "His murder was preceded by the killings of two other opposition figures, Serhiy Suhobok and Oleh Kalashnikov, also known for their criticism of current Ukrainian leadership.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e2",
+    "category": "NAM",
+    "char_begin": 1173,
+    "char_end": 1187,
+    "head_span": [
+     1180,
+     1187
+    ],
+    "headword": "Suhobok",
+    "mention": "Serhiy Suhobok",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 1173,
+    "char_end": 1187,
+    "head_span": [
+     1180,
+     1187
+    ],
+    "headword": "Suhobok",
+    "mention": "Serhiy Suhobok",
+    "score": "0.9984303",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e4",
+    "category": "NAM",
+    "char_begin": 1192,
+    "char_end": 1208,
+    "head_span": [
+     1197,
+     1208
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleh Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e5",
+    "category": "NAM",
+    "char_begin": 1192,
+    "char_end": 1208,
+    "head_span": [
+     1197,
+     1208
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleh Kalashnikov",
+    "score": "0.9979538",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e6",
+    "category": "NAM",
+    "char_begin": 1252,
+    "char_end": 1261,
+    "head_span": [
+     1252,
+     1261
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9882632",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e7",
+    "category": "NAM",
+    "char_begin": 1252,
+    "char_end": 1261,
+    "head_span": [
+     1252,
+     1261
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9852308",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s6-e8",
+    "category": "NOM",
+    "char_begin": 1143,
+    "char_end": 1208,
+    "head_index": 17,
+    "head_span": [
+     1197,
+     1208
+    ],
+    "headword": "Kalashnikov",
+    "mention": "two other opposition figures, Serhiy Suhobok and Oleh Kalashnikov",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:SID.Political.Opposition",
+    "word_span": [
+     8,
+     18
+    ]
+   }
+  ],
+  "offset": 1100
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s7-e0",
+    "char_begin": 1335,
+    "char_end": 1345,
+    "head_span": [
+     1341,
+     1345
+    ],
+    "mention": "April 2014",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "During the conflict in southeastern Ukraine, which began in April 2014, dozens of journalists have been killed, injured or come under fire.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s7-e1",
+    "category": "NAM",
+    "char_begin": 1311,
+    "char_end": 1318,
+    "head_span": [
+     1311,
+     1318
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9830981",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     6
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s7-e2",
+    "category": "NAM",
+    "char_begin": 1311,
+    "char_end": 1318,
+    "head_span": [
+     1311,
+     1318
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.71913433",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     6
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s7-e3",
+    "category": "NOM",
+    "char_begin": 1357,
+    "char_end": 1368,
+    "head_index": 15,
+    "head_span": [
+     1357,
+     1368
+    ],
+    "headword": "journalists",
+    "mention": "journalists",
+    "score": 0.9,
+    "subsubtype": "Journalist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist",
+    "word_span": [
+     15,
+     16
+    ]
+   }
+  ],
+  "offset": 1275
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e0",
+    "char_begin": 1647,
+    "char_end": 1651,
+    "head_span": [
+     1647,
+     1651
+    ],
+    "mention": "2014",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Rossiya Segodnya news agency's photo correspondent Andrei Stenin, Channel 1 cameraman Anatoly Klyan, Rossiya TV network correspondent Igor Kornelyuk and sound engineer Anton Voloshin were killed while on duty in eastern Ukraine in 2014.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e1",
+    "category": "NAM",
+    "char_begin": 1416,
+    "char_end": 1432,
+    "head_span": [
+     1424,
+     1432
+    ],
+    "headword": "Segodnya",
+    "mention": "Rossiya Segodnya",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e2",
+    "category": "NAM",
+    "char_begin": 1416,
+    "char_end": 1432,
+    "head_span": [
+     1424,
+     1432
+    ],
+    "headword": "Segodnya",
+    "mention": "Rossiya Segodnya",
+    "score": "0.9887136",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e3",
+    "category": "NAM",
+    "char_begin": 1467,
+    "char_end": 1480,
+    "head_span": [
+     1474,
+     1480
+    ],
+    "headword": "Stenin",
+    "mention": "Andrei Stenin",
+    "score": "0.7392777",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e4",
+    "category": "NAM",
+    "char_begin": 1467,
+    "char_end": 1480,
+    "head_span": [
+     1474,
+     1480
+    ],
+    "headword": "Stenin",
+    "mention": "Andrei Stenin",
+    "score": "0.9983955",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e5",
+    "category": "NAM",
+    "char_begin": 1482,
+    "char_end": 1489,
+    "head_span": [
+     1482,
+     1489
+    ],
+    "headword": "Channel",
+    "mention": "Channel",
+    "score": "0.7909106",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e6",
+    "category": "NAM",
+    "char_begin": 1502,
+    "char_end": 1515,
+    "head_span": [
+     1510,
+     1515
+    ],
+    "headword": "Klyan",
+    "mention": "Anatoly Klyan",
+    "score": "0.77566403",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e7",
+    "category": "NAM",
+    "char_begin": 1502,
+    "char_end": 1515,
+    "head_span": [
+     1510,
+     1515
+    ],
+    "headword": "Klyan",
+    "mention": "Anatoly Klyan",
+    "score": "0.9981007",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e8",
+    "category": "NAM",
+    "char_begin": 1517,
+    "char_end": 1527,
+    "head_span": [
+     1525,
+     1527
+    ],
+    "headword": "TV",
+    "mention": "Rossiya TV",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.BROADCASTINGCOMPANY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e9",
+    "category": "NAM",
+    "char_begin": 1517,
+    "char_end": 1527,
+    "head_span": [
+     1525,
+     1527
+    ],
+    "headword": "TV",
+    "mention": "Rossiya TV",
+    "score": "0.98619705",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e10",
+    "category": "NAM",
+    "char_begin": 1550,
+    "char_end": 1564,
+    "head_span": [
+     1555,
+     1564
+    ],
+    "headword": "Kornelyuk",
+    "mention": "Igor Kornelyuk",
+    "score": "0.77108186",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     22
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e11",
+    "category": "NAM",
+    "char_begin": 1550,
+    "char_end": 1564,
+    "head_span": [
+     1555,
+     1564
+    ],
+    "headword": "Kornelyuk",
+    "mention": "Igor Kornelyuk",
+    "score": "0.9983309",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     20,
+     22
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e12",
+    "category": "NAM",
+    "char_begin": 1584,
+    "char_end": 1598,
+    "head_span": [
+     1590,
+     1598
+    ],
+    "headword": "Voloshin",
+    "mention": "Anton Voloshin",
+    "score": "0.6931678",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     27
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e13",
+    "category": "NAM",
+    "char_begin": 1584,
+    "char_end": 1598,
+    "head_span": [
+     1590,
+     1598
+    ],
+    "headword": "Voloshin",
+    "mention": "Anton Voloshin",
+    "score": "0.9980872",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     27
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e14",
+    "category": "NAM",
+    "char_begin": 1628,
+    "char_end": 1643,
+    "head_span": [
+     1636,
+     1643
+    ],
+    "headword": "Ukraine",
+    "mention": "eastern Ukraine",
+    "score": "0.8801689",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     33,
+     35
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e15",
+    "category": "NAM",
+    "char_begin": 1636,
+    "char_end": 1643,
+    "head_span": [
+     1636,
+     1643
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9763199",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e16",
+    "category": "NOM",
+    "char_begin": 1416,
+    "char_end": 1446,
+    "head_index": 3,
+    "head_span": [
+     1438,
+     1444
+    ],
+    "headword": "agency",
+    "mention": "Rossiya Segodnya news agency's",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     0,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e17",
+    "category": "NOM",
+    "char_begin": 1416,
+    "char_end": 1466,
+    "head_index": 6,
+    "head_span": [
+     1453,
+     1466
+    ],
+    "headword": "correspondent",
+    "mention": "Rossiya Segodnya news agency's photo correspondent",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s8-e18",
+    "category": "NOM",
+    "char_begin": 1416,
+    "char_end": 1652,
+    "head_index": 12,
+    "head_span": [
+     1492,
+     1501
+    ],
+    "headword": "cameraman",
+    "mention": "Rossiya Segodnya news agency's photo correspondent Andrei Stenin, Channel 1 cameraman Anatoly Klyan, Rossiya TV network correspondent Igor Kornelyuk and sound engineer Anton Voloshin were killed while on duty in eastern Ukraine in 2014.",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     38
+    ]
+   }
+  ],
+  "offset": 1416
+ },
+ {
+  "docID": "HC000T6FS.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Each of them were posthumously awarded the Order of Courage in Russia.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1716,
+    "char_end": 1722,
+    "head_span": [
+     1716,
+     1722
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.98231745",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6FS.ltf.xml-s9-e1",
+    "category": "NAM",
+    "char_begin": 1716,
+    "char_end": 1722,
+    "head_span": [
+     1716,
+     1722
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.82579213",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1653
+ }
+]

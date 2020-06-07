@@ -1,0 +1,3892 @@
+[
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e0",
+    "char_begin": 116,
+    "char_end": 135,
+    "head_span": [
+     116,
+     135
+    ],
+    "mention": "http://glavpost.com",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Series of \u2018bizarre suicides\u2019 &amp;amp; murders: Former Ukrainian MP shot dead in Kiev;  Oleg Kalashnikov (image by http://glavpost.com)    A former Ukrainian MP and active anti-Maidan activist, Oleg Kalashnikov, has been killed in his flat in Kiev.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e1",
+    "category": "NAM",
+    "char_begin": 56,
+    "char_end": 65,
+    "head_span": [
+     56,
+     65
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9827",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e2",
+    "category": "NAM",
+    "char_begin": 56,
+    "char_end": 65,
+    "head_span": [
+     56,
+     65
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.99195004",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e3",
+    "category": "NAM",
+    "char_begin": 82,
+    "char_end": 86,
+    "head_span": [
+     82,
+     86
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9820946",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e4",
+    "category": "NAM",
+    "char_begin": 82,
+    "char_end": 86,
+    "head_span": [
+     82,
+     86
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9949066",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e5",
+    "category": "NAM",
+    "char_begin": 89,
+    "char_end": 105,
+    "head_span": [
+     94,
+     105
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleg Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e6",
+    "category": "NAM",
+    "char_begin": 89,
+    "char_end": 105,
+    "head_span": [
+     94,
+     105
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleg Kalashnikov",
+    "score": "0.9973947",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e7",
+    "category": "NAM",
+    "char_begin": 149,
+    "char_end": 158,
+    "head_span": [
+     149,
+     158
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.975778",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e8",
+    "category": "NAM",
+    "char_begin": 149,
+    "char_end": 158,
+    "head_span": [
+     149,
+     158
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.99219537",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e9",
+    "category": "NAM",
+    "char_begin": 195,
+    "char_end": 211,
+    "head_span": [
+     200,
+     211
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleg Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     35,
+     37
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e10",
+    "category": "NAM",
+    "char_begin": 195,
+    "char_end": 211,
+    "head_span": [
+     200,
+     211
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Oleg Kalashnikov",
+    "score": "0.99698955",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     35,
+     37
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e11",
+    "category": "NAM",
+    "char_begin": 244,
+    "char_end": 248,
+    "head_span": [
+     244,
+     248
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98364776",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     45,
+     46
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e12",
+    "category": "NAM",
+    "char_begin": 244,
+    "char_end": 248,
+    "head_span": [
+     244,
+     248
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9952254",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     45,
+     46
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e13",
+    "category": "NOM",
+    "char_begin": 1,
+    "char_end": 193,
+    "head_index": 0,
+    "head_span": [
+     1,
+     7
+    ],
+    "headword": "Series",
+    "mention": "Series of \u2018bizarre suicides\u2019 &amp;amp; murders: Former Ukrainian MP shot dead in Kiev;  Oleg Kalashnikov (image by http://glavpost.com)    A former Ukrainian MP and active anti-Maidan activist",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     0,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e14",
+    "category": "NOM",
+    "char_begin": 11,
+    "char_end": 193,
+    "head_index": 33,
+    "head_span": [
+     185,
+     193
+    ],
+    "headword": "activist",
+    "mention": "\u2018bizarre suicides\u2019 &amp;amp; murders: Former Ukrainian MP shot dead in Kiev;  Oleg Kalashnikov (image by http://glavpost.com)    A former Ukrainian MP and active anti-Maidan activist",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     2,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s1-e15",
+    "category": "NOM",
+    "char_begin": 1,
+    "char_end": 212,
+    "head_index": 36,
+    "head_span": [
+     200,
+     211
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Series of \u2018bizarre suicides\u2019 &amp;amp; murders: Former Ukrainian MP shot dead in Kiev;  Oleg Kalashnikov (image by http://glavpost.com)    A former Ukrainian MP and active anti-Maidan activist, Oleg Kalashnikov,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     0,
+     38
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e0",
+    "char_begin": 329,
+    "char_end": 338,
+    "head_span": [
+     329,
+     338
+    ],
+    "mention": "officials",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e1",
+    "char_begin": 343,
+    "char_end": 355,
+    "head_span": [
+     343,
+     355
+    ],
+    "mention": "ex-President",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "His killing is the latest in a series of odd deaths plaguing former government officials and ex-President Yanukovichs party members.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e2",
+    "category": "NAM",
+    "char_begin": 356,
+    "char_end": 367,
+    "head_span": [
+     356,
+     367
+    ],
+    "headword": "Yanukovichs",
+    "mention": "Yanukovichs",
+    "score": "0.9894433",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e3",
+    "category": "NOM",
+    "char_begin": 279,
+    "char_end": 381,
+    "head_index": 7,
+    "head_span": [
+     281,
+     287
+    ],
+    "headword": "series",
+    "mention": "a series of odd deaths plaguing former government officials and ex-President Yanukovichs party members",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     6,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e4",
+    "category": "NOM",
+    "char_begin": 311,
+    "char_end": 338,
+    "head_index": 14,
+    "head_span": [
+     329,
+     338
+    ],
+    "headword": "officials",
+    "mention": "former government officials",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     12,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s2-e5",
+    "category": "NOM",
+    "char_begin": 311,
+    "char_end": 381,
+    "head_index": 19,
+    "head_span": [
+     374,
+     381
+    ],
+    "headword": "members",
+    "mention": "former government officials and ex-President Yanukovichs party members",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     12,
+     20
+    ]
+   }
+  ],
+  "offset": 250
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s3-e0",
+    "char_begin": 443,
+    "char_end": 460,
+    "head_span": [
+     453,
+     460
+    ],
+    "mention": "Wednesday evening",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "The 52-year-old was found dead at his residence in Kiev on Wednesday evening.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s3-e1",
+    "category": "NAM",
+    "char_begin": 435,
+    "char_end": 439,
+    "head_span": [
+     435,
+     439
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98794657",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 435,
+    "char_end": 439,
+    "head_span": [
+     435,
+     439
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9936138",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s3-e3",
+    "category": "NOM",
+    "char_begin": 418,
+    "char_end": 439,
+    "head_index": 7,
+    "head_span": [
+     422,
+     431
+    ],
+    "headword": "residence",
+    "mention": "his residence in Kiev",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     6,
+     10
+    ]
+   }
+  ],
+  "offset": 384
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "His death was; caused by a gunshot,  the Interior Ministry said in a statement announcing a police inquiry.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s4-e0",
+    "category": "NAM",
+    "char_begin": 503,
+    "char_end": 520,
+    "head_span": [
+     512,
+     520
+    ],
+    "headword": "Ministry",
+    "mention": "Interior Ministry",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     12
+    ],
+    "type": "ldcOnt:ORG.GOVERNMENT.AGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s4-e1",
+    "category": "NAM",
+    "char_begin": 503,
+    "char_end": 520,
+    "head_span": [
+     512,
+     520
+    ],
+    "headword": "Ministry",
+    "mention": "Interior Ministry",
+    "score": "0.82668906",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     12
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s4-e2",
+    "category": "NOM",
+    "char_begin": 499,
+    "char_end": 520,
+    "head_index": 11,
+    "head_span": [
+     512,
+     520
+    ],
+    "headword": "Ministry",
+    "mention": "the Interior Ministry",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     9,
+     12
+    ]
+   }
+  ],
+  "offset": 462
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s5-e0",
+    "char_begin": 602,
+    "char_end": 607,
+    "head_span": [
+     602,
+     607
+    ],
+    "mention": "chief",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Ukraines criminal investigation chief Vasily Paskal, took the investigation under personal control and promised to share motives and the preliminary results of the probe with reporters as soon as they become available.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s5-e1",
+    "category": "NAM",
+    "char_begin": 570,
+    "char_end": 578,
+    "head_span": [
+     570,
+     578
+    ],
+    "headword": "Ukraines",
+    "mention": "Ukraines",
+    "score": "0.9819864",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s5-e2",
+    "category": "NAM",
+    "char_begin": 608,
+    "char_end": 621,
+    "head_span": [
+     615,
+     621
+    ],
+    "headword": "Paskal",
+    "mention": "Vasily Paskal",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s5-e3",
+    "category": "NAM",
+    "char_begin": 608,
+    "char_end": 621,
+    "head_span": [
+     615,
+     621
+    ],
+    "headword": "Paskal",
+    "mention": "Vasily Paskal",
+    "score": "0.9984005",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s5-e4",
+    "category": "NOM",
+    "char_begin": 745,
+    "char_end": 754,
+    "head_index": 26,
+    "head_span": [
+     745,
+     754
+    ],
+    "headword": "reporters",
+    "mention": "reporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     26,
+     27
+    ]
+   }
+  ],
+  "offset": 570
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e0",
+    "char_begin": 822,
+    "char_end": 826,
+    "head_span": [
+     822,
+     826
+    ],
+    "mention": "five",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "The investigation is focused on five possible motives for the crime, according to Interior Ministers senior adviser, Anton Gerashchenko.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e1",
+    "category": "NAM",
+    "char_begin": 872,
+    "char_end": 890,
+    "head_span": [
+     881,
+     890
+    ],
+    "headword": "Ministers",
+    "mention": "Interior Ministers",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e2",
+    "category": "NAM",
+    "char_begin": 907,
+    "char_end": 925,
+    "head_span": [
+     913,
+     925
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Anton Gerashchenko",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 907,
+    "char_end": 925,
+    "head_span": [
+     913,
+     925
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Anton Gerashchenko",
+    "score": "0.9987558",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e4",
+    "category": "NOM",
+    "char_begin": 848,
+    "char_end": 857,
+    "head_index": 10,
+    "head_span": [
+     852,
+     857
+    ],
+    "headword": "crime",
+    "mention": "the crime",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:CRM",
+    "word_span": [
+     9,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s6-e5",
+    "category": "NOM",
+    "char_begin": 872,
+    "char_end": 905,
+    "head_index": 17,
+    "head_span": [
+     898,
+     905
+    ],
+    "headword": "adviser",
+    "mention": "Interior Ministers senior adviser",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     14,
+     18
+    ]
+   }
+  ],
+  "offset": 790
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "So far the investigation considers the primary possible motive behind the killing to be Kalashnikovs; political activity; linked with his; participation in the organization and financing; of counter-revolutionary events in Ukraine.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s7-e0",
+    "category": "NAM",
+    "char_begin": 1016,
+    "char_end": 1028,
+    "head_span": [
+     1016,
+     1028
+    ],
+    "headword": "Kalashnikovs",
+    "mention": "Kalashnikovs",
+    "score": "0.78312236",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s7-e1",
+    "category": "NAM",
+    "char_begin": 1151,
+    "char_end": 1158,
+    "head_span": [
+     1151,
+     1158
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9871334",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s7-e2",
+    "category": "NAM",
+    "char_begin": 1151,
+    "char_end": 1158,
+    "head_span": [
+     1151,
+     1158
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9914044",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s7-e3",
+    "category": "NOM",
+    "char_begin": 1016,
+    "char_end": 1049,
+    "head_index": 14,
+    "head_span": [
+     1016,
+     1028
+    ],
+    "headword": "Kalashnikovs",
+    "mention": "Kalashnikovs; political activity;",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     14,
+     19
+    ]
+   }
+  ],
+  "offset": 928
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e0",
+    "char_begin": 1268,
+    "char_end": 1277,
+    "head_span": [
+     1273,
+     1277
+    ],
+    "mention": "last year",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Gerashchenko emphasized that Kalashnikov; had knowledge; of the anti-Maidan movement that resisted the coup last year and continues to challenge new authorities in Kiev.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e1",
+    "category": "NAM",
+    "char_begin": 1160,
+    "char_end": 1172,
+    "head_span": [
+     1160,
+     1172
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Gerashchenko",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e2",
+    "category": "NAM",
+    "char_begin": 1160,
+    "char_end": 1172,
+    "head_span": [
+     1160,
+     1172
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Gerashchenko",
+    "score": "0.99856466",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e3",
+    "category": "NAM",
+    "char_begin": 1189,
+    "char_end": 1200,
+    "head_span": [
+     1189,
+     1200
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e4",
+    "category": "NAM",
+    "char_begin": 1189,
+    "char_end": 1200,
+    "head_span": [
+     1189,
+     1200
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.9975501",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e5",
+    "category": "NAM",
+    "char_begin": 1324,
+    "char_end": 1328,
+    "head_span": [
+     1324,
+     1328
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98417306",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e6",
+    "category": "NAM",
+    "char_begin": 1324,
+    "char_end": 1328,
+    "head_span": [
+     1324,
+     1328
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9939861",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s8-e7",
+    "category": "NOM",
+    "char_begin": 1305,
+    "char_end": 1320,
+    "head_index": 23,
+    "head_span": [
+     1309,
+     1320
+    ],
+    "headword": "authorities",
+    "mention": "new authorities",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     22,
+     24
+    ]
+   }
+  ],
+  "offset": 1160
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Without any doubt the deceased knew a lot about who and in what way financed anti-Maidan, which cost Yanukovich and his camarilla several million hryvnias per day.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1432,
+    "char_end": 1442,
+    "head_span": [
+     1432,
+     1442
+    ],
+    "headword": "Yanukovich",
+    "mention": "Yanukovich",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s9-e1",
+    "category": "NAM",
+    "char_begin": 1432,
+    "char_end": 1442,
+    "head_span": [
+     1432,
+     1442
+    ],
+    "headword": "Yanukovich",
+    "mention": "Yanukovich",
+    "score": "0.9974606",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s9-e2",
+    "category": "NOM",
+    "char_begin": 1349,
+    "char_end": 1361,
+    "head_index": 4,
+    "head_span": [
+     1353,
+     1361
+    ],
+    "headword": "deceased",
+    "mention": "the deceased",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s9-e3",
+    "category": "NOM",
+    "char_begin": 1432,
+    "char_end": 1460,
+    "head_index": 22,
+    "head_span": [
+     1451,
+     1460
+    ],
+    "headword": "camarilla",
+    "mention": "Yanukovich and his camarilla",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     19,
+     23
+    ]
+   }
+  ],
+  "offset": 1331
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "He takes these secrets with him to the grave,  Gerashchenko said, also listing some other leads on his Facebook page.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s10-e0",
+    "category": "NAM",
+    "char_begin": 1542,
+    "char_end": 1554,
+    "head_span": [
+     1542,
+     1554
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Gerashchenko",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s10-e1",
+    "category": "NAM",
+    "char_begin": 1542,
+    "char_end": 1554,
+    "head_span": [
+     1542,
+     1554
+    ],
+    "headword": "Gerashchenko",
+    "mention": "Gerashchenko",
+    "score": "0.9984816",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1495
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Business debts, personal enmity, burglary attempt and; other versions of murder; are listed among other possible motives.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 1613
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e0",
+    "char_begin": 1785,
+    "char_end": 1833,
+    "head_span": [
+     1785,
+     1833
+    ],
+    "mention": "http://t.co/jj0hfxAQoopic.twitter.com/PDJ0ZZeLSl",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e1",
+    "char_begin": 1866,
+    "char_end": 1880,
+    "head_span": [
+     1876,
+     1880
+    ],
+    "mention": "April 15, 2015",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "\u0423\u0431\u0438\u0442 \u044d\u043a\u0441-\u0434\u0435\u043f\u0443\u0442\u0430\u0442 \u041f\u0430\u0440\u0442\u0438\u0438 \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432 \u041e\u043b\u0435\u0433 \u041a\u0430\u043b\u0430\u0448\u043d\u0438\u043a\u043e\u0432 http://t.co/jj0hfxAQoopic.twitter.com/PDJ0ZZeLSl \u041d\u043e\u0432\u043e\u0441\u0442\u0438 \u0414\u043e\u043d\u0431\u0430\u0441\u0441\u0430 (@novostidnua) April 15, 2015;  Ukrainian media reported that before the murder Kalashnikov received threats of physical violence for his political views, in particular for his drive to defend Ukrainians right to widely celebrate the 70th anniversary of WWII victory.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e2",
+    "category": "NAM",
+    "char_begin": 1769,
+    "char_end": 1784,
+    "head_span": [
+     1774,
+     1784
+    ],
+    "headword": "\u041a\u0430\u043b\u0430\u0448\u043d\u0438\u043a\u043e\u0432",
+    "mention": "\u041e\u043b\u0435\u0433 \u041a\u0430\u043b\u0430\u0448\u043d\u0438\u043a\u043e\u0432",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e3",
+    "category": "NAM",
+    "char_begin": 1883,
+    "char_end": 1892,
+    "head_span": [
+     1883,
+     1892
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.98628706",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e4",
+    "category": "NAM",
+    "char_begin": 1883,
+    "char_end": 1892,
+    "head_span": [
+     1883,
+     1892
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.99011797",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e5",
+    "category": "NAM",
+    "char_begin": 1931,
+    "char_end": 1942,
+    "head_span": [
+     1931,
+     1942
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     25
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e6",
+    "category": "NAM",
+    "char_begin": 1931,
+    "char_end": 1942,
+    "head_span": [
+     1931,
+     1942
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.99599516",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     25
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s12-e7",
+    "category": "NAM",
+    "char_begin": 2044,
+    "char_end": 2054,
+    "head_span": [
+     2044,
+     2054
+    ],
+    "headword": "Ukrainians",
+    "mention": "Ukrainians",
+    "score": "0.9736519",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     42,
+     43
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1736
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "In a letter addressed to his friend before the murder, Kalashnikov allegedly wrote that an; open genocide on dissent, death threats and constant dirty insults; have become the; norm; following his open call to honor the memory of heroes and victims of the Great Patriotic War.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s13-e0",
+    "category": "NAM",
+    "char_begin": 2175,
+    "char_end": 2186,
+    "head_span": [
+     2175,
+     2186
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s13-e1",
+    "category": "NAM",
+    "char_begin": 2175,
+    "char_end": 2186,
+    "head_span": [
+     2175,
+     2186
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.99812883",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s13-e2",
+    "category": "NOM",
+    "char_begin": 2145,
+    "char_end": 2155,
+    "head_index": 6,
+    "head_span": [
+     2149,
+     2155
+    ],
+    "headword": "friend",
+    "mention": "his friend",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     5,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s13-e3",
+    "category": "NOM",
+    "char_begin": 2350,
+    "char_end": 2395,
+    "head_index": 46,
+    "head_span": [
+     2361,
+     2368
+    ],
+    "headword": "victims",
+    "mention": "heroes and victims of the Great Patriotic War",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     44,
+     52
+    ]
+   }
+  ],
+  "offset": 2120
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e0",
+    "char_begin": 2656,
+    "char_end": 2660,
+    "head_span": [
+     2656,
+     2660
+    ],
+    "mention": "past",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "An acting Ukrainian MP and ex-spokesman for the extremist Right Sector group, Borislav Bereza, went further and alleged that Kalashnikov has been eliminated by his; former employers,  who were tying up loose ends,  scared; he could disclose details of their past activities.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e1",
+    "category": "NAM",
+    "char_begin": 2408,
+    "char_end": 2417,
+    "head_span": [
+     2408,
+     2417
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9865563",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e2",
+    "category": "NAM",
+    "char_begin": 2408,
+    "char_end": 2417,
+    "head_span": [
+     2408,
+     2417
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.99057543",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e3",
+    "category": "NAM",
+    "char_begin": 2456,
+    "char_end": 2468,
+    "head_span": [
+     2462,
+     2468
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.8069035",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:ORG.POLITICALORGANIZATION.PARTY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e4",
+    "category": "NAM",
+    "char_begin": 2456,
+    "char_end": 2468,
+    "head_span": [
+     2462,
+     2468
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.9865904",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e5",
+    "category": "NAM",
+    "char_begin": 2476,
+    "char_end": 2491,
+    "head_span": [
+     2485,
+     2491
+    ],
+    "headword": "Bereza",
+    "mention": "Borislav Bereza",
+    "score": "0.6966885",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e6",
+    "category": "NAM",
+    "char_begin": 2476,
+    "char_end": 2491,
+    "head_span": [
+     2485,
+     2491
+    ],
+    "headword": "Bereza",
+    "mention": "Borislav Bereza",
+    "score": "0.9983639",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e7",
+    "category": "NAM",
+    "char_begin": 2523,
+    "char_end": 2534,
+    "head_span": [
+     2523,
+     2534
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e8",
+    "category": "NAM",
+    "char_begin": 2523,
+    "char_end": 2534,
+    "head_span": [
+     2523,
+     2534
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.9978861",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e9",
+    "category": "NOM",
+    "char_begin": 2398,
+    "char_end": 2420,
+    "head_index": 3,
+    "head_span": [
+     2418,
+     2420
+    ],
+    "headword": "MP",
+    "mention": "An acting Ukrainian MP",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e10",
+    "category": "NOM",
+    "char_begin": 2442,
+    "char_end": 2455,
+    "head_index": 8,
+    "head_span": [
+     2446,
+     2455
+    ],
+    "headword": "extremist",
+    "mention": "the extremist",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     7,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e11",
+    "category": "NOM",
+    "char_begin": 2442,
+    "char_end": 2474,
+    "head_index": 11,
+    "head_span": [
+     2469,
+     2474
+    ],
+    "headword": "group",
+    "mention": "the extremist Right Sector group",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e12",
+    "category": "NOM",
+    "char_begin": 2563,
+    "char_end": 2611,
+    "head_index": 29,
+    "head_span": [
+     2570,
+     2579
+    ],
+    "headword": "employers",
+    "mention": "former employers,  who were tying up loose ends,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     28,
+     38
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s14-e13",
+    "category": "NOM",
+    "char_begin": 2600,
+    "char_end": 2610,
+    "head_index": 36,
+    "head_span": [
+     2606,
+     2610
+    ],
+    "headword": "ends",
+    "mention": "loose ends",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     35,
+     37
+    ]
+   }
+  ],
+  "offset": 2398
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e0",
+    "char_begin": 2871,
+    "char_end": 2874,
+    "head_span": [
+     2871,
+     2874
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "While part of the secret was; taken to the grave,  some information remained in; electronic form,  Bereza stated; A series of bizarre suicides of ex-regionals [Members of the Party of Regions], and now the murder of Kalashnikov, raises questions to law enforcement authorities.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e1",
+    "category": "NAM",
+    "char_begin": 2772,
+    "char_end": 2778,
+    "head_span": [
+     2772,
+     2778
+    ],
+    "headword": "Bereza",
+    "mention": "Bereza",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e2",
+    "category": "NAM",
+    "char_begin": 2772,
+    "char_end": 2778,
+    "head_span": [
+     2772,
+     2778
+    ],
+    "headword": "Bereza",
+    "mention": "Bereza",
+    "score": "0.99788207",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e3",
+    "category": "NAM",
+    "char_begin": 2848,
+    "char_end": 2864,
+    "head_span": [
+     2857,
+     2864
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9062326",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     37
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e4",
+    "category": "NAM",
+    "char_begin": 2889,
+    "char_end": 2900,
+    "head_span": [
+     2889,
+     2900
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     44,
+     45
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e5",
+    "category": "NAM",
+    "char_begin": 2889,
+    "char_end": 2900,
+    "head_span": [
+     2889,
+     2900
+    ],
+    "headword": "Kalashnikov",
+    "mention": "Kalashnikov",
+    "score": "0.9976986",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     44,
+     45
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e6",
+    "category": "NOM",
+    "char_begin": 2754,
+    "char_end": 2901,
+    "head_index": 24,
+    "head_span": [
+     2789,
+     2795
+    ],
+    "headword": "series",
+    "mention": "electronic form,  Bereza stated; A series of bizarre suicides of ex-regionals [Members of the Party of Regions], and now the murder of Kalashnikov,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     17,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e7",
+    "category": "NOM",
+    "char_begin": 2819,
+    "char_end": 2900,
+    "head_index": 31,
+    "head_span": [
+     2833,
+     2840
+    ],
+    "headword": "Members",
+    "mention": "ex-regionals [Members of the Party of Regions], and now the murder of Kalashnikov",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     29,
+     45
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e8",
+    "category": "NOM",
+    "char_begin": 2844,
+    "char_end": 2865,
+    "head_index": 34,
+    "head_span": [
+     2848,
+     2853
+    ],
+    "headword": "Party",
+    "mention": "the Party of Regions]",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     33,
+     38
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e9",
+    "category": "NOM",
+    "char_begin": 2857,
+    "char_end": 2865,
+    "head_index": 36,
+    "head_span": [
+     2857,
+     2864
+    ],
+    "headword": "Regions",
+    "mention": "Regions]",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     36,
+     38
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s15-e10",
+    "category": "NOM",
+    "char_begin": 2922,
+    "char_end": 2949,
+    "head_index": 51,
+    "head_span": [
+     2938,
+     2949
+    ],
+    "headword": "authorities",
+    "mention": "law enforcement authorities",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     49,
+     52
+    ]
+   }
+  ],
+  "offset": 2673
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "I hope that Ukrainian society will get the answers,  Bereza said.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s16-e0",
+    "category": "NAM",
+    "char_begin": 2963,
+    "char_end": 2972,
+    "head_span": [
+     2963,
+     2972
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9882585",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s16-e1",
+    "category": "NAM",
+    "char_begin": 2963,
+    "char_end": 2972,
+    "head_span": [
+     2963,
+     2972
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.9908627",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s16-e2",
+    "category": "NAM",
+    "char_begin": 3004,
+    "char_end": 3010,
+    "head_span": [
+     3004,
+     3010
+    ],
+    "headword": "Bereza",
+    "mention": "Bereza",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s16-e3",
+    "category": "NAM",
+    "char_begin": 3004,
+    "char_end": 3010,
+    "head_span": [
+     3004,
+     3010
+    ],
+    "headword": "Bereza",
+    "mention": "Bereza",
+    "score": "0.99767774",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s16-e4",
+    "category": "NOM",
+    "char_begin": 2963,
+    "char_end": 2980,
+    "head_index": 4,
+    "head_span": [
+     2973,
+     2980
+    ],
+    "headword": "society",
+    "mention": "Ukrainian society",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     3,
+     5
+    ]
+   }
+  ],
+  "offset": 2951
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e0",
+    "char_begin": 3056,
+    "char_end": 3063,
+    "head_span": [
+     3056,
+     3063
+    ],
+    "mention": "speaker",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Meanwhile, Oleg Tsarev, parliamentary speaker of the self-proclaimed Novorossiya, agreed that Kalashnikovs murder is the latest link in a chain of mysterious deaths of former supporters of the Party of Regions.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e1",
+    "category": "NAM",
+    "char_begin": 3029,
+    "char_end": 3040,
+    "head_span": [
+     3034,
+     3040
+    ],
+    "headword": "Tsarev",
+    "mention": "Oleg Tsarev",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     4
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e2",
+    "category": "NAM",
+    "char_begin": 3029,
+    "char_end": 3040,
+    "head_span": [
+     3034,
+     3040
+    ],
+    "headword": "Tsarev",
+    "mention": "Oleg Tsarev",
+    "score": "0.9966568",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     2,
+     4
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e3",
+    "category": "NAM",
+    "char_begin": 3087,
+    "char_end": 3098,
+    "head_span": [
+     3087,
+     3098
+    ],
+    "headword": "Novorossiya",
+    "mention": "Novorossiya",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:PER.POLITICIAN.HEADOFGOVERNMENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e4",
+    "category": "NAM",
+    "char_begin": 3087,
+    "char_end": 3098,
+    "head_span": [
+     3087,
+     3098
+    ],
+    "headword": "Novorossiya",
+    "mention": "Novorossiya",
+    "score": "0.7310843",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e5",
+    "category": "NAM",
+    "char_begin": 3112,
+    "char_end": 3124,
+    "head_span": [
+     3112,
+     3124
+    ],
+    "headword": "Kalashnikovs",
+    "mention": "Kalashnikovs",
+    "score": "0.994335",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e6",
+    "category": "NAM",
+    "char_begin": 3211,
+    "char_end": 3227,
+    "head_span": [
+     3220,
+     3227
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9251293",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     31,
+     34
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e7",
+    "category": "NAM",
+    "char_begin": 3211,
+    "char_end": 3227,
+    "head_span": [
+     3220,
+     3227
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.853487",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     31,
+     34
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e8",
+    "category": "NOM",
+    "char_begin": 3029,
+    "char_end": 3099,
+    "head_index": 6,
+    "head_span": [
+     3056,
+     3063
+    ],
+    "headword": "speaker",
+    "mention": "Oleg Tsarev, parliamentary speaker of the self-proclaimed Novorossiya,",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     2,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e9",
+    "category": "NOM",
+    "char_begin": 3154,
+    "char_end": 3227,
+    "head_index": 22,
+    "head_span": [
+     3156,
+     3161
+    ],
+    "headword": "chain",
+    "mention": "a chain of mysterious deaths of former supporters of the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     21,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e10",
+    "category": "NOM",
+    "char_begin": 3186,
+    "char_end": 3227,
+    "head_index": 28,
+    "head_span": [
+     3193,
+     3203
+    ],
+    "headword": "supporters",
+    "mention": "former supporters of the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     27,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e11",
+    "category": "NOM",
+    "char_begin": 3207,
+    "char_end": 3227,
+    "head_index": 31,
+    "head_span": [
+     3211,
+     3216
+    ],
+    "headword": "Party",
+    "mention": "the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     30,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s17-e12",
+    "category": "NOM",
+    "char_begin": 3220,
+    "char_end": 3227,
+    "head_index": 33,
+    "head_span": [
+     3220,
+     3227
+    ],
+    "headword": "Regions",
+    "mention": "Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     33,
+     34
+    ]
+   }
+  ],
+  "offset": 3018
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Of course, this is a political murder.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 3230
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e0",
+    "char_begin": 3287,
+    "char_end": 3290,
+    "head_span": [
+     3287,
+     3290
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "In Ukraine, it is now extremely difficult to maintain your point of view, not to give up, and to publicly express it,  Tsarev told Lifenews.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e1",
+    "category": "NAM",
+    "char_begin": 3272,
+    "char_end": 3279,
+    "head_span": [
+     3272,
+     3279
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.99059033",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e2",
+    "category": "NAM",
+    "char_begin": 3272,
+    "char_end": 3279,
+    "head_span": [
+     3272,
+     3279
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9935324",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e3",
+    "category": "NAM",
+    "char_begin": 3388,
+    "char_end": 3394,
+    "head_span": [
+     3388,
+     3394
+    ],
+    "headword": "Tsarev",
+    "mention": "Tsarev",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:PER.POLITICIAN.HEADOFGOVERNMENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e4",
+    "category": "NAM",
+    "char_begin": 3388,
+    "char_end": 3394,
+    "head_span": [
+     3388,
+     3394
+    ],
+    "headword": "Tsarev",
+    "mention": "Tsarev",
+    "score": "0.99720037",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e5",
+    "category": "NAM",
+    "char_begin": 3400,
+    "char_end": 3408,
+    "head_span": [
+     3400,
+     3408
+    ],
+    "headword": "Lifenews",
+    "mention": "Lifenews",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s19-e6",
+    "category": "NAM",
+    "char_begin": 3400,
+    "char_end": 3408,
+    "head_span": [
+     3400,
+     3408
+    ],
+    "headword": "Lifenews",
+    "mention": "Lifenews",
+    "score": "0.95328295",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 3269
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Of course, this is a retaliatory murder of the sane.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 3411
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "\u041e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0442\u043e\u0440 \u0430\u043d\u0442\u0438\u043c\u0430\u0439\u0434\u0430\u043d\u043e\u0432 \u041e\u043b\u0435\u0433 \u041a\u0430\u043b\u0430\u0448\u043d\u0438\u043a\u043e\u0432 \u0443\u0431\u0438\u0442 \u0432 \u0441\u0440\u0435\u0434\u0443 \u0432\u0435\u0447\u0435\u0440\u043e\u043c \u0432 \u041a\u0438\u0435\u0432\u0435.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 3466
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e0",
+    "char_begin": 3590,
+    "char_end": 3604,
+    "head_span": [
+     3600,
+     3604
+    ],
+    "mention": "April 15, 2015",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "pic.twitter.com/fGAn5XIHH1 \u0421\u043f\u0443\u0442\u043d\u0438\u043a \u0410\u0422\u041e (@SputnikATO) April 15, 2015;  The murder is meant as a warning for all those who dare to oppose Kiev government, which can do anything against the opponents, Tsarev believes.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e1",
+    "category": "NAM",
+    "char_begin": 3673,
+    "char_end": 3677,
+    "head_span": [
+     3673,
+     3677
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9727922",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e2",
+    "category": "NAM",
+    "char_begin": 3673,
+    "char_end": 3677,
+    "head_span": [
+     3673,
+     3677
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.985707",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e3",
+    "category": "NAM",
+    "char_begin": 3735,
+    "char_end": 3741,
+    "head_span": [
+     3735,
+     3741
+    ],
+    "headword": "Tsarev",
+    "mention": "Tsarev",
+    "score": "0.8520181",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     36,
+     37
+    ],
+    "type": "ldcOnt:PER.POLITICIAN.HEADOFGOVERNMENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e4",
+    "category": "NAM",
+    "char_begin": 3735,
+    "char_end": 3741,
+    "head_span": [
+     3735,
+     3741
+    ],
+    "headword": "Tsarev",
+    "mention": "Tsarev",
+    "score": "0.99587244",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     36,
+     37
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e5",
+    "category": "NOM",
+    "char_begin": 3673,
+    "char_end": 3733,
+    "head_index": 26,
+    "head_span": [
+     3678,
+     3688
+    ],
+    "headword": "government",
+    "mention": "Kiev government, which can do anything against the opponents",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     25,
+     35
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s22-e6",
+    "category": "NOM",
+    "char_begin": 3720,
+    "char_end": 3733,
+    "head_index": 34,
+    "head_span": [
+     3724,
+     3733
+    ],
+    "headword": "opponents",
+    "mention": "the opponents",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     33,
+     35
+    ]
+   }
+  ],
+  "offset": 3537
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s23-e0",
+    "char_begin": 3786,
+    "char_end": 3791,
+    "head_span": [
+     3786,
+     3791
+    ],
+    "mention": "eight",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "In the past few months, at least eight former Ukrainian government officials died mysterious deaths, with most treated as suicides.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s23-e1",
+    "category": "NAM",
+    "char_begin": 3799,
+    "char_end": 3808,
+    "head_span": [
+     3799,
+     3808
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.98948026",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s23-e2",
+    "category": "NAM",
+    "char_begin": 3799,
+    "char_end": 3808,
+    "head_span": [
+     3799,
+     3808
+    ],
+    "headword": "Ukrainian",
+    "mention": "Ukrainian",
+    "score": "0.98763126",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s23-e3",
+    "category": "NOM",
+    "char_begin": 3777,
+    "char_end": 3829,
+    "head_index": 12,
+    "head_span": [
+     3820,
+     3829
+    ],
+    "headword": "officials",
+    "mention": "at least eight former Ukrainian government officials",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     6,
+     13
+    ]
+   }
+  ],
+  "offset": 3753
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e0",
+    "char_begin": 3889,
+    "char_end": 3899,
+    "head_span": [
+     3897,
+     3899
+    ],
+    "mention": "January 29",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e1",
+    "char_begin": 3908,
+    "char_end": 3916,
+    "head_span": [
+     3908,
+     3916
+    ],
+    "mention": "chairman",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "On January 29, former chairman of Kharkov region government, Aleksey Kolesnik, was found hanged.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e2",
+    "category": "NAM",
+    "char_begin": 3920,
+    "char_end": 3927,
+    "head_span": [
+     3920,
+     3927
+    ],
+    "headword": "Kharkov",
+    "mention": "Kharkov",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e3",
+    "category": "NAM",
+    "char_begin": 3920,
+    "char_end": 3934,
+    "head_span": [
+     3928,
+     3934
+    ],
+    "headword": "region",
+    "mention": "Kharkov region",
+    "score": "0.988345",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:LOC.Position.Region"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e4",
+    "category": "NAM",
+    "char_begin": 3947,
+    "char_end": 3963,
+    "head_span": [
+     3955,
+     3963
+    ],
+    "headword": "Kolesnik",
+    "mention": "Aleksey Kolesnik",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e5",
+    "category": "NAM",
+    "char_begin": 3947,
+    "char_end": 3963,
+    "head_span": [
+     3955,
+     3963
+    ],
+    "headword": "Kolesnik",
+    "mention": "Aleksey Kolesnik",
+    "score": "0.9981741",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e6",
+    "category": "NOM",
+    "char_begin": 3901,
+    "char_end": 3945,
+    "head_index": 5,
+    "head_span": [
+     3908,
+     3916
+    ],
+    "headword": "chairman",
+    "mention": "former chairman of Kharkov region government",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC.Position.Region",
+    "word_span": [
+     4,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s24-e7",
+    "category": "NOM",
+    "char_begin": 3920,
+    "char_end": 3945,
+    "head_index": 9,
+    "head_span": [
+     3935,
+     3945
+    ],
+    "headword": "government",
+    "mention": "Kharkov region government",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:LOC.Position.Region",
+    "word_span": [
+     7,
+     10
+    ]
+   }
+  ],
+  "offset": 3886
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e0",
+    "char_begin": 3987,
+    "char_end": 3998,
+    "head_span": [
+     3996,
+     3998
+    ],
+    "mention": "February 24",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "On February 24, former Party of Regions member Stanislav Melnik died of a gunshot with his death treated as suicide.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e1",
+    "category": "NAM",
+    "char_begin": 4007,
+    "char_end": 4023,
+    "head_span": [
+     4016,
+     4023
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9356944",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     8
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e2",
+    "category": "NAM",
+    "char_begin": 4007,
+    "char_end": 4023,
+    "head_span": [
+     4016,
+     4023
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9120352",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     8
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e3",
+    "category": "NAM",
+    "char_begin": 4031,
+    "char_end": 4047,
+    "head_span": [
+     4041,
+     4047
+    ],
+    "headword": "Melnik",
+    "mention": "Stanislav Melnik",
+    "score": "0.7143655",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e4",
+    "category": "NAM",
+    "char_begin": 4031,
+    "char_end": 4047,
+    "head_span": [
+     4041,
+     4047
+    ],
+    "headword": "Melnik",
+    "mention": "Stanislav Melnik",
+    "score": "0.99856323",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s25-e5",
+    "category": "NOM",
+    "char_begin": 4016,
+    "char_end": 4023,
+    "head_index": 7,
+    "head_span": [
+     4016,
+     4023
+    ],
+    "headword": "Regions",
+    "mention": "Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     7,
+     8
+    ]
+   }
+  ],
+  "offset": 3984
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e0",
+    "char_begin": 4105,
+    "char_end": 4116,
+    "head_span": [
+     4114,
+     4116
+    ],
+    "mention": "February 25",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e1",
+    "char_begin": 4154,
+    "char_end": 4159,
+    "head_span": [
+     4154,
+     4159
+    ],
+    "mention": "Mayor",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "On February 25, several hours before his trial, the Mayor of Melitopol Sergey Valter was found hanged leaving no suicide note.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e2",
+    "category": "NAM",
+    "char_begin": 4163,
+    "char_end": 4186,
+    "head_span": [
+     4180,
+     4186
+    ],
+    "headword": "Valter",
+    "mention": "Melitopol Sergey Valter",
+    "score": "0.84923804",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     16
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e3",
+    "category": "NAM",
+    "char_begin": 4163,
+    "char_end": 4172,
+    "head_span": [
+     4163,
+     4172
+    ],
+    "headword": "Melitopol",
+    "mention": "Melitopol",
+    "score": "0.98513365",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e4",
+    "category": "NAM",
+    "char_begin": 4173,
+    "char_end": 4186,
+    "head_span": [
+     4180,
+     4186
+    ],
+    "headword": "Valter",
+    "mention": "Sergey Valter",
+    "score": "0.99302226",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s26-e5",
+    "category": "NOM",
+    "char_begin": 4139,
+    "char_end": 4186,
+    "head_index": 11,
+    "head_span": [
+     4154,
+     4159
+    ],
+    "headword": "Mayor",
+    "mention": "his trial, the Mayor of Melitopol Sergey Valter",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "type": "ldcOnt:PER.Politician.Mayor",
+    "word_span": [
+     7,
+     16
+    ]
+   }
+  ],
+  "offset": 4102
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e0",
+    "char_begin": 4230,
+    "char_end": 4255,
+    "head_span": [
+     4253,
+     4255
+    ],
+    "mention": "The next day, February 26",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e1",
+    "char_begin": 4257,
+    "char_end": 4263,
+    "head_span": [
+     4257,
+     4263
+    ],
+    "mention": "deputy",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e2",
+    "char_begin": 4264,
+    "char_end": 4269,
+    "head_span": [
+     4264,
+     4269
+    ],
+    "mention": "chief",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e3",
+    "char_begin": 4343,
+    "char_end": 4349,
+    "head_span": [
+     4343,
+     4349
+    ],
+    "mention": "lawyer",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "The next day, February 26, deputy chief of Melitopol police, Aleksandr Bordyuga, who reportedly acted as Valters lawyer, was found dead in his garage.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e4",
+    "category": "NAM",
+    "char_begin": 4273,
+    "char_end": 4282,
+    "head_span": [
+     4273,
+     4282
+    ],
+    "headword": "Melitopol",
+    "mention": "Melitopol",
+    "score": "0.82053095",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e5",
+    "category": "NAM",
+    "char_begin": 4273,
+    "char_end": 4282,
+    "head_span": [
+     4273,
+     4282
+    ],
+    "headword": "Melitopol",
+    "mention": "Melitopol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e6",
+    "category": "NAM",
+    "char_begin": 4291,
+    "char_end": 4309,
+    "head_span": [
+     4301,
+     4309
+    ],
+    "headword": "Bordyuga",
+    "mention": "Aleksandr Bordyuga",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e7",
+    "category": "NAM",
+    "char_begin": 4291,
+    "char_end": 4309,
+    "head_span": [
+     4301,
+     4309
+    ],
+    "headword": "Bordyuga",
+    "mention": "Aleksandr Bordyuga",
+    "score": "0.99798644",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e8",
+    "category": "NAM",
+    "char_begin": 4335,
+    "char_end": 4342,
+    "head_span": [
+     4335,
+     4342
+    ],
+    "headword": "Valters",
+    "mention": "Valters",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e9",
+    "category": "NAM",
+    "char_begin": 4335,
+    "char_end": 4342,
+    "head_span": [
+     4335,
+     4342
+    ],
+    "headword": "Valters",
+    "mention": "Valters",
+    "score": "0.8013349",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e10",
+    "category": "NOM",
+    "char_begin": 4257,
+    "char_end": 4289,
+    "head_index": 8,
+    "head_span": [
+     4264,
+     4269
+    ],
+    "headword": "chief",
+    "mention": "deputy chief of Melitopol police",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER.Police",
+    "word_span": [
+     7,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e11",
+    "category": "NOM",
+    "char_begin": 4273,
+    "char_end": 4289,
+    "head_index": 11,
+    "head_span": [
+     4283,
+     4289
+    ],
+    "headword": "police",
+    "mention": "Melitopol police",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Police",
+    "type": "ldcOnt:PER.Police",
+    "word_span": [
+     10,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e12",
+    "category": "NOM",
+    "char_begin": 4335,
+    "char_end": 4349,
+    "head_index": 21,
+    "head_span": [
+     4343,
+     4349
+    ],
+    "headword": "lawyer",
+    "mention": "Valters lawyer",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     20,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s27-e13",
+    "category": "NOM",
+    "char_begin": 4369,
+    "char_end": 4379,
+    "head_index": 28,
+    "head_span": [
+     4373,
+     4379
+    ],
+    "headword": "garage",
+    "mention": "his garage",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     27,
+     29
+    ]
+   }
+  ],
+  "offset": 4230
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s28-e0",
+    "char_begin": 4385,
+    "char_end": 4396,
+    "head_span": [
+     4394,
+     4396
+    ],
+    "mention": "February 26",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "On February 26, a former MP and ex-chairman of Zaporozhye Regional State Administration was found dead with a gun wound to his neck.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s28-e1",
+    "category": "NAM",
+    "char_begin": 4429,
+    "char_end": 4469,
+    "head_span": [
+     4455,
+     4469
+    ],
+    "headword": "Administration",
+    "mention": "Zaporozhye Regional State Administration",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     14
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s28-e2",
+    "category": "NAM",
+    "char_begin": 4429,
+    "char_end": 4469,
+    "head_span": [
+     4455,
+     4469
+    ],
+    "headword": "Administration",
+    "mention": "Zaporozhye Regional State Administration",
+    "score": "0.9776383",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     14
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 4382
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "His death is being investigated as a suicide.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 4515
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e0",
+    "char_begin": 4565,
+    "char_end": 4576,
+    "head_span": [
+     4574,
+     4576
+    ],
+    "mention": "February 28",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "On February 28, former member of the Party of Regions, Mikhail Chechetov, jumped from the window of his 17th floor apartment in Kiev, leaving a suicide note.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e1",
+    "category": "NAM",
+    "char_begin": 4599,
+    "char_end": 4615,
+    "head_span": [
+     4608,
+     4615
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.9322945",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     11
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e2",
+    "category": "NAM",
+    "char_begin": 4599,
+    "char_end": 4615,
+    "head_span": [
+     4608,
+     4615
+    ],
+    "headword": "Regions",
+    "mention": "Party of Regions",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     11
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e3",
+    "category": "NAM",
+    "char_begin": 4617,
+    "char_end": 4634,
+    "head_span": [
+     4625,
+     4634
+    ],
+    "headword": "Chechetov",
+    "mention": "Mikhail Chechetov",
+    "score": "0.64249915",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     14
+    ],
+    "type": "ldcOnt:PER.POLITICIAN"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e4",
+    "category": "NAM",
+    "char_begin": 4617,
+    "char_end": 4634,
+    "head_span": [
+     4625,
+     4634
+    ],
+    "headword": "Chechetov",
+    "mention": "Mikhail Chechetov",
+    "score": "0.99809676",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     14
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e5",
+    "category": "NAM",
+    "char_begin": 4690,
+    "char_end": 4694,
+    "head_span": [
+     4690,
+     4694
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9785",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e6",
+    "category": "NAM",
+    "char_begin": 4690,
+    "char_end": 4694,
+    "head_span": [
+     4690,
+     4694
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9944041",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e7",
+    "category": "NOM",
+    "char_begin": 4578,
+    "char_end": 4615,
+    "head_index": 5,
+    "head_span": [
+     4585,
+     4591
+    ],
+    "headword": "member",
+    "mention": "former member of the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     4,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e8",
+    "category": "NOM",
+    "char_begin": 4595,
+    "char_end": 4615,
+    "head_index": 8,
+    "head_span": [
+     4599,
+     4604
+    ],
+    "headword": "Party",
+    "mention": "the Party of Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     7,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e9",
+    "category": "NOM",
+    "char_begin": 4608,
+    "char_end": 4615,
+    "head_index": 10,
+    "head_span": [
+     4608,
+     4615
+    ],
+    "headword": "Regions",
+    "mention": "Regions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     10,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e10",
+    "category": "NOM",
+    "char_begin": 4648,
+    "char_end": 4686,
+    "head_index": 18,
+    "head_span": [
+     4652,
+     4658
+    ],
+    "headword": "window",
+    "mention": "the window of his 17th floor apartment",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     17,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s30-e11",
+    "category": "NOM",
+    "char_begin": 4662,
+    "char_end": 4686,
+    "head_index": 23,
+    "head_span": [
+     4677,
+     4686
+    ],
+    "headword": "apartment",
+    "mention": "his 17th floor apartment",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     20,
+     24
+    ]
+   }
+  ],
+  "offset": 4562
+ },
+ {
+  "docID": "HC0008OSY.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e0",
+    "char_begin": 4724,
+    "char_end": 4732,
+    "head_span": [
+     4730,
+     4732
+    ],
+    "mention": "March 14",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "On March 14, a 32-year-old prosecutor Sergey Melnichuk fell from a window of a 9th floor apartment in Odessa.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e1",
+    "category": "NAM",
+    "char_begin": 4759,
+    "char_end": 4775,
+    "head_span": [
+     4766,
+     4775
+    ],
+    "headword": "Melnichuk",
+    "mention": "Sergey Melnichuk",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION.SPOKESPERSON"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e2",
+    "category": "NAM",
+    "char_begin": 4759,
+    "char_end": 4775,
+    "head_span": [
+     4766,
+     4775
+    ],
+    "headword": "Melnichuk",
+    "mention": "Sergey Melnichuk",
+    "score": "0.9983753",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e3",
+    "category": "NAM",
+    "char_begin": 4823,
+    "char_end": 4829,
+    "head_span": [
+     4823,
+     4829
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9750616",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e4",
+    "category": "NAM",
+    "char_begin": 4823,
+    "char_end": 4829,
+    "head_span": [
+     4823,
+     4829
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9939091",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e5",
+    "category": "NOM",
+    "char_begin": 4786,
+    "char_end": 4819,
+    "head_index": 12,
+    "head_span": [
+     4788,
+     4794
+    ],
+    "headword": "window",
+    "mention": "a window of a 9th floor apartment",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     11,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC0008OSY.ltf.xml-s31-e6",
+    "category": "NOM",
+    "char_begin": 4798,
+    "char_end": 4819,
+    "head_index": 17,
+    "head_span": [
+     4810,
+     4819
+    ],
+    "headword": "apartment",
+    "mention": "a 9th floor apartment",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     14,
+     18
+    ]
+   }
+  ],
+  "offset": 4721
+ }
+]

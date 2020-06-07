@@ -6,6 +6,7 @@ with open('gazetteer/per.ga', 'r') as f:
         line = line.strip().split('\t')
         per_kb_dic[line[0].lower()] = line[1]
 
+
 with open('gazetteer/cites.ga', 'r') as f:
     city_kb_dic = {}
     for line in f:
@@ -34,7 +35,8 @@ location_names = set(['euromaidan'])
 
 vehicle_names = set()
 
-country_names = set(['russia', 'ukraine', 'malaysia', 'dutch', 'netherland'])
+country_names = set(['russia', 'ukraine', 'malaysia', 'dutch',
+    'netherland', 'venezuelan', 'venezuelan'])
 
 russian_geonames = set([])
 with open('gazetteer/ru.txt', 'r') as f:
@@ -51,6 +53,13 @@ with open('gazetteer/ua.txt', 'r') as f:
 geo_names = russian_geonames.union(ukrainian_geonames)
 #print(organization_names)
 #exit()
+def lookup_mhi(mention, type):
+    mention = mention.strip().lower()
+    find_type = {}
+    for key in mhi_kb_dic:
+        if key in mention:
+            return mhi_kb_dic[key]
+
 def lookup_per(mention, type):
     mention = mention.strip().lower()
     find_type = {}
@@ -90,6 +99,7 @@ def look_gazetteer(mention, type):
         possible_type.append('ORG')
     if mention in location_names:
         possible_type.append('LOC')
+    
     
     if type in possible_type:
         return None

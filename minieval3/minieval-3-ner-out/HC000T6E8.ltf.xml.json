@@ -1,0 +1,3056 @@
+[
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Avoiding facts?",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 1
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e0",
+    "char_begin": 176,
+    "char_end": 182,
+    "head_span": [
+     176,
+     182
+    ],
+    "mention": "Friday",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "MSM uncertain who is behind deadly Odessa blaze;  Get short URL; Despite clear evidence that the pro-Kiev radicals set Odessas House of Trade Unions ablaze on Friday killing dozens, the mainstream media is being ambiguous about the causes of the tragedy.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e1",
+    "category": "NAM",
+    "char_begin": 17,
+    "char_end": 20,
+    "head_span": [
+     17,
+     20
+    ],
+    "headword": "MSM",
+    "mention": "MSM",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG.POLITICALORGANIZATION.PARTY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e2",
+    "category": "NAM",
+    "char_begin": 17,
+    "char_end": 20,
+    "head_span": [
+     17,
+     20
+    ],
+    "headword": "MSM",
+    "mention": "MSM",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e3",
+    "category": "NAM",
+    "char_begin": 52,
+    "char_end": 58,
+    "head_span": [
+     52,
+     58
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9168314",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e4",
+    "category": "NAM",
+    "char_begin": 52,
+    "char_end": 58,
+    "head_span": [
+     52,
+     58
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9933955",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e5",
+    "category": "NAM",
+    "char_begin": 136,
+    "char_end": 143,
+    "head_span": [
+     136,
+     143
+    ],
+    "headword": "Odessas",
+    "mention": "Odessas",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e6",
+    "category": "NAM",
+    "char_begin": 144,
+    "char_end": 165,
+    "head_span": [
+     159,
+     165
+    ],
+    "headword": "Unions",
+    "mention": "House of Trade Unions",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     26
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e7",
+    "category": "NAM",
+    "char_begin": 144,
+    "char_end": 165,
+    "head_span": [
+     159,
+     165
+    ],
+    "headword": "Unions",
+    "mention": "House of Trade Unions",
+    "score": "0.92104083",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     26
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e8",
+    "category": "NOM",
+    "char_begin": 110,
+    "char_end": 165,
+    "head_index": 19,
+    "head_span": [
+     123,
+     131
+    ],
+    "headword": "radicals",
+    "mention": "the pro-Kiev radicals set Odessas House of Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Building.House",
+    "word_span": [
+     17,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e9",
+    "category": "NOM",
+    "char_begin": 136,
+    "char_end": 165,
+    "head_index": 22,
+    "head_span": [
+     144,
+     149
+    ],
+    "headword": "House",
+    "mention": "Odessas House of Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Building.House",
+    "word_span": [
+     21,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s2-e10",
+    "category": "NOM",
+    "char_begin": 153,
+    "char_end": 165,
+    "head_index": 25,
+    "head_span": [
+     159,
+     165
+    ],
+    "headword": "Unions",
+    "mention": "Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     24,
+     26
+    ]
+   }
+  ],
+  "offset": 17
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e0",
+    "char_begin": 276,
+    "char_end": 282,
+    "head_span": [
+     276,
+     282
+    ],
+    "mention": "Friday",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e1",
+    "char_begin": 409,
+    "char_end": 411,
+    "head_span": [
+     409,
+     411
+    ],
+    "mention": "46",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "On Friday, Ukraines eastern town of Odessa saw brutal street battles between pro-autonomy activists and nationalist radicals which left 46 people dead.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 284,
+    "char_end": 292,
+    "head_span": [
+     284,
+     292
+    ],
+    "headword": "Ukraines",
+    "mention": "Ukraines",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e3",
+    "category": "NAM",
+    "char_begin": 284,
+    "char_end": 292,
+    "head_span": [
+     284,
+     292
+    ],
+    "headword": "Ukraines",
+    "mention": "Ukraines",
+    "score": "0.99301904",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e4",
+    "category": "NAM",
+    "char_begin": 309,
+    "char_end": 315,
+    "head_span": [
+     309,
+     315
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9751755",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e5",
+    "category": "NAM",
+    "char_begin": 309,
+    "char_end": 315,
+    "head_span": [
+     309,
+     315
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9961189",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e6",
+    "category": "NOM",
+    "char_begin": 284,
+    "char_end": 315,
+    "head_index": 5,
+    "head_span": [
+     301,
+     305
+    ],
+    "headword": "town",
+    "mention": "Ukraines eastern town of Odessa",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     3,
+     8
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e7",
+    "category": "NOM",
+    "char_begin": 350,
+    "char_end": 372,
+    "head_index": 14,
+    "head_span": [
+     363,
+     372
+    ],
+    "headword": "activists",
+    "mention": "pro-autonomy activists",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     13,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e8",
+    "category": "NOM",
+    "char_begin": 320,
+    "char_end": 423,
+    "head_index": 17,
+    "head_span": [
+     389,
+     397
+    ],
+    "headword": "radicals",
+    "mention": "brutal street battles between pro-autonomy activists and nationalist radicals which left 46 people dead",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Way.Street",
+    "word_span": [
+     9,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s3-e9",
+    "category": "NOM",
+    "char_begin": 409,
+    "char_end": 418,
+    "head_index": 21,
+    "head_span": [
+     412,
+     418
+    ],
+    "headword": "people",
+    "mention": "46 people",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     20,
+     22
+    ]
+   }
+  ],
+  "offset": 273
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The majority of the victims died in the Trade Unions House that was set on fire by pro-Kiev radicals.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e0",
+    "category": "NAM",
+    "char_begin": 465,
+    "char_end": 483,
+    "head_span": [
+     478,
+     483
+    ],
+    "headword": "House",
+    "mention": "Trade Unions House",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     11
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e1",
+    "category": "NAM",
+    "char_begin": 465,
+    "char_end": 483,
+    "head_span": [
+     478,
+     483
+    ],
+    "headword": "House",
+    "mention": "Trade Unions House",
+    "score": "0.9186555",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     11
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e2",
+    "category": "NOM",
+    "char_begin": 441,
+    "char_end": 452,
+    "head_index": 4,
+    "head_span": [
+     445,
+     452
+    ],
+    "headword": "victims",
+    "mention": "the victims",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e3",
+    "category": "NOM",
+    "char_begin": 461,
+    "char_end": 477,
+    "head_index": 9,
+    "head_span": [
+     471,
+     477
+    ],
+    "headword": "Unions",
+    "mention": "the Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e4",
+    "category": "NOM",
+    "char_begin": 478,
+    "char_end": 525,
+    "head_index": 10,
+    "head_span": [
+     478,
+     483
+    ],
+    "headword": "House",
+    "mention": "House that was set on fire by pro-Kiev radicals",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Building.House",
+    "word_span": [
+     10,
+     19
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s4-e5",
+    "category": "NOM",
+    "char_begin": 508,
+    "char_end": 525,
+    "head_index": 18,
+    "head_span": [
+     517,
+     525
+    ],
+    "headword": "radicals",
+    "mention": "pro-Kiev radicals",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     17,
+     19
+    ]
+   }
+  ],
+  "offset": 425
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Very carefully worded commentary on the tragedy in Odessa came from the mainstream Western media, as if they were trying to avoid assigning the blame to those who actually set the building on fire.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s5-e0",
+    "category": "NAM",
+    "char_begin": 579,
+    "char_end": 585,
+    "head_span": [
+     579,
+     585
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.97905135",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s5-e1",
+    "category": "NAM",
+    "char_begin": 579,
+    "char_end": 585,
+    "head_span": [
+     579,
+     585
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9953927",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s5-e2",
+    "category": "NOM",
+    "char_begin": 704,
+    "char_end": 724,
+    "head_index": 32,
+    "head_span": [
+     708,
+     716
+    ],
+    "headword": "building",
+    "mention": "the building on fire",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     31,
+     35
+    ]
+   }
+  ],
+  "offset": 528
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Their coverage of the event was heavily reliant on statements from Kiev that blamed the violence on pro-autonomy activists, as well as witness accounts given by the nationalist Right Sector members.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e0",
+    "category": "NAM",
+    "char_begin": 793,
+    "char_end": 797,
+    "head_span": [
+     793,
+     797
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98044765",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e1",
+    "category": "NAM",
+    "char_begin": 793,
+    "char_end": 797,
+    "head_span": [
+     793,
+     797
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9885211",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e2",
+    "category": "NAM",
+    "char_begin": 903,
+    "char_end": 915,
+    "head_span": [
+     909,
+     915
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.88999623",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     29,
+     31
+    ],
+    "type": "ldcOnt:ORG.POLITICALORGANIZATION.PARTY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 903,
+    "char_end": 915,
+    "head_span": [
+     909,
+     915
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.97741413",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "token_span": [
+     29,
+     31
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e4",
+    "category": "NOM",
+    "char_begin": 826,
+    "char_end": 848,
+    "head_index": 18,
+    "head_span": [
+     839,
+     848
+    ],
+    "headword": "activists",
+    "mention": "pro-autonomy activists",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     17,
+     19
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s6-e5",
+    "category": "NOM",
+    "char_begin": 887,
+    "char_end": 923,
+    "head_index": 31,
+    "head_span": [
+     916,
+     923
+    ],
+    "headword": "members",
+    "mention": "the nationalist Right Sector members",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     27,
+     32
+    ]
+   }
+  ],
+  "offset": 726
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Based on their reports, it may seem that the House of Trade Unions just caught fire.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s7-e0",
+    "category": "NAM",
+    "char_begin": 971,
+    "char_end": 976,
+    "head_span": [
+     971,
+     976
+    ],
+    "headword": "House",
+    "mention": "House",
+    "score": "0.73988146",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s7-e1",
+    "category": "NAM",
+    "char_begin": 971,
+    "char_end": 992,
+    "head_span": [
+     986,
+     992
+    ],
+    "headword": "Unions",
+    "mention": "House of Trade Unions",
+    "score": "0.9709128",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     14
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s7-e2",
+    "category": "NOM",
+    "char_begin": 967,
+    "char_end": 992,
+    "head_index": 10,
+    "head_span": [
+     971,
+     976
+    ],
+    "headword": "House",
+    "mention": "the House of Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Building.House",
+    "word_span": [
+     9,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s7-e3",
+    "category": "NOM",
+    "char_begin": 980,
+    "char_end": 992,
+    "head_index": 13,
+    "head_span": [
+     986,
+     992
+    ],
+    "headword": "Unions",
+    "mention": "Trade Unions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     12,
+     14
+    ]
+   }
+  ],
+  "offset": 926
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s8-e0",
+    "char_begin": 1026,
+    "char_end": 1035,
+    "head_span": [
+     1026,
+     1035
+    ],
+    "mention": "yesterday",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "At some stage yesterday and it still unclear exactly how this started but there were rival pro-Russian and pro-Ukrainian protests here.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 1012
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s9-e0",
+    "char_begin": 1227,
+    "char_end": 1237,
+    "head_span": [
+     1232,
+     1237
+    ],
+    "mention": "last night",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "It led to fierce street clashes, which culminated in a huge fire in a building last night,  reported Sky News.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s9-e1",
+    "category": "NAM",
+    "char_begin": 1249,
+    "char_end": 1252,
+    "head_span": [
+     1249,
+     1252
+    ],
+    "headword": "Sky",
+    "mention": "Sky",
+    "score": "0.79702264",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.BROADCASTINGCOMPANY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s9-e2",
+    "category": "NAM",
+    "char_begin": 1249,
+    "char_end": 1257,
+    "head_span": [
+     1253,
+     1257
+    ],
+    "headword": "News",
+    "mention": "Sky News",
+    "score": "0.9872416",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     20,
+     22
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s9-e3",
+    "category": "NOM",
+    "char_begin": 1216,
+    "char_end": 1226,
+    "head_index": 15,
+    "head_span": [
+     1218,
+     1226
+    ],
+    "headword": "building",
+    "mention": "a building",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     14,
+     16
+    ]
+   }
+  ],
+  "offset": 1148
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Violence is escalating in Ukraine.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s10-e0",
+    "category": "NAM",
+    "char_begin": 1286,
+    "char_end": 1293,
+    "head_span": [
+     1286,
+     1293
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9916391",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s10-e1",
+    "category": "NAM",
+    "char_begin": 1286,
+    "char_end": 1293,
+    "head_span": [
+     1286,
+     1293
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9914575",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1260
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e0",
+    "char_begin": 1420,
+    "char_end": 1422,
+    "head_span": [
+     1420,
+     1422
+    ],
+    "mention": "31",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Police in normally calm Odessa say a clash between pro-Russians and government supporters led to a fire that killed at least 31 people,  said a report by Fox News.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e1",
+    "category": "NAM",
+    "char_begin": 1319,
+    "char_end": 1325,
+    "head_span": [
+     1319,
+     1325
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9144371",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e2",
+    "category": "NAM",
+    "char_begin": 1319,
+    "char_end": 1325,
+    "head_span": [
+     1319,
+     1325
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9933873",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e3",
+    "category": "NAM",
+    "char_begin": 1449,
+    "char_end": 1452,
+    "head_span": [
+     1449,
+     1452
+    ],
+    "headword": "Fox",
+    "mention": "Fox",
+    "score": "0.80948687",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.BROADCASTINGCOMPANY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e4",
+    "category": "NAM",
+    "char_begin": 1449,
+    "char_end": 1457,
+    "head_span": [
+     1453,
+     1457
+    ],
+    "headword": "News",
+    "mention": "Fox News",
+    "score": "0.9883753",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     28,
+     30
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e5",
+    "category": "NOM",
+    "char_begin": 1295,
+    "char_end": 1325,
+    "head_index": 0,
+    "head_span": [
+     1295,
+     1301
+    ],
+    "headword": "Police",
+    "mention": "Police in normally calm Odessa",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Police",
+    "type": "ldcOnt:PER.Police",
+    "word_span": [
+     0,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e6",
+    "category": "NOM",
+    "char_begin": 1346,
+    "char_end": 1384,
+    "head_index": 12,
+    "head_span": [
+     1374,
+     1384
+    ],
+    "headword": "supporters",
+    "mention": "pro-Russians and government supporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     9,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s11-e7",
+    "category": "NOM",
+    "char_begin": 1411,
+    "char_end": 1457,
+    "head_index": 22,
+    "head_span": [
+     1423,
+     1429
+    ],
+    "headword": "people",
+    "mention": "at least 31 people,  said a report by Fox News",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     19,
+     30
+    ]
+   }
+  ],
+  "offset": 1295
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "But the actual video footage from the scene of the incident clearly shows how pro-Kiev radicals are throwing Molotov cocktails into the Trade Unions House where pro-autonomy activists were trapped.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e0",
+    "category": "NAM",
+    "char_begin": 1569,
+    "char_end": 1576,
+    "head_span": [
+     1569,
+     1576
+    ],
+    "headword": "Molotov",
+    "mention": "Molotov",
+    "score": "0.9872635",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     18,
+     19
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e1",
+    "category": "NAM",
+    "char_begin": 1596,
+    "char_end": 1614,
+    "head_span": [
+     1609,
+     1614
+    ],
+    "headword": "House",
+    "mention": "Trade Unions House",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     25
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e2",
+    "category": "NAM",
+    "char_begin": 1596,
+    "char_end": 1614,
+    "head_span": [
+     1609,
+     1614
+    ],
+    "headword": "House",
+    "mention": "Trade Unions House",
+    "score": "0.81729835",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     25
+    ],
+    "type": "ldcOnt:FAC.Building.House"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e3",
+    "category": "NOM",
+    "char_begin": 1494,
+    "char_end": 1519,
+    "head_index": 7,
+    "head_span": [
+     1498,
+     1503
+    ],
+    "headword": "scene",
+    "mention": "the scene of the incident",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     6,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e4",
+    "category": "NOM",
+    "char_begin": 1538,
+    "char_end": 1555,
+    "head_index": 15,
+    "head_span": [
+     1547,
+     1555
+    ],
+    "headword": "radicals",
+    "mention": "pro-Kiev radicals",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     14,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e5",
+    "category": "NOM",
+    "char_begin": 1592,
+    "char_end": 1614,
+    "head_index": 24,
+    "head_span": [
+     1609,
+     1614
+    ],
+    "headword": "House",
+    "mention": "the Trade Unions House",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC.Building.House",
+    "word_span": [
+     21,
+     25
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s12-e6",
+    "category": "NOM",
+    "char_begin": 1621,
+    "char_end": 1643,
+    "head_index": 27,
+    "head_span": [
+     1634,
+     1643
+    ],
+    "headword": "activists",
+    "mention": "pro-autonomy activists",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     26,
+     28
+    ]
+   }
+  ],
+  "offset": 1460
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e0",
+    "char_begin": 1784,
+    "char_end": 1787,
+    "head_span": [
+     1784,
+     1787
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Asked by the Washington Post who had thrown Molotov cocktails, a pro-Ukrainian activist Diana Berg admitted; Our people but now they are helping them to escape the building.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e1",
+    "category": "NAM",
+    "char_begin": 1673,
+    "char_end": 1688,
+    "head_span": [
+     1684,
+     1688
+    ],
+    "headword": "Post",
+    "mention": "Washington Post",
+    "score": "0.86706555",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e2",
+    "category": "NAM",
+    "char_begin": 1673,
+    "char_end": 1688,
+    "head_span": [
+     1684,
+     1688
+    ],
+    "headword": "Post",
+    "mention": "Washington Post",
+    "score": "0.95832175",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e3",
+    "category": "NAM",
+    "char_begin": 1704,
+    "char_end": 1711,
+    "head_span": [
+     1704,
+     1711
+    ],
+    "headword": "Molotov",
+    "mention": "Molotov",
+    "score": "0.9955922",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e4",
+    "category": "NAM",
+    "char_begin": 1748,
+    "char_end": 1758,
+    "head_span": [
+     1754,
+     1758
+    ],
+    "headword": "Berg",
+    "mention": "Diana Berg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:PER.PROFESSIONALPOSITION.JOURNALIST"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e5",
+    "category": "NAM",
+    "char_begin": 1748,
+    "char_end": 1758,
+    "head_span": [
+     1754,
+     1758
+    ],
+    "headword": "Berg",
+    "mention": "Diana Berg",
+    "score": "0.998784",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e6",
+    "category": "NOM",
+    "char_begin": 1669,
+    "char_end": 1721,
+    "head_index": 4,
+    "head_span": [
+     1684,
+     1688
+    ],
+    "headword": "Post",
+    "mention": "the Washington Post who had thrown Molotov cocktails",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     2,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e7",
+    "category": "NOM",
+    "char_begin": 1723,
+    "char_end": 1767,
+    "head_index": 13,
+    "head_span": [
+     1739,
+     1747
+    ],
+    "headword": "activist",
+    "mention": "a pro-Ukrainian activist Diana Berg admitted",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     11,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e8",
+    "category": "NOM",
+    "char_begin": 1669,
+    "char_end": 1787,
+    "head_index": 19,
+    "head_span": [
+     1773,
+     1779
+    ],
+    "headword": "people",
+    "mention": "the Washington Post who had thrown Molotov cocktails, a pro-Ukrainian activist Diana Berg admitted; Our people but now",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     2,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s13-e9",
+    "category": "NOM",
+    "char_begin": 1820,
+    "char_end": 1832,
+    "head_index": 29,
+    "head_span": [
+     1824,
+     1832
+    ],
+    "headword": "building",
+    "mention": "the building",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     28,
+     30
+    ]
+   }
+  ],
+  "offset": 1660
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The BBC website merely quoted the regional office of Ukraine's Interior Ministry, writing that; it did not give details of how the blaze started,  stressing that; the exact sequence of events is still unclear.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e0",
+    "category": "NAM",
+    "char_begin": 1840,
+    "char_end": 1843,
+    "head_span": [
+     1840,
+     1843
+    ],
+    "headword": "BBC",
+    "mention": "BBC",
+    "score": "0.93852556",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.BROADCASTINGCOMPANY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e1",
+    "category": "NAM",
+    "char_begin": 1840,
+    "char_end": 1843,
+    "head_span": [
+     1840,
+     1843
+    ],
+    "headword": "BBC",
+    "mention": "BBC",
+    "score": "0.99473274",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e2",
+    "category": "NAM",
+    "char_begin": 1889,
+    "char_end": 1896,
+    "head_span": [
+     1889,
+     1896
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.94149154",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e3",
+    "category": "NAM",
+    "char_begin": 1889,
+    "char_end": 1896,
+    "head_span": [
+     1889,
+     1896
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9174117",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e4",
+    "category": "NAM",
+    "char_begin": 1899,
+    "char_end": 1916,
+    "head_span": [
+     1908,
+     1916
+    ],
+    "headword": "Ministry",
+    "mention": "Interior Ministry",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:ORG.GOVERNMENT.AGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e5",
+    "category": "NAM",
+    "char_begin": 1899,
+    "char_end": 1916,
+    "head_span": [
+     1908,
+     1916
+    ],
+    "headword": "Ministry",
+    "mention": "Interior Ministry",
+    "score": "0.91550934",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e6",
+    "category": "NOM",
+    "char_begin": 1866,
+    "char_end": 1916,
+    "head_index": 7,
+    "head_span": [
+     1879,
+     1885
+    ],
+    "headword": "office",
+    "mention": "the regional office of Ukraine's Interior Ministry",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     5,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e7",
+    "category": "NOM",
+    "char_begin": 1889,
+    "char_end": 1916,
+    "head_index": 12,
+    "head_span": [
+     1908,
+     1916
+    ],
+    "headword": "Ministry",
+    "mention": "Ukraine's Interior Ministry",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     9,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s14-e8",
+    "category": "NOM",
+    "char_begin": 1999,
+    "char_end": 2027,
+    "head_index": 33,
+    "head_span": [
+     2009,
+     2017
+    ],
+    "headword": "sequence",
+    "mention": "the exact sequence of events",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     31,
+     36
+    ]
+   }
+  ],
+  "offset": 1836
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e0",
+    "char_begin": 2094,
+    "char_end": 2099,
+    "head_span": [
+     2094,
+     2099
+    ],
+    "mention": "march",
+    "score": "0.9",
+    "type": "ldcOnt:TIME"
+   }
+  ],
+  "inputSentence": "Reuters news agency reported that; a pro-Kiev march was ambushed, petrol bombs, stones, explosive devices were thrown, police soon lost control and the building was later set on fire.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e1",
+    "category": "NAM",
+    "char_begin": 2048,
+    "char_end": 2055,
+    "head_span": [
+     2048,
+     2055
+    ],
+    "headword": "Reuters",
+    "mention": "Reuters",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e2",
+    "category": "NAM",
+    "char_begin": 2048,
+    "char_end": 2055,
+    "head_span": [
+     2048,
+     2055
+    ],
+    "headword": "Reuters",
+    "mention": "Reuters",
+    "score": "0.9873252",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e3",
+    "category": "NOM",
+    "char_begin": 2048,
+    "char_end": 2067,
+    "head_index": 2,
+    "head_span": [
+     2061,
+     2067
+    ],
+    "headword": "agency",
+    "mention": "Reuters news agency",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.Government.Agency",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e4",
+    "category": "NOM",
+    "char_begin": 2114,
+    "char_end": 2126,
+    "head_index": 13,
+    "head_span": [
+     2121,
+     2126
+    ],
+    "headword": "bombs",
+    "mention": "petrol bombs",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     12,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e5",
+    "category": "NOM",
+    "char_begin": 2167,
+    "char_end": 2173,
+    "head_index": 22,
+    "head_span": [
+     2167,
+     2173
+    ],
+    "headword": "police",
+    "mention": "police",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Police",
+    "type": "ldcOnt:PER.Police",
+    "word_span": [
+     22,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s15-e6",
+    "category": "NOM",
+    "char_begin": 2196,
+    "char_end": 2208,
+    "head_index": 28,
+    "head_span": [
+     2200,
+     2208
+    ],
+    "headword": "building",
+    "mention": "the building",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     27,
+     29
+    ]
+   }
+  ],
+  "offset": 2048
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "CNN covered the incident by stating that it was; unclear exactly what may have caused it [the fire].",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s16-e0",
+    "category": "NAM",
+    "char_begin": 2234,
+    "char_end": 2237,
+    "head_span": [
+     2234,
+     2237
+    ],
+    "headword": "CNN",
+    "mention": "CNN",
+    "score": "0.6636879",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.BROADCASTINGCOMPANY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s16-e1",
+    "category": "NAM",
+    "char_begin": 2234,
+    "char_end": 2237,
+    "head_span": [
+     2234,
+     2237
+    ],
+    "headword": "CNN",
+    "mention": "CNN",
+    "score": "0.7396414",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 2234
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Later, however, the channel acknowledged the fire was started byKiev supporters throwing Molotov cocktails at the building.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s17-e0",
+    "category": "NAM",
+    "char_begin": 2425,
+    "char_end": 2432,
+    "head_span": [
+     2425,
+     2432
+    ],
+    "headword": "Molotov",
+    "mention": "Molotov",
+    "score": "0.9950311",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s17-e1",
+    "category": "NOM",
+    "char_begin": 2398,
+    "char_end": 2415,
+    "head_index": 12,
+    "head_span": [
+     2405,
+     2415
+    ],
+    "headword": "supporters",
+    "mention": "byKiev supporters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     11,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s17-e2",
+    "category": "NOM",
+    "char_begin": 2446,
+    "char_end": 2458,
+    "head_index": 18,
+    "head_span": [
+     2450,
+     2458
+    ],
+    "headword": "building",
+    "mention": "the building",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     17,
+     19
+    ]
+   }
+  ],
+  "offset": 2336
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The New York Times goes with the headline: Ukraine Presses Pro-Russia Militants After Fighting Spreads to a Port City.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e0",
+    "category": "NAM",
+    "char_begin": 2465,
+    "char_end": 2479,
+    "head_span": [
+     2474,
+     2479
+    ],
+    "headword": "Times",
+    "mention": "New York Times",
+    "score": "0.74931735",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     4
+    ],
+    "type": "ldcOnt:ORG.COMMERCIALORGANIZATION.NEWSAGENCY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e1",
+    "category": "NAM",
+    "char_begin": 2465,
+    "char_end": 2479,
+    "head_span": [
+     2474,
+     2479
+    ],
+    "headword": "Times",
+    "mention": "New York Times",
+    "score": "0.88091177",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     4
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e2",
+    "category": "NAM",
+    "char_begin": 2504,
+    "char_end": 2511,
+    "head_span": [
+     2504,
+     2511
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e3",
+    "category": "NAM",
+    "char_begin": 2504,
+    "char_end": 2511,
+    "head_span": [
+     2504,
+     2511
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.95428824",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e4",
+    "category": "NAM",
+    "char_begin": 2569,
+    "char_end": 2578,
+    "head_span": [
+     2574,
+     2578
+    ],
+    "headword": "City",
+    "mention": "Port City",
+    "score": "0.96030104",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     18,
+     20
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e5",
+    "category": "NAM",
+    "char_begin": 2569,
+    "char_end": 2578,
+    "head_span": [
+     2574,
+     2578
+    ],
+    "headword": "City",
+    "mention": "Port City",
+    "score": "0.7529302",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     18,
+     20
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e6",
+    "category": "NOM",
+    "char_begin": 2504,
+    "char_end": 2540,
+    "head_index": 12,
+    "head_span": [
+     2531,
+     2540
+    ],
+    "headword": "Militants",
+    "mention": "Ukraine Presses Pro-Russia Militants",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     9,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s18-e7",
+    "category": "NOM",
+    "char_begin": 2567,
+    "char_end": 2578,
+    "head_index": 19,
+    "head_span": [
+     2574,
+     2578
+    ],
+    "headword": "City",
+    "mention": "a Port City",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     17,
+     20
+    ]
+   }
+  ],
+  "offset": 2461
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The words; pro-Russian militants; could create the impression that those were not just ordinary people and anti-Kiev demonstrators trapped inside a burning building, but militants.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s19-e0",
+    "category": "NOM",
+    "char_begin": 2580,
+    "char_end": 2613,
+    "head_index": 4,
+    "head_span": [
+     2603,
+     2612
+    ],
+    "headword": "militants",
+    "mention": "The words; pro-Russian militants;",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s19-e1",
+    "category": "NOM",
+    "char_begin": 2667,
+    "char_end": 2682,
+    "head_index": 16,
+    "head_span": [
+     2676,
+     2682
+    ],
+    "headword": "people",
+    "mention": "ordinary people",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     15,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s19-e2",
+    "category": "NOM",
+    "char_begin": 2667,
+    "char_end": 2759,
+    "head_index": 19,
+    "head_span": [
+     2697,
+     2710
+    ],
+    "headword": "demonstrators",
+    "mention": "ordinary people and anti-Kiev demonstrators trapped inside a burning building, but militants",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     15,
+     28
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s19-e3",
+    "category": "NOM",
+    "char_begin": 2726,
+    "char_end": 2744,
+    "head_index": 24,
+    "head_span": [
+     2736,
+     2744
+    ],
+    "headword": "building",
+    "mention": "a burning building",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     22,
+     25
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s19-e4",
+    "category": "NOM",
+    "char_begin": 2726,
+    "char_end": 2759,
+    "head_index": 27,
+    "head_span": [
+     2750,
+     2759
+    ],
+    "headword": "militants",
+    "mention": "a burning building, but militants",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     22,
+     28
+    ]
+   }
+  ],
+  "offset": 2580
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "And that kind of wording can almost justify the act of killing, notes RTs Gayane Chichakyan.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s20-e0",
+    "category": "NAM",
+    "char_begin": 2831,
+    "char_end": 2834,
+    "head_span": [
+     2831,
+     2834
+    ],
+    "headword": "RTs",
+    "mention": "RTs",
+    "score": "0.9760617",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s20-e1",
+    "category": "NAM",
+    "char_begin": 2835,
+    "char_end": 2852,
+    "head_span": [
+     2842,
+     2852
+    ],
+    "headword": "Chichakyan",
+    "mention": "Gayane Chichakyan",
+    "score": "0.7524335",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     15,
+     17
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s20-e2",
+    "category": "NAM",
+    "char_begin": 2835,
+    "char_end": 2852,
+    "head_span": [
+     2842,
+     2852
+    ],
+    "headword": "Chichakyan",
+    "mention": "Gayane Chichakyan",
+    "score": "0.9988475",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     15,
+     17
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 2761
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The Guardian quotes a member of extreme-right nationalist group Right Sector as saying; The aim is to completely clear Odessa [of pro-Russians] They are all paid Russian separatists.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e0",
+    "category": "NAM",
+    "char_begin": 2855,
+    "char_end": 2867,
+    "head_span": [
+     2859,
+     2867
+    ],
+    "headword": "Guardian",
+    "mention": "The Guardian",
+    "score": "0.7609112",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e1",
+    "category": "NAM",
+    "char_begin": 2919,
+    "char_end": 2931,
+    "head_span": [
+     2925,
+     2931
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.8833656",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:ORG.POLITICALORGANIZATION.PARTY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e2",
+    "category": "NAM",
+    "char_begin": 2919,
+    "char_end": 2931,
+    "head_span": [
+     2925,
+     2931
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.9907398",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e3",
+    "category": "NAM",
+    "char_begin": 2974,
+    "char_end": 2980,
+    "head_span": [
+     2974,
+     2980
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.9397617",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e4",
+    "category": "NAM",
+    "char_begin": 2974,
+    "char_end": 2980,
+    "head_span": [
+     2974,
+     2980
+    ],
+    "headword": "Odessa",
+    "mention": "Odessa",
+    "score": "0.99608946",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e5",
+    "category": "NAM",
+    "char_begin": 3017,
+    "char_end": 3024,
+    "head_span": [
+     3017,
+     3024
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.9867235",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     29,
+     30
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e6",
+    "category": "NAM",
+    "char_begin": 3017,
+    "char_end": 3024,
+    "head_span": [
+     3017,
+     3024
+    ],
+    "headword": "Russian",
+    "mention": "Russian",
+    "score": "0.99480116",
+    "subsubtype": "n/a",
+    "subtype": "Country",
+    "token_span": [
+     29,
+     30
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e7",
+    "category": "NOM",
+    "char_begin": 2875,
+    "char_end": 2931,
+    "head_index": 4,
+    "head_span": [
+     2877,
+     2883
+    ],
+    "headword": "member",
+    "mention": "a member of extreme-right nationalist group Right Sector",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s21-e8",
+    "category": "NOM",
+    "char_begin": 3017,
+    "char_end": 3036,
+    "head_index": 30,
+    "head_span": [
+     3025,
+     3036
+    ],
+    "headword": "separatists",
+    "mention": "Russian separatists",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     29,
+     31
+    ]
+   }
+  ],
+  "offset": 2855
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Such statements - be they from Right Sector, or the coup-imposed government - perpetuates a narrative that whoever opposes the Kiev authority and feels strong ties with Russia is simply a puppet of Moscow.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e0",
+    "category": "NAM",
+    "char_begin": 3071,
+    "char_end": 3083,
+    "head_span": [
+     3077,
+     3083
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.7506654",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     8
+    ],
+    "type": "ldcOnt:ORG.POLITICALORGANIZATION.PARTY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e1",
+    "category": "NAM",
+    "char_begin": 3071,
+    "char_end": 3083,
+    "head_span": [
+     3077,
+     3083
+    ],
+    "headword": "Sector",
+    "mention": "Right Sector",
+    "score": "0.98807204",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "token_span": [
+     6,
+     8
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e2",
+    "category": "NAM",
+    "char_begin": 3167,
+    "char_end": 3171,
+    "head_span": [
+     3167,
+     3171
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.97299",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e3",
+    "category": "NAM",
+    "char_begin": 3167,
+    "char_end": 3171,
+    "head_span": [
+     3167,
+     3171
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98854697",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e4",
+    "category": "NAM",
+    "char_begin": 3209,
+    "char_end": 3215,
+    "head_span": [
+     3209,
+     3215
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.9904827",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e5",
+    "category": "NAM",
+    "char_begin": 3209,
+    "char_end": 3215,
+    "head_span": [
+     3209,
+     3215
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.9939516",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e6",
+    "category": "NAM",
+    "char_begin": 3238,
+    "char_end": 3244,
+    "head_span": [
+     3238,
+     3244
+    ],
+    "headword": "Moscow",
+    "mention": "Moscow",
+    "score": "0.9260182",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e7",
+    "category": "NAM",
+    "char_begin": 3238,
+    "char_end": 3244,
+    "head_span": [
+     3238,
+     3244
+    ],
+    "headword": "Moscow",
+    "mention": "Moscow",
+    "score": "0.9899524",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     35
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s22-e8",
+    "category": "NOM",
+    "char_begin": 3071,
+    "char_end": 3115,
+    "head_index": 12,
+    "head_span": [
+     3105,
+     3115
+    ],
+    "headword": "government",
+    "mention": "Right Sector, or the coup-imposed government",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     6,
+     13
+    ]
+   }
+  ],
+  "offset": 3040
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "And this narrative is just perfectly in line with how the US and European officials see the situation.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e0",
+    "category": "NAM",
+    "char_begin": 3304,
+    "char_end": 3306,
+    "head_span": [
+     3304,
+     3306
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.9932782",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.COUNTRY.COUNTRY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e1",
+    "category": "NAM",
+    "char_begin": 3304,
+    "char_end": 3306,
+    "head_span": [
+     3304,
+     3306
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.9731276",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e2",
+    "category": "NAM",
+    "char_begin": 3311,
+    "char_end": 3319,
+    "head_span": [
+     3311,
+     3319
+    ],
+    "headword": "European",
+    "mention": "European",
+    "score": "0.98183435",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:LOC.LAND.CONTINENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e3",
+    "category": "NAM",
+    "char_begin": 3311,
+    "char_end": 3319,
+    "head_span": [
+     3311,
+     3319
+    ],
+    "headword": "European",
+    "mention": "European",
+    "score": "0.9403021",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e4",
+    "category": "NOM",
+    "char_begin": 3286,
+    "char_end": 3290,
+    "head_index": 7,
+    "head_span": [
+     3286,
+     3290
+    ],
+    "headword": "line",
+    "mention": "line",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     8
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s23-e5",
+    "category": "NOM",
+    "char_begin": 3300,
+    "char_end": 3329,
+    "head_index": 14,
+    "head_span": [
+     3320,
+     3329
+    ],
+    "headword": "officials",
+    "mention": "the US and European officials",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     10,
+     15
+    ]
+   }
+  ],
+  "offset": 3246
+ },
+ {
+  "docID": "HC000T6E8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They have firmly sided themselves with the authorities in Kiev and are ready to justify and defend whatever action Kiev takes against the protesters, says Chichakyan.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e0",
+    "category": "NAM",
+    "char_begin": 3407,
+    "char_end": 3411,
+    "head_span": [
+     3407,
+     3411
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.98449093",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e1",
+    "category": "NAM",
+    "char_begin": 3407,
+    "char_end": 3411,
+    "head_span": [
+     3407,
+     3411
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.99264634",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e2",
+    "category": "NAM",
+    "char_begin": 3464,
+    "char_end": 3468,
+    "head_span": [
+     3464,
+     3468
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.97635853",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.URBANAREA.CITY"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e3",
+    "category": "NAM",
+    "char_begin": 3464,
+    "char_end": 3468,
+    "head_span": [
+     3464,
+     3468
+    ],
+    "headword": "Kiev",
+    "mention": "Kiev",
+    "score": "0.9863973",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e4",
+    "category": "NAM",
+    "char_begin": 3504,
+    "char_end": 3514,
+    "head_span": [
+     3504,
+     3514
+    ],
+    "headword": "Chichakyan",
+    "mention": "Chichakyan",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:PER.POLITICIAN.HEADOFGOVERNMENT"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e5",
+    "category": "NAM",
+    "char_begin": 3504,
+    "char_end": 3514,
+    "head_span": [
+     3504,
+     3514
+    ],
+    "headword": "Chichakyan",
+    "mention": "Chichakyan",
+    "score": "0.9951981",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     27
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e6",
+    "category": "NOM",
+    "char_begin": 3388,
+    "char_end": 3411,
+    "head_index": 7,
+    "head_span": [
+     3392,
+     3403
+    ],
+    "headword": "authorities",
+    "mention": "the authorities in Kiev",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     6,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-HC000T6E8.ltf.xml-s24-e7",
+    "category": "NOM",
+    "char_begin": 3483,
+    "char_end": 3497,
+    "head_index": 23,
+    "head_span": [
+     3487,
+     3497
+    ],
+    "headword": "protesters",
+    "mention": "the protesters",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Protester",
+    "type": "ldcOnt:PER.Protester",
+    "word_span": [
+     22,
+     24
+    ]
+   }
+  ],
+  "offset": 3349
+ }
+]
