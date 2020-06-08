@@ -204,6 +204,7 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
             break
     doc = Sentence.get_original_doc(sents)
     # print(doc.encode('UTF-8'))
+    
     if nlp:
         props = {'timeout': '500000', 'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
         print('running corenlp for {} ...'.format(fname))

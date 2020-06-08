@@ -281,11 +281,10 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             #del mention['subtype']
             #del mention['subsubtype']
         out_doc.append({'docID': os.path.split(fname)[1], 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
-
     if not out_fname:
         out_fname = fname + '.json'
-    with open(out_fname, 'w') as f:
-        json.dump(out_doc, f, indent=1, sort_keys=True)
+    with open(out_fname, 'w', encoding='utf8') as f:
+        json.dump(out_doc, f, indent=1, sort_keys=True, ensure_ascii=False)
 
     print('processed {}'.format(fname))
     #LOCK.release()
