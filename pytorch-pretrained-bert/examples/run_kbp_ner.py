@@ -184,6 +184,7 @@ def read_ner_example(file, lower=False):
 
 
 def tokenize_label(text, token_text, label):
+    text = text.replace('\xa0', ' ')
     text = text.split(' ')
     label = label.split(' ')
     #print(text, label)

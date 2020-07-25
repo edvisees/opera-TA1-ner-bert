@@ -270,7 +270,7 @@ SUBTYPE_HIERARCHY['VEH'] = set(['Airplane', 'CargoAircraft', 'Helicopter', 'Figh
 SUBTYPE_HIERARCHY['WEA'] = set(['Bomb', 'Grenade', 'Cannon', 'DaggerKnifeSword', 'PoisonGas', 'Artillery', 'Firearm', 'AirToAirMissile', 'AntiAircraftMissile',
                                 'Missile', 'SurfaceToAirMissile', 'Rock'] + ['Bomb', 'Bullets', 'Cannon', 'Club', 'DaggerKnifeSword', 'Gas', 
                                 'GrenadeLauncher', 'Gun', 'MissleSystem', 'ThrownProjectile'])
-#SUBTYPE_HIERARCHY['TTL'] = set([])
+SUBTYPE_HIERARCHY['SID'] = set([])
 
 def extract_ner(sent):
     try:
@@ -287,7 +287,6 @@ def extract_ner(sent):
         #exit()
         #print(ners)
         subtypes = subtype_predictor.pred_ner(sent)
-        #print(subtypes)
     except:
         raise
         return [], [], []
@@ -356,6 +355,11 @@ def extract_ner(sent):
             if score < 0.6:
                 score = 0.6
             type = ners[wid][2:]
+            type = type.split('.')
+            type[0] = type[0].upper()
+            for i in range(1, len(type)):
+                type[i] = type[i].lower().capitalize() 
+            type = '.'.join(type)
             j = wid + 1
             while j < len(sent.words) and j < len(ners) and ners[j][0] == 'I':
                 j += 1
@@ -404,10 +408,18 @@ def extract_ner(sent):
                 continue
             if ner['token_span'][1] == span[1]:
                 for subtype, _ in nertype:
-                    if ner['type'] != 'TTL' and subtype in SUBTYPE_HIERARCHY[ner['type']]:
+                    if ner['type'] != 'TTL' and subtype in SUBTYPE_HIERARCHY.get(ner['type'],[]):
                         ner['subtype'] = subtype
                         match = True
                         break
+    # for j in range(len(named_ents)):
+    #     type = named_ents[j]['type'].split('.')
+    #     type[0] = type[0].upper()
+    #     for i in range(1, len(type)):
+    #         type[i] = type[i].lower().capitalize() 
+    #     type = '.'.join(type)
+    #     named_ents[j]['type'] = type
+    # print(named_ents)
     return named_ents, ners, feats
 
 

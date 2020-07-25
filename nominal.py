@@ -11,6 +11,8 @@ def extract_nominals(sent, nlp, ners):
     mentions = remove_duplicate_mentions(mentions)
     for m in mentions:
         m['type'], m['subtype'], m['subsubtype'] = get_semantic_class_with_subtype(m['headword'])
+        if 'drone' in m['headword'].lower():
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:VEH.Aircraft.Drone', 'Aircraft', 'Drone'
     mentions = list(filter_nominals(mentions))
     return mentions
 

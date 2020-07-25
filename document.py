@@ -5,7 +5,6 @@ import pickle
 import stanfordcorenlp
 import json
 
-
 class Word(object):
     def __init__(self, word, begin, end, sent, index):
         self.word = word
@@ -59,8 +58,10 @@ class Sentence(object):
             for i in range(sent.begin - offset - 1):
                 doc += '\n'
             sent_str = sent.get_original_string()
-            if '%20' in sent_str:
-                sent_str = sent_str.replace('%20', '___')
+            # if '%2' in sent_str:
+            #     sent_str = sent_str.replace('%2', '@@')
+            # if '%20' in sent_str:
+            #     sent_str = sent_str.replace('%20', '___')
             doc += sent_str
             offset = sent.end
             #if str.isalnum(sent_str[-1].encode('utf-8')):
@@ -191,10 +192,16 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
     #    return None, None
     for sent_id, seg in enumerate(root[0][0]):
         text = seg.find('ORIGINAL_TEXT').text
+        
         sent = Sentence(int(seg.attrib['start_char']), int(seg.attrib['end_char']), sent_id)
         tokens = seg.findall('TOKEN')
         for tok_id, token in enumerate(tokens):
-            sent.words.append(Word(token.text, int(token.attrib['start_char']), int(token.attrib['end_char']), sent, tok_id))
+            # print(token.text, type(token.text), len(token.text), int(token.attrib['start_char']))
+            assert len(token.text) == -1 * (int(token.attrib['start_char']) - int(token.attrib['end_char'])) + 1
+            # if 'http' in token.text:
+            sent.words.append(Word(token.text.replace('%', '琦'), int(token.attrib['start_char']), int(token.attrib['end_char']), sent, tok_id))
+            # else:
+            #     sent.words.append(Word(token.text, int(token.attrib['start_char']), int(token.attrib['end_char']), sent, tok_id))
         # if nlp:
         #     sent.retokenize(nlp)
         # if len(sent.words) < 50:
@@ -204,13 +211,15 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
             break
     doc = Sentence.get_original_doc(sents)
     # print(doc.encode('UTF-8'))
+
     
     if nlp:
         props = {'timeout': '500000', 'annotators': 'tokenize, ssplit, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
         print('running corenlp for {} ...'.format(fname))
+
         try:
-            #print(doc)
-            #nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
+            # raise Exception('hack')
+            # nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
             nlp_annotation = nlp.annotate(doc, props)
             nlp_annotation = json.loads(nlp_annotation, strict=False)
             print('finished corenlp for {}'.format(fname))
@@ -218,24 +227,34 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
             # print(nlp_annotation)['sentences'][1]
             # bp = raw_input('bp')
             new_sents = []
+            offset = 0
             for sent_annot in nlp_annotation['sentences']:
-                #print(sent_annot)
-                #exit()
+              
                 sent = Sentence(sent_annot['tokens'][0]['characterOffsetBegin']+1, sent_annot['tokens'][-1]['characterOffsetEnd'], sent_annot['index'])
                 sent.annotation = {}
                 sent.annotation['parse'] = sent_annot['parse']
                 ner = []
                 for token in sent_annot['tokens']:
-                    sent.words.append(Word(token['originalText'], token['characterOffsetBegin']+1, token['characterOffsetEnd'], sent, token['index']-1))
-                    ner.append((token['originalText'], token['ner']))
+                    nlp_len = token['characterOffsetEnd'] - token['characterOffsetBegin']
+                    # if 'http' in token['originalText']:
+                    # print(len(token['originalText']), token['originalText'], token['characterOffsetBegin'], token['characterOffsetEnd'])
+                    sent.words.append(Word(token['originalText'].replace('琦', '%'), token['characterOffsetBegin']-offset+1, token['characterOffsetBegin']-offset+len(token['originalText']), sent, token['index']-1))
+                    ner.append((token['originalText'].replace('琦', '%'), token['ner']))
+                    # else:
+                    #     # print(len(token['originalText']), token['originalText'], token['characterOffsetBegin'], token['characterOffsetEnd'])
+                    #     sent.words.append(Word(token['originalText'], token['characterOffsetBegin']-offset+1, token['characterOffsetBegin']-offset+len(token['originalText']), sent, token['index']-1))
+                    #     ner.append((token['originalText'], token['ner']))
+                    offset += nlp_len - len(token['originalText'])
                 sent.annotation['ner'] = ner
                 new_sents.append(sent)
             sents = new_sents
+
         except Exception as e:
             print(str(e))
             #print(nlp_annotation)
             print('corenlp error on {}; rerun per sentence. ({})'.format(fname, len(sents)))
             #return sents, doc
+            all_offset = sents[0].begin
             for sent in sents:
                 # sent.retokenize(nlp)
                 # sent.annotation = {}
@@ -250,6 +269,7 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
                 # except:
                 #     sent.annotation['parse'] = None
                 try:
+                    offset = 0
                     sent_text = sent.get_original_string()
                     props = {'annotators': 'tokenize, ner, parse','pipelineLanguage':'en','outputFormat':'json'}
                     sent_annotation = nlp.annotate(sent_text, props)
@@ -261,14 +281,30 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
                     sent_offset = sent.words[0].begin
                     sent.words = []
                     for token in sent_annotation['tokens']:
-                        sent.words.append(Word(token['originalText'], sent_offset+token['characterOffsetBegin'], sent_offset+token['characterOffsetEnd']-1, sent, token['index']-1))
-                        ner.append((token['originalText'], token['ner']))
+                        nlp_len = token['characterOffsetEnd'] - token['characterOffsetBegin']
+                        # print(sent_offset, len(token['originalText']), token['originalText'], token['characterOffsetBegin'], token['characterOffsetEnd'])
+                        sent.words.append(Word(token['originalText'].replace('琦', '%'), sent_offset+token['characterOffsetBegin']-offset+1, sent_offset+token['characterOffsetBegin']-offset+len(token['originalText']), sent, token['index']-1))
+                        ner.append((token['originalText'].replace('琦', '%'), token['ner']))
+                        offset += nlp_len - len(token['originalText'])
+                        # if 'http' in token['originalText']:
+                        #     sent.words.append(Word(token['originalText'].replace('@', '%'), sent_offset+token['characterOffsetBegin']+1, sent_offset+token['characterOffsetEnd'], sent, token['index']-1))
+                        #     ner.append((token['originalText'].replace('@', '%'), token['ner']))
+                        # # print(token['characterOffsetBegin'], token['originalText'])
+                        # else:
+                        #     sent.words.append(Word(token['originalText'], sent_offset+token['characterOffsetBegin']+1, sent_offset+token['characterOffsetEnd'], sent, token['index']-1))
+                        #     ner.append((token['originalText'], token['ner']))
                     sent.annotation['ner'] = ner
-                except:
+                except Exception as e:
+                    print(str(e))
                     print('Error: fail to recover')
+                    for i in range(len(sent.words)):
+                        sent.words[i].begin += 1
+                        sent.words[i].end += 1
+                        sent.words[i].word = sent.words[i].word.replace('琦', '%')
                     sent.annotation = {}
                     sent.annotation['parse'] = None
                     sent.annotation['ner'] = None
+                
 
             print('{} done'.format(fname))
 

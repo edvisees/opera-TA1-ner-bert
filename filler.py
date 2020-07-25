@@ -98,7 +98,7 @@ def extract_url(sent):
     urls = []
     for word in sent.words:
         if word.word in mhi_list:
-            urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:MHI.Disease', 'score': '0.9'})
+            urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'MHI.Disease', 'score': '0.9'})
         if is_url(word.word):
             urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'URL', 'score': '0.9'})
     return urls

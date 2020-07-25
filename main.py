@@ -177,7 +177,12 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         ner_type = 'VAL'
                     elif ner_type == 'title':
                         ner_type = 'TTL'
-                    mention['type'] = 'ldcOnt:' + ner_type.upper()
+                    # mention['type'] = 'ldcOnt:' + ner_type
+                    ner_type_split = ner_type.split('.')
+                    ner_type_split[0] = ner_type_split[0].upper()
+                    for i in range(1, len(ner_type_split)):
+                        ner_type_split[i] = ner_type_split[i].lower().capitalize()
+                    mention['type'] = 'ldcOnt:' + '.'.join(ner_type_split)
                     contain = True
                     break
             if not contain:
@@ -229,7 +234,12 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         ner_type = 'VAL'
                     elif ner_type == 'title':
                         ner_type = 'TTL'
-                    mention['type'] = 'ldcOnt:' + ner_type.upper()
+                    ner_type_split = ner_type.split('.')
+                    ner_type_split[0] = ner_type_split[0].upper()
+                    for i in range(1, len(ner_type_split)):
+                        ner_type_split[i] = ner_type_split[i].lower().capitalize()
+                    mention['type'] = 'ldcOnt:' + '.'.join(ner_type_split)
+                    # mention['type'] = 'ldcOnt:' + ner_type
                     contain = True
                     break
             if not contain:

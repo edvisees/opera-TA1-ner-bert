@@ -80,8 +80,10 @@ def read_sent(sent):
     for i, w in enumerate(sent.words):
         # if len(sent.words) == 28:
         #     print(w.word)
-        example = ' '.join((example, w.word))
+        word = ' '.join(w.word.split())
+        example = ' '.join((example, word))
         label = ' '.join((label, 'O'))
+    # print(example.split())
     guid = str(idx)
     #if 'deer' in example and len(sent.words) == 28:
         #print(len(sent.words))
@@ -240,6 +242,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
         #print(example.text_a)
 
         tokens_a = tokenizer.tokenize(example.text_a)
+        # print(example.text_a, tokens_a)
         labels_a = tokenize_label(example.text_a, tokens_a, example.label)
         # Account for [CLS] and [SEP] with "- 2"
         if len(tokens_a) > max_seq_length - 2:
