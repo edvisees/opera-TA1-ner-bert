@@ -179,7 +179,8 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                             ner_type = 'VAL'
                         elif ner_type == 'title':
                             ner_type = 'TTL'
-                        mention['type'] = 'ldcOnt:' + ner_type.upper()
+                        if 'date_time' not in ner_type:
+                            mention['type'] = 'ldcOnt:' + ner_type.upper()
                         contain = True
                         break
                 if not contain:

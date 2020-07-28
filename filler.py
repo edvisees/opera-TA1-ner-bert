@@ -68,7 +68,7 @@ def extract_time(sent, nlp):
             begin_offset = sent.words[tmp[0]].begin
             # print(len(sent.words), tmp)
             end_offset = sent.words[tmp[-1]].end
-            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'TIME', 'score':'0.9'})
+            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'aida:date_time', 'score':'0.9'})
             tmp = []
     
     return time
