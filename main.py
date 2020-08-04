@@ -22,6 +22,19 @@ with open('LDCOntology_v0.1.jsonld') as f:
         #print(data)
         if data['@type'] == 'entity_type':
             nist_ner.append(data['@id'])
+aida_ner_type = {}
+with open('aida_ner.txt') as f:
+    next(f)
+    for line in f:
+        line = line.strip().split()
+        if line[3] == 'n/a':
+            type_name = line[1]
+        elif line[5] == 'n/a':
+            type_name = '.'.join((line[1], line[3]))
+        else:
+            type_name = '.'.join((line[1], line[3], line[5]))
+        type_name = 'ldcOnt:' + type_name
+    aida_ner_type[type_name.lower()] = type_name
 
 nist_key = {}
 stype_list = []
@@ -136,9 +149,10 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             # for mention in nominals:
             #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
             for m_id, mention in enumerate(fillers):
+                ner_type = mention['type'].lower()
                 mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
                 #mention['type'] = normalize_type(mention['type'])
-                ner_type = mention['type'].lower()
+                
                 if 'subtype' not in mention.keys():
                     #print(mention.keys())
                     ner_subtype = '.n/a'
@@ -283,6 +297,23 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 #     mention.pop(t, None)
                 #del mention['subtype']
                 #del mention['subsubtype']
+            def filter_type(nn):
+                new_named_ents = []
+                for ne in nn:
+                    if ne['type'] == 'ldcOnt:TIME':
+                        new_named_ents.append(ne)
+                    elif ne['type'].lower() in aida_ner_type:
+                        ne['type'] = aida_ner_type[ne['type'].lower()]
+                        new_named_ents.append(ne)
+                return new_named_ents
+            named_ents = filter_type(named_ents)
+            nominals = filter_type(nominals)
+            fillers =filter_type(fillers)
+            # for i in range(len(nominals)):
+            #     nominals[i]['type'] = aida_ner_type[nominals[i]['type'].lower()]
+            # for i in range(len(fillers)):
+            #     fillers[i]['type'] = aida_ner_type[fillers[i]['type'].lower()]
+
             out_doc.append({'docID': os.path.split(fname)[1], 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
         except Exception:
             sys.stderr.write("ERROR: Exception occurred while processing {0}, sentence: {1}\n".format(fname, sent.get_original_string()))
