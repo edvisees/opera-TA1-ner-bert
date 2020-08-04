@@ -34,7 +34,7 @@ with open('aida_ner.txt') as f:
         else:
             type_name = '.'.join((line[1], line[3], line[5]))
         type_name = 'ldcOnt:' + type_name
-    aida_ner_type[type_name.lower()] = type_name
+        aida_ner_type[type_name.lower()] = type_name
 
 nist_key = {}
 stype_list = []
