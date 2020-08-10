@@ -27,9 +27,9 @@ with open('aida_ner.txt') as f:
     next(f)
     for line in f:
         line = line.strip().split()
-        if line[3] == 'n/a':
+        if line[3] == 'n/a' or line[3] == 'Unspecified':
             type_name = line[1]
-        elif line[5] == 'n/a':
+        elif line[5] == 'n/a' or line[5] == 'Unspecified':
             type_name = '.'.join((line[1], line[3]))
         else:
             type_name = '.'.join((line[1], line[3], line[5]))
