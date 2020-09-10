@@ -27,14 +27,15 @@ with open('aida_ner.txt') as f:
     next(f)
     for line in f:
         line = line.strip().split()
-        if line[3] == 'n/a' or line[3] == 'Unspecified':
+        if line[3] == 'n/a':
             type_name = line[1]
-        elif line[5] == 'n/a' or line[5] == 'Unspecified':
+        elif line[5] == 'n/a':
             type_name = '.'.join((line[1], line[3]))
         else:
             type_name = '.'.join((line[1], line[3], line[5]))
         type_name = 'ldcOnt:' + type_name
         aida_ner_type[type_name.lower()] = type_name
+
 
 nist_key = {}
 stype_list = []
@@ -74,6 +75,8 @@ nist_key['force'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['forces'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
 #LOCK = Semaphore(1)
+
+
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
     #raw = True
@@ -305,6 +308,27 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     elif ne['type'].lower() in aida_ner_type:
                         ne['type'] = aida_ner_type[ne['type'].lower()]
                         new_named_ents.append(ne)
+                    else:
+                        print(ne['type'])
+                nn = new_named_ents
+                if len(nn) == 0:
+                    return nn
+                new_named_ents = []
+                entities = sorted(nn, key=lambda tupe: int(tupe['char_end']))
+                new_named_ents.append(entities[0])
+                for i in range(1, len(entities)):
+                    if entities[i]['char_begin'] == new_named_ents[-1]['char_begin'] \
+                        and entities[i]['char_end'] == new_named_ents[-1]['char_end']:
+                        prev_en = new_named_ents[-1]['type'].split()
+                        cur_en = new_named_ents[-1]['type'].split()
+                        if len(prev_en) < len(cur_en):
+                            new_named_ents[-1] = entities[i]
+                        elif len(prev_en) == len(cur_en):
+                            if float(entities[i]['score']) > float(entities[-1]['score']):
+                                new_named_ents[-1] = entities[i]
+
+                    else:
+                        new_named_ents.append(entities[i])
                 return new_named_ents
             named_ents = filter_type(named_ents)
             nominals = filter_type(nominals)

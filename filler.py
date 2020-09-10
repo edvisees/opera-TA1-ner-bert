@@ -68,7 +68,7 @@ def extract_time(sent, nlp):
             begin_offset = sent.words[tmp[0]].begin
             # print(len(sent.words), tmp)
             end_offset = sent.words[tmp[-1]].end
-            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'aida:date_time', 'score':'0.9'})
+            time.append({'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_span': [sent.words[tmp[-1]].begin-1, end_offset], 'type': 'TIME', 'score':'0.9'})
             tmp = []
     
     return time
@@ -97,7 +97,7 @@ def extract_numerical(sent, nlp):
 def extract_url(sent):
     urls = []
     for word in sent.words:
-        if word.word in mhi_list:
+        if word.word.lower() in mhi_list:
             urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'MHI.Disease.Disease', 'score': '0.9'})
         if is_url(word.word):
             urls.append({'mention': word.word, 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'URL', 'score': '0.9'})
