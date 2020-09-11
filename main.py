@@ -27,9 +27,9 @@ with open('aida_ner.txt') as f:
     next(f)
     for line in f:
         line = line.strip().split()
-        if line[3] == 'n/a':
+        if line[3] == 'n/a' or line[3] == 'Unspecified':
             type_name = line[1]
-        elif line[5] == 'n/a':
+        elif line[5] == 'n/a' or line[5] == 'Unspecified':
             type_name = '.'.join((line[1], line[3]))
         else:
             type_name = '.'.join((line[1], line[3], line[5]))
@@ -303,7 +303,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             def filter_type(nn):
                 new_named_ents = []
                 for ne in nn:
-                    if ne['type'] == 'ldcOnt:TIME':
+                    if ne['type'] == 'aida:date_time':
                         new_named_ents.append(ne)
                     elif ne['type'].lower() in aida_ner_type:
                         ne['type'] = aida_ner_type[ne['type'].lower()]
