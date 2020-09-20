@@ -16,7 +16,7 @@ import traceback
 script_dir=os.path.dirname(os.path.realpath(__file__))
 
 nist_ner = []
-with open('LDCOntology_v0.1.jsonld') as f:
+with open('LDCOntologyM36.jsonld') as f:
     ldc_onto = json.load(f)
     for data in ldc_onto['frames']:
         #print(data)
@@ -65,12 +65,13 @@ for nn in nist_ner:
 
 # for key, item in nist_key.items():
 #     print(key, item)
+# exit()
 #print(nist_key['police'])
-with open('nist_key.pkl', 'wb') as f:
-    pickle.dump(nist_key, f)
+# with open('nist_key.pkl', 'wb') as f:
+#     pickle.dump(nist_key, f)
 
-with open('nist_key.pkl', 'rb') as f:
-    nist_key = pickle.load(f)
+# with open('nist_key.pkl', 'rb') as f:
+#     nist_key = pickle.load(f)
 nist_key['force'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['forces'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
@@ -172,7 +173,6 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 # for n_ner in nist_ner:
                 #     low_n_ner = n_ner.lower()
                 #     i
-
                 for n_ner in nist_ner:
                     low_n_ner = n_ner.lower()
                     #print(low_n_ner)
