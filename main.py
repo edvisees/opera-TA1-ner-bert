@@ -12,7 +12,7 @@ import time
 from threading import Semaphore
 import json
 import traceback
-
+from zs_mapper import A20_NER_MAP
 script_dir=os.path.dirname(os.path.realpath(__file__))
 
 nist_ner = []
@@ -38,6 +38,7 @@ with open('aida_ner.txt') as f:
 
 
 nist_key = {}
+nist_key['people'] = 'ldcOnt:PER'
 stype_list = []
 sstype_list = []
 for nn in nist_ner:
@@ -63,6 +64,12 @@ for nn in nist_ner:
     else:
         print(nn)
 
+for k, vs in A20_NER_MAP.items():
+    for v in vs:
+        if v in nist_key:
+            continue
+        nist_key[v] = 'ldcOnt:' + k 
+
 # for key, item in nist_key.items():
 #     print(key, item)
 # exit()
@@ -76,6 +83,7 @@ nist_key['force'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['forces'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
 #LOCK = Semaphore(1)
+
 
 
 
@@ -255,7 +263,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 if not contain:
                     print(mention, ner_type, ner_subtype)
                     
-                single_mention = mention['mention'].lower()
+                single_mention = mention['headword'].lower()
                 has = 0
                 for sm in single_mention.split(' '):
                     if sm in nist_key:

@@ -4,6 +4,18 @@ from collections import deque
 from dictionary import stopwords, other_pronouns
 from wordnet import get_semantic_class, get_semantic_class_with_subtype
 from functools import cmp_to_key
+from zs_mapper import A20_NER_MAP
+nist_key = {}
+for k, vs in A20_NER_MAP.items():
+    for v in vs:
+        nist_key[v] = 'ldcOnt:' + k 
+nist_key['people'] = 'ldcOnt:PER'
+mhi_list = set()
+
+with open('gazetteer/mhi.lst', 'r') as f:
+    mhi_kb_dic = {}
+    for line in f:
+        mhi_list.add(line.strip().lower())
 
 def extract_nominals(sent, nlp, ners):
     mentions = extract_NP_or_PRP(sent, nlp)
@@ -11,8 +23,25 @@ def extract_nominals(sent, nlp, ners):
     mentions = remove_duplicate_mentions(mentions)
     for m in mentions:
         m['type'], m['subtype'], m['subsubtype'] = get_semantic_class_with_subtype(m['headword'])
-        if 'drone' in m['headword'].lower():
+        for k, v in nist_key.items():
+            if k in m['headword'].lower():
+                m['type'], m['subtype'], m['subsubtype'] = v, v, v
+                break
+        if  any(s in m['headword'].lower() for s in ['cases', 'fatalities']):
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:PER', 'PER', 'PER'
+        elif any(s in m['headword'].lower() for s in ['system', 'institute']):
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG', 'ORG', 'ORG'
+        elif 'fund' in  m['headword'].lower():
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MON', 'MON', 'MON'
+        elif 'medicine' in  m['headword'].lower() or 'sample' in m['headword'].lower():
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM', 'MON', 'MON'
+        elif 'caribbean' in  m['headword'].lower():
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:LOC.Position.Region', 'LOC', 'LOC'
+        elif 'drone' in m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:VEH.Aircraft.Drone', 'Aircraft', 'Drone'
+        elif m['headword'].lower() in mhi_list:
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MHI.Disease.Disease', 'MHI', 'Disease'
+        
     mentions = list(filter_nominals(mentions))
     return mentions
 
