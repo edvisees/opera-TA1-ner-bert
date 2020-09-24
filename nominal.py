@@ -27,7 +27,7 @@ def extract_nominals(sent, nlp, ners):
             if k in m['headword'].lower():
                 m['type'], m['subtype'], m['subsubtype'] = v, v, v
                 break
-        if  any(s in m['headword'].lower() for s in ['cases', 'fatalities']):
+        if  any(s in m['headword'].lower() for s in ['cases', 'fatalities', 'votes']):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:PER', 'PER', 'PER'
         elif any(s in m['headword'].lower() for s in ['system', 'institute']):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG', 'ORG', 'ORG'
