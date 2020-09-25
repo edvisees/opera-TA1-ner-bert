@@ -135,8 +135,7 @@ A20_NER_MAP = {
         "region", "región", "область",
     ],
     "MHI.SymptomPresentation.SymptomPresentation": [
-        "symptom", "síntoma", "симптом",
-        "syndrome", "síndrome", "синдром",
+        "piel", "dolor", "pain", "skin"
     ],
     "MHI.Disease.Disease": [
         "disease", "illness", "enfermedad", "болезнь", "заболевание",
@@ -144,13 +143,15 @@ A20_NER_MAP = {
         "dengue", "денге",
         "ebola", "ébola", "эбола",
         "meningitis", "менингит",
-        "virus", "вирус",
-        "fever", "fiebre", "лихорадка",
+        "virus", "вирус", 'febril', 'meningococo',
+        "fever", "лихорадка",
         "bacteria", "bacterias", "бактерии",  # is this disease?
         "cancer", "cáncer", "карцинома",
-        "meningitidis", "менингитидис",
+        "meningitidis", "менингитидис", "esta",
         "meningococcemia", "meningococemia", "менингококкемия",
         "sepsis", "septicemia", "сепсис",
+        "symptom", "síntoma", "симптом",
+        "syndrome", "síndrome", "синдром", "patologías"
     ],
     "MON": [
         "$", "dollar", "dólar", "доллар",
@@ -180,6 +181,10 @@ A20_NER_MAP = {
     ],
     "ORG.PoliticalOrganization.Court": [
         "court", "tribunal", "суд",
+    ],
+    "PER": [
+        'case', 'fatale', 'votant', 'voters', 'caso', 'fatal', 'fatali', 'víctima',
+        'victim'
     ],
     "PER.Combatant.Mercenary": [
         "mercenary", "mercenaria", "mercenario", "наемник",
