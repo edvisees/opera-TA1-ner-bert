@@ -47,6 +47,7 @@ def extract_nominals(sent, nlp, ners):
 
 def extract_NP_or_PRP(sent, nlp):
     raw_tree = nlp['parse']
+
     if raw_tree is None:
         return []
     tree = Tree.parse_tree(raw_tree)
@@ -107,7 +108,7 @@ def remove_duplicate_mentions(mentions):
     #print(mentions)
     to_remove = set()
     mentions = sorted(mentions, key=cmp_to_key(lambda a, b: 
-        (b['word_span'][1] - b['word_span'][0]) - (a['word_span'][1] - a['word_span'][0]) if a['head_index'] == b['head_index'] else a['head_index'] - b['head_index']))
+        ((a['word_span'][1] - a['word_span'][0] - b['word_span'][1] - b['word_span'][0])) if a['head_index'] == b['head_index'] else a['head_index'] - b['head_index']))
     for i in range(len(mentions)):
         mention1 = mentions[i]
         for j in range(i+1, len(mentions)):

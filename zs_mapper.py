@@ -294,7 +294,7 @@ A20_NER_MAP = {
         "truck", "camión", "грузовик",
     ],
     "WEA.Bomb": [
-        "bomb", "bomba", "бомба",
+        "bomb", "bomba", "бомба", "explosives"
     ],
     "WEA.Bomb.Grenade": [
         "grenade", "granada", "граната",
