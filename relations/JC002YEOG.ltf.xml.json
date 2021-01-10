@@ -1,0 +1,449 @@
+[
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "In Venezuela, doctor flees after being accused of terrorism amid fever outbreak;   The chikungunya virus is spread by mosquitoes.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Centers for Disease Prevention and Control;  Eleven days after news broke that an unknown disease had killed eight people in the city of Maracay, Venezuela, doctors have concluded that the deaths were caused by chikungunya, a mosquito-borne virus.",
+        "rels": [
+            {
+                "en1": "eight",
+                "en2": "eight people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e13",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    240,
+                    252
+                ]
+            },
+            {
+                "en1": "eight people",
+                "en2": "the city",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e14",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e13",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7754221640711085,
+                "span": [
+                    240,
+                    264
+                ]
+            },
+            {
+                "en1": "the city",
+                "en2": "Maracay",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e14",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.8009642059409546,
+                "span": [
+                    256,
+                    275
+                ]
+            },
+            {
+                "en1": "Maracay",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e8",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e9",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7789977894677587,
+                "span": [
+                    268,
+                    286
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Maracay, Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e9",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e15",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7834691012767773,
+                "span": [
+                    277,
+                    286
+                ]
+            },
+            {
+                "en1": "Maracay, Venezuela",
+                "en2": "doctors",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e15",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s2-e16",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.8004921043241646,
+                "span": [
+                    268,
+                    295
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Meanwhile, \u00c1ngel Sarmiento, the doctor who first announced the deaths, has fled the country after being accused of terrorism by President Nicol\u00e1s Maduro.",
+        "rels": [
+            {
+                "en1": "the country",
+                "en2": "Nicol\u00e1s Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s3-e6",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s3-e3",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.774648132610527,
+                "span": [
+                    459,
+                    516
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicol\u00e1s Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s3-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s3-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7665889684415605,
+                "span": [
+                    507,
+                    531
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Although officials initially speculated that the deaths were caused by an unknown hemorrhagic fever, six of the eight original fatalities tested positive for chikungunya when samples were analyzed in nongovernmental labs, says Julio Castro, the health minister of the municipality of Sucre and a professor in the Institute of Tropical Medicine at the Central University of Venezuela (UCV).",
+        "rels": [
+            {
+                "en1": "six",
+                "en2": "the eight original fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e15",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    635,
+                    671
+                ]
+            },
+            {
+                "en1": "eight",
+                "en2": "the eight original fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e15",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e3",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    646,
+                    671
+                ]
+            },
+            {
+                "en1": "the health minister",
+                "en2": "minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e19",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e5",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7759072145776061,
+                "span": [
+                    775,
+                    794
+                ]
+            },
+            {
+                "en1": "a professor",
+                "en2": "the Institute",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e22",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e23",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7720139621460024,
+                "span": [
+                    828,
+                    856
+                ]
+            },
+            {
+                "en1": "the Central University",
+                "en2": "Institute of Tropical Medicine at the Central University of Venezuela",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e9",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e25",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.797458048516849,
+                "span": [
+                    881,
+                    916
+                ]
+            },
+            {
+                "en1": "Institute of Tropical Medicine at the Central University of Venezuela",
+                "en2": "Central University of Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e9",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e10",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7739562709967737,
+                "span": [
+                    847,
+                    916
+                ]
+            },
+            {
+                "en1": "Central University of Venezuela",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e10",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e26",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.757297109135083,
+                "span": [
+                    885,
+                    916
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "UCV",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e26",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s4-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7508066482659199,
+                "span": [
+                    907,
+                    921
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "\"We don\u2019t think these deaths are due to an unknown or rare disease,\" he told; Science; Insider, adding that \"I have no doubt\" that chikungunya is responsible.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "After arriving in the Caribbean late last year, chikungunya has been sweeping the Americas.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "As of 19 September, the Pan-American Health Organization reported 729,178 suspected and 9537 confirmed cases in the region.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s7-e2",
+                "en1": "729,178",
+                "en2": "cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s7-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s7-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1242,
+                    1284
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "There is no vaccine or cure for the disease, which is similar to dengue fever and causes joint pain.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "It is fatal in about one in 1000 cases.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s9-e1",
+                "en1": "one",
+                "en2": "1000 cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s9-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s9-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1422,
+                    1439
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Maracay\u2019s cluster of nine fatalities, reported between 30 August and 15 September, has raised questions about exactly how many people are infected.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s10-e1",
+                "en1": "nine",
+                "en2": "nine fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s10-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s10-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1463,
+                    1478
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "The deadly cases are \"the tip of the iceberg,\" Castro believes.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "In a press conference on Monday, Castro and two other health professionals\u2014Gustavo Villasmil, health minister of the state of Miranda, and Manuel Olivares, a doctor at UCV\u2019s hospital\u2014estimated that between 65,000 and 117,000 people in Venezuela are infected with chikungunya.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e0",
+                "en1": "two",
+                "en2": "two other health professionals",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e12",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1698,
+                    1728
+                ]
+            },
+            {
+                "en1": "health minister",
+                "en2": "minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e13",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7744922992715322,
+                "span": [
+                    1748,
+                    1763
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e0",
+                "en1": "65,000 and 117,000",
+                "en2": "between 65,000 and 117,000 people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e18",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e3",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1860,
+                    1885
+                ]
+            },
+            {
+                "en1": "between 65,000 and 117,000 people",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e19",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s12-e18",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7645780265636184,
+                "span": [
+                    1852,
+                    1898
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "They reached that figure by using World Health Organization standards for calculating the spread of epidemics.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "But it is dramatically higher than the official tallies released by Venezuela\u2019s federal health ministry, which recognizes just 398 cases of chikungunya and three deaths.",
+        "rels": [
+            {
+                "en1": "Venezuela\u2019s",
+                "en2": "Venezuela\u2019s federal health ministry",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s14-e3",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s14-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.8002626756500703,
+                "span": [
+                    2109,
+                    2144
+                ]
+            },
+            {
+                "en1": "398",
+                "en2": "just 398 cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s14-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s14-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2168,
+                    2177
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Many infectious diseases, including malaria and dengue, are on the rise in Venezuela, where the public health system has been crippled by a lack of funds and medicine (including antifever drugs that can help treat the symptoms of chikungunya).",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "the public health system",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s15-e5",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s15-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.76879614474155,
+                "span": [
+                    2287,
+                    2328
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Sarmiento\u2019s comments about the deaths in Maracay appear to have been the straw that broke the camel\u2019s back when it came to criticism of the government\u2019s public health record, Villasmil says.",
+        "rels": [
+            {
+                "en1": "Maracay",
+                "en2": "the government\u2019s",
+                "ldcOnt:GeneralAffiliation.Sponsorship_ActorOrEvent": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s16-e2",
+                "ldcOnt:GeneralAffiliation.Sponsorship_Sponsor": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s16-e3",
+                "rel": "ldcOnt:GeneralAffiliation.Sponsorship",
+                "score": 0.4206424968786524,
+                "span": [
+                    2497,
+                    2608
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Now facing prosecution, Sarmiento fled to an undisclosed location in Central America.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YEOG.ltf.xml.json",
+        "inputSentence": "Villasmil and Castro remain in Venezuela but have left their homes after participating in the press conference, as a precaution against retaliation.",
+        "rels": [
+            {
+                "en1": "Castro",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s18-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YEOG.ltf.xml-s18-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7910005267877013,
+                "span": [
+                    2747,
+                    2773
+                ]
+            }
+        ]
+    }
+]

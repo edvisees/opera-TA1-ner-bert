@@ -1,0 +1,103 @@
+T0	per_unspecified_unspecified 240 275	eight people in the city of Maracay
+T1	mhi_disease_disease 210 228	an unknown disease
+T2	gpe_urbanarea_city 268 275	Maracay
+T3	mhi_disease_disease 342 353	chikungunya
+T4	gpe_country_country 277 286	Venezuela
+T5	mhi_disease_disease 355 377	a mosquito-borne virus
+T6	per_professionalposition_medicalpersonnel 288 295	doctors
+T7	val_number_number 176 182	Eleven
+T8	val_number_number 240 245	eight
+T9	per_professionalposition_medicalpersonnel 407 448	the doctor who first announced the deaths
+T10	gpe_country_country 459 470	the country
+T11	per_professionalposition_medicalpersonnel 390 405	Ángel Sarmiento
+T12	per_politician_headofgovernment 517 531	Nicolás Maduro
+T13	per_unspecified_unspecified 642 671	the eight original fatalities
+T14	mhi_disease_disease 605 633	an unknown hemorrhagic fever
+T15	gpe_country_country 907 916	Venezuela
+T16	per_unspecified_unspecified 635 671	six of the eight original fatalities
+T17	mhi_disease_disease 692 703	chikungunya
+T18	com_unspecified_unspecified 709 716	samples
+T19	org_unspecified_unspecified 847 916	Institute of Tropical Medicine at the Central University of Venezuela
+T20	org_unspecified_unspecified 918 921	UCV
+T21	per_unspecified_unspecified 543 552	officials
+T22	per_unspecified_unspecified 761 773	Julio Castro
+T23	per_unspecified_unspecified 775 823	the health minister of the municipality of Sucre
+T24	per_unspecified_unspecified 828 916	a professor in the Institute of Tropical Medicine at the Central University of Venezuela
+T25	val_number_number 646 651	eight
+T26	val_number_number 635 638	six
+T27	mhi_disease_disease 964 990	an unknown or rare disease
+T28	per_unspecified_unspecified 925 927	We
+T29	per_unspecified_unspecified 993 995	he
+T30	org_unspecified_unspecified 1002 1009	Science
+T31	mhi_disease_disease 1055 1066	chikungunya
+T32	per_unspecified_unspecified 1033 1034	I
+T33	gpe_urbanarea_city 1442 1449	Maracay
+T34	val_number_number 1463 1467	nine
+T35	per_unspecified_unspecified 1637 1643	Castro
+T36	per_unspecified_unspecified 1852 1898	between 65,000 and 117,000 people in Venezuela
+T37	mhi_disease_disease 1917 1928	chikungunya
+T38	gpe_country_country 1889 1898	Venezuela
+T39	org_unspecified_unspecified 1822 1836	UCV’s hospital
+T40	per_professionalposition_medicalpersonnel 1793 1808	Manuel Olivares
+T41	per_professionalposition_medicalpersonnel 1810 1836	a doctor at UCV’s hospital
+T42	per_unspecified_unspecified 1687 1693	Castro
+T43	per_unspecified_unspecified 1698 1728	two other health professionals
+T44	per_unspecified_unspecified 1729 1746	Gustavo Villasmil
+T45	per_unspecified_unspecified 1748 1787	health minister of the state of Miranda
+T46	val_number_number 1852 1878	between 65,000 and 117,000
+T47	val_number_number 1698 1701	two
+T48	org_unspecified_unspecified 1964 1989	World Health Organization
+T49	per_unspecified_unspecified 1930 1934	They
+T50	mhi_disease_disease 2181 2192	chikungunya
+T51	gpe_country_country 2109 2118	Venezuela
+T52	org_unspecified_unspecified 2109 2144	Venezuela’s federal health ministry
+T53	val_number_number 2168 2171	398
+T54	val_number_number 2197 2202	three
+T55	mhi_disease_disease 2212 2266	Many infectious diseases, including malaria and dengue
+T56	gpe_country_country 2287 2296	Venezuela
+T57	org_unspecified_unspecified 2304 2328	the public health system
+T58	mon_unspecified_unspecified 2360 2365	funds
+T59	com_unspecified_unspecified 2370 2454	medicine (including antifever drugs that can help treat the symptoms of chikungunya)
+T60	mhi_disease_disease 2248 2255	malaria
+T61	mhi_disease_disease 2260 2266	dengue
+T62	gpe_urbanarea_city 2497 2504	Maracay
+T63	org_unspecified_unspecified 2592 2606	the government
+T64	per_professionalposition_medicalpersonnel 2456 2465	Sarmiento
+T65	per_unspecified_unspecified 2631 2640	Villasmil
+T66	per_professionalposition_medicalpersonnel 2671 2680	Sarmiento
+T67	loc_land_continent 2716 2731	Central America
+T68	life_injure_illnessdegredationsickness 221 228	disease
+E0	life_injure_illnessdegredationsickness:T68 victim:T0 disease:T1 place:T2
+T69	life_injure_illnessdegredationsickness 342 353	chikungunya
+E1	life_injure_illnessdegredationsickness:T69 disease:T3 victim:T0 place:T2
+T70	movement_transportperson_unspecified 454 458	fled
+E2	movement_transportperson_unspecified:T70 passenger:T9 origin:T10
+T71	justice_initiatejudicialprocess_unspecified 483 490	accused
+E3	justice_initiatejudicialprocess_unspecified:T71 defendant:T9 place:T10
+T72	life_injure_illnessdegredationsickness 616 633	hemorrhagic fever
+E4	life_injure_illnessdegredationsickness:T72 victim:T13 disease:T14 place:T10
+T73	life_injure_illnessdegredationsickness 692 703	chikungunya
+E5	life_injure_illnessdegredationsickness:T73 place:T15 victim:T16 disease:T17
+T74	life_injure_illnessdegredationsickness 983 990	disease
+E6	life_injure_illnessdegredationsickness:T74 disease:T27 victim:T13 place:T15
+T75	life_injure_illnessdegredationsickness 1055 1066	chikungunya
+E7	life_injure_illnessdegredationsickness:T75 victim:T13 disease:T31 place:T15
+T76	life_injure_illnessdegredationsickness 1580 1588	infected
+E8	life_injure_illnessdegredationsickness:T76 place:T33
+T77	life_injure_illnessdegredationsickness 1917 1928	chikungunya
+E9	life_injure_illnessdegredationsickness:T77 victim:T36 disease:T37 place:T38
+T78	life_injure_illnessdegredationsickness 2181 2192	chikungunya
+E10	life_injure_illnessdegredationsickness:T78 disease:T50 place:T51
+T79	life_injure_illnessdegredationsickness 2228 2236	diseases
+E11	life_injure_illnessdegredationsickness:T79 disease:T55 place:T56
+T80	artifactexistence_shortage_shortage 2352 2356	lack
+E12	artifactexistence_shortage_shortage:T80 experiencer:T57 supply:T58 supply:T59 place:T56
+T81	justice_initiatejudicialprocess_unspecified 2658 2669	prosecution
+E13	justice_initiatejudicialprocess_unspecified:T81 defendant:T66 place:T56
+T82	movement_transportperson_unspecified 2681 2685	fled
+E14	movement_transportperson_unspecified:T82 passenger:T66 origin:T56 destination:T67
+R1	measurement_size_count Arg1:T13 Arg2:T25
+R2	measurement_size_count Arg1:T36 Arg2:T46
+R3	measurement_size_count Arg1:T43 Arg2:T47
+R4	measurement_size_count Arg1:T0 Arg2:T8
+R5	measurement_size_count Arg1:T16 Arg2:T26

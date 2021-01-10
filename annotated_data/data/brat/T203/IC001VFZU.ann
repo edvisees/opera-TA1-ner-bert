@@ -1,0 +1,80 @@
+T0	per_politician_headofgovernment 375 399	el presidente venezolano
+T1	gpe_country_country 389 399	venezolano
+T2	per_politician_headofgovernment 400 414	Nicolás Maduro
+T3	per_politician_unspecified 301 313	Julio Borges
+T4	per_professionalposition_minister 157 172	Jorge Rodríguez
+T5	gpe_country_country 146 155	Venezuela
+T6	per_professionalposition_minister 101 155	El ministro de Comunicación e Información de Venezuela
+T7	per_politician_unspecified 319 414	principal autor intelectual del atentado fallido contra el presidente venezolano Nicolás Maduro
+T8	sid_political_opposition 292 300	opositor
+T9	per_politician_unspecified 283 300	diputado opositor
+T10	gpe_country_country 260 271	venezolanos
+T11	org_government_agency 232 271	los cuerpos de inteligencia venezolanos
+T12	per_politician_headofgovernment 562 586	el mandatario venezolano
+T13	gpe_urbanarea_city 640 647	Caracas
+T14	gpe_country_country 576 586	venezolano
+T15	gpe_country_country 649 658	Venezuela
+T16	per_politician_unspecified 417 423	Borges
+T17	per_politician_unspecified 425 430	quien
+T18	per_unspecified_unspecified 513 658	los implicados en el magnicidio frustrado contra el mandatario venezolano del pasado 4 de agosto durante una parada militar en Caracas, Venezuela
+T19	gpe_country_country 447 455	Colombia
+T20	per_politician_unspecified 431 433	se
+T21	gpe_country_country 480 490	venezolana
+T22	org_government_unspecified 468 490	la justicia venezolana
+T23	per_unspecified_unspecified 682 763	todos los autores materiales y logísticos que participaron en el fallido atentado
+T24	per_professionalposition_minister 661 670	Rodríguez
+T25	gpe_country_country 804 821	país suramericano
+T26	org_government_unspecified 788 821	la justicia del país suramericano
+T27	gpe_country_country 836 844	Colombia
+T28	per_politician_unspecified 847 853	Borges
+T29	per_politician_unspecified 973 1015	actores políticos de la derecha venezolana
+T30	per_politician_headofgovernment 1037 1050	el presidente
+T31	gpe_country_country 1005 1015	venezolana
+T32	per_professionalposition_minister 856 883	El ministro de Comunicación
+T33	per_professionalposition_minister 1121 1135	los implicados
+T34	per_politician_unspecified 1169 1181	Julio Borges
+T35	gpe_country_country 1391 1400	Venezuela
+T36	gpe_country_country 1221 1231	colombiano
+T37	org_government_unspecified 1209 1231	el gobierno colombiano
+T38	sid_political_opposition 1275 1283	opositor
+T39	per_politician_unspecified 1266 1421	diputado opositor fundador del partido Primero Justicia, que ha sido vinculado con las protestas violentas que ocurrieron en Venezuela en 2014, 2015 y 2017
+T40	org_politicalorganization_party 1305 1321	Primero Justicia
+T41	org_politicalorganization_party 1323 1326	que
+T42	per_unspecified_unspecified 2203 2227	Oswaldo Gabriel Castillo
+T43	gpe_country_country 2283 2293	colombiana
+T44	gpe_urbanarea_city 2273 2305	la ciudad colombiana de Pamplona
+T45	per_professionalposition_minister 2111 2113	se
+T46	per_unspecified_unspecified 2229 2234	quien
+T47	gpe_country_country 2173 2181	Colombia
+T48	org_government_unspecified 2161 2181	gobierno de Colombia
+T49	gpe_urbanarea_city 2297 2305	Pamplona
+T50	per_unspecified_unspecified 2241 2243	su
+T51	conflict_attack_unspecified 351 359	atentado
+E0	conflict_attack_unspecified:T51 target:T0
+T52	conflict_attack_unspecified 534 544	magnicidio
+E1	conflict_attack_unspecified:T52 target:T12 place:T13
+T53	conflict_attack_unspecified 755 763	atentado
+E2	conflict_attack_unspecified:T53 attacker:T23
+T54	justice_arrestjaildetain_arrestjaildetain 773 783	capturados
+E3	justice_arrestjaildetain_arrestjaildetain:T54 detainee:T23
+T55	conflict_attack_unspecified 1023 1029	ataque
+E4	conflict_attack_unspecified:T55 attacker:T29 target:T30
+T56	conflict_demonstrate_marchprotestpoliticalgathering 1353 1362	protestas
+E5	conflict_demonstrate_marchprotestpoliticalgathering:T56 place:T35 place:T35 place:T35
+T57	conflict_attack_unspecified 1363 1372	violentas
+E6	conflict_attack_unspecified:T57 place:T35 place:T35 place:T35
+T58	justice_arrestjaildetain_arrestjaildetain 2192 2199	captura
+E7	justice_arrestjaildetain_arrestjaildetain:T58 detainee:T42
+T59	conflict_attack_unspecified 2325 2335	magnicidio
+E8	conflict_attack_unspecified:T59 attacker:T50
+R1	organizationaffiliation_employmentmembership_employment Arg1:T5 Arg2:T6
+R2	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T8 Arg2:T9
+R3	physical_locatednear_unspecified Arg1:T19 Arg2:T20
+R4	partwhole_subsidiary_nationalitycitizen Arg1:T10 Arg2:T11
+R5	partwhole_subsidiary_nationalitycitizen Arg1:T21 Arg2:T22
+R6	partwhole_subsidiary_nationalitycitizen Arg1:T25 Arg2:T26
+R7	partwhole_subsidiary_nationalitycitizen Arg1:T36 Arg2:T37
+R8	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T38 Arg2:T39
+R9	organizationaffiliation_founder_founder Arg1:T40 Arg2:T39
+R10	partwhole_subsidiary_nationalitycitizen Arg1:T47 Arg2:T48
+R11	physical_locatednear_unspecified Arg1:T49 Arg2:T50

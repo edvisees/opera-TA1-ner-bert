@@ -1,0 +1,942 @@
+[
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Protests Turn Deadly as Voters Boycott Venezuela's 'Sham Election'   (CARACAS/SAN CRISTOBAL, Venezuela) \u2014 Deadly protests rocked Venezuela on Sunday as voters broadly boycotted an election for a constitutional super-body that unpopular leftist President Nicolas Maduro vowed would begin a \"new era of combat\" in the crisis-stricken nation.",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "Boycott Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e3",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7894969603661621,
+                "span": [
+                    40,
+                    51
+                ]
+            },
+            {
+                "en1": "Boycott Venezuela's",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e8",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e9",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7695980638569583,
+                "span": [
+                    32,
+                    103
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e5",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s1-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7529886005463593,
+                "span": [
+                    245,
+                    269
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Anti-Maduro activists wearing hoods or masks erected barricades on roads, and scuffles broke out with security forces who moved in quickly to disperse demonstrators who denounced the election as a naked power grab by the president.",
+        "rels": [
+            {
+                "en1": "barricades",
+                "en2": "roads",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s2-e1",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s2-e2",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7653856189537508,
+                "span": [
+                    395,
+                    414
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Authorities said 10 people were killed in the confrontations, which made Sunday one of the deadliest days since massive protests started in early April.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s3-e1",
+                "en1": "10",
+                "en2": "10 people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s3-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s3-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    592,
+                    601
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Maduro, widely disliked for overseeing an unraveling of Venezuela\u2019s economy, has promised the assembly will bring peace by way of a new constitution after four months of opposition protests in which more than 120 people have been killed.",
+        "rels": [
+            {
+                "en1": "Venezuela\u2019s",
+                "en2": "Venezuela\u2019s economy",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s4-e2",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s4-e3",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7904295974861195,
+                "span": [
+                    785,
+                    804
+                ]
+            },
+            {
+                "en1": "120",
+                "en2": "more than 120 people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s4-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s4-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    938,
+                    948
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Opposition parties sat out the election, saying it was rigged to increase Maduro\u2019s powers, a view shared by countries including Spain, Canada, Colombia and the United States.",
+        "rels": [
+            {
+                "en1": "countries",
+                "en2": "Spain",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e5",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7981708355469875,
+                "span": [
+                    1076,
+                    1101
+                ]
+            },
+            {
+                "en1": "Spain",
+                "en2": "Canada",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7903499822157973,
+                "span": [
+                    1096,
+                    1109
+                ]
+            },
+            {
+                "en1": "Canada",
+                "en2": "Colombia",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7825409650162132,
+                "span": [
+                    1103,
+                    1119
+                ]
+            },
+            {
+                "en1": "Colombia",
+                "en2": "United States",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e7",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s5-e0",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7514293232612101,
+                "span": [
+                    1111,
+                    1141
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Related Stories;  World; Support for Venezuela's Guaido Wavers as Maduro Holds Firm;  World; Attackers Hit a Venezuelan Military Post, Killing a Soldier;  The Trump administration is considering imposing U.S. sanctions on Venezuela\u2019s vital oil sector in response to Sunday\u2019s election, U.S. officials said.",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7564192770279341,
+                "span": [
+                    1181,
+                    1192
+                ]
+            },
+            {
+                "en1": "Venezuela's",
+                "en2": "Venezuela's Guaido Wavers",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e11",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.779691709920014,
+                "span": [
+                    1181,
+                    1206
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "Venezuelan Military",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7865416985088529,
+                "span": [
+                    1253,
+                    1272
+                ]
+            },
+            {
+                "en1": "a Soldier",
+                "en2": "Soldier",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e17",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7935560546545077,
+                "span": [
+                    1287,
+                    1296
+                ]
+            },
+            {
+                "en1": "U.S.",
+                "en2": "U.S. officials",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e10",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e20",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7650315712033601,
+                "span": [
+                    1429,
+                    1443
+                ]
+            },
+            {
+                "en1": "U.S. officials",
+                "en2": "officials",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e20",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s6-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7709791633523306,
+                "span": [
+                    1429,
+                    1443
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Potential U.S. sanctions on sales of light crude to Venezuela\u2019s oil company PDVSA would hamper its already weak refining network.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Caracas was largely shut down, streets were deserted and polling stations were mostly empty, dealing a blow to the legitimacy of the vote.",
+        "rels": [
+            {
+                "en1": "Caracas",
+                "en2": "streets",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s8-e1",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s8-e0",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7597747020616988,
+                "span": [
+                    1582,
+                    1620
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "A bomb exploded in the capital and wounded seven police officers in what could be the spread of more aggressive tactics.",
+        "rels": [
+            {
+                "en1": "seven",
+                "en2": "seven police officers",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s9-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s9-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1764,
+                    1785
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Critics say the assembly will allow Maduro to dissolve the opposition-run Congress, delay future elections and rewrite electoral rules to prevent the socialists from being voted out of power.",
+        "rels": [
+            {
+                "en1": "Maduro",
+                "en2": "Congress",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s10-e4",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s10-e1",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7762622199559808,
+                "span": [
+                    1879,
+                    1925
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The opposition vowed to hold protests again on Monday and to keep pressuring Maduro\u2019s cash-strapped government until he\u2019s forced from office.",
+        "rels": [
+            {
+                "en1": "Maduro\u2019s",
+                "en2": "Maduro\u2019s cash-strapped government",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s11-e2",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s11-e3",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7575653449417128,
+                "span": [
+                    2112,
+                    2145
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"Even if they win today, this won\u2019t last long,\" said opposition supporter Berta Hernandez, a 60-year-old doctor in a wealthier Caracas district.",
+        "rels": [
+            {
+                "en1": "supporter",
+                "en2": "Berta Hernandez",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s12-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s12-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7722296991721538,
+                "span": [
+                    2242,
+                    2267
+                ]
+            },
+            {
+                "en1": "a 60-year-old doctor",
+                "en2": "Caracas",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s12-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s12-e6",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7543916581347108,
+                "span": [
+                    2269,
+                    2312
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"I\u2019ll continue on the streets because, not long from now, this will come to an end.\"",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Maduro, a former bus driver and union leader narrowly elected in 2013, dismisses criticism of the assembly as right-wing propaganda aimed at sabotaging the brand of socialism created by his mentor and predecessor, the late Hugo Chavez.",
+        "rels": [
+            {
+                "en1": "Maduro",
+                "en2": "driver",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e5",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7599793881077539,
+                "span": [
+                    2409,
+                    2436
+                ]
+            },
+            {
+                "en1": "driver",
+                "en2": "a former bus driver and union leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7941928678974838,
+                "span": [
+                    2430,
+                    2453
+                ]
+            },
+            {
+                "en1": "a former bus driver and union leader",
+                "en2": "leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s14-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7731653329469091,
+                "span": [
+                    2417,
+                    2453
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"The \u2019emperor\u2019 Donald Trump wanted to halt the Venezuelan people\u2019s right to vote,\" said Maduro as he rapidly voted at 6 a.m. in a low-income area of Caracas that has turned on the government.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "the Venezuelan people\u2019s",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s15-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s15-e5",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.760073269656962,
+                "span": [
+                    2693,
+                    2712
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"A new era of combat will begin.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "We\u2019re going all out with this constituent assembly,\" he said.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "But with polls showing some 70% of Venezuelans oppose the vote, the country\u2019s 2.8 million state employees are under huge pressure to participate \u2014 with some two dozen sources telling Reuters they were being threatened with dismissal.",
+        "rels": [
+            {
+                "en1": "70%",
+                "en2": "Venezuelans",
+                "ldcOnt:Measurement.Size.Percentage_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e4",
+                "ldcOnt:Measurement.Size.Percentage_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e0",
+                "rel": "ldcOnt:Measurement.Size.Percentage",
+                "score": 0.9,
+                "span": [
+                    2963,
+                    2981
+                ]
+            },
+            {
+                "en1": "2.8 million",
+                "en2": "the country\u2019s 2.8 million state employees",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3013,
+                    3040
+                ]
+            },
+            {
+                "en1": "two dozen",
+                "en2": "some two dozen sources",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e8",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s18-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3092,
+                    3109
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Workers were being blasted with text messages and phone calls asking them to vote and report back after doing so.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Get The Brief.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Sign up to receive the top stories you need to know right now.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Choose your country; Please enter a valid email address.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Please select your country.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "I can confirm I have read and accept the Terms Of Use.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Please check to proceed.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "You may unsubscribe from email communication at any time.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "See our Privacy Policy for further details.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Thank you!",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "For your security, we've sent a confirmation email to the address you entered.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Click the link to confirm your subscription and begin receiving our newsletters.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "If you don't get the confirmation within 10 minutes, please check your spam folder.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The opposition estimated participation was at around a paltry 12%, but warned the government was gearing up to announce some 8.5 million people had voted.",
+        "rels": [
+            {
+                "en1": "12%",
+                "en2": "the government",
+                "ldcOnt:Measurement.Size.Percentage_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s32-e3",
+                "ldcOnt:Measurement.Size.Percentage_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s32-e0",
+                "rel": "ldcOnt:Measurement.Size.Percentage",
+                "score": 0.9,
+                "span": [
+                    3957,
+                    3987
+                ]
+            },
+            {
+                "en1": "8.5 million",
+                "en2": "some 8.5 million people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s32-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s32-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4020,
+                    4038
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\u2018Slap Maduro\u2019   Fueling anger against Maduro is an unprecedented economic meltdown in the country of some 30 million people, which was once a magnet for European migrants thanks to an oil boom that was the envy of Latin America.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s33-e1",
+                "en1": "30 million",
+                "en2": "some 30 million people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s33-e10",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s33-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4157,
+                    4174
+                ]
+            },
+            {
+                "en1": "European",
+                "en2": "European migrants",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s33-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s33-e11",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7564767959071611,
+                "span": [
+                    4204,
+                    4221
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "However, nearly two decades of heavy currency and price controls have asphyxiated business.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Venezuelans have seen their purchasing power shredded by the world\u2019s highest inflation rate.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Millions of Venezuelans now struggle to eat three times a day due to shortages of products as basic as rice and flour.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s36-e0",
+                "en1": "three",
+                "en2": "products",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s36-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s36-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4511,
+                    4557
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"Sometimes I take bread from my mouth and give it to my two kids,\" said pharmacy employee Trina Sanchez, 28, as she waited for a bus to work.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "my two kids",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4643,
+                    4651
+                ]
+            },
+            {
+                "en1": "my two kids",
+                "en2": "employee",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7986568920001101,
+                "span": [
+                    4640,
+                    4676
+                ]
+            },
+            {
+                "en1": "employee",
+                "en2": "Trina Sanchez",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7970759437339107,
+                "span": [
+                    4668,
+                    4690
+                ]
+            },
+            {
+                "en1": "28",
+                "en2": "a bus",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s37-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4692,
+                    4719
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"This is a farce.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "I want to slap Maduro.\"",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "To show the massive scale of public anger, the opposition organized an unofficial referendum over Maduro\u2019s plan earlier this month.",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "More than 7 million voters overwhelmingly rejected the constituent assembly and voted in favor of early elections.",
+        "rels": [
+            {
+                "en1": "7 million",
+                "en2": "More than 7 million voters",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s41-e1",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s41-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4915,
+                    4931
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The opposition\u2019s bid last year to hold a recall referendum against Maduro was rejected, regional elections have been postponed and the president has repeatedly ignored Congress.",
+        "rels": [
+            {
+                "en1": "the president",
+                "en2": "president",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s42-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s42-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7666078655082214,
+                "span": [
+                    5152,
+                    5165
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Bomb Blast;  In Sunday\u2019s gravest incident, a bomb went off as a group of police officers on motorbikes sped past Caracas\u2019 Altamira Plaza, an opposition stronghold.",
+        "rels": [
+            {
+                "en1": "a group",
+                "en2": "police officers",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s43-e8",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s43-e7",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7557620667190752,
+                "span": [
+                    5262,
+                    5288
+                ]
+            },
+            {
+                "en1": "Caracas",
+                "en2": "Caracas\u2019",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s43-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s43-e10",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7758419821719594,
+                "span": [
+                    5313,
+                    5321
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The state prosecutor\u2019s office said seven officers were wounded and four motorbikes incinerated.",
+        "rels": [
+            {
+                "en1": "seven",
+                "en2": "seven officers",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s44-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s44-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    5399,
+                    5413
+                ]
+            },
+            {
+                "en1": "four",
+                "en2": "four motorbikes",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s44-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s44-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    5431,
+                    5446
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Clashes were also reported in the volatile Andean state of Tachira, whose capital is San Cristobal, where witnesses told Reuters an unidentified group of men had showed up at two separate street protests and shot at demonstrators.",
+        "rels": [
+            {
+                "en1": "an unidentified group",
+                "en2": "men",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s45-e10",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s45-e11",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7878034300395623,
+                "span": [
+                    5590,
+                    5618
+                ]
+            },
+            {
+                "en1": "two",
+                "en2": "demonstrators",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s45-e12",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s45-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    5636,
+                    5690
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Fatalities over the weekend included two teenagers and a candidate to the assembly killed during a robbery in the jungle state of Bolivar.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s46-e0",
+                "en1": "two",
+                "en2": "two teenagers",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s46-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s46-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    5730,
+                    5743
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The state\u2019s Socialist Party governor, Francisco Rangel, said the death was a \"political hit job\" and blamed it on the opposition.",
+        "rels": [
+            {
+                "en1": "The state\u2019s Socialist Party governor",
+                "en2": "governor",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s47-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s47-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7731148888645161,
+                "span": [
+                    5832,
+                    5868
+                ]
+            },
+            {
+                "en1": "governor",
+                "en2": "Francisco Rangel",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s47-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s47-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.789827845168633,
+                "span": [
+                    5860,
+                    5886
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Spotlight Story Why the Assassination of Iran's Qasem Soleimani Has the U.S. Bracing for Retaliation The Quds Force commander was the face of Iran's regional ambitions; Supporters of \"Chavismo,\" the movement founded by Chavez, Maduro\u2019s more charismatic predecessor who enjoyed high oil prices for much of his mandate, said they wanted to halt the unrest.",
+        "rels": [
+            {
+                "en1": "Iran's",
+                "en2": "Qasem Soleimani",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s48-e14",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s48-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.8016461346959447,
+                "span": [
+                    6004,
+                    6026
+                ]
+            },
+            {
+                "en1": "The Quds Force commander",
+                "en2": "commander",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s48-e15",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s48-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.798771278743631,
+                "span": [
+                    6064,
+                    6088
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "\"The (opposition) wants deaths and roadblocks and the government wants peace,\" said Olga Blanco, 50, voting for candidates to the assembly at a school in Caracas.",
+        "rels": [
+            {
+                "en1": "50",
+                "en2": "candidates",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s49-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s49-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    6416,
+                    6441
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "The assembly is due to sit within 72 hours of results being certified, with government loyalists such as powerful Socialist Party No. 2 Diosdado Cabello and Maduro\u2019s wife and son expected to win seats.",
+        "rels": [
+            {
+                "en1": "2",
+                "en2": "Diosdado Cabello",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s50-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADPC.ltf.xml-s50-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    6617,
+                    6635
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADPC.ltf.xml.json",
+        "inputSentence": "Contact us at editors@time.com.",
+        "rels": []
+    }
+]

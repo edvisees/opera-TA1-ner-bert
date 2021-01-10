@@ -1,0 +1,405 @@
+[
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Venezuela's Maduro Says Opposition Politicians To Blame For Assassination Attempt;  Security personnel surround Venezuela's President Nicolas Maduro after explosives-laden drones exploded near the podium where he was speaking in Caracas on Saturday.",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e10",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7705609209971167,
+                "span": [
+                    1,
+                    12
+                ]
+            },
+            {
+                "en1": "Venezuela's",
+                "en2": "Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e10",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7661841914491005,
+                "span": [
+                    1,
+                    19
+                ]
+            },
+            {
+                "en1": "Opposition Politicians",
+                "en2": "Security personnel",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e12",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e13",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.8005176510729515,
+                "span": [
+                    25,
+                    103
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e14",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7535668279749593,
+                "span": [
+                    113,
+                    124
+                ]
+            },
+            {
+                "en1": "Venezuela's",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e14",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e8",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7593256229620413,
+                "span": [
+                    113,
+                    134
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e8",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7954082551985691,
+                "span": [
+                    125,
+                    149
+                ]
+            },
+            {
+                "en1": "explosives-laden drones",
+                "en2": "Caracas",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e16",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e17",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.8017010912774454,
+                "span": [
+                    156,
+                    237
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Maduro was unhurt.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Venezuelan President Nicol\u00e1s Maduro has accused opposition lawmakers of playing a role in a failed attempt to assassinate him over the weekend.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Nicol\u00e1s Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e2",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7679896513043472,
+                "span": [
+                    272,
+                    292
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicol\u00e1s Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7533483987180257,
+                "span": [
+                    283,
+                    307
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "During a nationally televised address to Venezuelan troops on Saturday, Maduro was unhurt when explosives-laden drones exploded near the podium.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Venezuelan troops",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e1",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e3",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7592623294016917,
+                "span": [
+                    458,
+                    475
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "In a speech on Tuesday, Maduro said Julio Borges, a prominent opposition leader living in exile in neighboring Colombia, was a co-conspirator in the plot, but he did not elaborate on what role the politician had played.",
+        "rels": [
+            {
+                "en1": "Julio Borges",
+                "en2": "leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7951373157905901,
+                "span": [
+                    599,
+                    642
+                ]
+            },
+            {
+                "en1": "leader",
+                "en2": "exile",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e8",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7783026051534727,
+                "span": [
+                    636,
+                    658
+                ]
+            },
+            {
+                "en1": "exile",
+                "en2": "Colombia",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e8",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7557501783184951,
+                "span": [
+                    653,
+                    682
+                ]
+            },
+            {
+                "en1": "Colombia",
+                "en2": "neighboring Colombia",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e9",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7950859032483955,
+                "span": [
+                    674,
+                    682
+                ]
+            },
+            {
+                "en1": "the politician",
+                "en2": "politician",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e10",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7647003335583904,
+                "span": [
+                    756,
+                    770
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "\"Several of the declarations indicated Julio Borges.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "The investigations point to him,\" Maduro said.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Another opposition lawmaker, Juan Requesens, was also singled out by Maduro for having been involved in the failed attempt.",
+        "rels": [
+            {
+                "en1": "lawmaker",
+                "en2": "Juan Requesens",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e1",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7914342010397943,
+                "span": [
+                    904,
+                    928
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "A video widely circulated on social media shows Requesens being arrested by Venezuelan police.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Venezuelan police",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s9-e0",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s9-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.77073503572392,
+                "span": [
+                    1086,
+                    1103
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Venezuelan law grants lawmakers immunity from prosecution while in office, but the head of the country's pro-Maduro constitutional assembly said he would propose stripping that protection from the two lawmakers.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "the two lawmakers",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1303,
+                    1316
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "The Associated Press notes, \"Critics of Maduro's socialist government had said immediately after the attack that they feared the unpopular leader would use the incident as an excuse to round up opposition politicians as he seeks to dampen spreading discontent over Venezuela's devastating economic collapse.\"",
+        "rels": [
+            {
+                "en1": "the unpopular leader",
+                "en2": "leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e9",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7665176967236407,
+                "span": [
+                    1444,
+                    1464
+                ]
+            },
+            {
+                "en1": "leader",
+                "en2": "opposition politicians",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e10",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7690822190353037,
+                "span": [
+                    1458,
+                    1535
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7810883736365669,
+                "span": [
+                    1584,
+                    1595
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "As NPR's Colin Dwyer reported earlier, Venezuelan Interior Minister N\u00e9stor Luis Reverol announced that six others had been detained in connection with the plot.",
+        "rels": [
+            {
+                "en1": "NPR",
+                "en2": "Colin Dwyer",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e4",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e2",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7817104343874257,
+                "span": [
+                    1632,
+                    1649
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "N\u00e9stor Luis Reverol",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e7",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7653124539109628,
+                "span": [
+                    1668,
+                    1696
+                ]
+            },
+            {
+                "en1": "Interior Minister",
+                "en2": "N\u00e9stor Luis Reverol",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7964945430246942,
+                "span": [
+                    1679,
+                    1716
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "Colin writes:  \"Reverol says it was a pair of commercial drone aircraft, each carrying about two pounds of C4 explosive material, that bore down on the ceremony.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "But the drones malfunctioned, he added \u2014 one hitting a nearby apartment building, the other crashing after getting disoriented by government jamming signals.",
+        "rels": [
+            {
+                "en1": "one",
+                "en2": "a nearby apartment building",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s14-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s14-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1994,
+                    2033
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBI8.ltf.xml.json",
+        "inputSentence": "The blasts ended up injuring at least seven troops but left the president, seemingly their intended target, physically unscathed.\"",
+        "rels": [
+            {
+                "en1": "seven",
+                "en2": "at least seven troops",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s15-e1",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s15-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2149,
+                    2161
+                ]
+            }
+        ]
+    }
+]

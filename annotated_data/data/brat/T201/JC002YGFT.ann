@@ -1,0 +1,193 @@
+T0	mhi_disease_disease 334 349	unknown disease
+T1	gpe_urbanarea_city 389 396	Maracay
+T2	per_unspecified_unspecified 361 373	eight people
+T3	mhi_disease_disease 463 474	chikungunya
+T4	gpe_country_country 398 407	Venezuela
+T5	gpe_urbanarea_city 377 396	the city of Maracay
+T6	mhi_disease_disease 476 498	a mosquito-borne virus
+T7	per_professionalposition_medicalpersonnel 409 416	doctors
+T8	val_number_number 297 308	Eleven days
+T9	val_number_number 361 366	eight
+T10	mhi_disease_disease 727 752	unknown hemorrhagic fever
+T11	per_professionalposition_medicalpersonnel 511 526	Ángel Sarmiento
+T12	gpe_country_country 580 591	the country
+T13	gpe_country_country 1026 1035	Venezuela
+T14	gpe_provincestate_provincestate 937 942	Sucre
+T15	mhi_disease_disease 811 822	chikungunya
+T16	per_professionalposition_medicalpersonnel 528 538	the doctor
+T17	per_professionalposition_minister 880 892	Julio Castro
+T18	per_professionalposition_minister 894 942	the health minister of the municipality of Sucre
+T19	per_unspecified_unspecified 638 652	Nicolás Maduro
+T20	per_unspecified_unspecified 662 671	officials
+T21	per_unspecified_unspecified 754 790	six of the eight original fatalities
+T22	mhi_disease_disease 1246 1257	chikungunya
+T23	loc_position_region 1216 1229	the Caribbean
+T24	mhi_disease_disease 1171 1182	chikungunya
+T25	loc_position_region 1276 1288	the Americas
+T26	mhi_disease_disease 1083 1109	an unknown or rare disease
+T27	per_professionalposition_medicalpersonnel 1112 1114	he
+T28	per_professionalposition_medicalpersonnel 1149 1150	I
+T29	per_unspecified_unspecified 1378 1398	9537 confirmed cases
+T30	loc_position_region 1402 1412	the region
+T31	val_number_number 1356 1373	729,178 suspected
+T32	per_unspecified_unspecified 1383 1398	confirmed cases
+T33	val_number_number 1378 1382	9537
+T34	com_equipment_medicalequipment 1426 1433	vaccine
+T35	mhi_disease_disease 1446 1457	the disease
+T36	mhi_disease_disease 1479 1491	dengue fever
+T37	per_unspecified_unspecified 1575 1590	nine fatalities
+T38	gpe_urbanarea_city 1554 1563	Maracay’s
+T39	mhi_disease_disease 1515 1517	It
+T40	per_unspecified_unspecified 1681 1687	people
+T41	per_professionalposition_medicalpersonnel 1749 1755	Castro
+T42	per_professionalposition_minister 1799 1805	Castro
+T43	gpe_country_country 2001 2010	Venezuela
+T44	gpe_provincestate_provincestate 1892 1899	Miranda
+T45	mhi_disease_disease 2029 2040	chikungunya
+T46	per_professionalposition_medicalpersonnel 1905 1920	Manuel Olivares
+T47	per_professionalposition_medicalpersonnel 1922 1948	a doctor at UCV’s hospital
+T48	per_professionalposition_minister 1841 1858	Gustavo Villasmil
+T49	per_professionalposition_minister 1860 1899	health minister of the state of Miranda
+T50	val_number_number 1810 1840	two other health professionals
+T51	val_number_number 1964 1997	between 65,000 and 117,000 people
+T52	gpe_country_country 2397 2406	Venezuela
+T53	mon_unspecified_unspecified 2470 2475	funds
+T54	com_equipment_medicalequipment 2480 2488	medicine
+T55	com_equipment_medicalequipment 2500 2515	antifever drugs
+T56	gpe_country_country 2221 2232	Venezuela’s
+T57	mhi_disease_disease 2293 2304	chikungunya
+T58	mhi_disease_disease 2358 2365	malaria
+T59	mhi_disease_disease 2370 2376	dengue
+T60	mhi_disease_disease 2552 2563	chikungunya
+T61	org_government_unspecified 2221 2256	Venezuela’s federal health ministry
+T62	val_number_number 2280 2289	398 cases
+T63	val_number_number 2309 2321	three deaths
+T64	val_number_number 2322 2346	Many infectious diseases
+T65	gpe_urbanarea_city 2607 2614	Maracay
+T66	per_professionalposition_medicalpersonnel 2566 2577	Sarmiento’s
+T67	per_professionalposition_minister 2741 2750	Villasmil
+T68	loc_position_region 2802 2841	undisclosed location in Central America
+T69	per_professionalposition_medicalpersonnel 2781 2790	Sarmiento
+T70	loc_position_region 2826 2841	Central America
+T71	per_professionalposition_minister 2843 2852	Villasmil
+T72	per_professionalposition_minister 2857 2863	Castro
+T73	gpe_country_country 2874 2883	Venezuela
+T74	mhi_disease_disease 3049 3075	hemorrhagic fever syndrome
+T75	loc_position_region 3012 3025	Latin America
+T76	per_unspecified_unspecified 3095 3098	ten
+T77	gpe_country_country 3079 3088	Venezuela
+T78	mhi_disease_disease 3129 3155	hemorrhagic fever syndrome
+T79	per_unspecified_unspecified 3233 3243	ten people
+T80	gpe_provincestate_provincestate 3183 3189	Aragua
+T81	gpe_urbanarea_city 3216 3223	Caracas
+T82	gpe_country_country 3163 3173	Venezuelan
+T83	gpe_country_country 3194 3207	the country’s
+T84	val_number_number 3252 3272	the last three weeks
+T85	val_number_number 3233 3236	ten
+T86	mhi_disease_disease 3288 3293	Ebola
+T87	mhi_disease_disease 3295 3308	this syndrome
+T88	per_unspecified_unspecified 3316 3324	patients
+T89	mhi_disease_disease 3377 3379	It
+T90	mhi_disease_disease 3416 3423	disease
+T91	val_number_number 3477 3485	72 hours
+T92	gpe_provincestate_provincestate 3566 3572	Aragua
+T93	per_professionalposition_medicalpersonnel 3489 3496	Doctors
+T94	per_professionalposition_medicalpersonnel 3588 3592	they
+T95	per_unspecified_unspecified 3508 3530	government authorities
+T96	per_professionalposition_medicalpersonnel 3808 3823	Angel Sarmiento
+T97	gpe_provincestate_provincestate 3646 3655	The state
+T98	gpe_provincestate_provincestate 3774 3780	Aragua
+T99	mhi_disease_disease 3724 3735	the disease
+T100	per_politician_governor 3656 3664	Governor
+T101	per_professionalposition_medicalpersonnel 3753 3806	the president of the Aragua state Medical Association
+T102	per_politician_governor 3863 3871	Governor
+T103	per_politician_governor 3873 3889	Tarek Al-Aissami
+T104	per_professionalposition_minister 3890 3938	the Venezuelan Minister of Interior and Justice,
+T105	per_unspecified_unspecified 3969 3977	Chavez's
+T106	per_unspecified_unspecified 4065 4095	members of Hamas and Hezbollah
+T107	mhi_disease_disease 4718 4729	Chikungunya
+T108	per_unspecified_unspecified 4788 4805	first eight cases
+T109	mhi_disease_disease 4772 4776	that
+T110	per_professionalposition_medicalpersonnel 4750 4765	epidemiologists
+T111	mhi_disease_disease 5049 5054	fever
+T112	per_unspecified_unspecified 4872 4879	victims
+T113	per_unspecified_unspecified 5026 5030	they
+T114	mhi_disease_disease 5166 5177	chikungunya
+T115	gpe_provincestate_provincestate 5260 5267	Florida
+T116	gpe_country_country 5235 5237	US
+T117	mhi_disease_disease 5248 5252	it's
+T118	mhi_disease_disease 5381 5392	chikungunya
+T119	per_unspecified_unspecified 5057 5060	All
+T120	per_unspecified_unspecified 5099 5102	all
+T121	per_unspecified_unspecified 5310 5321	the doctors
+T122	val_number_number 5115 5123	72 hours
+T123	org_government_unspecified 5269 5283	The government
+T124	per_unspecified_unspecified 5353 5354	I
+T125	per_professionalposition_spokesperson 5596 5620	the medical spokesperson
+T126	mhi_disease_disease 5518 5529	Chikungunya
+T127	mhi_disease_disease 5558 5560	it
+T128	mhi_disease_disease 5565 5590	one of the first diseases
+T129	mhi_disease_disease 5646 5648	It
+T130	per_unspecified_unspecified 5732 5746	these patients
+T131	mhi_disease_disease 5764 5770	Dengue
+T132	gpe_country_country 5828 5830	US
+T133	mhi_disease_disease 5853 5864	Chikungunya
+T134	gpe_country_country 5880 5891	the country
+T135	mhi_disease_disease 5865 5867	it
+T136	per_unspecified_unspecified 5919 5928	travelers
+T137	gpe_country_country 6023 6025	US
+T138	val_number_number 6000 6015	600 known cases
+T139	mhi_disease_disease 6083 6087	THIS
+T140	mhi_disease_disease 6114 6119	EBOLA
+T141	life_die_nonviolentdeath 354 360	killed
+E0	life_die_nonviolentdeath:T141 medicalissue:T0 place:T1 victim:T2
+T142	life_die_nonviolentdeath 441 447	deaths
+E1	life_die_nonviolentdeath:T142 victim:T2 medicalissue:T3 place:T1
+T143	life_die_nonviolentdeath 702 708	deaths
+E2	life_die_nonviolentdeath:T143 victim:T2 place:T1 medicalissue:T10
+T144	conflict_attack_biologicalchemicalpoisonattack 615 624	terrorism
+E3	conflict_attack_biologicalchemicalpoisonattack:T144 attacker:T11 place:T1 target:T2
+T145	life_die_nonviolentdeath 563 569	deaths
+E4	life_die_nonviolentdeath:T145 
+T146	disaster_diseaseoutbreak_diseaseoutbreak 1204 1212	arriving
+E5	disaster_diseaseoutbreak_diseaseoutbreak:T146 disease:T22 place:T23 victim:T29
+T147	life_die_nonviolentdeath 1065 1071	deaths
+E6	life_die_nonviolentdeath:T147 medicalissue:T24 victim:T2 place:T1
+T148	life_die_nonviolentdeath 1580 1590	fatalities
+E7	life_die_nonviolentdeath:T148 victim:T37 place:T38 medicalissue:T22
+T149	contact_mediastatement_unspecified 1771 1787	press conference
+E8	contact_mediastatement_unspecified:T149 communicator:T42
+T150	artifactexistence_shortage_shortage 2462 2466	lack
+E9	artifactexistence_shortage_shortage:T150 place:T52 place:T52 supply:T53 supply:T54 supply:T55
+T151	life_die_nonviolentdeath 2597 2603	deaths
+E10	life_die_nonviolentdeath:T151 victim:T2 medicalissue:T3 place:T65
+T152	movement_transportperson_hide 2802 2813	undisclosed
+E11	movement_transportperson_hide:T152 hidingplace:T68 passenger:T69
+T153	contact_mediastatement_unspecified 2937 2953	press conference
+E12	contact_mediastatement_unspecified:T153 communicator:T71 communicator:T72
+T154	disaster_diseaseoutbreak_diseaseoutbreak 3037 3045	outbreak
+E13	disaster_diseaseoutbreak_diseaseoutbreak:T154 disease:T74 place:T75
+T155	life_die_nonviolentdeath 3089 3094	kills
+E14	life_die_nonviolentdeath:T155 medicalissue:T74 victim:T76 place:T77
+T156	disaster_diseaseoutbreak_diseaseoutbreak 3104 3112	outbreak
+E15	disaster_diseaseoutbreak_diseaseoutbreak:T156 disease:T78 victim:T79 place:T80 place:T81
+T157	life_die_nonviolentdeath 3244 3248	dead
+E16	life_die_nonviolentdeath:T157 medicalissue:T78 victim:T79 place:T80 place:T81
+T158	contact_mediastatement_unspecified 3713 3720	reports
+E17	contact_mediastatement_unspecified:T158 place:T92 communicator:T96
+T159	life_die_nonviolentdeath 4800 4805	cases
+E18	life_die_nonviolentdeath:T159 victim:T108 place:T77 medicalissue:T107
+T160	life_die_nonviolentdeath 5038 5041	die
+E19	life_die_nonviolentdeath:T160 victim:T108 medicalissue:T111
+T161	disaster_diseaseoutbreak_diseaseoutbreak 5257 5259	in
+E20	disaster_diseaseoutbreak_diseaseoutbreak:T161 disease:T114 place:T115
+T162	contact_mediastatement_unspecified 5596 5620	the medical spokesperson
+E21	contact_mediastatement_unspecified:T162 communicator:T125
+T163	disaster_diseaseoutbreak_diseaseoutbreak 5940 5949	spreading
+E22	disaster_diseaseoutbreak_diseaseoutbreak:T163 disease:T133 place:T132
+T164	conflict_attack_biologicalchemicalpoisonattack 6091 6101	BIO-TERROR
+E23	conflict_attack_biologicalchemicalpoisonattack:T164 place:T132
+R1	measurement_size_count Arg1:T2 Arg2:T9
+R2	measurement_size_count Arg1:T32 Arg2:T33
+R3	measurement_size_count Arg1:T85 Arg2:T79
+R4	evaluate_sentiment_negative Arg1:T123 Arg2:T124

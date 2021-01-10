@@ -1,0 +1,1587 @@
+[
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e0",
+    "char_begin": 125,
+    "char_end": 134,
+    "head_span": [
+     125,
+     134
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e1",
+    "char_begin": 241,
+    "char_end": 249,
+    "head_span": [
+     241,
+     249
+    ],
+    "mention": "Saturday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Venezuela's Maduro Says Opposition Politicians To Blame For Assassination Attempt;  Security personnel surround Venezuela's President Nicolas Maduro after explosives-laden drones exploded near the podium where he was speaking in Caracas on Saturday.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e2",
+    "category": "NAM",
+    "char_begin": 1,
+    "char_end": 10,
+    "head_span": [
+     1,
+     10
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": "0.98707473",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e4",
+    "category": "NAM",
+    "char_begin": 13,
+    "char_end": 19,
+    "head_span": [
+     13,
+     19
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": "0.6658201",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e6",
+    "category": "NAM",
+    "char_begin": 113,
+    "char_end": 122,
+    "head_span": [
+     113,
+     122
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": "0.9834236",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e8",
+    "category": "NAM",
+    "char_begin": 135,
+    "char_end": 149,
+    "head_span": [
+     143,
+     149
+    ],
+    "headword": "Maduro",
+    "mention": "Nicolas Maduro",
+    "score": "0.9646722",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     18,
+     20
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e10",
+    "category": "NOM",
+    "char_begin": 1,
+    "char_end": 12,
+    "head_index": 0,
+    "head_span": [
+     1,
+     10
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e11",
+    "category": "NOM",
+    "char_begin": 1,
+    "char_end": 19,
+    "head_index": 2,
+    "head_span": [
+     13,
+     19
+    ],
+    "headword": "Maduro",
+    "mention": "Venezuela's Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e12",
+    "category": "NOM",
+    "char_begin": 25,
+    "char_end": 47,
+    "head_index": 5,
+    "head_span": [
+     36,
+     47
+    ],
+    "headword": "Politicians",
+    "mention": "Opposition Politicians",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician",
+    "subtype": "ldcOnt:PER.Politician",
+    "type": "ldcOnt:PER.Politician",
+    "word_span": [
+     4,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e13",
+    "category": "NOM",
+    "char_begin": 85,
+    "char_end": 103,
+    "head_index": 13,
+    "head_span": [
+     94,
+     103
+    ],
+    "headword": "personnel",
+    "mention": "Security personnel",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     12,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e14",
+    "category": "NOM",
+    "char_begin": 113,
+    "char_end": 124,
+    "head_index": 15,
+    "head_span": [
+     113,
+     122
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     15,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e15",
+    "category": "NOM",
+    "char_begin": 113,
+    "char_end": 149,
+    "head_index": 19,
+    "head_span": [
+     143,
+     149
+    ],
+    "headword": "Maduro",
+    "mention": "Venezuela's President Nicolas Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     15,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e16",
+    "category": "NOM",
+    "char_begin": 156,
+    "char_end": 179,
+    "head_index": 22,
+    "head_span": [
+     173,
+     179
+    ],
+    "headword": "drones",
+    "mention": "explosives-laden drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     21,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s1-e17",
+    "category": "NOM",
+    "char_begin": 230,
+    "char_end": 237,
+    "head_index": 32,
+    "head_span": [
+     230,
+     237
+    ],
+    "headword": "Caracas",
+    "mention": "Caracas",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     32,
+     33
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Maduro was unhurt.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s2-e0",
+    "category": "NOM",
+    "char_begin": 251,
+    "char_end": 257,
+    "head_index": 0,
+    "head_span": [
+     251,
+     257
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     0,
+     1
+    ]
+   }
+  ],
+  "offset": 251
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e0",
+    "char_begin": 283,
+    "char_end": 292,
+    "head_span": [
+     283,
+     292
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e1",
+    "char_begin": 403,
+    "char_end": 414,
+    "head_span": [
+     407,
+     414
+    ],
+    "mention": "the weekend",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Venezuelan President Nicolás Maduro has accused opposition lawmakers of playing a role in a failed attempt to assassinate him over the weekend.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 272,
+    "char_end": 282,
+    "head_span": [
+     272,
+     282
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99388325",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e4",
+    "category": "NAM",
+    "char_begin": 293,
+    "char_end": 307,
+    "head_span": [
+     301,
+     307
+    ],
+    "headword": "Maduro",
+    "mention": "Nicolás Maduro",
+    "score": "0.8791304",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     4
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e6",
+    "category": "NOM",
+    "char_begin": 272,
+    "char_end": 307,
+    "head_index": 3,
+    "head_span": [
+     301,
+     307
+    ],
+    "headword": "Maduro",
+    "mention": "Venezuelan President Nicolás Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     0,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s3-e7",
+    "category": "NOM",
+    "char_begin": 320,
+    "char_end": 340,
+    "head_index": 7,
+    "head_span": [
+     331,
+     340
+    ],
+    "headword": "lawmakers",
+    "mention": "opposition lawmakers",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:LAW",
+    "subtype": "ldcOnt:LAW",
+    "type": "ldcOnt:LAW",
+    "word_span": [
+     6,
+     8
+    ]
+   }
+  ],
+  "offset": 272
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e0",
+    "char_begin": 479,
+    "char_end": 487,
+    "head_span": [
+     479,
+     487
+    ],
+    "mention": "Saturday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "During a nationally televised address to Venezuelan troops on Saturday, Maduro was unhurt when explosives-laden drones exploded near the podium.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e1",
+    "category": "NAM",
+    "char_begin": 458,
+    "char_end": 468,
+    "head_span": [
+     458,
+     468
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99103457",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e3",
+    "category": "NOM",
+    "char_begin": 458,
+    "char_end": 475,
+    "head_index": 7,
+    "head_span": [
+     469,
+     475
+    ],
+    "headword": "troops",
+    "mention": "Venezuelan troops",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.MilitaryPersonnel",
+    "subtype": "ldcOnt:PER.MilitaryPersonnel",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     6,
+     8
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e4",
+    "category": "NOM",
+    "char_begin": 489,
+    "char_end": 495,
+    "head_index": 11,
+    "head_span": [
+     489,
+     495
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     11,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s4-e5",
+    "category": "NOM",
+    "char_begin": 512,
+    "char_end": 535,
+    "head_index": 16,
+    "head_span": [
+     529,
+     535
+    ],
+    "headword": "drones",
+    "mention": "explosives-laden drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     15,
+     17
+    ]
+   }
+  ],
+  "offset": 417
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e0",
+    "char_begin": 578,
+    "char_end": 585,
+    "head_span": [
+     578,
+     585
+    ],
+    "mention": "Tuesday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e1",
+    "char_begin": 636,
+    "char_end": 642,
+    "head_span": [
+     636,
+     642
+    ],
+    "mention": "leader",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e2",
+    "char_begin": 760,
+    "char_end": 770,
+    "head_span": [
+     760,
+     770
+    ],
+    "mention": "politician",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "In a speech on Tuesday, Maduro said Julio Borges, a prominent opposition leader living in exile in neighboring Colombia, was a co-conspirator in the plot, but he did not elaborate on what role the politician had played.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e4",
+    "category": "NAM",
+    "char_begin": 599,
+    "char_end": 611,
+    "head_span": [
+     605,
+     611
+    ],
+    "headword": "Borges",
+    "mention": "Julio Borges",
+    "score": "0.9987362",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     10
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e5",
+    "category": "NAM",
+    "char_begin": 674,
+    "char_end": 682,
+    "head_span": [
+     674,
+     682
+    ],
+    "headword": "Colombia",
+    "mention": "Colombia",
+    "score": "0.9885169",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e7",
+    "category": "NOM",
+    "char_begin": 587,
+    "char_end": 593,
+    "head_index": 6,
+    "head_span": [
+     587,
+     593
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     6,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e8",
+    "category": "NOM",
+    "char_begin": 653,
+    "char_end": 658,
+    "head_index": 17,
+    "head_span": [
+     653,
+     658
+    ],
+    "headword": "exile",
+    "mention": "exile",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     17,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e9",
+    "category": "NOM",
+    "char_begin": 662,
+    "char_end": 682,
+    "head_index": 20,
+    "head_span": [
+     674,
+     682
+    ],
+    "headword": "Colombia",
+    "mention": "neighboring Colombia",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     19,
+     21
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s5-e10",
+    "category": "NOM",
+    "char_begin": 756,
+    "char_end": 770,
+    "head_index": 38,
+    "head_span": [
+     760,
+     770
+    ],
+    "headword": "politician",
+    "mention": "the politician",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician",
+    "subtype": "ldcOnt:PER.Politician",
+    "type": "ldcOnt:PER.Politician",
+    "word_span": [
+     37,
+     39
+    ]
+   }
+  ],
+  "offset": 563
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "\"Several of the declarations indicated Julio Borges.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s6-e0",
+    "category": "NAM",
+    "char_begin": 823,
+    "char_end": 835,
+    "head_span": [
+     829,
+     835
+    ],
+    "headword": "Borges",
+    "mention": "Julio Borges",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     8
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 784
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The investigations point to him,\" Maduro said.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s7-e0",
+    "category": "NOM",
+    "char_begin": 871,
+    "char_end": 877,
+    "head_index": 7,
+    "head_span": [
+     871,
+     877
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     7,
+     8
+    ]
+   }
+  ],
+  "offset": 837
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e0",
+    "char_begin": 904,
+    "char_end": 912,
+    "head_span": [
+     904,
+     912
+    ],
+    "mention": "lawmaker",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Another opposition lawmaker, Juan Requesens, was also singled out by Maduro for having been involved in the failed attempt.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e1",
+    "category": "NAM",
+    "char_begin": 914,
+    "char_end": 928,
+    "head_span": [
+     919,
+     928
+    ],
+    "headword": "Requesens",
+    "mention": "Juan Requesens",
+    "score": "0.61085385",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e3",
+    "category": "NOM",
+    "char_begin": 885,
+    "char_end": 912,
+    "head_index": 2,
+    "head_span": [
+     904,
+     912
+    ],
+    "headword": "lawmaker",
+    "mention": "Another opposition lawmaker",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:LAW",
+    "subtype": "ldcOnt:LAW",
+    "type": "ldcOnt:LAW",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s8-e4",
+    "category": "NOM",
+    "char_begin": 954,
+    "char_end": 960,
+    "head_index": 12,
+    "head_span": [
+     954,
+     960
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     12,
+     13
+    ]
+   }
+  ],
+  "offset": 885
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "A video widely circulated on social media shows Requesens being arrested by Venezuelan police.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1086,
+    "char_end": 1096,
+    "head_span": [
+     1086,
+     1096
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.9927241",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s9-e2",
+    "category": "NOM",
+    "char_begin": 1086,
+    "char_end": 1103,
+    "head_index": 13,
+    "head_span": [
+     1097,
+     1103
+    ],
+    "headword": "police",
+    "mention": "Venezuelan police",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Police",
+    "subtype": "ldcOnt:PER.Police",
+    "type": "ldcOnt:PER.Police",
+    "word_span": [
+     12,
+     14
+    ]
+   }
+  ],
+  "offset": 1010
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e0",
+    "char_begin": 1303,
+    "char_end": 1306,
+    "head_span": [
+     1303,
+     1306
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Venezuelan law grants lawmakers immunity from prosecution while in office, but the head of the country's pro-Maduro constitutional assembly said he would propose stripping that protection from the two lawmakers.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e1",
+    "category": "NAM",
+    "char_begin": 1106,
+    "char_end": 1116,
+    "head_span": [
+     1106,
+     1116
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99425733",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e3",
+    "category": "NOM",
+    "char_begin": 1128,
+    "char_end": 1137,
+    "head_index": 3,
+    "head_span": [
+     1128,
+     1137
+    ],
+    "headword": "lawmakers",
+    "mention": "lawmakers",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:LAW",
+    "subtype": "ldcOnt:LAW",
+    "type": "ldcOnt:LAW",
+    "word_span": [
+     3,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e4",
+    "category": "NOM",
+    "char_begin": 1173,
+    "char_end": 1179,
+    "head_index": 9,
+    "head_span": [
+     1173,
+     1179
+    ],
+    "headword": "office",
+    "mention": "office",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     9,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e5",
+    "category": "NOM",
+    "char_begin": 1197,
+    "char_end": 1210,
+    "head_index": 16,
+    "head_span": [
+     1201,
+     1208
+    ],
+    "headword": "country",
+    "mention": "the country's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     15,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s10-e6",
+    "category": "NOM",
+    "char_begin": 1299,
+    "char_end": 1316,
+    "head_index": 31,
+    "head_span": [
+     1307,
+     1316
+    ],
+    "headword": "lawmakers",
+    "mention": "the two lawmakers",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:LAW",
+    "subtype": "ldcOnt:LAW",
+    "type": "ldcOnt:LAW",
+    "word_span": [
+     29,
+     32
+    ]
+   }
+  ],
+  "offset": 1106
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e0",
+    "char_begin": 1368,
+    "char_end": 1377,
+    "head_span": [
+     1368,
+     1377
+    ],
+    "mention": "socialist",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e1",
+    "char_begin": 1458,
+    "char_end": 1464,
+    "head_span": [
+     1458,
+     1464
+    ],
+    "mention": "leader",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "The Associated Press notes, \"Critics of Maduro's socialist government had said immediately after the attack that they feared the unpopular leader would use the incident as an excuse to round up opposition politicians as he seeks to dampen spreading discontent over Venezuela's devastating economic collapse.\"",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e3",
+    "category": "NAM",
+    "char_begin": 1359,
+    "char_end": 1365,
+    "head_span": [
+     1359,
+     1365
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": "0.9977634",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e4",
+    "category": "NAM",
+    "char_begin": 1584,
+    "char_end": 1593,
+    "head_span": [
+     1584,
+     1593
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": "0.9860982",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     44,
+     45
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e6",
+    "category": "NOM",
+    "char_begin": 1348,
+    "char_end": 1355,
+    "head_index": 6,
+    "head_span": [
+     1348,
+     1355
+    ],
+    "headword": "Critics",
+    "mention": "Critics",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     6,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e7",
+    "category": "NOM",
+    "char_begin": 1359,
+    "char_end": 1367,
+    "head_index": 8,
+    "head_span": [
+     1359,
+     1365
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     8,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e8",
+    "category": "NOM",
+    "char_begin": 1359,
+    "char_end": 1388,
+    "head_index": 11,
+    "head_span": [
+     1378,
+     1388
+    ],
+    "headword": "government",
+    "mention": "Maduro's socialist government",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     8,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e9",
+    "category": "NOM",
+    "char_begin": 1444,
+    "char_end": 1464,
+    "head_index": 23,
+    "head_span": [
+     1458,
+     1464
+    ],
+    "headword": "leader",
+    "mention": "the unpopular leader",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     21,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e10",
+    "category": "NOM",
+    "char_begin": 1513,
+    "char_end": 1535,
+    "head_index": 35,
+    "head_span": [
+     1524,
+     1535
+    ],
+    "headword": "politicians",
+    "mention": "opposition politicians",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician",
+    "subtype": "ldcOnt:PER.Politician",
+    "type": "ldcOnt:PER.Politician",
+    "word_span": [
+     34,
+     36
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s11-e11",
+    "category": "NOM",
+    "char_begin": 1584,
+    "char_end": 1595,
+    "head_index": 44,
+    "head_span": [
+     1584,
+     1593
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     44,
+     46
+    ]
+   }
+  ],
+  "offset": 1319
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e0",
+    "char_begin": 1679,
+    "char_end": 1696,
+    "head_span": [
+     1688,
+     1696
+    ],
+    "mention": "Interior Minister",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e1",
+    "char_begin": 1732,
+    "char_end": 1735,
+    "head_span": [
+     1732,
+     1735
+    ],
+    "mention": "six",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "As NPR's Colin Dwyer reported earlier, Venezuelan Interior Minister Néstor Luis Reverol announced that six others had been detained in connection with the plot.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e2",
+    "category": "NAM",
+    "char_begin": 1632,
+    "char_end": 1635,
+    "head_span": [
+     1632,
+     1635
+    ],
+    "headword": "NPR",
+    "mention": "NPR",
+    "score": "0.9592786",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e4",
+    "category": "NAM",
+    "char_begin": 1638,
+    "char_end": 1649,
+    "head_span": [
+     1644,
+     1649
+    ],
+    "headword": "Dwyer",
+    "mention": "Colin Dwyer",
+    "score": "0.9987993",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e5",
+    "category": "NAM",
+    "char_begin": 1668,
+    "char_end": 1678,
+    "head_span": [
+     1668,
+     1678
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.9926317",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s12-e7",
+    "category": "NAM",
+    "char_begin": 1697,
+    "char_end": 1716,
+    "head_span": [
+     1709,
+     1716
+    ],
+    "headword": "Reverol",
+    "mention": "Néstor Luis Reverol",
+    "score": "0.6041481",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     14
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 1629
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Colin writes:  \"Reverol says it was a pair of commercial drone aircraft, each carrying about two pounds of C4 explosive material, that bore down on the ceremony.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s13-e1",
+    "category": "NAM",
+    "char_begin": 1791,
+    "char_end": 1796,
+    "head_span": [
+     1791,
+     1796
+    ],
+    "headword": "Colin",
+    "mention": "Colin",
+    "score": "0.9925558",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryPersonnel",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.MilitaryPersonnel"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s13-e2",
+    "category": "NAM",
+    "char_begin": 1807,
+    "char_end": 1814,
+    "head_span": [
+     1807,
+     1814
+    ],
+    "headword": "Reverol",
+    "mention": "Reverol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s13-e4",
+    "category": "NOM",
+    "char_begin": 1827,
+    "char_end": 1833,
+    "head_index": 9,
+    "head_span": [
+     1829,
+     1833
+    ],
+    "headword": "pair",
+    "mention": "a pair",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     8,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s13-e5",
+    "category": "NOM",
+    "char_begin": 1837,
+    "char_end": 1862,
+    "head_index": 13,
+    "head_span": [
+     1854,
+     1862
+    ],
+    "headword": "aircraft",
+    "mention": "commercial drone aircraft",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:VEH.Aircraft",
+    "subtype": "ldcOnt:VEH.Aircraft",
+    "type": "ldcOnt:VEH.Aircraft",
+    "word_span": [
+     11,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s13-e6",
+    "category": "NOM",
+    "char_begin": 1898,
+    "char_end": 1919,
+    "head_index": 23,
+    "head_span": [
+     1911,
+     1919
+    ],
+    "headword": "material",
+    "mention": "C4 explosive material",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:COM",
+    "subtype": "ldcOnt:COM",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     21,
+     24
+    ]
+   }
+  ],
+  "offset": 1791
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s14-e0",
+    "char_begin": 1994,
+    "char_end": 1997,
+    "head_span": [
+     1994,
+     1997
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "But the drones malfunctioned, he added — one hitting a nearby apartment building, the other crashing after getting disoriented by government jamming signals.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s14-e1",
+    "category": "NOM",
+    "char_begin": 1957,
+    "char_end": 1967,
+    "head_index": 2,
+    "head_span": [
+     1961,
+     1967
+    ],
+    "headword": "drones",
+    "mention": "the drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     1,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s14-e2",
+    "category": "NOM",
+    "char_begin": 2006,
+    "char_end": 2033,
+    "head_index": 13,
+    "head_span": [
+     2025,
+     2033
+    ],
+    "headword": "building",
+    "mention": "a nearby apartment building",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Building",
+    "subtype": "ldcOnt:FAC.Building",
+    "type": "ldcOnt:FAC.Building",
+    "word_span": [
+     10,
+     14
+    ]
+   }
+  ],
+  "offset": 1953
+ },
+ {
+  "docID": "IC001VBI8.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s15-e0",
+    "char_begin": 2149,
+    "char_end": 2154,
+    "head_span": [
+     2149,
+     2154
+    ],
+    "mention": "seven",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "The blasts ended up injuring at least seven troops but left the president, seemingly their intended target, physically unscathed.\"",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s15-e1",
+    "category": "NOM",
+    "char_begin": 2140,
+    "char_end": 2161,
+    "head_index": 8,
+    "head_span": [
+     2155,
+     2161
+    ],
+    "headword": "troops",
+    "mention": "at least seven troops",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.MilitaryPersonnel",
+    "subtype": "ldcOnt:PER.MilitaryPersonnel",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     5,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VBI8.ltf.xml-s15-e2",
+    "category": "NOM",
+    "char_begin": 2171,
+    "char_end": 2184,
+    "head_index": 12,
+    "head_span": [
+     2175,
+     2184
+    ],
+    "headword": "president",
+    "mention": "the president",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     11,
+     13
+    ]
+   }
+  ],
+  "offset": 2111
+ }
+]

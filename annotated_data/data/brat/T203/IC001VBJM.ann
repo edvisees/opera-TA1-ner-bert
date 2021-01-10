@@ -1,0 +1,268 @@
+T0	per_unspecified_unspecified 88 99	Authorities
+T1	per_unspecified_unspecified 109 229	six people suspected of using explosives-laden drones in a failed bid to assassinate Venezuelan President Nicolas Maduro
+T2	per_politician_headofgovernment 215 229	Nicolas Maduro
+T3	veh_aircraft_drone 139 162	explosives-laden drones
+T4	wea_unspecified_unspecified 139 149	explosives
+T5	fac_building_apartmentbuilding 318 340	her apartment building
+T6	per_professionalposition_unspecified 231 240	officials
+T7	per_unspecified_unspecified 318 321	her
+T8	val_number_number 109 112	six
+T9	gpe_country_country 194 204	Venezuelan
+T10	per_unspecified_unspecified 262 273	one witness
+T11	val_number_number 262 265	one
+T12	per_unspecified_unspecified 406 436	assailants in Miami and Bogota
+T13	gpe_urbanarea_city 420 425	Miami
+T14	gpe_urbanarea_city 430 436	Bogota
+T15	org_government_unspecified 343 357	The government
+T16	org_government_unspecified 447 451	they
+T17	sid_political_opposition 371 381	opposition
+T18	per_politician_headofgovernment 509 515	Maduro
+T19	per_politician_headofgovernment 541 544	his
+T20	per_politician_headofgovernment 582 584	he
+T21	per_politician_headofgovernment 616 619	his
+T22	per_unspecified_unspecified 482 500	Opposition leaders
+T23	per_unspecified_unspecified 570 574	they
+T24	per_unspecified_unspecified 616 627	his critics
+T25	per_unspecified_unspecified 541 564	his political opponents
+T26	sid_political_opposition 482 492	Opposition
+T27	gpe_country_country 659 668	Venezuela
+T28	per_politician_headofgovernment 734 740	Maduro
+T29	per_unspecified_unspecified 955 969	The assailants
+T30	wea_unspecified_unspecified 1003 1051	1 kilogram (2.2 pounds) of C-4 plastic explosive
+T31	veh_aircraft_drone 975 1051	two drones each packed with 1 kilogram (2.2 pounds) of C-4 plastic explosive
+T32	per_politician_headofgovernment 1059 1065	Maduro
+T33	per_unspecified_unspecified 1067 1075	his wife
+T34	per_unspecified_unspecified 1080 1097	other top leaders
+T35	org_government_unspecified 1200 1208	Interior
+T36	org_unspecified_unspecified 1179 1193	National Guard
+T37	per_politician_headofgovernment 1067 1070	his
+T38	per_politician_headofgovernment 1101 1103	he
+T39	per_professionalposition_minister 1218 1232	Nestor Reverol
+T40	val_number_number 1003 1004	1
+T41	val_number_number 1015 1018	2.2
+T42	val_number_number 1155 1159	81st
+T43	val_number_number 975 978	two
+T44	per_politician_headofgovernment 1273 1286	the president
+T45	per_politician_headofgovernment 1340 1343	him
+T46	per_professionalposition_minister 1345 1347	he
+T47	veh_aircraft_drone 1241 1251	the drones
+T48	veh_aircraft_drone 1293 1302	the other
+T49	veh_aircraft_drone 1234 1251	One of the drones
+T50	val_number_number 1234 1237	One
+T51	veh_aircraft_drone 1390 1407	one of the drones
+T52	veh_aircraft_drone 1438 1447	the other
+T53	fac_building_apartmentbuilding 1461 1552	apartment building two blocks away from where Maduro was speaking to the hundreds of troops
+T54	org_unspecified_unspecified 1360 1372	the military
+T55	per_politician_headofgovernment 1507 1513	Maduro
+T56	per_professionalposition_minister 1554 1561	Reverol
+T57	veh_aircraft_drone 1397 1407	the drones
+T58	loc_geographicpoint_unspecified 1501 1506	where
+T59	val_number_number 1390 1393	one
+T60	fac_way_street 1480 1490	two blocks
+T61	val_number_number 1480 1483	two
+T62	per_militarypersonnel_unspecified 1530 1552	the hundreds of troops
+T63	val_number_number 1534 1542	hundreds
+T64	org_government_unspecified 1570 1572	We
+T65	per_unspecified_unspecified 1578 1606	six terrorists and assassins
+T66	per_professionalposition_minister 1618 1625	Reverol
+T67	val_number_number 1578 1581	six
+T68	val_number_number 1666 1670	more
+T69	org_government_unspecified 1744 1758	the government
+T70	per_professionalposition_minister 1701 1708	Reverol
+T71	per_professionalposition_minister 1769 1771	he
+T72	per_unspecified_unspecified 1685 1699	those arrested
+T73	per_unspecified_unspecified 1714 1717	two
+T74	per_unspecified_unspecified 1785 1790	their
+T75	per_unspecified_unspecified 1817 1821	they
+T76	per_protester_unspecified 1829 1832	One
+T77	gpe_country_country 1872 1882	the nation
+T78	gpe_country_country 1886 1888	it
+T79	per_combatant_unspecified 2000 2003	his
+T80	fac_installation_militaryinstallation 2045 2064	a military barracks
+T81	org_unspecified_unspecified 2047 2055	military
+T82	per_unspecified_unspecified 1968 1977	The other
+T83	per_professionalposition_minister 2084 2106	Vladimir Padrino Lopez
+T84	per_unspecified_unspecified 2151 2164	the attackers
+T85	per_unspecified_unspecified 2191 2224	Venezuela's entire top leadership
+T86	per_politician_headofgovernment 2236 2242	Maduro
+T87	gpe_country_country 2191 2200	Venezuela
+T88	org_unspecified_unspecified 2067 2074	Defense
+T89	fac_way_street 2522 2542	a residential street
+T90	veh_aircraft_drone 2500 2507	a drone
+T91	fac_building_apartmentbuilding 2459 2485	nearby apartment buildings
+T92	per_unspecified_unspecified 2491 2495	they
+T93	per_unspecified_unspecified 2433 2485	Two witnesses who live in nearby apartment buildings
+T94	val_number_number 2433 2436	Two
+T95	veh_aircraft_drone 2649 2656	a drone
+T96	fac_building_apartmentbuilding 2671 2681	a building
+T97	org_unspecified_unspecified 2613 2629	Associated Press
+T98	per_unspecified_unspecified 2590 2601	One witness
+T99	val_number_number 2590 2593	One
+T100	veh_aircraft_drone 2691 2700	the drone
+T101	loc_position_unspecified 2709 2719	the ground
+T102	fac_building_apartmentbuilding 2753 2765	an apartment
+T103	per_unspecified_unspecified 2683 2685	He
+T104	fac_building_apartmentbuilding 2857 2862	where
+T105	per_unspecified_unspecified 2768 2783	Another witness
+T106	per_unspecified_unspecified 2785 2800	Mairum Gonzalez
+T107	per_unspecified_unspecified 2863 2866	she
+T108	val_number_number 2836 2841	fifth
+T109	val_number_number 2877 2883	second
+T110	fac_building_apartmentbuilding 2832 2855	her fifth-floor balcony
+T111	per_unspecified_unspecified 2832 2835	her
+T112	fac_building_apartmentbuilding 2935 2947	the building
+T113	per_unspecified_unspecified 2956 2959	she
+T114	per_unspecified_unspecified 2980 2982	me
+T115	per_politician_headofgovernment 3047 3053	Maduro
+T116	gpe_country_country 3003 3013	the nation
+T117	veh_aircraft_drone 3070 3086	a "flying device
+T118	per_politician_headofgovernment 3103 3105	He
+T119	per_politician_headofgovernment 3176 3182	Maduro
+T120	per_politician_headofgovernment 3188 3190	he
+T121	val_number_number 3199 3205	second
+T122	per_professionalposition_unspecified 3239 3249	Bodyguards
+T123	per_politician_headofgovernment 3259 3262	him
+T124	per_militarypersonnel_unspecified 3332 3350	uniformed soldiers
+T125	per_politician_headofgovernment 3288 3291	him
+T126	sid_ideological_ideological 3437 3451	the "far right
+T127	per_unspecified_unspecified 3483 3509	others in Bogota and Miami
+T128	per_politician_headofgovernment 3541 3559	Juan Manuel Santos
+T129	gpe_urbanarea_city 3493 3499	Bogota
+T130	gpe_urbanarea_city 3504 3509	Miami
+T131	per_politician_headofgovernment 3425 3431	Maduro
+T132	gpe_country_country 3521 3530	Colombian
+T133	per_politician_headofgovernment 3623 3629	Santos
+T134	veh_aircraft_drone 3650 3655	drone
+T135	gpe_country_country 3579 3587	Colombia
+T136	org_government_unspecified 3579 3600	Colombia's government
+T137	org_government_unspecified 3692 3702	Washington
+T138	per_politician_headofgovernment 3665 3671	Maduro
+T139	per_politician_headofgovernment 3673 3676	who
+T140	per_politician_headofgovernment 3712 3715	his
+T141	per_unspecified_unspecified 3712 3735	his political opponents
+T142	per_unspecified_unspecified 3783 3803	the "terrorist group
+T143	gpe_country_country 3747 3750	U.S
+T144	per_politician_headofgovernment 3762 3774	Donald Trump
+T145	per_professionalposition_unspecified 3853 3864	John Bolton
+T146	gpe_country_country 3916 3925	Venezuela
+T147	gpe_country_country 4020 4023	U.S
+T148	org_government_unspecified 3898 3925	the government of Venezuela
+T149	org_government_unspecified 3952 3956	they
+T150	org_government_unspecified 3976 3978	us
+T151	org_government_unspecified 4039 4041	we
+T152	org_unspecified_unspecified 3871 3874	Fox
+T153	per_politician_headofgovernment 3819 3824	Trump
+T154	gpe_country_country 4127 4136	Venezuela
+T155	org_government_unspecified 4146 4160	the government
+T156	org_politicalorganization_unspecified 4091 4136	a coalition of opposition groups in Venezuela
+T157	sid_political_opposition 4106 4116	opposition
+T158	org_politicalorganization_unspecified 4078 4089	Broad Front
+T159	org_politicalorganization_unspecified 4415 4424	the group
+T160	org_government_unspecified 4244 4258	the government
+T161	sid_political_opposition 4396 4411	the 'opposition
+T162	per_militarypersonnel_unspecified 4623 4631	soldiers
+T163	veh_aircraft_drone 4637 4641	them
+T164	org_unspecified_unspecified 4483 4503	Soldiers in T-shirts
+T165	per_politician_headofgovernment 4605 4618	the president
+T166	veh_aircraft_drone 4568 4601	two drones loaded with explosives
+T167	wea_unspecified_unspecified 4591 4601	explosives
+T168	org_unspecified_unspecified 4447 4503	A little-known group calling itself Soldiers in T-shirts
+T169	org_unspecified_unspecified 4550 4552	it
+T170	val_number_number 4568 4571	two
+T171	org_unspecified_unspecified 4721 4737	the organization
+T172	org_unspecified_unspecified 4776 4778	AP
+T173	justice_arrestjaildetain_arrestjaildetain 100 108	detained
+E0	justice_arrestjaildetain_arrestjaildetain:T173 jailer:T0 detainee:T1
+T174	conflict_attack_bombing 182 193	assassinate
+E1	conflict_attack_bombing:T174 attacker:T1 target:T2 instrument:T3 instrument:T4
+T175	conflict_attack_bombing 300 306	attack
+E2	conflict_attack_bombing:T175
+T176	contact_collaborate_unspecified 391 400	conspired
+E3	contact_collaborate_unspecified:T176 participant:T12 participant:T12 place:T13 place:T14 place:T13 place:T14
+T177	conflict_attack_bombing 643 649	attack
+E4	conflict_attack_bombing:T177
+T178	movement_transportartifact_unspecified 970 974	flew
+E5	movement_transportartifact_unspecified:T178 transporter:T29 artifact:T30 vehicle:T31
+T179	inspection_targetaimat_targetaimat 1052 1058	toward
+E6	inspection_targetaimat_targetaimat:T179 targeter:T29 target:T32 target:T33 target:T34 instrument:T30 instrument:T31
+T180	movement_transportartifact_lossofcontrol 1384 1389	knock
+E7	movement_transportartifact_lossofcontrol:T180 controlledthing:T51
+T181	disaster_accidentcrash_accidentcrash 1448 1455	crashed
+E8	disaster_accidentcrash_accidentcrash:T181 vehicle:T52 crashobject:T53
+T182	justice_arrestjaildetain_arrestjaildetain 1607 1615	detained
+E9	justice_arrestjaildetain_arrestjaildetain:T182 jailer:T64 detainee:T65
+T183	conflict_demonstrate_marchprotestpoliticalgathering 1851 1859	protests
+E10	conflict_demonstrate_marchprotestpoliticalgathering:T183 demonstrator:T76 place:T77
+T184	conflict_attack_unspecified 2035 2041	attack
+E11	conflict_attack_unspecified:T184 attacker:T79 target:T80
+T185	contact_mediastatement_unspecified 2146 2150	said
+E12	contact_mediastatement_unspecified:T185 communicator:T83
+T186	inspection_targetaimat_targetaimat 2170 2176	aiming
+E13	inspection_targetaimat_targetaimat:T186 targeter:T84 target:T85 target:T86
+T187	disaster_fireexplosion_fireexplosion 2578 2587	explosion
+E14	disaster_fireexplosion_fireexplosion:T187 place:T89
+T188	movement_transportartifact_unspecified 2508 2516	hovering
+E15	movement_transportartifact_unspecified:T188 vehicle:T90 destination:T89 origin:T89
+T189	disaster_accidentcrash_accidentcrash 2657 2665	crashing
+E16	disaster_accidentcrash_accidentcrash:T189 vehicle:T95 crashobject:T96
+T190	movement_transportartifact_fall 2701 2705	fell
+E17	movement_transportartifact_fall:T190 artifact:T100 destination:T101
+T191	disaster_fireexplosion_fireexplosion 2724 2732	exploded
+E18	disaster_fireexplosion_fireexplosion:T191 fireexplosionobject:T100 place:T101
+T192	artifactexistence_damagedestroy_damage 2745 2749	fire
+E19	artifactexistence_damagedestroy_damage:T192 fireexplosionobject:T102 instrument:T100 instrument:T100 artifact:T102
+T193	disaster_fireexplosion_fireexplosion 2745 2749	fire
+E20	disaster_fireexplosion_fireexplosion:T193 fireexplosionobject:T102 instrument:T100 instrument:T100 artifact:T102
+T194	disaster_fireexplosion_fireexplosion 2884 2893	explosion
+E21	disaster_fireexplosion_fireexplosion:T194
+T195	disaster_fireexplosion_fireexplosion 2918 2920	It
+E22	disaster_fireexplosion_fireexplosion:T195
+T196	contact_mediastatement_unspecified 2992 2999	address
+E23	contact_mediastatement_unspecified:T196 communicator:T115 recipient:T116
+T197	disaster_fireexplosion_fireexplosion 3093 3101	exploded
+E24	disaster_fireexplosion_fireexplosion:T197 fireexplosionobject:T117
+T198	disaster_fireexplosion_fireexplosion 3123 3125	it
+E25	disaster_fireexplosion_fireexplosion:T198
+T199	disaster_fireexplosion_fireexplosion 3206 3211	blast
+E26	disaster_fireexplosion_fireexplosion:T199
+T200	movement_transportperson_evacuationrescue 3250 3258	escorted
+E27	movement_transportperson_evacuationrescue:T200 transporter:T122 passenger:T123
+T201	movement_transportperson_evacuationrescue 3371 3378	scatter
+E28	movement_transportperson_evacuationrescue:T201 passenger:T124
+T202	contact_collaborate_unspecified 3465 3477	coordination
+E29	contact_collaborate_unspecified:T202 participant:T126 participant:T127 participant:T128 place:T129 place:T130
+T203	conflict_attack_bombing 3656 3662	attack
+E30	conflict_attack_bombing:T203 attacker:T133 instrument:T134
+T204	contact_mediastatement_unspecified 3865 3869	told
+E31	contact_mediastatement_unspecified:T204 communicator:T145
+T205	contact_mediastatement_unspecified 4425 4429	said
+E32	contact_mediastatement_unspecified:T205 communicator:T159
+T206	conflict_attack_firearmattack 4632 4636	shot
+E33	conflict_attack_firearmattack:T206 attacker:T162 target:T163
+T207	conflict_attack_bombing 4535 4541	attack
+E34	conflict_attack_bombing:T207 attacker:T164 attacker:T164 target:T165 target:T165 instrument:T166 instrument:T167 instrument:T166 instrument:T167
+R1	measurement_size_count Arg1:T8 Arg2:T1
+R2	organizationaffiliation_leadership_headofstate Arg1:T9 Arg2:T2
+R3	measurement_size_count Arg1:T31 Arg2:T43
+R4	physical_locatednear_unspecified Arg1:T58 Arg2:T53
+R5	measurement_size_count Arg1:T49 Arg2:T50
+R6	measurement_size_count Arg1:T51 Arg2:T59
+R7	measurement_size_count Arg1:T60 Arg2:T61
+R8	measurement_size_count Arg1:T62 Arg2:T63
+R9	measurement_size_count Arg1:T65 Arg2:T67
+R10	measurement_size_count Arg1:T93 Arg2:T94
+R11	physical_locatednear_unspecified Arg1:T89 Arg2:T90
+R12	measurement_size_count Arg1:T98 Arg2:T99
+R13	physical_locatednear_unspecified Arg1:T13 Arg2:T12
+R14	physical_locatednear_unspecified Arg1:T14 Arg2:T12
+R15	physical_locatednear_unspecified Arg1:T53 Arg2:T52
+R16	physical_locatednear_unspecified Arg1:T77 Arg2:T76
+R17	physical_locatednear_unspecified Arg1:T80 Arg2:T79
+R18	physical_locatednear_unspecified Arg1:T96 Arg2:T95
+R19	physical_locatednear_unspecified Arg1:T101 Arg2:T100
+R20	physical_locatednear_unspecified Arg1:T110 Arg2:T111
+R21	organizationaffiliation_leadership_headofstate Arg1:T132 Arg2:T133
+R22	organizationaffiliation_leadership_headofstate Arg1:T143 Arg2:T144
+R23	generalaffiliation_organizationpoliticalreligiousaffiliation_unspecified Arg1:T157 Arg2:T158
+R24	measurement_size_count Arg1:T166 Arg2:T170
+R25	measurement_size_count Arg1:T10 Arg2:T11

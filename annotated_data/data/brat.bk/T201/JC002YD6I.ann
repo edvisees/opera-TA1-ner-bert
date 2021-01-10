@@ -1,0 +1,33 @@
+T0	gpe_unspecified_unspecified 103 112	Venezuela
+T1	gpe_urbanarea_city 212 219	Táchira
+T2	mhi_symptompresentation_symptompresentation 262 268	fiebre
+T3	mhi_symptompresentation_symptompresentation 276 286	erupciones
+T4	per_unspecified_unspecified 174 178	niña
+T5	per_unspecified_unspecified 492 502	8 personas
+T6	fac_installation_unspecified 509 536	Hospital Central de Maracay
+T7	per_politician_headofgovernment 553 567	Nicolás Maduro
+T8	per_unspecified_unspecified 446 451	quien
+T9	fac_installation_unspecified 359 391	la residencia de Ángel Sarmiento
+T10	gpe_unspecified_unspecified 439 445	Aragua
+T11	gpe_unspecified_unspecified 620 630	venezolana
+T12	org_government_unspecified 600 630	el sistema de salud venezolana
+T13	gpe_urbanarea_city 529 536	Maracay
+T14	org_unspecified_unspecified 410 420	Federación
+T15	per_unspecified_unspecified 393 403	Presidente
+T16	mhi_symptompresentation_symptompresentation 819 828	similares
+T17	gpe_unspecified_unspecified 787 794	estados
+T18	org_government_unspecified 689 697	gobierno
+T19	per_unspecified_unspecified 755 763	personas
+T20	life_die_nonviolentdeath 190 198	falleció
+E0	life_die_nonviolentdeath:T20 place:T1 medicalissue:T2 medicalissue:T3 victim:T4
+T21	contact_threatencoerce_unspecified 461 470	denunciar
+E1	contact_threatencoerce_unspecified:T21
+T22	life_die_nonviolentdeath 482 488	muerte
+E2	life_die_nonviolentdeath:T22 victim:T5 place:T6
+T23	contact_threatencoerce_unspecified 541 548	acusado
+E3	contact_threatencoerce_unspecified:T23 communicator:T7 recipient:T8
+T24	life_die_nonviolentdeath 768 777	fallecido
+E4	life_die_nonviolentdeath:T24 medicalissue:T16 place:T17
+T25	contact_threatencoerce_unspecified 677 684	amenaza
+E5	contact_threatencoerce_unspecified:T25 communicator:T18
+R1	organizationaffiliation_leadership_unspecified Arg1:T14 Arg2:T15

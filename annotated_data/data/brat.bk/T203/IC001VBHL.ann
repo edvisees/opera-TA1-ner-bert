@@ -1,0 +1,293 @@
+T0	org_government_unspecified 409 419	El régimen
+T1	per_politician_headofgovernment 454 472	Juan Manuel Santos
+T2	gpe_country_country 445 453	Colombia
+T3	org_government_unspecified 477 503	Gobierno de Estados Unidos
+T4	gpe_country_country 489 503	Estados Unidos
+T5	sid_political_opposition 508 537	la oposición política interna
+T6	per_politician_headofgovernment 429 453	expresidente de Colombia
+T7	per_professionalposition_spokesperson 655 666	un portavoz
+T8	gpe_urbanarea_city 706 713	Caracas
+T9	per_professionalposition_unspecified 802 812	un experto
+T10	per_unspecified_unspecified 746 756	un testigo
+T11	org_government_unspecified 849 873	las instancias oficiales
+T12	per_professionalposition_minister 924 939	Jorge Rodríguez
+T13	org_government_agency 959 973	Comunicaciones
+T14	per_professionalposition_minister 941 973	vicepresidente de Comunicaciones
+T15	gpe_country_country 1107 1111	rusa
+T16	org_commercialorganization_broadcastingcompany 1085 1111	la cadena de noticias rusa
+T17	veh_aircraft_drone 1030 1041	tres drones
+T18	val_number_number 1030 1034	tres
+T19	org_commercialorganization_broadcastingcompany 1113 1120	Sputnik
+T20	per_professionalposition_minister 1258 1269	funcionario
+T21	veh_aircraft_drone 1124 1127	uno
+T22	veh_aircraft_drone 1184 1187	que
+T23	fac_way_street 1167 1182	avenida Bolívar
+T24	fac_structure_unspecified 1137 1159	la tarima presidencial
+T25	loc_unspecified_unspecified 1296 1390	el lado derecho del estrado donde se encontraba Maduro y la plana mayor de las Fuerzas Armadas
+T26	veh_aircraft_drone 1271 1281	El segundo
+T27	fac_structure_unspecified 1316 1390	estrado donde se encontraba Maduro y la plana mayor de las Fuerzas Armadas
+T28	per_politician_headofgovernment 1344 1350	Maduro
+T29	per_militarypersonnel_militaryofficer 1353 1390	la plana mayor de las Fuerzas Armadas
+T30	org_militaryorganization_governmentarmedforces 1375 1390	Fuerzas Armadas
+T31	veh_aircraft_drone 1392 1401	El último
+T32	fac_building_apartmentbuilding 1422 1442	edificio Don Eduardo
+T33	fac_way_street 1459 1474	avenida Este 12
+T34	gpe_country_country 1512 1516	país
+T35	val_number_number 1472 1474	12
+T36	gpe_urbanarea_city 1497 1516	la capital del país
+T37	fac_way_street 1482 1493	avenida Sur
+T38	per_combatant_sniper 1931 1959	francotiradores del Gobierno
+T39	veh_aircraft_drone 1883 1900	uno de los drones
+T40	per_professionalposition_minister 1860 1869	Rodríguez
+T41	per_unspecified_unspecified 1749 1792	Una fuente vinculada al Ejército venezolano
+T42	veh_aircraft_drone 1890 1900	los drones
+T43	gpe_country_country 1782 1792	venezolano
+T44	org_militaryorganization_governmentarmedforces 1773 1792	Ejército venezolano
+T45	fac_structure_unspecified 1814 1836	la tarima presidencial
+T46	per_unspecified_unspecified 1794 1797	que
+T47	org_government_unspecified 1951 1959	Gobierno
+T48	per_militarypersonnel_unspecified 2017 2098	los siete cadetes y soldados que en ese momento desfilaban por la avenida Bolívar
+T49	fac_way_street 2083 2098	avenida Bolívar
+T50	veh_aircraft_drone 1977 1986	artefacto
+T51	val_number_number 2021 2026	siete
+T52	per_combatant_sniper 2228 2254	los tiradores del Ejército
+T53	veh_aircraft_drone 2200 2208	ese dron
+T54	per_militarypersonnel_unspecified 2100 2111	Otra fuente
+T55	per_militarypersonnel_unspecified 2113 2134	un militar extranjero
+T56	org_militaryorganization_governmentarmedforces 2246 2254	Ejército
+T57	per_militarypersonnel_unspecified 2337 2352	la misma fuente
+T58	veh_aircraft_drone 2312 2327	un dron volando
+T59	per_professionalposition_minister 2574 2588	Néstor Reverol
+T60	loc_unspecified_unspecified 2739 2745	aéreas
+T61	val_number_number 2686 2689	600
+T62	org_government_agency 2504 2518	Comunicaciones
+T63	per_professionalposition_minister 2493 2518	titular de Comunicaciones
+T64	org_government_agency 2602 2621	Interior y Justicia
+T65	per_professionalposition_minister 2590 2621	ministro de Interior y Justicia
+T66	veh_aircraft_drone 2654 2794	dos drones del tipo DJI-Matrice 600, un modelo que se utiliza para tomar fotografías aéreas y de uso industrial, según la web del fabricante
+T67	val_number_number 2649 2657	solo dos
+T68	per_professionalposition_minister 2834 2841	Reverol
+T69	wea_bomb_unspecified 2859 2913	un kilo C4, una variedad común de explosivos plásticos
+T70	veh_aircraft_drone 2796 2808	Cada aparato
+T71	val_number_number 2859 2861	un
+T72	per_professionalposition_minister 2915 2926	El ministro
+T73	per_combatant_sniper 2970 2985	francotiradores
+T74	veh_aircraft_drone 2939 2951	uno de ellos
+T75	veh_aircraft_drone 2988 2998	el segundo
+T76	fac_building_apartmentbuilding 3018 3032	una residencia
+T77	veh_aircraft_drone 2946 2951	ellos
+T78	per_professionalposition_minister 3823 3825	su
+T79	veh_aircraft_drone 3851 3868	uno de los drones
+T80	com_unspecified_unspecified 3890 3980	los equipos inhibidores de señales instalados en la avenida Bolívar durante la celebración
+T81	fac_way_street 3942 3957	avenida Bolívar
+T82	per_professionalposition_minister 3811 3818	Reverol
+T83	val_number_number 3851 3854	uno
+T84	veh_aircraft_drone 3858 3868	los drones
+T85	per_professionalposition_unspecified 4101 4111	René Ramos
+T86	veh_aircraft_drone 4138 4152	esas aeronaves
+T87	fac_installation_airport 3986 4001	los aeropuertos
+T88	com_unspecified_unspecified 4031 4053	inhibidores de señales
+T89	fac_unspecified_unspecified 4004 4022	zonas de seguridad
+T90	fac_way_street 4078 4093	avenida Bolívar
+T91	gpe_country_country 4124 4134	venezolano
+T92	per_professionalposition_unspecified 4113 4152	un experto venezolano en esas aeronaves
+T93	val_number_number 4223 4226	600
+T94	val_number_number 4235 4245	unos 6.000
+T95	veh_aircraft_drone 4200 4226	Los drones DJI-Matrice 600
+T96	per_professionalposition_unspecified 4272 4285	Los cineastas
+T97	per_professionalposition_unspecified 4288 4313	productores audiovisuales
+T98	val_number_number 4382 4387	cinco
+T99	veh_aircraft_drone 4314 4317	los
+T100	veh_aircraft_drone 4507 4527	una de las aeronaves
+T101	loc_geographicpoint_unspecified 4530 4539	su origen
+T102	veh_aircraft_drone 4530 4532	su
+T103	com_unspecified_unspecified 4584 4596	un inhibidor
+T104	loc_unspecified_unspecified 4474 4481	la zona
+T105	per_unspecified_unspecified 4420 4445	Los pilotos de los drones
+T106	per_professionalposition_unspecified 4708 4713	Ramos
+T107	fac_building_officebuilding 4826 4897	el piso 10 del Centro Empresarial Cipreses de la avenida Sur de Caracas
+T108	veh_aircraft_drone 4786 4805	uno de los aparatos
+T109	per_politician_headofgovernment 4716 4722	Maduro
+T110	per_professionalposition_minister 4724 4731	Reverol
+T111	per_professionalposition_minister 4752 4770	Tarek William Saab
+T112	val_number_number 4834 4836	10
+T113	val_number_number 4901 4908	unos 70
+T114	veh_aircraft_drone 4793 4805	los aparatos
+T115	fac_building_officebuilding 4841 4868	Centro Empresarial Cipreses
+T116	fac_way_street 4875 4886	avenida Sur
+T117	gpe_urbanarea_city 4890 4897	Caracas
+T118	fac_structure_unspecified 4919 4941	la tarima presidencial
+T119	per_politician_headofgovernment 5921 5935	Nicolás Maduro
+T120	gpe_country_country 6066 6074	Colombia
+T121	gpe_country_country 6077 6091	Estados Unidos
+T122	gpe_country_country 6124 6134	venezolana
+T123	per_politician_headofgovernment 6143 6156	el mandatario
+T124	gpe_country_country 5972 5982	venezolana
+T125	org_commercialorganization_broadcastingcompany 5950 5982	la televisión pública venezolana
+T126	org_government_unspecified 6049 6091	los gobiernos de Colombia y Estados Unidos
+T127	sid_political_opposition 6111 6134	la oposición venezolana
+T128	per_militarypersonnel_militaryofficer 6282 6292	el militar
+T129	per_unspecified_unspecified 6394 6396	su
+T130	per_unspecified_unspecified 6251 6279	Osman Alexis Delgado Tabosky
+T131	per_militarypersonnel_unspecified 6293 6323	Oswaldo Valentín García Palomo
+T132	per_unspecified_unspecified 6348 6353	ambos
+T133	fac_structure_unspecified 6545 6569	Fuerte Militar Paramacay
+T134	gpe_country_country 6614 6618	país
+T135	per_unspecified_unspecified 6458 6465	Delgado
+T136	loc_unspecified_unspecified 6597 6618	centro-norte del país
+T137	gpe_provincestate_provincestate 6587 6595	Carabobo
+T138	per_unspecified_unspecified 6488 6619	el presunto responsable de financiar el asalto contra el Fuerte Militar Paramacay, en el Estado de Carabobo (centro-norte del país)
+T139	per_militarypersonnel_militaryofficer 6720 6722	su
+T140	per_militarypersonnel_militaryofficer 6690 6703	García Palomo
+T141	per_militarypersonnel_militaryofficer 6707 6709	le
+T142	org_militaryorganization_governmentarmedforces 6673 6689	Guardia Nacional
+T143	per_militarypersonnel_militaryofficer 6650 6689	coronel retirado de la Guardia Nacional
+T144	per_politician_headofgovernment 6916 6922	Maduro
+T145	per_unspecified_unspecified 6967 6987	José Eloy Rivas Díaz
+T146	per_unspecified_unspecified 6990 7020	Rayder Alexander Russo Márquez
+T147	gpe_country_country 6827 6836	Venezuela
+T148	org_government_unspecified 6812 6836	El Gobierno de Venezuela
+T149	per_unspecified_unspecified 6866 6922	los principales financiadores del atentado contra Maduro
+T150	gpe_country_country 6955 6966	venezolanos
+T151	per_unspecified_unspecified 6932 6966	los también ciudadanos venezolanos
+T152	per_unspecified_unspecified 6849 6852	los
+T153	gpe_country_country 7104 7118	Estados Unidos
+T154	per_unspecified_unspecified 7050 7053	les
+T155	val_number_number 7065 7076	50 millones
+T156	org_politicalorganization_court 8354 8364	El Supremo
+T157	per_politician_unspecified 8392 8404	Julio Borges
+T158	per_politician_unspecified 8513 8515	su
+T159	fac_building_unspecified 8513 8525	su domicilio
+T160	per_politician_unspecified 8547 8561	Juan Requesens
+T161	org_government_legislativebody 8425 8442	Asamblea Nacional
+T162	per_politician_unspecified 8406 8462	expresidente de la Asamblea Nacional, exiliado en Bogotá
+T163	gpe_urbanarea_city 8456 8462	Bogotá
+T164	sid_political_opposition 8538 8546	opositor
+T165	per_politician_unspecified 8529 8546	diputado opositor
+T166	per_politician_unspecified 8579 8627	los supuestos autores intelectuales del atentado
+T167	per_politician_unspecified 8629 8638	Requesens
+T168	org_government_unspecified 8686 8694	Gobierno
+T169	per_politician_unspecified 8758 8764	Borges
+T170	per_politician_unspecified 8896 8898	se
+T171	per_unspecified_unspecified 8767 8794	Observadores independientes
+T172	per_unspecified_unspecified 8842 8852	la familia
+T173	com_unspecified_unspecified 9014 9027	ropa interior
+T174	per_politician_unspecified 9001 9010	Requesens
+T175	conflict_attack_unspecified 585 595	magnicidio
+E0	conflict_attack_unspecified:T175
+T176	contact_mediastatement_broadcast 667 676	comparece
+E1	contact_mediastatement_broadcast:T176 communicator:T7
+T177	contact_mediastatement_broadcast 910 921	declaración
+E2	contact_mediastatement_broadcast:T177 communicator:T11
+T178	disaster_accidentcrash_accidentcrash 1402 1411	colisionó
+E3	disaster_accidentcrash_accidentcrash:T178 vehicle:T31 crashobject:T32 place:T33
+T179	artifactexistence_damagedestroy_destroy 1905 1914	derribado
+E4	artifactexistence_damagedestroy_destroy:T179 destroyer:T38 artifact:T39
+T180	conflict_attack_firearmattack 1919 1927	disparos
+E5	conflict_attack_firearmattack:T180 attacker:T38 target:T39
+T181	life_injure_injurycausedbyviolentevents 2007 2014	heridas
+E6	life_injure_injurycausedbyviolentevents:T181 victim:T48 place:T49
+T182	conflict_attack_firearmattack 2176 2183	disparo
+E7	conflict_attack_firearmattack:T182
+T183	conflict_attack_firearmattack 2216 2223	abatido
+E8	conflict_attack_firearmattack:T183 attacker:T52 target:T53
+T184	contact_mediastatement_broadcast 2623 2630	aseguró
+E9	contact_mediastatement_broadcast:T184 communicator:T65
+T185	contact_mediastatement_broadcast 2819 2830	declaración
+E10	contact_mediastatement_broadcast:T185 communicator:T68
+T186	movement_transportartifact_unspecified 2847 2854	cargado
+E11	movement_transportartifact_unspecified:T186 artifact:T69 vehicle:T70
+T187	contact_mediastatement_broadcast 2927 2934	explicó
+E12	contact_mediastatement_broadcast:T187 communicator:T72
+T188	artifactexistence_damagedestroy_destroy 2956 2965	destruido
+E13	artifactexistence_damagedestroy_destroy:T188 destroyer:T73 artifact:T74
+T189	disaster_accidentcrash_accidentcrash 3002 3010	estrelló
+E14	disaster_accidentcrash_accidentcrash:T189 vehicle:T75 crashobject:T76
+T190	contact_mediastatement_broadcast 3826 3837	explicación
+E15	contact_mediastatement_broadcast:T190 communicator:T78
+T191	contact_mediastatement_broadcast 3839 3846	detalló
+E16	contact_mediastatement_broadcast:T191 communicator:T78
+T192	artifactexistence_artifactfailure_mechanicalfailure 3873 3885	neutralizado
+E17	artifactexistence_artifactfailure_mechanicalfailure:T192 mechanicalartifact:T79 instrument:T80 place:T81
+T193	movement_transportartifact_unspecified 4498 4506	devolvió
+E18	movement_transportartifact_unspecified:T193 artifact:T100 destination:T101
+T194	artifactexistence_artifactfailure_mechanicalfailure 4547 4559	perdió señal
+E19	artifactexistence_artifactfailure_mechanicalfailure:T194 mechanicalartifact:T102 instrument:T103
+T195	movement_transportartifact_unspecified 4810 4819	piloteado
+E20	movement_transportartifact_unspecified:T195 origin:T107 artifact:T108
+T196	conflict_attack_bombing 5911 5919	atentado
+E21	conflict_attack_bombing:T196 target:T119
+T197	contact_mediastatement_broadcast 5936 5946	compareció
+E22	contact_mediastatement_broadcast:T197 communicator:T119
+T198	conflict_attack_bombing 6005 6012	complot
+E23	conflict_attack_bombing:T198
+T199	conflict_attack_bombing 6243 6249	ataque
+E24	conflict_attack_bombing:T199
+T200	conflict_attack_unspecified 6528 6534	asalto
+E25	conflict_attack_unspecified:T200 target:T133
+T201	transaction_transfermoney_unspecified 6515 6524	financiar
+E26	transaction_transfermoney_unspecified:T201 giver:T138
+T202	conflict_coup_coup 6753 6762	Operación
+E27	conflict_coup_coup:T202 deposingentity:T139
+T203	conflict_coup_coup 6778 6783	golpe
+E28	conflict_coup_coup:T203
+T204	conflict_attack_bombing 6900 6908	atentado
+E29	conflict_attack_bombing:T204 target:T144
+T205	transaction_transfermoney_unspecified 6882 6895	financiadores
+E30	transaction_transfermoney_unspecified:T205 giver:T149 giver:T151
+T206	contact_requestadvise_broadcast 8368 8378	solicitado
+E31	contact_requestadvise_broadcast:T206 communicator:T156
+T207	justice_arrestjaildetain_arrestjaildetain 8379 8386	prisión
+E32	justice_arrestjaildetain_arrestjaildetain:T207 detainee:T157
+T208	justice_arrestjaildetain_arrestjaildetain 8469 8477	detenido
+E33	justice_arrestjaildetain_arrestjaildetain:T208 jailer:T156 detainee:T158 place:T159
+T209	conflict_attack_unspecified 8619 8627	atentado
+E34	conflict_attack_unspecified:T209
+T210	contact_mediastatement_broadcast 8665 8670	vídeo
+E35	contact_mediastatement_broadcast:T210 communicator:T167
+T211	conflict_attack_bombing 8716 8724	atentado
+E36	conflict_attack_bombing:T211
+T212	contact_mediastatement_broadcast 8813 8824	declaración
+E37	contact_mediastatement_broadcast:T212 communicator:T170
+T213	conflict_attack_unspecified 8869 8876	drogado
+E38	conflict_attack_unspecified:T213 target:T170
+T214	conflict_attack_bombing 8913 8921	atentado
+E39	conflict_attack_bombing:T214
+T215	contact_mediastatement_broadcast 8940 8948	difundió
+E40	contact_mediastatement_broadcast:T215
+R1	organizationaffiliation_leadership_headofstate Arg1:T2 Arg2:T6
+R2	partwhole_subsidiary_nationalitycitizen Arg1:T4 Arg2:T3
+R3	organizationaffiliation_leadership_government Arg1:T13 Arg2:T14
+R4	measurement_size_count Arg1:T17 Arg2:T18
+R5	physical_locatednear_unspecified Arg1:T23 Arg2:T24
+R6	physical_locatednear_unspecified Arg1:T27 Arg2:T28
+R7	physical_locatednear_unspecified Arg1:T27 Arg2:T29
+R8	organizationaffiliation_leadership_government Arg1:T30 Arg2:T29
+R9	physical_locatednear_unspecified Arg1:T36 Arg2:T33
+R10	physical_locatednear_unspecified Arg1:T36 Arg2:T37
+R11	partwhole_subsidiary_nationalitycitizen Arg1:T43 Arg2:T44
+R12	physical_locatednear_unspecified Arg1:T45 Arg2:T46
+R13	organizationaffiliation_employmentmembership_employment Arg1:T47 Arg2:T38
+R14	measurement_size_count Arg1:T48 Arg2:T51
+R15	organizationaffiliation_employmentmembership_employment Arg1:T56 Arg2:T52
+R16	organizationaffiliation_leadership_government Arg1:T62 Arg2:T63
+R17	organizationaffiliation_leadership_government Arg1:T64 Arg2:T65
+R18	measurement_size_count Arg1:T66 Arg2:T67
+R19	physical_locatednear_unspecified Arg1:T81 Arg2:T80
+R20	physical_locatednear_unspecified Arg1:T87 Arg2:T88
+R21	physical_locatednear_unspecified Arg1:T89 Arg2:T88
+R22	physical_locatednear_unspecified Arg1:T90 Arg2:T88
+R23	generalaffiliation_memberoriginreligionethnicity_nationalitycitizen Arg1:T91 Arg2:T92
+R24	physical_locatednear_unspecified Arg1:T104 Arg2:T105
+R25	physical_locatednear_unspecified Arg1:T115 Arg2:T107
+R26	physical_locatednear_unspecified Arg1:T116 Arg2:T115
+R27	physical_locatednear_unspecified Arg1:T117 Arg2:T116
+R28	physical_locatednear_unspecified Arg1:T118 Arg2:T107
+R29	partwhole_subsidiary_nationalitycitizen Arg1:T124 Arg2:T125
+R30	physical_locatednear_unspecified Arg1:T137 Arg2:T133
+R31	organizationaffiliation_employmentmembership_employment Arg1:T142 Arg2:T143
+R32	partwhole_subsidiary_nationalitycitizen Arg1:T147 Arg2:T148
+R33	generalaffiliation_memberoriginreligionethnicity_nationalitycitizen Arg1:T150 Arg2:T151
+R34	organizationaffiliation_leadership_government Arg1:T161 Arg2:T162
+R35	physical_locatednear_unspecified Arg1:T163 Arg2:T162
+R36	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T164 Arg2:T165

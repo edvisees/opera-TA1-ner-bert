@@ -1,0 +1,2297 @@
+[
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e0",
+    "char_begin": 0,
+    "char_end": 2,
+    "head_span": [
+     0,
+     2
+    ],
+    "mention": ".6",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e1",
+    "char_begin": 61,
+    "char_end": 70,
+    "head_span": [
+     61,
+     70
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e2",
+    "char_begin": 88,
+    "char_end": 91,
+    "head_span": [
+     88,
+     91
+    ],
+    "mention": "Six",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e3",
+    "char_begin": 124,
+    "char_end": 132,
+    "head_span": [
+     124,
+     132
+    ],
+    "mention": "Saturday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e4",
+    "char_begin": 169,
+    "char_end": 178,
+    "head_span": [
+     169,
+     178
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e5",
+    "char_begin": 245,
+    "char_end": 262,
+    "head_span": [
+     254,
+     262
+    ],
+    "mention": "interior minister",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": ".6 People Arrested After Assassination Attempt on Venezuelan President Nicolas Maduro;  Six people have been arrested after Saturday’s apparent assassination attempt on President Nicolas Maduro in the Venezuelan capital of Caracas, the nation’s interior minister said on national TV.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e6",
+    "category": "NAM",
+    "char_begin": 50,
+    "char_end": 60,
+    "head_span": [
+     50,
+     60
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99333704",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e9",
+    "category": "NAM",
+    "char_begin": 71,
+    "char_end": 85,
+    "head_span": [
+     79,
+     85
+    ],
+    "headword": "Maduro",
+    "mention": "Nicolas Maduro",
+    "score": "0.99884254",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e11",
+    "category": "NAM",
+    "char_begin": 179,
+    "char_end": 193,
+    "head_span": [
+     187,
+     193
+    ],
+    "headword": "Maduro",
+    "mention": "Nicolas Maduro",
+    "score": "0.99873286",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     27
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e12",
+    "category": "NAM",
+    "char_begin": 201,
+    "char_end": 211,
+    "head_span": [
+     201,
+     211
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99310535",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     29,
+     30
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e14",
+    "category": "NOM",
+    "char_begin": 0,
+    "char_end": 9,
+    "head_index": 1,
+    "head_span": [
+     3,
+     9
+    ],
+    "headword": "People",
+    "mention": ".6 People",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e15",
+    "category": "NOM",
+    "char_begin": 50,
+    "char_end": 85,
+    "head_index": 10,
+    "head_span": [
+     79,
+     85
+    ],
+    "headword": "Maduro",
+    "mention": "Venezuelan President Nicolas Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     7,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e16",
+    "category": "NOM",
+    "char_begin": 88,
+    "char_end": 98,
+    "head_index": 13,
+    "head_span": [
+     92,
+     98
+    ],
+    "headword": "people",
+    "mention": "Six people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     12,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e17",
+    "category": "NOM",
+    "char_begin": 169,
+    "char_end": 193,
+    "head_index": 26,
+    "head_span": [
+     187,
+     193
+    ],
+    "headword": "Maduro",
+    "mention": "President Nicolas Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     24,
+     27
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e18",
+    "category": "NOM",
+    "char_begin": 223,
+    "char_end": 230,
+    "head_index": 32,
+    "head_span": [
+     223,
+     230
+    ],
+    "headword": "Caracas",
+    "mention": "Caracas",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     32,
+     33
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e19",
+    "category": "NOM",
+    "char_begin": 232,
+    "char_end": 244,
+    "head_index": 35,
+    "head_span": [
+     236,
+     242
+    ],
+    "headword": "nation",
+    "mention": "the nation’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     34,
+     37
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e20",
+    "category": "NOM",
+    "char_begin": 232,
+    "char_end": 262,
+    "head_index": 38,
+    "head_span": [
+     254,
+     262
+    ],
+    "headword": "minister",
+    "mention": "the nation’s interior minister",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     34,
+     39
+    ]
+   }
+  ],
+  "offset": 0
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e0",
+    "char_begin": 476,
+    "char_end": 485,
+    "head_span": [
+     476,
+     485
+    ],
+    "mention": "president",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Maduro survived the assault after several drones armed with explosives flew toward him during a speech at a military parade, an attack he blamed on far-right elements and Colombia’s outgoing president, Juan Manuel Santos.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e1",
+    "category": "NAM",
+    "char_begin": 487,
+    "char_end": 505,
+    "head_span": [
+     499,
+     505
+    ],
+    "headword": "Santos",
+    "mention": "Juan Manuel Santos",
+    "score": "0.7459225",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     34,
+     37
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e3",
+    "category": "NOM",
+    "char_begin": 285,
+    "char_end": 291,
+    "head_index": 0,
+    "head_span": [
+     285,
+     291
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     0,
+     1
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e4",
+    "category": "NOM",
+    "char_begin": 319,
+    "char_end": 333,
+    "head_index": 6,
+    "head_span": [
+     327,
+     333
+    ],
+    "headword": "drones",
+    "mention": "several drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     5,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e5",
+    "category": "NOM",
+    "char_begin": 345,
+    "char_end": 355,
+    "head_index": 9,
+    "head_span": [
+     345,
+     355
+    ],
+    "headword": "explosives",
+    "mention": "explosives",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:WEA.Bomb",
+    "subtype": "ldcOnt:WEA.Bomb",
+    "type": "ldcOnt:WEA.Bomb",
+    "word_span": [
+     9,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e6",
+    "category": "NOM",
+    "char_begin": 391,
+    "char_end": 408,
+    "head_index": 19,
+    "head_span": [
+     402,
+     408
+    ],
+    "headword": "parade",
+    "mention": "a military parade",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     17,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e7",
+    "category": "NOM",
+    "char_begin": 456,
+    "char_end": 466,
+    "head_index": 29,
+    "head_span": [
+     456,
+     464
+    ],
+    "headword": "Colombia",
+    "mention": "Colombia’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     29,
+     31
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e8",
+    "category": "NOM",
+    "char_begin": 456,
+    "char_end": 485,
+    "head_index": 32,
+    "head_span": [
+     476,
+     485
+    ],
+    "headword": "president",
+    "mention": "Colombia’s outgoing president",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     29,
+     33
+    ]
+   }
+  ],
+  "offset": 285
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e0",
+    "char_begin": 569,
+    "char_end": 586,
+    "head_span": [
+     578,
+     586
+    ],
+    "mention": "Interior Minister",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e1",
+    "char_begin": 607,
+    "char_end": 613,
+    "head_span": [
+     607,
+     613
+    ],
+    "mention": "Sunday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Those arrested are accused of \"terrorism and assassination,\" Interior Minister Nestor Reverol said Sunday.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e2",
+    "category": "NAM",
+    "char_begin": 587,
+    "char_end": 601,
+    "head_span": [
+     594,
+     601
+    ],
+    "headword": "Reverol",
+    "mention": "Nestor Reverol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:PER.Politician"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e4",
+    "category": "NOM",
+    "char_begin": 539,
+    "char_end": 566,
+    "head_index": 8,
+    "head_span": [
+     553,
+     566
+    ],
+    "headword": "assassination",
+    "mention": "terrorism and assassination",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     6,
+     9
+    ]
+   }
+  ],
+  "offset": 508
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e0",
+    "char_begin": 629,
+    "char_end": 632,
+    "head_span": [
+     629,
+     632
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e1",
+    "char_begin": 711,
+    "char_end": 722,
+    "head_span": [
+     718,
+     722
+    ],
+    "mention": "August 2017",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Reverol said one of the detained had an outstanding arrest warrant for his alleged role in the August 2017 attack on a military base in Valencia.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e2",
+    "category": "NAM",
+    "char_begin": 616,
+    "char_end": 623,
+    "head_span": [
+     616,
+     623
+    ],
+    "headword": "Reverol",
+    "mention": "Reverol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e4",
+    "category": "NOM",
+    "char_begin": 733,
+    "char_end": 748,
+    "head_index": 23,
+    "head_span": [
+     744,
+     748
+    ],
+    "headword": "base",
+    "mention": "a military base",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     21,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e5",
+    "category": "NOM",
+    "char_begin": 752,
+    "char_end": 760,
+    "head_index": 25,
+    "head_span": [
+     752,
+     760
+    ],
+    "headword": "Valencia",
+    "mention": "Valencia",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     25,
+     26
+    ]
+   }
+  ],
+  "offset": 616
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s4-e0",
+    "char_begin": 798,
+    "char_end": 808,
+    "head_span": [
+     798,
+     808
+    ],
+    "mention": "previously",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s4-e1",
+    "char_begin": 829,
+    "char_end": 833,
+    "head_span": [
+     829,
+     833
+    ],
+    "mention": "2014",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Another of the detained people was previously arrested during the 2014 anti-government protests.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s4-e2",
+    "category": "NOM",
+    "char_begin": 774,
+    "char_end": 793,
+    "head_index": 4,
+    "head_span": [
+     787,
+     793
+    ],
+    "headword": "people",
+    "mention": "the detained people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     2,
+     5
+    ]
+   }
+  ],
+  "offset": 763
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Reverol said he doesn’t rule out further arrests.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s5-e0",
+    "category": "NAM",
+    "char_begin": 860,
+    "char_end": 867,
+    "head_span": [
+     860,
+     867
+    ],
+    "headword": "Reverol",
+    "mention": "Reverol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 860
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e0",
+    "char_begin": 926,
+    "char_end": 929,
+    "head_span": [
+     926,
+     929
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e1",
+    "char_begin": 964,
+    "char_end": 965,
+    "head_span": [
+     964,
+     965
+    ],
+    "mention": "1",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Attackers used two DJI M600 drones that each carried 1 kilogram of C-4 explosive, Reverol said.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e2",
+    "category": "NAM",
+    "char_begin": 930,
+    "char_end": 938,
+    "head_span": [
+     934,
+     938
+    ],
+    "headword": "M600",
+    "mention": "DJI M600",
+    "score": "0.7274886",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:VEH"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 993,
+    "char_end": 1000,
+    "head_span": [
+     993,
+     1000
+    ],
+    "headword": "Reverol",
+    "mention": "Reverol",
+    "score": "0.7479844",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e5",
+    "category": "NOM",
+    "char_begin": 911,
+    "char_end": 920,
+    "head_index": 0,
+    "head_span": [
+     911,
+     920
+    ],
+    "headword": "Attackers",
+    "mention": "Attackers",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     1
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e6",
+    "category": "NOM",
+    "char_begin": 926,
+    "char_end": 945,
+    "head_index": 5,
+    "head_span": [
+     939,
+     945
+    ],
+    "headword": "drones",
+    "mention": "two DJI M600 drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     2,
+     6
+    ]
+   }
+  ],
+  "offset": 911
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e0",
+    "char_begin": 1056,
+    "char_end": 1058,
+    "head_span": [
+     1056,
+     1058
+    ],
+    "mention": "50",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "The munitions could cause damage in a radius of 50 meters, and intelligence services were able to identify the nearby streets that were used for launching the drones from a distance, he said.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e1",
+    "category": "NOM",
+    "char_begin": 1008,
+    "char_end": 1021,
+    "head_index": 1,
+    "head_span": [
+     1012,
+     1021
+    ],
+    "headword": "munitions",
+    "mention": "The munitions",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e2",
+    "category": "NOM",
+    "char_begin": 1115,
+    "char_end": 1133,
+    "head_index": 21,
+    "head_span": [
+     1126,
+     1133
+    ],
+    "headword": "streets",
+    "mention": "the nearby streets",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Way.Street",
+    "subtype": "ldcOnt:FAC.Way.Street",
+    "type": "ldcOnt:FAC.Way.Street",
+    "word_span": [
+     19,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e3",
+    "category": "NOM",
+    "char_begin": 1163,
+    "char_end": 1173,
+    "head_index": 28,
+    "head_span": [
+     1167,
+     1173
+    ],
+    "headword": "drones",
+    "mention": "the drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     27,
+     29
+    ]
+   }
+  ],
+  "offset": 1008
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e0",
+    "char_begin": 1201,
+    "char_end": 1204,
+    "head_span": [
+     1201,
+     1204
+    ],
+    "mention": "One",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "One of the drones flew over the presidential stage with the intention of being detonated by the attackers, but he said the authorities were able to cause it to lose control and detonate outside the area the attackers targeted.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e1",
+    "category": "NOM",
+    "char_begin": 1208,
+    "char_end": 1218,
+    "head_index": 3,
+    "head_span": [
+     1212,
+     1218
+    ],
+    "headword": "drones",
+    "mention": "the drones",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     2,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e2",
+    "category": "NOM",
+    "char_begin": 1293,
+    "char_end": 1306,
+    "head_index": 17,
+    "head_span": [
+     1297,
+     1306
+    ],
+    "headword": "attackers",
+    "mention": "the attackers",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     16,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e3",
+    "category": "NOM",
+    "char_begin": 1320,
+    "char_end": 1335,
+    "head_index": 23,
+    "head_span": [
+     1324,
+     1335
+    ],
+    "headword": "authorities",
+    "mention": "the authorities",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     22,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e4",
+    "category": "NOM",
+    "char_begin": 1395,
+    "char_end": 1403,
+    "head_index": 36,
+    "head_span": [
+     1399,
+     1403
+    ],
+    "headword": "area",
+    "mention": "the area",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     35,
+     37
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e5",
+    "category": "NOM",
+    "char_begin": 1404,
+    "char_end": 1417,
+    "head_index": 38,
+    "head_span": [
+     1408,
+     1417
+    ],
+    "headword": "attackers",
+    "mention": "the attackers",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     37,
+     39
+    ]
+   }
+  ],
+  "offset": 1201
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Reverol said the second drone lost control and fell into an apartment building, where it exploded on the first floor.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1429,
+    "char_end": 1436,
+    "head_span": [
+     1429,
+     1436
+    ],
+    "headword": "Reverol",
+    "mention": "Reverol",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s9-e2",
+    "category": "NOM",
+    "char_begin": 1442,
+    "char_end": 1458,
+    "head_index": 4,
+    "head_span": [
+     1453,
+     1458
+    ],
+    "headword": "drone",
+    "mention": "the second drone",
+    "score": 0.9,
+    "subsubtype": "Drone",
+    "subtype": "Aircraft",
+    "type": "ldcOnt:VEH.Aircraft.Drone",
+    "word_span": [
+     2,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s9-e3",
+    "category": "NOM",
+    "char_begin": 1486,
+    "char_end": 1507,
+    "head_index": 12,
+    "head_span": [
+     1499,
+     1507
+    ],
+    "headword": "building",
+    "mention": "an apartment building",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Building",
+    "subtype": "ldcOnt:FAC.Building",
+    "type": "ldcOnt:FAC.Building",
+    "word_span": [
+     10,
+     13
+    ]
+   }
+  ],
+  "offset": 1429
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The incident took place as Maduro was speaking at a commemoration of the 81st anniversary of the Venezuelan national guard that featured a military parade.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e0",
+    "category": "NAM",
+    "char_begin": 1645,
+    "char_end": 1655,
+    "head_span": [
+     1645,
+     1655
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99172264",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e1",
+    "category": "NAM",
+    "char_begin": 1645,
+    "char_end": 1670,
+    "head_span": [
+     1665,
+     1670
+    ],
+    "headword": "guard",
+    "mention": "Venezuelan national guard",
+    "score": "0.6184796",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "token_span": [
+     17,
+     20
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e2",
+    "category": "NOM",
+    "char_begin": 1566,
+    "char_end": 1571,
+    "head_index": 3,
+    "head_span": [
+     1566,
+     1571
+    ],
+    "headword": "place",
+    "mention": "place",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     3,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e3",
+    "category": "NOM",
+    "char_begin": 1575,
+    "char_end": 1581,
+    "head_index": 5,
+    "head_span": [
+     1575,
+     1581
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     5,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e4",
+    "category": "NOM",
+    "char_begin": 1641,
+    "char_end": 1670,
+    "head_index": 19,
+    "head_span": [
+     1665,
+     1670
+    ],
+    "headword": "guard",
+    "mention": "the Venezuelan national guard",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     16,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e5",
+    "category": "NOM",
+    "char_begin": 1685,
+    "char_end": 1702,
+    "head_index": 24,
+    "head_span": [
+     1696,
+     1702
+    ],
+    "headword": "parade",
+    "mention": "a military parade",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     22,
+     25
+    ]
+   }
+  ],
+  "offset": 1548
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Live footage of the event showed him suddenly looking up startled midspeech, while beside him his wife, Cilia Flores, winced after a loud bang and dozens of soldiers were seen scattering.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s11-e0",
+    "category": "NAM",
+    "char_begin": 1809,
+    "char_end": 1821,
+    "head_span": [
+     1815,
+     1821
+    ],
+    "headword": "Flores",
+    "mention": "Cilia Flores",
+    "score": "0.77089566",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     19,
+     21
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s11-e2",
+    "category": "NOM",
+    "char_begin": 1799,
+    "char_end": 1807,
+    "head_index": 17,
+    "head_span": [
+     1803,
+     1807
+    ],
+    "headword": "wife",
+    "mention": "his wife",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     16,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s11-e3",
+    "category": "NOM",
+    "char_begin": 1862,
+    "char_end": 1870,
+    "head_index": 30,
+    "head_span": [
+     1862,
+     1870
+    ],
+    "headword": "soldiers",
+    "mention": "soldiers",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.MilitaryPersonnel",
+    "subtype": "ldcOnt:PER.MilitaryPersonnel",
+    "type": "ldcOnt:PER.MilitaryPersonnel",
+    "word_span": [
+     30,
+     31
+    ]
+   }
+  ],
+  "offset": 1705
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e0",
+    "char_begin": 1893,
+    "char_end": 1898,
+    "head_span": [
+     1893,
+     1898
+    ],
+    "mention": "Seven",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Seven members of the national guard were hurt during the attack.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e1",
+    "category": "NAM",
+    "char_begin": 1914,
+    "char_end": 1928,
+    "head_span": [
+     1923,
+     1928
+    ],
+    "headword": "guard",
+    "mention": "national guard",
+    "score": "0.7454657",
+    "subsubtype": "n/a",
+    "subtype": "MilitaryOrganization",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e2",
+    "category": "NOM",
+    "char_begin": 1893,
+    "char_end": 1906,
+    "head_index": 1,
+    "head_span": [
+     1899,
+     1906
+    ],
+    "headword": "members",
+    "mention": "Seven members",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e3",
+    "category": "NOM",
+    "char_begin": 1910,
+    "char_end": 1928,
+    "head_index": 5,
+    "head_span": [
+     1923,
+     1928
+    ],
+    "headword": "guard",
+    "mention": "the national guard",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     6
+    ]
+   }
+  ],
+  "offset": 1893
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e0",
+    "char_begin": 1971,
+    "char_end": 1987,
+    "head_span": [
+     1980,
+     1987
+    ],
+    "mention": "attorney general",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e1",
+    "char_begin": 2075,
+    "char_end": 2080,
+    "head_span": [
+     2075,
+     2080
+    ],
+    "mention": "three",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Venezuela’s attorney general, Tarek William Saab, said he had ordered an investigation into the incident, assigning three prosecutors to the investigation.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e2",
+    "category": "NAM",
+    "char_begin": 1989,
+    "char_end": 2007,
+    "head_span": [
+     2003,
+     2007
+    ],
+    "headword": "Saab",
+    "mention": "Tarek William Saab",
+    "score": "0.764504",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     8
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e4",
+    "category": "NOM",
+    "char_begin": 1959,
+    "char_end": 1970,
+    "head_index": 0,
+    "head_span": [
+     1959,
+     1968
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e5",
+    "category": "NOM",
+    "char_begin": 1959,
+    "char_end": 1987,
+    "head_index": 3,
+    "head_span": [
+     1980,
+     1987
+    ],
+    "headword": "general",
+    "mention": "Venezuela’s attorney general",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e6",
+    "category": "NOM",
+    "char_begin": 2075,
+    "char_end": 2092,
+    "head_index": 21,
+    "head_span": [
+     2081,
+     2092
+    ],
+    "headword": "prosecutors",
+    "mention": "three prosecutors",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition",
+    "subtype": "ldcOnt:PER.ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition",
+    "word_span": [
+     20,
+     22
+    ]
+   }
+  ],
+  "offset": 1959
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s14-e0",
+    "char_begin": 2147,
+    "char_end": 2170,
+    "head_span": [
+     2165,
+     2170
+    ],
+    "mention": "a couple of hours later",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Maduro appeared on national TV a couple of hours later, when he spoke about the investigation and arrests.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s14-e1",
+    "category": "NOM",
+    "char_begin": 2116,
+    "char_end": 2122,
+    "head_index": 0,
+    "head_span": [
+     2116,
+     2122
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     0,
+     1
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s14-e2",
+    "category": "NOM",
+    "char_begin": 2147,
+    "char_end": 2155,
+    "head_index": 6,
+    "head_span": [
+     2149,
+     2155
+    ],
+    "headword": "couple",
+    "mention": "a couple",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     5,
+     7
+    ]
+   }
+  ],
+  "offset": 2116
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e0",
+    "char_begin": 2327,
+    "char_end": 2336,
+    "head_span": [
+     2327,
+     2336
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "He said the Venezuelan political far right in collaboration with the Colombian far right and Colombian President Santos were behind the attack.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e1",
+    "category": "NAM",
+    "char_begin": 2236,
+    "char_end": 2246,
+    "head_span": [
+     2236,
+     2246
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99217016",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e3",
+    "category": "NAM",
+    "char_begin": 2293,
+    "char_end": 2302,
+    "head_span": [
+     2293,
+     2302
+    ],
+    "headword": "Colombian",
+    "mention": "Colombian",
+    "score": "0.98140323",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e6",
+    "category": "NAM",
+    "char_begin": 2317,
+    "char_end": 2326,
+    "head_span": [
+     2317,
+     2326
+    ],
+    "headword": "Colombian",
+    "mention": "Colombian",
+    "score": "0.9953644",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e7",
+    "category": "NAM",
+    "char_begin": 2337,
+    "char_end": 2343,
+    "head_span": [
+     2337,
+     2343
+    ],
+    "headword": "Santos",
+    "mention": "Santos",
+    "score": "0.9293143",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 2224
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "He also blamed Venezuelans living in the United States.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s16-e0",
+    "category": "NAM",
+    "char_begin": 2409,
+    "char_end": 2422,
+    "head_span": [
+     2416,
+     2422
+    ],
+    "headword": "States",
+    "mention": "United States",
+    "score": "0.99323374",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s16-e2",
+    "category": "NOM",
+    "char_begin": 2383,
+    "char_end": 2394,
+    "head_index": 3,
+    "head_span": [
+     2383,
+     2394
+    ],
+    "headword": "Venezuelans",
+    "mention": "Venezuelans",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     3,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s16-e3",
+    "category": "NOM",
+    "char_begin": 2405,
+    "char_end": 2422,
+    "head_index": 8,
+    "head_span": [
+     2416,
+     2422
+    ],
+    "headword": "States",
+    "mention": "the United States",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     6,
+     9
+    ]
+   }
+  ],
+  "offset": 2368
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "\"The preliminary investigation indicates that many of those responsible for the attack, the financiers and planners, live in the United States in the state of Florida,\" Maduro said.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e0",
+    "category": "NAM",
+    "char_begin": 2554,
+    "char_end": 2567,
+    "head_span": [
+     2561,
+     2567
+    ],
+    "headword": "States",
+    "mention": "United States",
+    "score": "0.9923529",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     24
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e2",
+    "category": "NOM",
+    "char_begin": 2513,
+    "char_end": 2540,
+    "head_index": 17,
+    "head_span": [
+     2532,
+     2540
+    ],
+    "headword": "planners",
+    "mention": "the financiers and planners",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     14,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e3",
+    "category": "NOM",
+    "char_begin": 2550,
+    "char_end": 2567,
+    "head_index": 23,
+    "head_span": [
+     2561,
+     2567
+    ],
+    "headword": "States",
+    "mention": "the United States",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     21,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e4",
+    "category": "NOM",
+    "char_begin": 2571,
+    "char_end": 2580,
+    "head_index": 26,
+    "head_span": [
+     2575,
+     2580
+    ],
+    "headword": "state",
+    "mention": "the state",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     25,
+     27
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e5",
+    "category": "NOM",
+    "char_begin": 2584,
+    "char_end": 2591,
+    "head_index": 28,
+    "head_span": [
+     2584,
+     2591
+    ],
+    "headword": "Florida",
+    "mention": "Florida",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "subtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "word_span": [
+     28,
+     29
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e6",
+    "category": "NOM",
+    "char_begin": 2594,
+    "char_end": 2600,
+    "head_index": 31,
+    "head_span": [
+     2594,
+     2600
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     31,
+     32
+    ]
+   }
+  ],
+  "offset": 2425
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "\"I hope the Trump administration is willing to fight terrorist groups that commit attacks in peaceful countries in our continent, in this case Venezuela.\"",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e1",
+    "category": "NAM",
+    "char_begin": 2620,
+    "char_end": 2625,
+    "head_span": [
+     2620,
+     2625
+    ],
+    "headword": "Trump",
+    "mention": "Trump",
+    "score": "0.9976718",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e2",
+    "category": "NAM",
+    "char_begin": 2751,
+    "char_end": 2760,
+    "head_span": [
+     2751,
+     2760
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": "0.9945739",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e4",
+    "category": "NOM",
+    "char_begin": 2616,
+    "char_end": 2640,
+    "head_index": 5,
+    "head_span": [
+     2626,
+     2640
+    ],
+    "headword": "administration",
+    "mention": "the Trump administration",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     3,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e5",
+    "category": "NOM",
+    "char_begin": 2661,
+    "char_end": 2677,
+    "head_index": 11,
+    "head_span": [
+     2671,
+     2677
+    ],
+    "headword": "groups",
+    "mention": "terrorist groups",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     10,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e6",
+    "category": "NOM",
+    "char_begin": 2701,
+    "char_end": 2719,
+    "head_index": 17,
+    "head_span": [
+     2710,
+     2719
+    ],
+    "headword": "countries",
+    "mention": "peaceful countries",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     16,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e7",
+    "category": "NOM",
+    "char_begin": 2741,
+    "char_end": 2760,
+    "head_index": 25,
+    "head_span": [
+     2751,
+     2760
+    ],
+    "headword": "Venezuela",
+    "mention": "this case Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     23,
+     26
+    ]
+   }
+  ],
+  "offset": 2608
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The Venezuelan government has long blamed Colombia for plotting overthrows, and far-right elements in Bogota and Miami for attempting to undercut Maduro.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e0",
+    "category": "NAM",
+    "char_begin": 2768,
+    "char_end": 2778,
+    "head_span": [
+     2768,
+     2778
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.9940182",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e2",
+    "category": "NAM",
+    "char_begin": 2866,
+    "char_end": 2872,
+    "head_span": [
+     2866,
+     2872
+    ],
+    "headword": "Bogota",
+    "mention": "Bogota",
+    "score": "0.7475495",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e4",
+    "category": "NAM",
+    "char_begin": 2877,
+    "char_end": 2882,
+    "head_span": [
+     2877,
+     2882
+    ],
+    "headword": "Miami",
+    "mention": "Miami",
+    "score": "0.9577049",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e6",
+    "category": "NOM",
+    "char_begin": 2764,
+    "char_end": 2789,
+    "head_index": 2,
+    "head_span": [
+     2779,
+     2789
+    ],
+    "headword": "government",
+    "mention": "The Venezuelan government",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e7",
+    "category": "NOM",
+    "char_begin": 2806,
+    "char_end": 2814,
+    "head_index": 6,
+    "head_span": [
+     2806,
+     2814
+    ],
+    "headword": "Colombia",
+    "mention": "Colombia",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     6,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e8",
+    "category": "NOM",
+    "char_begin": 2866,
+    "char_end": 2882,
+    "head_index": 17,
+    "head_span": [
+     2877,
+     2882
+    ],
+    "headword": "Miami",
+    "mention": "Bogota and Miami",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     15,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e9",
+    "category": "NOM",
+    "char_begin": 2910,
+    "char_end": 2916,
+    "head_index": 22,
+    "head_span": [
+     2910,
+     2916
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     22,
+     23
+    ]
+   }
+  ],
+  "offset": 2764
+ },
+ {
+  "docID": "IC001VGWW.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e0",
+    "char_begin": 2957,
+    "char_end": 2966,
+    "head_span": [
+     2957,
+     2966
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e1",
+    "char_begin": 2967,
+    "char_end": 2976,
+    "head_span": [
+     2972,
+     2976
+    ],
+    "mention": "this week",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Ivan Duque takes over as the Colombian President this week.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e3",
+    "category": "NAM",
+    "char_begin": 2918,
+    "char_end": 2928,
+    "head_span": [
+     2923,
+     2928
+    ],
+    "headword": "Duque",
+    "mention": "Ivan Duque",
+    "score": "0.9983595",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e4",
+    "category": "NAM",
+    "char_begin": 2947,
+    "char_end": 2956,
+    "head_span": [
+     2947,
+     2956
+    ],
+    "headword": "Colombian",
+    "mention": "Colombian",
+    "score": "0.99091023",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     7
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e6",
+    "category": "NOM",
+    "char_begin": 2943,
+    "char_end": 2966,
+    "head_index": 7,
+    "head_span": [
+     2957,
+     2966
+    ],
+    "headword": "President",
+    "mention": "the Colombian President",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     5,
+     8
+    ]
+   }
+  ],
+  "offset": 2918
+ }
+]

@@ -1,0 +1,48 @@
+T0	per_politician_headofgovernment 217 232	Николаса Мадуро
+T1	per_politician_headofgovernment 196 232	президента Венесуэлы Николаса Мадуро
+T2	veh_aircraft_drone 554 575	летательных аппаратов
+T3	fac_structure_unspecified 459 466	трибуне
+T4	wea_bomb_unspecified 579 590	взрывчаткой
+T5	fac_way_street 470 488	проспекте Боливара
+T6	gpe_country_country 405 414	Венесуэлы
+T7	veh_aircraft_drone 554 590	летательных аппаратов со взрывчаткой
+T8	veh_aircraft_drone 544 575	несколько летательных аппаратов
+T9	per_militarypersonnel_unspecified 624 641	семеро гвардейцев
+T10	mhi_unspecified_unspecified 607 614	ранения
+T11	per_politician_headofgovernment 643 652	президент
+T12	per_unspecified_unspecified 595 598	его
+T13	val_number_number 624 630	семеро
+T14	per_unspecified_unspecified 711 754	часть непосредственных участников покушения
+T15	sid_political_opposition 854 900	проживающих в американской Флориде противников
+T16	sid_political_opposition 784 795	правые силы
+T17	per_politician_headofgovernment 830 851	Хуана Мануэля Сантоса
+T18	sid_political_opposition 889 900	противников
+T19	gpe_country_country 821 829	Колумбии
+T20	org_government_agency 903 906	МИД
+T21	org_government_agency 903 915	МИД Колумбии
+T22	per_politician_headofgovernment 1034 1080	Президента Боливарианской Республики Венесуэла
+T23	per_unspecified_unspecified 1126 1138	семь человек
+T24	mhi_unspecified_unspecified 1148 1155	ранения
+T25	val_number_number 1126 1130	семь
+T26	per_unspecified_unspecified 1131 1138	человек
+T27	conflict_attack_bombing 183 192	покушение
+E0	conflict_attack_bombing:T27 target:T0
+T28	movement_transportartifact_bringcarryunload 533 543	направлены
+E1	movement_transportartifact_bringcarryunload:T28 target:T0 instrument:T2 place:T3 vehicle:T2 artifact:T4 destination:T5
+T29	inspection_targetaimat_targetaimat 533 543	направлены
+E2	inspection_targetaimat_targetaimat:T29 target:T0 instrument:T2 place:T3 vehicle:T2 artifact:T4 destination:T5
+T30	life_injure_injurycausedbyviolentevents 615 623	получили
+E3	life_injure_injurycausedbyviolentevents:T30 victim:T9 medicalissue:T10
+T31	life_injure_injurycausedbyviolentevents 656 665	пострадал
+E4	life_injure_injurycausedbyviolentevents:T31 victim:T11
+T32	justice_arrestjaildetain_arrestjaildetain 701 710	задержана
+E5	justice_arrestjaildetain_arrestjaildetain:T32 detainee:T14
+T33	conflict_attack_bombing 1021 1030	покушения
+E6	conflict_attack_bombing:T33 target:T22
+T34	life_injure_injurycausedbyviolentevents 1139 1147	получили
+E7	life_injure_injurycausedbyviolentevents:T34 victim:T23 medicalissue:T24
+R1	generalaffiliation_sponsorship_helpsupport Arg1:T17 Arg2:T16
+R2	generalaffiliation_sponsorship_helpsupport Arg1:T18 Arg2:T16
+R3	organizationaffiliation_leadership_headofstate Arg1:T19 Arg2:T17
+R4	measurement_size_count Arg1:T9 Arg2:T13
+R5	measurement_size_count Arg1:T23 Arg2:T25

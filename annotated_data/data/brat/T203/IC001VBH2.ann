@@ -1,0 +1,147 @@
+T0	per_politician_headofgovernment 263 278	главу Венесуэлы
+T1	gpe_urbanarea_city 316 324	Каракасе
+T2	per_politician_headofgovernment 298 301	его
+T3	gpe_country_country 269 278	Венесуэлы
+T4	per_politician_headofgovernment 414 423	президент
+T5	per_unspecified_unspecified 433 444	его супруга
+T6	per_professionalposition_unspecified 447 474	несколько первых лиц страны
+T7	fac_structure_unspecified 391 398	трибуны
+T8	fac_structure_unspecified 400 403	где
+T9	gpe_country_country 468 474	страны
+T10	per_militarypersonnel_unspecified 510 534	несколько военнослужащих
+T11	val_number_number 587 591	81-й
+T12	fac_structure_unspecified 651 658	трибуне
+T13	per_politician_headofgovernment 661 675	Николас Мадуро
+T14	per_unspecified_unspecified 685 693	супругой
+T15	val_number_number 765 768	два
+T16	per_militarypersonnel_unspecified 803 810	Военные
+T17	per_militarypersonnel_unspecified 833 845	7 гвардейцев
+T18	val_number_number 833 834	7
+T19	veh_aircraft_drone 869 913	двух дронов, несших по килограмму взрывчатки
+T20	wea_bomb_unspecified 892 913	килограмму взрывчатки
+T21	val_number_number 869 873	двух
+T22	val_unspecified_unspecified 892 902	килограмму
+T23	veh_aircraft_drone 915 918	Оба
+T24	veh_aircraft_drone 926 932	Первый
+T25	fac_structure_unspecified 938 954	рядом с колонной
+T26	veh_aircraft_drone 956 962	Второй
+T27	fac_way_street 967 984	соседнем квартале
+T28	per_politician_headofgovernment 1079 1083	меня
+T29	org_politicalorganization_party 1158 1212	колумбийской Социальной партией национального единства
+T30	org_politicalorganization_party 1102 1108	правых
+T31	org_politicalorganization_party 1113 1146	венесуэльскую ультраправую партию
+T32	per_politician_headofgovernment 1296 1302	Мадуро
+T33	per_politician_headofgovernment 1214 1215	Я
+T34	per_politician_headofgovernment 1246 1284	президент Колумбии Хуан Мануэль Сантос
+T35	gpe_country_country 1256 1264	Колумбии
+T36	per_politician_headofgovernment 1265 1284	Хуан Мануэль Сантос
+T37	gpe_country_country 1313 1321	Колумбии
+T38	gpe_urbanarea_city 1348 1354	Боготе
+T39	per_politician_headofgovernment 1365 1371	Мадуро
+T40	per_politician_headofgovernment 1508 1528	президента Венесуэлы
+T41	gpe_country_country 1596 1604	Колумбии
+T42	gpe_country_country 1519 1528	Венесуэлы
+T43	org_government_unspecified 1592 1604	МИД Колумбии
+T44	per_politician_headofgovernment 1436 1454	колумбийский лидер
+T45	per_police_unspecified 1607 1624	Сотни полицейских
+T46	per_militarypersonnel_unspecified 1627 1644	агентов спецслужб
+T47	per_combatant_unspecified 1838 1855	шесть террористов
+T48	gpe_country_country 1784 1790	страны
+T49	gpe_country_country 1890 1899	Венесуэлы
+T50	gpe_urbanarea_city 1770 1790	столице нашей страны
+T51	per_professionalposition_unspecified 1867 1915	министр внутренних дел Венесуэлы Нестор Ревероль
+T52	val_number_number 1838 1843	шесть
+T53	gpe_country_country 1925 1934	Венесуэлы
+T54	org_government_unspecified 1918 1934	Власти Венесуэлы
+T55	gpe_provincestate_provincestate 2014 2021	Флориде
+T56	per_unspecified_unspecified 2023 2053	Противники действующего режима
+T57	gpe_country_country 2066 2069	США
+T58	org_government_unspecified 2291 2301	Вашингтона
+T59	gpe_country_country 2345 2348	США
+T60	gpe_urbanarea_city 2396 2404	Каракасе
+T61	org_government_unspecified 2406 2408	мы
+T62	per_professionalposition_unspecified 2519 2571	советник Дональда Трампа по безопасности Джон Болтон
+T63	org_government_unspecified 2487 2507	самим режимом Мадуро
+T64	per_combatant_unspecified 2612 2616	себя
+T65	per_combatant_unspecified 2617 2660	вооруженная группировка "Фланелевые солдаты
+T66	per_politician_headofgovernment 2700 2710	президента
+T67	veh_aircraft_drone 2721 2744	дроны со взрывчаткой С4
+T68	wea_bomb_unspecified 2730 2744	взрывчаткой С4
+T69	per_combatant_unspecified 2674 2682	радикалы
+T70	val_unspecified_unspecified 2742 2744	С4
+T71	per_combatant_sniper 2770 2780	снайперами
+T72	veh_aircraft_drone 2746 2758	Беспилотники
+T73	per_combatant_unspecified 2783 2800	Фланелевых солдат
+T74	per_police_unspecified 2827 2840	Оскара Переса
+T75	per_police_unspecified 2843 2868	мятежного офицера полиции
+T76	per_politician_headofgovernment 2888 2898	президенту
+T77	conflict_attack_bombing 250 259	Покушение
+E0	conflict_attack_bombing:T77 target:T0 place:T1
+T78	contact_publicstatementinperson_broadcast 302 313	выступления
+E1	contact_publicstatementinperson_broadcast:T78 communicator:T2 place:T1
+T79	conflict_attack_bombing 486 491	взрыв
+E2	conflict_attack_bombing:T79 target:T4 target:T5 target:T6 place:T7
+T80	life_injure_injurycausedbyviolentevents 493 509	Ранения получили
+E3	life_injure_injurycausedbyviolentevents:T80 victim:T10
+T81	conflict_attack_bombing 537 546	Покушение
+E4	conflict_attack_bombing:T81
+T82	conflict_attack_bombing 769 775	взрыва
+E5	conflict_attack_bombing:T82
+T83	movement_transportperson_selfmotion 811 822	разбегаются
+E6	movement_transportperson_selfmotion:T83 transporter:T16
+T84	life_injure_injurycausedbyviolentevents 846 852	ранены
+E7	life_injure_injurycausedbyviolentevents:T84 victim:T17
+T85	conflict_attack_bombing 863 868	атака
+E8	conflict_attack_bombing:T85 instrument:T19
+T86	movement_transportartifact_bringcarryunload 882 888	несших
+E9	movement_transportartifact_bringcarryunload:T86 artifact:T20 vehicle:T19
+T87	conflict_attack_firearmattack 919 924	сбиты
+E10	conflict_attack_firearmattack:T87 target:T23 artifact:T23
+T88	artifactexistence_damagedestroy_damage 919 924	сбиты
+E11	artifactexistence_damagedestroy_damage:T88 target:T23 artifact:T23
+T89	movement_transportartifact_fall 933 937	упал
+E12	movement_transportartifact_fall:T89 artifact:T24 destination:T25
+T90	movement_transportartifact_fall 965 966	в
+E13	movement_transportartifact_fall:T90 artifact:T26 destination:T27
+T91	conflict_attack_bombing 1065 1078	попытка убить
+E14	conflict_attack_bombing:T91 target:T28
+T92	contact_collaborate_unspecified 1148 1157	в союзе с
+E15	contact_collaborate_unspecified:T92 participant:T31 participant:T29
+T93	conflict_attack_bombing 1230 1235	атаке
+E16	conflict_attack_bombing:T93
+T94	conflict_attack_bombing 1495 1504	нападение
+E17	conflict_attack_bombing:T94 target:T40
+T95	justice_investigate_investigatecrime 1645 1673	подключились к расследованию
+E18	justice_investigate_investigatecrime:T95 investigator:T45 investigator:T46
+T96	conflict_attack_bombing 1755 1764	покушения
+E19	conflict_attack_bombing:T96
+T97	justice_arrestjaildetain_arrestjaildetain 1828 1837	задержаны
+E20	justice_arrestjaildetain_arrestjaildetain:T97 detainee:T47
+T98	conflict_attack_bombing 1956 1965	покушение
+E21	conflict_attack_bombing:T98
+T99	conflict_attack_bombing 1968 1971	оно
+E22	conflict_attack_bombing:T99
+T100	conflict_attack_bombing 2077 2080	его
+E23	conflict_attack_bombing:T100
+T101	conflict_attack_bombing 2351 2355	этом
+E24	conflict_attack_bombing:T101
+T102	conflict_attack_bombing 2381 2404	происшествия в Каракасе
+E25	conflict_attack_bombing:T102 place:T60
+T103	conflict_attack_bombing 2422 2425	это
+E26	conflict_attack_bombing:T103
+T104	conflict_attack_bombing 2593 2602	нападение
+E27	conflict_attack_bombing:T104
+T105	conflict_attack_bombing 2711 2720	атаковали
+E28	conflict_attack_bombing:T105 target:T66 instrument:T67
+T106	movement_transportartifact_bringcarryunload 2727 2729	со
+E29	movement_transportartifact_bringcarryunload:T106 artifact:T68 vehicle:T67
+T107	conflict_attack_firearmattack 2764 2769	сбиты
+E30	conflict_attack_firearmattack:T107 attacker:T71 target:T72 damager:T71 artifact:T72
+T108	artifactexistence_damagedestroy_damage 2764 2769	сбиты
+E31	artifactexistence_damagedestroy_damage:T108 attacker:T71 target:T72 damager:T71 artifact:T72
+R1	measurement_size_count Arg1:T17 Arg2:T18
+R2	measurement_size_count Arg1:T19 Arg2:T21
+R3	measurement_size_weight Arg1:T20 Arg2:T22
+R4	organizationaffiliation_leadership_headofstate Arg1:T35 Arg2:T36
+R5	measurement_size_count Arg1:T47 Arg2:T52
+R6	information_make_make Arg1:T70 Arg2:T68

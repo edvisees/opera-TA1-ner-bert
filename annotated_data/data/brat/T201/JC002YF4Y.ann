@@ -1,0 +1,125 @@
+T0	mhi_disease_disease 56 74	enfermedad extraña
+T1	per_unspecified_unspecified 21 38	Ministra de Salud
+T2	per_unspecified_unspecified 110 138	una niña de dos años de edad
+T3	mhi_disease_disease 154 181	Síndrome febril hemorrágico
+T4	per_unspecified_unspecified 216 232	víctimas fatales
+T5	gpe_provincestate_provincestate 236 242	Aragua
+T6	mhi_disease_disease 247 305	esta enfermedad de la cual aún médicos desconocen la causa
+T7	per_professionalposition_medicalpersonnel 278 285	médicos
+T8	val_number_number 122 125	dos
+T9	val_number_number 198 202	diez
+T10	per_unspecified_unspecified 425 435	la pequeña
+T11	mhi_symptompresentation_symptompresentation 448 461	cuadro febril
+T12	mhi_symptompresentation_symptompresentation 463 488	enrojecimiento de la piel
+T13	mhi_symptompresentation_symptompresentation 491 518	dolor en las articulaciones
+T14	fac_building_unspecified 377 400	la morgue de la entidad
+T15	gpe_provincestate_provincestate 390 400	la entidad
+T16	per_unspecified_unspecified 325 349	familiares de la infante
+T17	per_unspecified_unspecified 339 349	la infante
+T18	per_unspecified_unspecified 351 358	quienes
+T19	per_unspecified_unspecified 359 361	se
+T20	per_unspecified_unspecified 639 641	su
+T21	fac_building_unspecified 536 561	el ambulatorio de Turmero
+T22	fac_building_unspecified 563 568	donde
+T23	val_number_number 591 592	7
+T24	per_unspecified_unspecified 651 658	La niña
+T25	mhi_symptompresentation_symptompresentation 718 800	fiebre por encima de 40 grados que no cedía a pesar del suministro de medicamentos
+T26	com_equipment_medicalequipment 788 800	medicamentos
+T27	val_number_number 739 741	40
+T28	mhi_disease_disease 836 847	chicungunya
+T29	mhi_symptompresentation_symptompresentation 865 890	los síntomas que presentó
+T30	mhi_disease_disease 1625 1685	una mutación del chikungunya que produce hemorragias masivas
+T31	mhi_disease_disease 1480 1500	la enfermedad febril
+T32	mhi_disease_disease 1565 1578	la enfermedad
+T33	gpe_provincestate_provincestate 1434 1444	la entidad
+T34	mhi_disease_disease 1642 1653	chikungunya
+T35	org_association_unspecified 1400 1444	diferentes gremios de la salud en la entidad
+T36	per_professionalposition_medicalpersonnel 1375 1382	médicos
+T37	per_professionalposition_medicalpersonnel 1384 1397	epidemiólogos
+T38	mhi_disease_disease 1750 1762	dengue grave
+T39	mhi_disease_disease 1765 1776	meningococo
+T40	per_professionalposition_medicalpersonnel 1836 1865	los profesionales de la salud
+T41	mhi_disease_disease 2181 2185	esta
+T42	mhi_disease_disease 2061 2092	un tipo de chikungunya agresivo
+T43	mhi_disease_disease 2072 2083	chikungunya
+T44	per_professionalposition_medicalpersonnel 2120 2155	epidemiólogos que laboran en el HCM
+T45	per_professionalposition_medicalpersonnel 2157 2164	quienes
+T46	per_unspecified_unspecified 2367 2408	pacientes que tuvieron patologías de base
+T47	mhi_symptompresentation_symptompresentation 2344 2357	cuadro febril
+T48	mhi_unspecified_unspecified 2390 2408	patologías de base
+T49	mhi_disease_disease 2269 2277	el virus
+T50	per_professionalposition_medicalpersonnel 2211 2223	Héctor Celis
+T51	per_professionalposition_medicalpersonnel 2225 2239	médico del HCM
+T52	mhi_disease_disease 2501 2522	la enfermedad de base
+T53	mhi_symptompresentation_symptompresentation 2419 2478	proceso febril donde el paciente no tiene buena hidratación
+T54	mhi_symptompresentation_symptompresentation 2434 2439	donde
+T55	per_unspecified_unspecified 2790 2803	ocho personas
+T56	mhi_disease_disease 2816 2843	Síndrome febril hemorrágico
+T57	gpe_provincestate_provincestate 2677 2687	la entidad
+T58	per_unspecified_unspecified 2854 2880	las autoridades sanitarias
+T59	org_association_unspecified 2707 2725	Colegio de Médicos
+T60	per_professionalposition_medicalpersonnel 2689 2725	el presidente del Colegio de Médicos
+T61	val_number_number 2790 2794	ocho
+T62	per_unspecified_unspecified 2948 2960	otra persona
+T63	fac_building_unspecified 2967 2994	Hospital Central de Maracay
+T64	per_unspecified_unspecified 3006 3025	Frank Gonzalo Fossi
+T65	per_unspecified_unspecified 3075 3089	los familiares
+T66	per_unspecified_unspecified 3090 3097	quienes
+T67	val_number_number 3030 3032	44
+T68	per_unspecified_unspecified 3146 3204	Todos los fallecidos denunciados por el Colegio de Médicos
+T69	gpe_provincestate_provincestate 3274 3284	la entidad
+T70	org_association_unspecified 3186 3204	Colegio de Médicos
+T71	per_unspecified_unspecified 3230 3284	autoridades gubernamentales y sanitarias en la entidad
+T72	per_professionalposition_medicalpersonnel 3422 3431	Sarmiento
+T73	per_politician_governor 3317 3330	el gobernador
+T74	per_politician_governor 3464 3466	su
+T75	gpe_provincestate_provincestate 3533 3543	la entidad
+T76	per_politician_governor 3332 3349	Tareck El Aissami
+T77	per_unspecified_unspecified 3593 3627	los pacientes que señaló Sarmiento
+T78	mhi_unspecified_unspecified 3645 3660	un factor común
+T79	mhi_disease_disease 3663 3685	una extraña enfermedad
+T80	per_professionalposition_medicalpersonnel 3618 3627	Sarmiento
+T81	disaster_diseaseoutbreak_diseaseoutbreak 56 66	enfermedad
+E0	disaster_diseaseoutbreak_diseaseoutbreak:T81 disease:T0
+T82	life_die_nonviolentdeath 93 106	fallecimiento
+E1	life_die_nonviolentdeath:T82 victim:T2 medicalissue:T3
+T83	life_die_nonviolentdeath 225 232	fatales
+E2	life_die_nonviolentdeath:T83 victim:T4 place:T5 medicalissue:T6
+T84	life_injure_illnessdegredationsickness 436 454	presentó un cuadro
+E3	life_injure_illnessdegredationsickness:T84 victim:T10 disease:T11 disease:T12 disease:T13
+T85	medical_intervention_intervention 524 532	atendida
+E4	medical_intervention_intervention:T85 patient:T20 place:T21
+T86	life_die_nonviolentdeath 569 577	falleció
+E5	life_die_nonviolentdeath:T86 place:T22 victim:T20
+T87	life_injure_illnessdegredationsickness 709 724	Registró fiebre
+E6	life_injure_illnessdegredationsickness:T87 disease:T25
+T88	medical_intervention_intervention 774 800	suministro de medicamentos
+E7	medical_intervention_intervention:T88 medicalissue:T25 instrument:T26
+T89	life_injure_illnessdegredationsickness 828 832	caso
+E8	life_injure_illnessdegredationsickness:T89 disease:T28 disease:T29
+T90	life_die_nonviolentdeath 1600 1607	muertes
+E9	life_die_nonviolentdeath:T90 medicalissue:T30 medicalissue:T38 medicalissue:T39
+T91	disaster_diseaseoutbreak_diseaseoutbreak 1483 1493	enfermedad
+E10	disaster_diseaseoutbreak_diseaseoutbreak:T91 disease:T31
+T92	disaster_diseaseoutbreak_diseaseoutbreak 1568 1578	enfermedad
+E11	disaster_diseaseoutbreak_diseaseoutbreak:T92 disease:T32
+T93	life_die_nonviolentdeath 2202 2208	muerte
+E12	life_die_nonviolentdeath:T93 medicalissue:T41
+T94	life_die_nonviolentdeath 2320 2327	muertes
+E13	life_die_nonviolentdeath:T94 victim:T46 medicalissue:T47
+T95	life_injure_illnessdegredationsickness 2381 2400	tuvieron patologías
+E14	life_injure_illnessdegredationsickness:T95 victim:T46 disease:T48
+T96	life_die_nonviolentdeath 2773 2786	fallecimiento
+E15	life_die_nonviolentdeath:T96 victim:T55 medicalissue:T56
+T97	life_die_nonviolentdeath 2938 2944	muerte
+E16	life_die_nonviolentdeath:T97 victim:T62 place:T63
+T98	life_die_nonviolentdeath 3137 3143	muerte
+E17	life_die_nonviolentdeath:T98 victim:T64
+T99	life_die_nonviolentdeath 3156 3166	fallecidos
+E18	life_die_nonviolentdeath:T99 victim:T68 place:T69
+T100	life_die_nonviolentdeath 3583 3589	muerte
+E19	life_die_nonviolentdeath:T100 victim:T77 medicalissue:T78 medicalissue:T79
+R1	measurement_size_count Arg1:T4 Arg2:T9
+R2	organizationaffiliation_leadership_unspecified Arg1:T59 Arg2:T60
+R3	measurement_size_count Arg1:T55 Arg2:T61
+R4	organizationaffiliation_leadership_unspecified Arg1:T75 Arg2:T76

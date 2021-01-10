@@ -1,0 +1,62 @@
+T0	per_professionalposition_unspecified 140 184	экспертов в области бактериологической войны
+T1	gpe_country_country 133 139	страну
+T2	gpe_country_country 88 97	Венесуэлы
+T3	per_politician_headofgovernment 98 112	Николас Мадуро
+T4	per_politician_headofgovernment 226 228	он
+T5	sid_political_opposition 261 281	фашистская оппозиция
+T6	per_unspecified_unspecified 353 362	населения
+T7	wea_unspecified_unspecified 310 324	какой-то вирус
+T8	gpe_country_country 446 455	Венесуэлу
+T9	per_politician_headofgovernment 510 519	президент
+T10	gpe_country_country 538 547	Венесуэлу
+T11	per_politician_headofgovernment 524 527	его
+T12	per_professionalposition_medicalpersonnel 562 567	врачи
+T13	gpe_country_country 604 617	братской Кубы
+T14	gpe_provincestate_provincestate 658 670	штате Арагуа
+T15	org_politicalorganization_party 671 693	фашистские правые силы
+T16	org_politicalorganization_party 748 759	правые силы
+T17	per_politician_headofgovernment 717 723	Мадуро
+T18	fac_building_unspecified 799 834	центральную больницу города Маракай
+T19	wea_unspecified_unspecified 782 796	какой-то вирус
+T20	gpe_urbanarea_city 827 834	Маракай
+T21	per_politician_headofgovernment 878 880	Он
+T22	fac_building_unspecified 1219 1254	центральной больнице города Маракай
+T23	mhi_disease_disease 1108 1145	неизвестного смертельного заболевания
+T24	per_unspecified_unspecified 1172 1189	несколько человек
+T25	mhi_disease_disease 1150 1158	которого
+T26	gpe_urbanarea_city 1247 1254	Маракай
+T27	gpe_provincestate_provincestate 1051 1057	Арагуа
+T28	per_politician_governor 1058 1075	Тарек Эль Аиссами
+T29	per_unspecified_unspecified 1370 1384	восемь человек
+T30	fac_building_unspecified 1325 1348	этом медицинском центре
+T31	per_unspecified_unspecified 1388 1395	которых
+T32	mhi_symptompresentation_symptompresentation 1422 1441	высокая температура
+T33	mhi_symptompresentation_symptompresentation 1443 1482	пятна на коже, превращающиеся в волдыри
+T34	mhi_symptompresentation_symptompresentation 1486 1510	внутренние кровоизлияния
+T35	per_politician_governor 1257 1267	Губернатор
+T36	val_number_number 1352 1356	трое
+T37	val_number_number 1370 1376	восемь
+T38	movement_transportperson_selfmotion 122 130	прибытии
+E0	movement_transportperson_selfmotion:T38 transporter:T0 destination:T1
+T39	conflict_attack_biologicalchemicalpoisonattack 297 309	использовать
+E1	conflict_attack_biologicalchemicalpoisonattack:T39 attacker:T5 target:T6 instrument:T7
+T40	movement_transportperson_selfmotion 554 561	прибыли
+E2	movement_transportperson_selfmotion:T40 transporter:T12 origin:T13 destination:T10
+T41	conflict_attack_biologicalchemicalpoisonattack 773 781	внедрить
+E3	conflict_attack_biologicalchemicalpoisonattack:T41 attacker:T16 target:T18 instrument:T19
+T42	disaster_diseaseoutbreak_diseaseoutbreak 943 955	заболеванием
+E4	disaster_diseaseoutbreak_diseaseoutbreak:T42 
+T43	disaster_diseaseoutbreak_diseaseoutbreak 1098 1107	появлении
+E5	disaster_diseaseoutbreak_diseaseoutbreak:T43 place:T22 disease:T23
+T44	life_die_nonviolentdeath 1165 1171	умерли
+E6	life_die_nonviolentdeath:T44 victim:T24 place:T22 medicalissue:T25
+T45	medical_intervention_intervention 1207 1216	излечении
+E7	medical_intervention_intervention:T45 patient:T24 place:T22
+T46	life_die_nonviolentdeath 1363 1369	умерли
+E8	life_die_nonviolentdeath:T46 victim:T29 place:T30
+T47	life_injure_illnessdegredationsickness 1396 1420	были одинаковые симптомы
+E9	life_injure_illnessdegredationsickness:T47 victim:T31 disease:T32 disease:T33 disease:T34
+R1	organizationaffiliation_leadership_headofstate Arg1:T2 Arg2:T3
+R2	physical_locatednear_unspecified Arg1:T20 Arg2:T18
+R3	measurement_size_count Arg1:T29 Arg2:T37
+R4	organizationaffiliation_leadership_government Arg1:T27 Arg2:T28

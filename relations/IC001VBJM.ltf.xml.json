@@ -1,0 +1,946 @@
+[
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Venezuela detains 6 in failed drone attack aimed at Maduro;  CARACAS, Venezuela (AP) \u2014 Authorities detained six people suspected of using explosives-laden drones in a failed bid to assassinate Venezuelan President Nicolas Maduro, officials said Sunday, in what one witness described as a terrifying attack that shook her apartment building.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e4",
+                "en1": "6",
+                "en2": "Maduro",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e15",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    19,
+                    59
+                ]
+            },
+            {
+                "en1": "CARACAS",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7632046853559481,
+                "span": [
+                    62,
+                    80
+                ]
+            },
+            {
+                "en1": "CARACAS, Venezuela",
+                "en2": "Authorities",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e16",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e17",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7509106605885635,
+                "span": [
+                    62,
+                    99
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e4",
+                "en1": "six",
+                "en2": "six people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e18",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    109,
+                    119
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e10",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7799741199741238,
+                "span": [
+                    194,
+                    214
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e12",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7521383088929101,
+                "span": [
+                    205,
+                    229
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e4",
+                "en1": "one",
+                "en2": "one witness",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e22",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s1-e5",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    262,
+                    273
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The government alleged that opposition factions conspired with assailants in Miami and Bogota, although they offered no specific evidence.",
+        "rels": [
+            {
+                "en1": "opposition factions",
+                "en2": "assailants",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e6",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7771080394520129,
+                "span": [
+                    371,
+                    416
+                ]
+            },
+            {
+                "en1": "Miami",
+                "en2": "Bogota",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e1",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e2",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.756617467426841,
+                "span": [
+                    420,
+                    436
+                ]
+            },
+            {
+                "en1": "Bogota",
+                "en2": "Miami and Bogota",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s2-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.8004820768552207,
+                "span": [
+                    430,
+                    436
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Opposition leaders decried Maduro for broadly singling out his political opponents, and they warned he may use it to further suppress his critics.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The thwarted attack comes as Venezuela is reeling from a worsening economic and humanitarian crisis and Maduro has grown increasingly isolated.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Foreign nations, including the United States, are slapping economic sanctions against a growing list of high-ranking officials and decrying his government as an autocratic regime.",
+        "rels": [
+            {
+                "en1": "Foreign nations",
+                "en2": "United States",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s5-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s5-e0",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7500765810785408,
+                "span": [
+                    774,
+                    818
+                ]
+            },
+            {
+                "en1": "his government",
+                "en2": "an autocratic regime",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s5-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s5-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7955266615647301,
+                "span": [
+                    914,
+                    952
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The assailants flew two drones each packed with 1 kilogram (2.2 pounds) of C-4 plastic explosive toward Maduro, his wife and other top leaders as he spoke Saturday evening at an event celebrating the 81st anniversary of the National Guard, said Interior Minister Nestor Reverol.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e2",
+                "en1": "two",
+                "en2": "two drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e9",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    975,
+                    985
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e2",
+                "en1": "1",
+                "en2": "Maduro",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e10",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1003,
+                    1065
+                ]
+            },
+            {
+                "en1": "Interior Minister",
+                "en2": "Nestor Reverol",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s6-e3",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7725353841790329,
+                "span": [
+                    1200,
+                    1232
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "One of the drones was to explode above the president while the other was to detonate directly in front of him, he added.",
+        "rels": [
+            {
+                "en1": "One",
+                "en2": "the drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s7-e1",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s7-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1234,
+                    1251
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "But the military managed to knock one of the drones off-course electronically and the other crashed into apartment building two blocks away from where Maduro was speaking to the hundreds of troops, Reverol said.",
+        "rels": [
+            {
+                "en1": "one",
+                "en2": "the drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s8-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s8-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1390,
+                    1407
+                ]
+            },
+            {
+                "en1": "two",
+                "en2": "Maduro",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s8-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s8-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1480,
+                    1513
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"We have six terrorists and assassins detained,\" Reverol said.",
+        "rels": [
+            {
+                "en1": "six",
+                "en2": "six terrorists",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s9-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s9-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1578,
+                    1592
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"In the next hours there could be more arrests.\"",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Of those arrested, Reverol said two had previous run-ins with the government, although he did not give their names or say what charges they faced.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "the government",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s11-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s11-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1714,
+                    1758
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "One took part in 2014 protests that rocked the nation as it descended into an economic crisis that is now worse than the Great Depression.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s12-e1",
+                "en1": "One",
+                "en2": "the nation",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s12-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s12-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1829,
+                    1882
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The other had a warrant out for his arrest for participating in an attack on a military barracks.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Defense Minister Vladimir Padrino Lopez, appearing on state television Sunday, said the attackers were aiming to decapitate Venezuela's entire top leadership along with Maduro.",
+        "rels": [
+            {
+                "en1": "Defense Minister",
+                "en2": "Vladimir Padrino Lopez",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.766811962505727,
+                "span": [
+                    2067,
+                    2106
+                ]
+            },
+            {
+                "en1": "the attackers",
+                "en2": "Venezuela",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e6",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e4",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7552611858254611,
+                "span": [
+                    2151,
+                    2200
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s14-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7825384903395718,
+                "span": [
+                    2191,
+                    2202
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Investigators continued searching a blackened apartment building near the site while also seizing vehicles and raiding more than one hotel where they said they had found \"film evidence.\"",
+        "rels": [
+            {
+                "en1": "a blackened apartment building",
+                "en2": "the site",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e2",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e3",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7624964539417044,
+                "span": [
+                    2279,
+                    2323
+                ]
+            },
+            {
+                "en1": "the site",
+                "en2": "vehicles",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e4",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e3",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7732337890007378,
+                "span": [
+                    2315,
+                    2351
+                ]
+            },
+            {
+                "en1": "one",
+                "en2": "more than one hotel",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s15-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2374,
+                    2383
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Two witnesses who live in nearby apartment buildings said they saw a drone hovering over a residential street Saturday evening and then heard an explosion.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e1",
+                "en1": "Two",
+                "en2": "Two witnesses",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2433,
+                    2446
+                ]
+            },
+            {
+                "en1": "Two witnesses",
+                "en2": "nearby apartment buildings",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e2",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e3",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.764895964704638,
+                "span": [
+                    2433,
+                    2485
+                ]
+            },
+            {
+                "en1": "a drone",
+                "en2": "a residential street",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e4",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s16-e5",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7844854093264211,
+                "span": [
+                    2500,
+                    2542
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "One witness showed The Associated Press cellphone video of a drone crashing into a building.",
+        "rels": [
+            {
+                "en1": "One",
+                "en2": "One witness",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s17-e1",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s17-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2590,
+                    2601
+                ]
+            },
+            {
+                "en1": "a drone",
+                "en2": "a building",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s17-e2",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s17-e3",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7889763847827103,
+                "span": [
+                    2649,
+                    2681
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "He said the drone fell to the ground and exploded, igniting a fire in an apartment.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Another witness, Mairum Gonzalez, described running in panic to her fifth-floor balcony, where she heard the second explosion and saw smoke rising.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"It was so strong the building shook,\" she said.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"It terrified me.\"",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "In an address to the nation Saturday night, a visibly shaken Maduro recalled seeing a \"flying device\" that exploded.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "He at first thought it might be a pyrotechnics display.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Within seconds, Maduro said he heard a second blast and pandemonium broke out.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Bodyguards escorted him from the event, covering him in black shields, and TV footage showed uniformed soldiers break formation and scatter.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"This was an attempt to kill me,\" he said.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Maduro said the \"far right,\" working in coordination with others in Bogota and Miami, including Colombian President Juan Manuel Santos, were responsible.",
+        "rels": [
+            {
+                "en1": "Miami",
+                "en2": "Bogota and Miami",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e3",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.774634975971053,
+                "span": [
+                    3504,
+                    3509
+                ]
+            },
+            {
+                "en1": "Colombian",
+                "en2": "Juan Manuel Santos",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e7",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7743389026386904,
+                "span": [
+                    3521,
+                    3540
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Juan Manuel Santos",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s27-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7693951500382205,
+                "span": [
+                    3531,
+                    3559
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Colombia's government has vehemently denied Santos had any role in the drone attack.",
+        "rels": [
+            {
+                "en1": "Colombia",
+                "en2": "Colombia's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s28-e1",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s28-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.778107539173397,
+                "span": [
+                    3579,
+                    3589
+                ]
+            },
+            {
+                "en1": "Colombia's",
+                "en2": "Colombia's government",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s28-e4",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s28-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7765113639796539,
+                "span": [
+                    3579,
+                    3600
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Maduro, who also says that Washington supports his political opponents, called on U.S. President Donald Trump to hold the \"terrorist group\" accountable.",
+        "rels": [
+            {
+                "en1": "U.S.",
+                "en2": "Donald Trump",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s29-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s29-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7769516888323468,
+                "span": [
+                    3747,
+                    3761
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Donald Trump",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s29-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s29-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7667341238681971,
+                "span": [
+                    3752,
+                    3774
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Trump's national security adviser John Bolton told \"Fox News Sunday\" that, \"If the government of Venezuela has hard information that they want to present to us that would show a potential violation of U.S. criminal law, we'll take a serious look at it.\"",
+        "rels": [
+            {
+                "en1": "the government",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s30-e11",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s30-e10",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7801640962691525,
+                "span": [
+                    3898,
+                    3925
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The Broad Front, a coalition of opposition groups in Venezuela, accused the government of making an allegation without proof.",
+        "rels": [
+            {
+                "en1": "a coalition",
+                "en2": "opposition groups",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s31-e4",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s31-e5",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7903659726026641,
+                "span": [
+                    4091,
+                    4123
+                ]
+            },
+            {
+                "en1": "opposition groups",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s31-e6",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s31-e5",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7545669250060094,
+                "span": [
+                    4106,
+                    4136
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"It's evident that the initial reaction of the government isn't aimed at attempting to clarify what happened but rather to take advantage of the situation and irresponsibly and sweepingly attack the 'opposition,'\" the group said in a statement.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "A little-known group calling itself Soldiers in T-shirts claimed responsibility for the attack, saying it planned to fly two drones loaded with explosives at the president but soldiers shot them down.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "two drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s33-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s33-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4568,
+                    4578
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The authenticity of the message could not be independently verified, and the organization did not respond to a message from the AP.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"It was not successful today, but it is just a matter of time,\" the group said in a tweet.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Venezuela's government routinely accuses opposition activists of plotting to attack and overthrow Maduro.",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e0",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e2",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.798808784084912,
+                "span": [
+                    4873,
+                    4884
+                ]
+            },
+            {
+                "en1": "Venezuela's",
+                "en2": "Venezuela's government",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e2",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e3",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7597804843826406,
+                "span": [
+                    4873,
+                    4895
+                ]
+            },
+            {
+                "en1": "Venezuela's government",
+                "en2": "opposition activists",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e4",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s36-e3",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7983229651935358,
+                "span": [
+                    4873,
+                    4934
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The former bus driver has moved steadily to consolidate power as the nation struggles to reverse hyperinflation that the International Monetary Fund projects could top 1 million percent by year's end.",
+        "rels": [
+            {
+                "en1": "1 million percent",
+                "en2": "year's end",
+                "ldcOnt:Measurement.Size.Percentage_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s37-e4",
+                "ldcOnt:Measurement.Size.Percentage_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s37-e0",
+                "rel": "ldcOnt:Measurement.Size.Percentage",
+                "score": 0.9,
+                "span": [
+                    5147,
+                    5178
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The firebrand leader sees his mission as carrying out the late Hugo Chavez's socialist revolution.",
+        "rels": [
+            {
+                "en1": "The firebrand leader",
+                "en2": "leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s38-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s38-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7509065909342858,
+                "span": [
+                    5181,
+                    5201
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "He recently won a new term in office in a widely condemned election.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "The opposition's most popular candidates were barred from running.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Maduro said the incident had left him convinced of the military's support and undeterred in carrying forward the torch of Chavez's revolution.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"Venezuela will continue on the democratic, independent and socialist path,\" he said.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Analysts believe Maduro still holds the military's support, but said the images broadcast live on television Saturday nonetheless made him appear vulnerable.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "\"Seeing trained soldiers fleeing in apparent panic and disarray before an explosion strongly contrasts with the idea of monolithic control and loyalty of security forces that Maduro prides himself on,\" New York-based Torino Capital investment firm noted.",
+        "rels": [
+            {
+                "en1": "Torino Capital investment",
+                "en2": "Torino Capital investment firm",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s44-e1",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s44-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7735946765207211,
+                "span": [
+                    6024,
+                    6054
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "It was not the first time Maduro's government has come under attack.",
+        "rels": [
+            {
+                "en1": "Maduro's",
+                "en2": "Maduro's government",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s45-e1",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s45-e2",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.800719788412559,
+                "span": [
+                    6089,
+                    6108
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Amid deadly, near-daily protests last year, a rogue police officer flew a stolen helicopter over the capital and launched grenades at several government buildings.",
+        "rels": [
+            {
+                "en1": "grenades",
+                "en2": "several government buildings",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s46-e3",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s46-e4",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7979927182339108,
+                "span": [
+                    6255,
+                    6295
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "Oscar Perez and several comrades were later killed in a gun battle after over six months at large.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "___  Christine Armario contributed from Miami, Florida.",
+        "rels": [
+            {
+                "en1": "Christine Armario",
+                "en2": "Miami",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e1",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7854461858796022,
+                "span": [
+                    6402,
+                    6442
+                ]
+            },
+            {
+                "en1": "Miami",
+                "en2": "Florida",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e3",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7786140747367188,
+                "span": [
+                    6437,
+                    6451
+                ]
+            },
+            {
+                "en1": "Florida",
+                "en2": "Miami, Florida",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s48-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7607665728730166,
+                "span": [
+                    6444,
+                    6451
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBJM.ltf.xml.json",
+        "inputSentence": "AP video journalist Clbyburn Saint John contributed.",
+        "rels": [
+            {
+                "en1": "Saint",
+                "en2": "Clbyburn Saint John",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s49-e1",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBJM.ltf.xml-s49-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7937027650235455,
+                "span": [
+                    6482,
+                    6492
+                ]
+            }
+        ]
+    }
+]

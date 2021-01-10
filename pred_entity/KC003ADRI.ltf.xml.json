@@ -1,0 +1,331 @@
+[
+ {
+  "docID": "KC003ADRI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "KC003ADRI.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e0",
+    "char_begin": 50,
+    "char_end": 55,
+    "head_span": [
+     50,
+     55
+    ],
+    "mention": "model",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e1",
+    "char_begin": 220,
+    "char_end": 228,
+    "head_span": [
+     220,
+     228
+    ],
+    "mention": "thousand",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e2",
+    "char_begin": 254,
+    "char_end": 263,
+    "head_span": [
+     254,
+     263
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "‘US-orchestrated violence in Venezuela uses same model as events in Ukraine’ – Maduro;   The US is trying to; \"destroy\"  Venezuela and rob it of its resources with the model used in Ukraine’s coup, but with violence \"a thousand times worse,\" Venezuelan President Nicolas Maduro told RT.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e3",
+    "category": "NAM",
+    "char_begin": 69,
+    "char_end": 76,
+    "head_span": [
+     69,
+     76
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.9890487",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e5",
+    "category": "NAM",
+    "char_begin": 94,
+    "char_end": 96,
+    "head_span": [
+     94,
+     96
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.98980534",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e7",
+    "category": "NAM",
+    "char_begin": 183,
+    "char_end": 190,
+    "head_span": [
+     183,
+     190
+    ],
+    "headword": "Ukraine",
+    "mention": "Ukraine",
+    "score": "0.6194527",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     37,
+     38
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e9",
+    "category": "NAM",
+    "char_begin": 243,
+    "char_end": 253,
+    "head_span": [
+     243,
+     253
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.9948461",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     51,
+     52
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e11",
+    "category": "NAM",
+    "char_begin": 264,
+    "char_end": 278,
+    "head_span": [
+     272,
+     278
+    ],
+    "headword": "Maduro",
+    "mention": "Nicolas Maduro",
+    "score": "0.9983941",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     53,
+     55
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e12",
+    "category": "NAM",
+    "char_begin": 284,
+    "char_end": 286,
+    "head_span": [
+     284,
+     286
+    ],
+    "headword": "RT",
+    "mention": "RT",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     56,
+     57
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e14",
+    "category": "NOM",
+    "char_begin": 30,
+    "char_end": 39,
+    "head_index": 4,
+    "head_span": [
+     30,
+     39
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     4,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e15",
+    "category": "NOM",
+    "char_begin": 80,
+    "char_end": 86,
+    "head_index": 14,
+    "head_span": [
+     80,
+     86
+    ],
+    "headword": "Maduro",
+    "mention": "Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     14,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e16",
+    "category": "NOM",
+    "char_begin": 122,
+    "char_end": 131,
+    "head_index": 25,
+    "head_span": [
+     122,
+     131
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     25,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e17",
+    "category": "NOM",
+    "char_begin": 243,
+    "char_end": 278,
+    "head_index": 54,
+    "head_span": [
+     272,
+     278
+    ],
+    "headword": "Maduro",
+    "mention": "Venezuelan President Nicolas Maduro",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     51,
+     55
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "KC003ADRI.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "He also explained how the National Constituent Committee was designed to reconcile the country torn by opposition riots.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s2-e0",
+    "category": "NAM",
+    "char_begin": 314,
+    "char_end": 344,
+    "head_span": [
+     335,
+     344
+    ],
+    "headword": "Committee",
+    "mention": "National Constituent Committee",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     8
+    ],
+    "type": "ldcOnt:ORG.Government"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s2-e2",
+    "category": "NOM",
+    "char_begin": 310,
+    "char_end": 344,
+    "head_index": 7,
+    "head_span": [
+     335,
+     344
+    ],
+    "headword": "Committee",
+    "mention": "the National Constituent Committee",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     4,
+     8
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s2-e3",
+    "category": "NOM",
+    "char_begin": 371,
+    "char_end": 382,
+    "head_index": 13,
+    "head_span": [
+     375,
+     382
+    ],
+    "headword": "country",
+    "mention": "the country",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     12,
+     14
+    ]
+   }
+  ],
+  "offset": 288
+ }
+]

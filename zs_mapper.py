@@ -25,7 +25,7 @@ A20_NER_MAP = {
     ],
     "COM.Equipment.MedicalEquipment": [
         "medicine", "medicamento", "лекарство",
-        "drug", "droga",
+        "drug", "droga", "vaccine", "drugs", "vaccines"
         "acetaminophen", "paracetamol", "ацетаминофен",
     ],
     "COM.Equipment.Satellite": [
@@ -79,8 +79,8 @@ A20_NER_MAP = {
         "venezuela", "венесуэла",
         "country", "país", "страна",
         "venezuelan", "venezolana", "venezolano", "венесуэльский",
-        "colombia", "колумбия",
-        "u.s.",
+        "colombia", "колумбия"
+        "u.s.", "US",
         "nation", "nación", "нация",
         "republic", "república", "республика",
         "cuba", "куба",
@@ -108,6 +108,7 @@ A20_NER_MAP = {
         "aragua", "арагуа",
         "florida", "флорида",
         "texas", "техас",
+        "miranda"
     ],
     "GPE.UrbanArea.City": [
         "caracas", "каракас",
@@ -132,7 +133,7 @@ A20_NER_MAP = {
         "neighborhood", "neighbourhood", "barrio", "окрестности",
     ],
     "LOC.Position.Region": [
-        "region", "región", "область",
+        "region", "región", "область", "caribbean",
     ],
     "MHI.SymptomPresentation.SymptomPresentation": [
         "piel", "dolor", "pain", "skin"
@@ -140,7 +141,7 @@ A20_NER_MAP = {
     "MHI.Disease.Disease": [
         "disease", "illness", "enfermedad", "болезнь", "заболевание",
         "chikungunya", "chikunguya", "chicungunya", "chikunguny", "chikungunya.", "чикунгунья",
-        "dengue", "денге",
+        "dengue", "денге", "diseases",
         "ebola", "ébola", "эбола",
         "meningitis", "менингит",
         "virus", "вирус", 'febril', 'meningococo',
@@ -230,11 +231,11 @@ A20_NER_MAP = {
         "reporter", "reportera", "reportero", "репортер",
     ],
     "PER.ProfessionalPosition.Minister": [
-        "minister", "ministra", "ministro", "министр",
+        "minister", "ministra", "ministro", "министр", "castro"
     ],
     "PER.ProfessionalPosition.MedicalPersonnel": [
         "doctor", "médica", "médico", "доктор",
-        "nurse", "enfermera", "enfermero",
+        "nurse", "enfermera", "enfermero", "doctors",
         "physician", "physicians", "врач",
         "epidemiologist", "epidemióloga", "epidemiólogo", "эпидемиолог",
         "infectologist", "infectólogo", "инфектолог",

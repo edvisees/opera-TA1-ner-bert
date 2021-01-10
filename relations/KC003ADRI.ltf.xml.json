@@ -1,0 +1,103 @@
+[
+    {
+        "docID": "KC003ADRI.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "KC003ADRI.ltf.xml.json",
+        "inputSentence": "\u2018US-orchestrated violence in Venezuela uses same model as events in Ukraine\u2019 \u2013 Maduro;   The US is trying to; \"destroy\"  Venezuela and rob it of its resources with the model used in Ukraine\u2019s coup, but with violence \"a thousand times worse,\" Venezuelan President Nicolas Maduro told RT.",
+        "rels": [
+            {
+                "en1": "Ukraine",
+                "en2": "Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e15",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7859898389590356,
+                "span": [
+                    69,
+                    86
+                ]
+            },
+            {
+                "en1": "Maduro",
+                "en2": "US",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e15",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7957290422590173,
+                "span": [
+                    80,
+                    96
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Ukraine",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e16",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7506308492961071,
+                "span": [
+                    122,
+                    190
+                ]
+            },
+            {
+                "en1": "thousand",
+                "en2": "Venezuelan",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e9",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    220,
+                    253
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e9",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e11",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7932908298247513,
+                "span": [
+                    243,
+                    263
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e11",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s1-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7973601425895369,
+                "span": [
+                    254,
+                    278
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "KC003ADRI.ltf.xml.json",
+        "inputSentence": "He also explained how the National Constituent Committee was designed to reconcile the country torn by opposition riots.",
+        "rels": [
+            {
+                "en1": "National Constituent Committee",
+                "en2": "the National Constituent Committee",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s2-e0",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-KC003ADRI.ltf.xml-s2-e2",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7921515933127631,
+                "span": [
+                    314,
+                    344
+                ]
+            }
+        ]
+    }
+]

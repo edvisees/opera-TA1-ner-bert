@@ -218,14 +218,12 @@ def read_ltf_offset(fname, out_fname=None, nlp=None):
         print('running corenlp for {} ...'.format(fname))
 
         try:
-            # raise Exception('hack')
-            # nlp_annotation = nlp.annotate(doc.encode('UTF-8'), props)
+            import time
+            start_time = time.time()
             nlp_annotation = nlp.annotate(doc, props)
             nlp_annotation = json.loads(nlp_annotation, strict=False)
             print('finished corenlp for {}'.format(fname))
-            # print(doc)
-            # print(nlp_annotation)['sentences'][1]
-            # bp = raw_input('bp')
+            print(time.time()-start_time)
             new_sents = []
             offset = 0
             for sent_annot in nlp_annotation['sentences']:

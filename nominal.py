@@ -10,6 +10,22 @@ for k, vs in A20_NER_MAP.items():
     for v in vs:
         nist_key[v] = 'ldcOnt:' + k 
 nist_key['people'] = 'ldcOnt:PER'
+entity_type_dict = {}
+with open('type_entity.tab') as f:
+    for line in f:
+        entity_type, entity = line.strip().split('\t')
+        if 'a.k.a.' in entity:
+            entities = entity.split(' ')
+            refined_entites = []
+            for en in entities[:-1]:
+                if 'a.k.a' in en:
+                    entity_type_dict[en] = entity_type
+            if entities[-1].endswith(')'):
+                entity_type_dict[entities[-1][:-1]] = entity_type
+            else:
+                entity_type_dict[entities[-1]] = entity_type
+        else:
+            entity_type_dict[entity] = entity_type
 mhi_list = set()
 
 with open('gazetteer/mhi.lst', 'r') as f:
@@ -23,8 +39,9 @@ def extract_nominals(sent, nlp, ners):
     mentions = remove_duplicate_mentions(mentions)
     for m in mentions:
         m['type'], m['subtype'], m['subsubtype'] = get_semantic_class_with_subtype(m['headword'])
-        for k, v in nist_key.items():
-            if k in m['headword'].lower():
+        
+        for k, v in nist_key.items():    
+            if k in m['mention'].lower().split():
                 m['type'], m['subtype'], m['subsubtype'] = v, v, v
                 break
         if  any(s in m['headword'].lower() for s in ['cases', 'fatalities', 'vote']):
@@ -33,10 +50,10 @@ def extract_nominals(sent, nlp, ners):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG', 'ORG', 'ORG'
         elif 'fund' in  m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MON', 'MON', 'MON'
-        elif 'medicine' in  m['headword'].lower() or 'sample' in m['headword'].lower():
-            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM', 'MON', 'MON'
-        elif 'caribbean' in  m['headword'].lower():
-            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:LOC.Position.Region', 'LOC', 'LOC'
+        # elif 'medicine' in  m['headword'].lower() or 'sample' in m['headword'].lower():
+        #     m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM', 'MON', 'MON'
+        # elif 'caribbean' in  m['headword'].lower():
+        #     m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:LOC.Position.Region', 'LOC', 'LOC'
         elif 'drone' in m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:VEH.Aircraft.Drone', 'Aircraft', 'Drone'
         elif m['headword'].lower() in mhi_list:
@@ -47,7 +64,6 @@ def extract_nominals(sent, nlp, ners):
 
 def extract_NP_or_PRP(sent, nlp):
     raw_tree = nlp['parse']
-
     if raw_tree is None:
         return []
     tree = Tree.parse_tree(raw_tree)
@@ -67,7 +83,7 @@ def extract_NP_or_PRP(sent, nlp):
             end_offset = sent.words[word_span[1]-1].end
             head_index = find_head_of_np(tree)
             headword = sent.words[head_index].word
-            NPs.append({'word_span': word_span, 'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_index': head_index, 'head_span': [sent.words[head_index].begin-1, sent.words[head_index].end], 'headword': headword, 'category': 'NOM', 'score': 0.9})
+            NPs.append({'token_span': word_span, 'word_span': word_span, 'mention': text, 'char_begin': begin_offset-1, 'char_end': end_offset, 'head_index': head_index, 'head_span': [sent.words[head_index].begin-1, sent.words[head_index].end], 'headword': headword, 'category': 'NOM', 'score': 0.9})
         if tree.children:
             for child in reversed(tree.children):
                 stack.append(child)

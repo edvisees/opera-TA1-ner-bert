@@ -1,0 +1,414 @@
+entity_type	name
+FAC.Building.House	Mykhaylo Chechetov's home
+FAC.Building.House	Oleg Kalashnikov's home
+FAC	Anti-Maidan camp
+FAC.Structure.Plaza	Cathedral Square (a.k.a. Sobornaya Square)
+FAC.Structure.Plaza	Grecheskaya Square (a.k.a. Hretska Square, Hretska Ploshcha, Greek Square)
+FAC	Kulikovo Field (a.k.a. Kulykove Pole)
+FAC	Oleksandrovsky Avenue (a.k.a. Aleksandrovsky Avenue, Hretska Street)
+FAC	Trade Unions House (a.k.a. Trade Unions Building)
+FAC	Kramatorsk city council building
+FAC	Kramatorsk police station
+FAC	Pro-Russian Checkpoint
+FAC	Security Service of Ukraine (SBU) building
+FAC	Sloviansk Police Headquarters
+FAC.Structure.Tower	Television tower
+FAC	Conservatory Building
+FAC	Globus Shopping Center
+FAC	Hotel Ukrayina (a.k.a. Ukrainia Hotel)
+FAC	Instytutska Street
+FAC	Maidan Nezalezhnosti (a.k.a. Maidan, Independence Square)
+FAC	Mariinsky Park
+FAC	October Palace
+FAC	Verkhovna Rada building
+FAC	Artemivsk highway
+FAC	Russia-Ukraine Border
+GPE.Country.Country	Donetsk People's Republic (a.k.a. DPR, DNR)
+GPE.Country.Country	New Russia (a.k.a. Novorosssiya)
+GPE.Country.Country	Krasnoarmeisk (a.k.a. Krasnoarmeysk, Pokrovsk)
+GPE.Country.Country	Luhansk People's Republic (a.k.a. LPR, LNR)
+LOC	Eastern Ukraine
+ORG	Government of Ukraine
+ORG	Mirotvorets Centre
+ORG	Party of Regions (a.k.a. Partia Regionov, Partiya Regionov)
+ORG	Security Service of Ukraine (a.k.a. SSU, SBU)
+ORG	State Property Fund of Ukraine
+ORG	Ukrainian Insurgent Army (a.k.a. UPA)
+ORG	Central Intelligence Agency (a.k.a. CIA)
+ORG	FC Chornomorets Odesa
+ORG	FC Metalist Kharkiv
+ORG	May 2 Group (a.k.a. Group of May 2)
+ORG	Odessa Police
+ORG	Odesskaya Druzhina (a.k.a. Odesska Druzhyna)
+ORG	Russian government
+ORG	Ukrainian Orthodox Church
+ORG	45th Guards Regiment of the Airborne Forces of RF
+ORG	Armed Forces of Ukraine
+ORG	Donbass People's Militia (a.k.a. DPM)
+ORG	Federal Security Service (a.k.a. FSB)
+ORG	Fight clubs
+ORG	Main Intelligence Directorate (a.k.a. GRU)
+ORG	Right Sector
+ORG	Military forces of Russia
+ORG	Special Forces of Russia (a.k.a. Spetsnaz)
+ORG	Special Forces of Ukraine (a.k.a. Spetsnaz)
+ORG	The National Guard of Ukraine (a.k.a. NGU)
+ORG	Ukraine's 25th paratrooper division
+ORG	Ukrainian Forces "Omega" Division
+ORG	Ukrainian Ground Forces
+ORG	Anti-Terrorist Operation force
+ORG	Ministry of Defense of Russia
+ORG	Berkut Riot Police
+ORG	Maidan People's Union
+ORG	Omega division
+ORG	Russian Ministry of Internal Affairs
+ORG	Tiger Special forces
+ORG	Ukrainian General Prosecutor's Office
+ORG	Ukrainian Institute for National Memory
+ORG	Ukrainian Internal Affairs Ministry
+ORG	Trilateral Contact Group on Ukraine
+ORG	Verkhovna Rada
+ORG	Central Election Commission
+ORG	Donetsk regional administration
+ORG	Russian National Unity (a.k.a. RNU)
+ORG	U.S. State Department
+PER	Andrey Medvedko
+PER	Denis Polischuk
+PER	Mykhaylo Chechetov (a.k.a. Mikhailo, Mykhailo)
+PER	Mykola Serhiyenko (a.k.a. Nikolai Sergienko)
+PER	Oleg Kalashnikov (a.k.a. Oleh Kalashnikov)
+PER	Oleksandr Bordyuh (a.k.a. Alexander Bordiuga)
+PER	Oleksandr Peklushenko (a.k.a. Aleksandr Peklushenko)
+PER	Oleksiy Kolesnik (a.k.a Oleksiy Kolesnyk, Aleksey Kolesnik, Алексей Колесник)
+PER	Oles Buzyna (a.k.a. Oleg Buzina)
+PER	Rinat Akhmetov
+PER	Sergey Melnychuk (a.k.a. Sergei, Serhiy, Melnichuk)
+PER	Sergey Sukhobok [Russian: Серге́й Сухобо́к ; Ukrainian: Сергій Сухобок ; aka Sergei/Serhiy]
+PER	Serhiy Walter (a.k.a. Sergiy Valter)
+PER	Stanislav Melnyk (a.k.a. Stanislav Melnik)
+PER	Unaffiliated assassin
+PER	Witnesses of Buzyna murder
+PER	Andriy Parubiy
+PER	Dmitry Gumenyuk
+PER	Firefighters in Odessa
+PER	Football Ultras in Odessa
+PER	Igor Bolyansky
+PER	Igor Ivanov
+PER	Peter Lutsyuk (a.k.a. Petro Lutsiuk, Petr Lutsyuk)
+PER	Pregnant woman in Trade Unions Building
+PER	Sergey Dolzhenkov
+PER	Sergey Pashinsky (a.k.a. Sergei Pashinsky)
+PER	Vitaly Budko
+PER	Yevgeny Mefedov
+PER	Alexander Mozhaev (a.k.a. Babay, Bogeyman)
+PER	Igor Perepechayenko
+PER	Igor Strelkov (a.k.a. Igor Girkin)
+PER	Vladimir Lukin
+PER	Viktor Yanukovych
+PER	Alexander Yakimenko
+PER	Anatoli Strelchenko
+PER	Dmytro Sadovnyk
+PER	Heavenly Hundred
+PER	Ivan Bubenchyk
+PER	Lesia Orobets (a.k.a. Lesya Orobets)
+PER	Olga Bogomolets
+PER	Sergei [protester who started shooting at police]
+PER	Serhiy Kusiuk (a.k.a. Sergey Kusiuk)
+PER	Serhiy Nigoyan
+PER	snipers shooting during Maidan
+PER	Titushky
+PER	Urmas Paet
+PER	Vitali Klitschko
+PER	Vitaliy Zakharchenko
+PER	Alexander Zakharchenko
+PER	Eduard Basurin
+PER	Igor Plotnitsky
+PER	Alexander Barkashov
+PER	Andriy Mahera (a.k.a. Andriy Mager)
+PER	Denis Pushilin
+PER	Dmytro Boitsov (a.k.a. Dmitri, Dima)
+PER	Donetsk and Luhansk voters living in Russia
+PER	Non-OSCE observers of the referendum
+PER	Roman Lyakhin (a.k.a. Roman Lyagin)
+PER	Serhiy Taruta
+SID	Neo-Nazi
+BAL	"Yes" ballots seized in Sloviansk
+BAL	Pre-filled fraudulent ballots
+COM	Mykhaylo Chechetov's note
+CRM	Abuse of authority
+CRM	Forgery
+CRM	Fraud
+CRM	Malfeasance
+CRM	Mass murder
+LAW	Donetsk Status Referendum
+LAW	Luhansk Status Referendum
+LAW	Donbass Status Referendum
+SID	Anti-Maidan
+SID	Pro-Russian
+SID	Pro-Maidan
+SID	Ukrainian-nationalist
+SID	Separatist
+SID	Pro-accession to Russia referendum stance
+SID	Pro-federalization of Ukraine referendum stance
+SID	Pro-increased autonomy referendum stance
+SID	Pro-independence referendum stance
+VEH	Russian armored vehicles that were in Kramatorsk
+VEH	Ukrainian Armoured Personnel Carriers (a.k.a. APC) separatists captured or received in Sloviansk
+WEA	Mykola Serhiyenko's rifle
+WEA	Stanislav Melnyk's rifle
+WEA	Baseball bats that were used in Odessa by Odesskaya Druzhina
+WEA	Chloroform that was used in the Trade Unions House
+WEA	Firearms that were used in Odessa by Odesskaya Druzhina
+WEA	Molotov cocktails that were used in Odessa
+WEA	Rocks that were used as weapons in Odessa
+WEA	Russian anti-tank guided missile (a.k.a. ATGM) used by separatists
+WEA	Russian Kalashnikov rifles (a.k.a. AK-47) that were used by separatists
+WEA	Russian man-portable air-defense systems (a.k.a. MANPADS) that were used by separatists
+WEA	Shotguns that were used by police during Maidan protests
+WEA	Firearms that were used by snipers during Maidan protests
+WEA	Grenades that were used during Maidan protests
+WEA	Paving blocks that were used as weapons during Maidan protests
+WEA	Water cannon that was used during Maidan protests
+WEA	Separatist artillery in Debaltseve which was subject to Minsk II protocol
+WEA	Ukrainian artillery in Debaltseve which was subject to Minsk II protocol
+ORG	Svoboda Party
+WEA	Sergei's Saiga hunting rifle
+FAC	Maidan post office
+FAC	Pro-Russian Checkpoint
+SID	Ukrainian Unity
+SID	anti-government
+SID	anti-Kiev
+SID	pro-Ukrainian
+SID	pro-regime
+COM	red armbands
+FAC	Oles Buzyna's home
+SID	Far-right
+PER	A group of men trained by paramilitary forces in neighboring Colombia
+PER	A group of military dissidents/defectors
+PER	Alberto Bracho (a.k.a. Alberto José Bracho Rozquez, Alberto Rozquez, "Porto")
+PER	Alcira Marina Carrizo de Colmenares
+PER	Alejandro Pérez (a.k.a. Maj. Gen. Alejandro Pérez)
+PER	Alfredo Guerrero
+PER	Andrea Rivas Anzola (a.k.a. Andrea Elena Rivas Anzola)
+PER	Ángela Lizbeth Expósito Carrillo (a.k.a. Ángela Lizbeth Expósito, "La Perrera") 
+PER	Argenis G. Valero Ruiz (a.k.a. Argenis Valero Ruiz, Argenis Valero, "Ingeniero")
+ORG	Bolivarian National Guard of Venezuela
+PER	Brayan Oropeza (a.k.a. Brayan de Jesus Oropeza Ruíz, "Poeta")
+PER	Bryan de Jesús
+COM	Cell phone signal blocker
+PER	Cono Sapiensa García
+PER	Darwin Mina Banguera
+PER	David Alexander Beaumont Álvarez
+PER	Deserters of the Chilean President Sebastián Piñera's right-wing government
+PER	Diplomats in Chile, Columbia, and Mexico
+FAC	Don Eduardo apartment block
+COM	Drone battery
+VEH	Drone(s) which crashed and/or exploded near Maduro
+PER	Elisa Martínez
+PER	Elvis Arnaldo Rivas Barrios (a.k.a. Elvis Rivas Barrios)
+PER	Emilendris Carolina Benítez Rosales
+PER	Eugenio Escalona Jiménez
+PER	Fabiana Yani Pernía (a.k.a. Yanni Fabiana Pernia Coronel, María)
+PER	Fernando Albán Salazar
+COM	Gas cylinder (propane tank)
+ORG	Government of Chile
+ORG	Government of Colombia
+ORG	Government of Mexico
+ORG	Government of Spain
+ORG	Government of Venezuela
+PER	Gregorio José Yaguas Monje (a.k.a. "Latino")
+WEA	Gunpowder
+PER	Hector Armando Hernández Da Costa
+PER	Henryberth Emmanuel Rivas Vivas (a.k.a. Henry Berth Rivas, "Morfeo")
+PER	Iván Arcay
+PER	Jaime Bayly
+PER	Jemmy Ruiz
+PER	Jonathan Medina (a.k.a. Yonathan Medina)
+PER	José Eloy Rivas Díaz
+PER	José Miguel Estrada González (a.k.a. "Zamurito")
+PER	José Pinto Hernández (a.k.a. José del Carmen Pinto Hernández)
+PER	José Rivas
+PER	Juan Carlos Monasterios (a.k.a. Juan Carlos Monasterios Venegas)
+PER	Juan Manuel Santos Calderón (a.k.a. Juan Manuel Santos)
+PER	Juan Requesens
+PER	Julio Borges
+PER	Laidez Zalazar (a.k.a. "Avia")
+WEA	Lead
+PER	Leaders of Venezuelan Ultra-Right groups
+PER	Luceidy Mina
+PER	Luis Guerra
+PER	Luisa Ortega Díaz (a.k.a. Luisa Marvelia Ortega Díaz)
+PER	Mauricio Jimenez Pinzon (a.k.a. Mauricio Pinzon)
+PER	Maydelen Da Silva
+PER	Member of an unnamed civilian group
+ORG	National Bolivarian Armed Forces of Venezuela
+ORG	Operation Phoenix (a.k.a. Operación Fénix, The Fenix Group)
+PER	Osman Delgado Tabosky (a.k.a. Osman Alexis Delgado Tabosky, "Jeremías")
+PER	Oswaldo Valentín García Palomo (a.k.a. Oswaldo García Palomo, Oswaldo García, "Aquiles")
+PER	Pedro Zambrano (a.k.a. Col. Pedro Zambrano)
+PER	People living in Florida
+WEA	Plastic explosives (including C4)
+COM	Radio frequency inhibitor
+PER	Ramón Santiago Velasco Garcia (a.k.a. Ramón Velasco Garcia, Ramón Velasco, "Corocoro")
+PER	Rayder Alexender Russo Marques (a.k.a. Raider Russo, "Teniente Pico," "Pico")
+PER	Salvatore Lucchese 
+PER	Seven members of the Bolivarian Armed Forces
+PER	Snipers who shot down drone(s)
+PER	Thais del Carmen Valeria Viloria (a.k.a. Carmen Valera)
+ORG	The National Movement of Soldiers in T-Shirts (a.k.a. Soldiers in T-Shirts, El Movimiento Nacional Soldados de Franelas, Soldados de Franelas, MNSF)
+SID	The Opposition
+PER	The Resistance
+SID	Ultra-Right
+PER	Venezuelan dissidents in the United States
+ORG	Venezuelan police
+PER	Virginia Antonieta Da Silva-Pio Porta (a.k.a. "Génesis")
+PER	Yilber Alberto Escalona Torrealba (a.k.a. Gilbert Alberto Escalona Torrealba, Yilbert Escalona, Explosive Pastor, "Pastor")
+MHI.Disease.Disease	Chikungunya (a.k.a. Chikunguña, CHIKV, Chik-v, Chick-v virus)
+MHI.Disease.Disease	Ebola (a.k.a. Ebola virus disease)
+MHI.Disease.Disease	Dengue (a.k.a. dengue fever)
+FAC	Avenida Bolívar
+MHI.Disease.Disease	Meningococcemia / meningitis
+MHI.Disease.Disease	Viral hemorrhagic fever
+MHI.Disease.Disease	Acute hemorrhagic fever syndrome
+MHI.Disease.Disease	Hypovolemic shock
+MHI.Disease.Disease	Cancer
+MHI.Disease.Disease	Skin infection
+MHI.Disease.Disease	Leukemia
+MHI.Disease.Disease	Diabetes
+MHI.Disease.Disease	Hemorrhage (a.k.a. hamorrhagic incident)
+MHI.Disease.Disease	Disseminated intravascular coagulation
+MHI.Disease.Disease	Multiorgan failure
+MHI.Disease.Disease	Liver failure
+MHI.Disease.Disease	Kidney failure
+MHI.Disease.Disease	Generalized malaise
+MHI.Disease.Disease	Breathing difficulty
+MHI.Disease.Disease	Fever
+MHI.Disease.Disease	Spots on the skin (maculopapular rash)
+MHI.Disease.Disease	Blisters
+MHI.Disease.Disease	Boils
+MHI.Disease.Disease	Sepsis
+MHI.Disease.Disease	Bleeding from the mouth
+MHI.Disease.Disease	Bleeding from the nose
+MHI.Disease.Disease	Bleeding from the ears
+ORG	Ministry of Popuar Power for Health (a.k.a. Health Ministry)
+PER	Globalists
+SID	Globalist (pro-globalism)
+MHI.Disease.Disease	Unidentified illness / virus / bacterium
+MHI.Disease.Disease	Venezuelan hemorrhagic fever / Guanarito virus
+MHI.Disease.Disease	Unidentified mosquito-borne illness
+PER	Ángel Sarmiento
+FAC	Maracay Central Hospital
+ORG	State Bar Association of Medical Doctors in Aragua
+ORG	Democratic Action
+PER	Maria Eugenia Landaeta
+ORG	University Hospital of Caracas (a.k.a. El Clínico)
+PER	Tareck Zaidan El Aissami Maddah (a.k.a. Tareck El Aissami)
+PER	Injured soldiers
+PER	Anti-Chavistas
+SID	Anti-Venezuelan government
+PER	Antonio José Benavides Torres (a.k.a. Antonio José Benavides)
+PER	Armed motorcyclists who killed Carlos Moreno
+PER	Armed motorcyclists who killed Paola Ramírez
+WEA	Ball bearing
+FAC	Barricades
+WEA	Blunt objects
+PER	Carlos José Moreno Barón (a.k.a. Carlos José Moreno, Carlos Moreno)
+SID	Chavismo
+PER	Chavistas
+COM	Consumer goods
+PER	Donald Trump
+COM	Food
+COM	Garbage
+PER	Government supporters who fired on protesters
+WEA	Homemade weapon
+FAC	Hugo Rafael Chávez Frías Maternal and Children's Hospital (a.k.a. maternity hospital, maternity ward)
+PER	Hungry Venezuelans
+COM	Imported goods
+PER	Iván Alexis Pernía Dávila (a.k.a. Iván Aleisis Pernía Dávila, Ivan Alexis Pernia Perez, Alexis Pernia Dávila, Ivan Pernia, Pernia Dávila)
+WEA	Marble
+COM	Medical supplies
+COM	Medicine
+SID	Middle class
+PER	Middle class Venezuelans
+PER	Miguel Fernando Castillo Bracho (a.k.a. Miguel Castillo Bracho)
+PER	National Guardsman
+PER	Néstor Reverol (a.k.a. Néstor Luis Reverol Torres)
+ORG	Opposition businesses
+ORG	Organization of American States
+PER	Paola Ramírez
+PER	People arrested during protesters
+PER	People injured during protests
+PER	People killed during protests
+FAC	Plaza San Carlos (a.k.a. Plaza las palomas)
+PER	Poor Venezuelans
+ORG	Pro-government armed militia
+PER	Pro-opposition actors in the economic sector
+SID	Pro-Venezuelan government
+PER	Protesters
+PER	Rich Venezuelans
+PER	Right-wing terrorists
+WEA	Sharp objects
+PER	Shooter on a roof
+WEA	Smoke grenade
+WEA	Stones
+FAC	Stores owned by opposition supporters
+WEA	Tear gas
+WEA	Tear gas canister
+WEA	Biological weapon
+WEA	Carcinogenic substance
+MHI.Disease.Disease	Colon cancer, bowel cancer
+PER	Cuban doctors
+ORG	Cuban Revolutionary Armed Forces
+FAC	Dr. Carlos Arvelo Military Hospital (a.k.a. military hospital)
+ORG	Drug Enforcement Administration (a.k.a. DEA)
+PER	Fidel Castro (a.k.a. Fidel Alejandro Castro Ruz)
+WEA	Genetic weapon
+PER	Government of Cuba
+MHI.Disease.Disease	Heart attack
+PER	Hugo Chávez
+PER	Leamsy Salazar (a.k.a. Leamsy Villafaña José Salazar)
+MHI.Disease.Disease	Lung cancer
+MHI.Disease.Disease	Lung complications from smoking (not lung infection)
+MHI.Disease.Disease	Lung infection (not pneumonia)
+PER	María Gabriela Chávez
+FAC	Miraflores Palace
+PER	Naomi Campbell
+MHI.Disease.Disease	Pain in pelvis
+MHI.Disease.Disease	Pelvic abscess
+MHI.Disease.Disease	Pneumonia
+MHI.Disease.Disease	Prostate cancer
+MHI.Disease.Disease	Respiratory complications, infection, or failure
+PER	Rosa Virginia Chávez Colmenares
+MHI.Disease.Disease	Sarcoma
+PER	Sean Penn
+PER	Simón Bolívar
+MHI.Disease.Disease	Stomach cancer
+MHI.Disease.Disease	Tumor
+MHI.Disease.Disease	Unconsciousness, brain death, or coma
+COM	"350 Libertad" banner
+PER	Álvaro Uribe Vélez (a.k.a. Álvaro Uribe)
+PER	Andrés Pastrana Arango (a.k.a. Andrés Pastrana)
+WEA	Blank firearm cartridges
+PER	Coalition of military members, police officers, and civilians
+ORG	Cuerpo de Investigaciones Científicas, Penales y Criminalísticas (a.k.a. CICPC)
+FAC	Federal Legislative Palace (a.k.a. Capitolio, National Assembly)
+COM	Grenade fragments
+WEA	Grenade(s)
+PER	Group financed by the Opposition
+FAC	Interior Ministry building
+WEA	Israeli-made grenades
+WEA	Live rounds
+PER	Luisa Marvelia Ortega Díaz (a.k.a. Luisa Ortega Díaz)
+PER	Miguel Eduardo Rodríguez Torres (a.k.a. Miguel Rodríguez Torres)
+ORG	Ministry of the Popular Power for Interior, Justice and Peace (a.k.a. Ministry of Interior and Justice, Ministry of Justice, Interior Ministry)
+ORG	National Equilibrium Movement (a.k.a. MEN)
+PER	National Guardsmen protecting the Supreme Tribunal building
+PER	Óscar Alberto Pérez (a.k.a. Óscar Pérez)
+PER	People celebrating National Journalists Day at the Interior and Justice Ministry building
+VEH	Police helicopter
+WEA	Stun grenade(s)
+ORG	Supreme Tribunal of Justice (a.k.a. TSJ, Supreme Court, Supreme Tribunal)
+FAC	Supreme Tribunal of Justice building (a.k.a. Supreme Court)
+PER	Tarek William Saab
+ORG	U.S. Embassy in Venezuela
+SID	Venezuelan right

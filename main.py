@@ -16,12 +16,12 @@ from zs_mapper import A20_NER_MAP
 script_dir=os.path.dirname(os.path.realpath(__file__))
 
 nist_ner = []
-with open('LDCOntologyM36.jsonld') as f:
-    ldc_onto = json.load(f)
-    for data in ldc_onto['frames']:
-        #print(data)
-        if data['@type'] == 'entity_type':
-            nist_ner.append(data['@id'])
+# with open('LDCOntologyM36.jsonld') as f:
+#     ldc_onto = json.load(f)
+#     for data in ldc_onto['frames']:
+#         #print(data)
+#         if data['@type'] == 'entity_type':
+#             nist_ner.append(data['@id'])
 aida_ner_type = {}
 with open('aida_ner.txt') as f:
     next(f)
@@ -35,7 +35,7 @@ with open('aida_ner.txt') as f:
             type_name = '.'.join((line[1], line[3], line[5]))
         type_name = 'ldcOnt:' + type_name
         aida_ner_type[type_name.lower()] = type_name
-
+        nist_ner.append(type_name)
 
 nist_key = {}
 nist_key['people'] = 'ldcOnt:PER'
@@ -63,29 +63,20 @@ for nn in nist_ner:
             nist_key[n_sstype.lower()] = ori_nn
     else:
         print(nn)
-
 for k, vs in A20_NER_MAP.items():
     for v in vs:
         if v in nist_key:
             continue
         nist_key[v] = 'ldcOnt:' + k 
 
-# for key, item in nist_key.items():
-#     print(key, item)
-# exit()
-#print(nist_key['police'])
-# with open('nist_key.pkl', 'wb') as f:
-#     pickle.dump(nist_key, f)
-
-# with open('nist_key.pkl', 'rb') as f:
-#     nist_key = pickle.load(f)
 nist_key['force'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['forces'] = 'ldcOnt:PER.MilitaryPersonnel'
 nist_key['soldiers'] = 'ldcOnt:PER.MilitaryPersonnel'
 #LOCK = Semaphore(1)
 
 
-
+def level_num(inp):
+    return len(inp.split('.'))
 
 def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
     #raw = True
@@ -119,97 +110,85 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     ner_mention = named_ents[j]['mention']
                     ner_char_begin = named_ents[j]['char_begin']
                     if nom_mention == ner_mention and ner_char_begin == nom_char_begin:
-                        if 'n/a' in nominals[i]['subtype']:
-                            nom_list.append(i)
-                        else:
-                            ner_list.append(j)
-            named_ents = [i for j, i in enumerate(named_ents) if j not in ner_list]
+                        named_ents[j]['type'] = nominals[i]['type']
+                        # if level_num(nominals[i]['type']) >= level_num(nominals[i]['type']):
+                        # # if 'n/a' in nominals[i]['subtype']:
+                        nom_list.append(i)
+            # named_ents = [i for j, i in enumerate(named_ents) if j not in ner_list]
             nominals = [i for j, i in enumerate(nominals) if j not in nom_list]
-            #print(nominals)
             fillers = extract_filler(sent, sent.annotation, ners)
             fil_list = []
             fillers = sorted(fillers, key=lambda tupe: int(tupe['char_begin']))
-
+            # print(fillers)
+            # merge fillers
             f_i = 0
             f_j = 1
-            new_fillers = []
-            if len(fillers) > 1:
-                #new_fillers = [fillers[0]]
-                while f_i < len(fillers) and f_j < len(fillers):
-                    i_filler = fillers[f_i]
-                    j_filler = fillers[f_j]
-                    if i_filler['mention'] == j_filler['mention']:
-                        f_j += 1
-                        continue
-                    if i_filler['mention'] in j_filler['mention'] or j_filler['mention'] in i_filler['mention']:
-                        if i_filler['char_end'] - i_filler['char_begin'] > j_filler['char_end'] - j_filler['char_begin']:
-                            f_j += 1
-                        else:
-                            f_i = f_j
-                            f_j += 1
-                    else:
-                        new_fillers.append(i_filler)
-                        f_i = f_j
-                        f_j += 1
-                new_fillers.append(fillers[f_i])
-                fillers = new_fillers
-
-            # for mention, feat in zip(named_ents, feats):
-            #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
-            #     if mention['fineGrainedType'] == 'NULL':
-            #         mention['fineGrainedType'] = infer_type(feat, decisions, root=normalize_type(mention['type']))
-            # for mention in nominals:
-            #     mention['fineGrainedType'] = ontology.lookup(mention['headword'])
+            # new_fillers = []
+            # if len(fillers) > 1:
+            #     #new_fillers = [fillers[0]]
+            #     while f_i < len(fillers) and f_j < len(fillers):
+            #         i_filler = fillers[f_i]
+            #         j_filler = fillers[f_j]
+            #         if i_filler['mention'] == j_filler['mention']:
+            #             f_j += 1
+            #             continue
+            #         if i_filler['mention'] in j_filler['mention'] or j_filler['mention'] in i_filler['mention']:
+            #             if i_filler['char_end'] - i_filler['char_begin'] > j_filler['char_end'] - j_filler['char_begin']:
+            #                 f_j += 1
+            #             else:
+            #                 f_i = f_j
+            #                 f_j += 1
+            #         else:
+            #             new_fillers.append(i_filler)
+            #             f_i = f_j
+            #             f_j += 1
+            #     new_fillers.append(fillers[f_i])
+            #     fillers = new_fillers
+            # print(fillers)
             for m_id, mention in enumerate(fillers):
                 ner_type = mention['type'].lower()
                 mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
-                #mention['type'] = normalize_type(mention['type'])
                 
-                if 'subtype' not in mention.keys():
-                    #print(mention.keys())
-                    ner_subtype = '.n/a'
-                else:
-                    ner_subtype = '.' + mention['subtype'].lower()
+                # if 'subtype' not in mention.keys():
+                #     ner_subtype = '.n/a'
+                # else:
+                #     ner_subtype = '.' + mention['subtype'].lower()
 
-                if 'subsubtype' not in mention.keys():
-                    #print(mention.keys())
-                    ner_subsubtype = '.n/a'
-                else:
-                    ner_subsubtype = '.' + mention['subsubtype'].lower()
+                # if 'subsubtype' not in mention.keys():
+                #     ner_subsubtype = '.n/a'
+                # else:
+                #     ner_subsubtype = '.' + mention['subsubtype'].lower()
                 contain = False
-                unknown = 'n/a'
+                # unknown = 'n/a'
                 # for n_ner in nist_ner:
                 #     low_n_ner = n_ner.lower()
-                #     i
-                for n_ner in nist_ner:
-                    low_n_ner = n_ner.lower()
-                    #print(low_n_ner)
-                    if unknown not in ner_subsubtype:
-                        if ner_subsubtype in low_n_ner:
-                            mention['type'] = n_ner
-                            contain = True
-                            break
-                    elif ner_type in low_n_ner and ner_subtype in low_n_ner:
-                        #print('consitent')
-                        mention['type'] = n_ner
-                        contain = True
-                        break
-                    elif ner_type == 'n/a':
-                        if ner_subtype in low_n_ner:
-                            mention['type'] = n_ner
-                            contain = True
-                            break
-                    elif ner_subtype == '.n/a' or ner_subtype == '.na':
-                        if ner_type == 'NUMERICAL'.lower() or ner_type == 'URL'.lower():
-                            ner_type = 'VAL'
-                        elif ner_type == 'title':
-                            ner_type = 'TTL'
-                        if 'date_time' not in ner_type:
-                            mention['type'] = 'ldcOnt:' + ner_type.upper()
-                        contain = True
-                        break
-                if not contain:
-                    print(mention, ner_type, ner_subtype)
+                    # if unknown not in ner_subsubtype:
+                    #     if ner_subsubtype in low_n_ner:
+                    #         mention['type'] = n_ner
+                    #         contain = True
+                    #         break
+                    # elif ner_type in low_n_ner and ner_subtype in low_n_ner:
+                    #     mention['type'] = n_ner
+                    #     contain = True
+                    #     break
+                    # elif ner_type == 'n/a':
+                    #     if ner_subtype in low_n_ner:
+                    #         mention['type'] = n_ner
+                    #         contain = True
+                    #         break
+                    # elif ner_subtype == '.n/a' or ner_subtype == '.na':
+                if ner_type == 'NUMERICAL'.lower():
+                    ner_type = 'VAL.Number.Number'
+                if ner_type == 'URL'.lower():
+                    ner_type = 'VAL'
+                elif ner_type == 'title':
+                    ner_type = 'TTL'
+                if 'date_time' not in ner_type:
+                    mention['type'] = 'ldcOnt:' + ner_type.upper()
+                # contain = True
+                #     break
+                # if not contain:
+                #     print(mention, ner_type, ner_subtype, '1')
                     
             for m_id, mention in enumerate(named_ents + nominals):
                 mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id + len(fillers))
@@ -218,32 +197,25 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     continue
                 ner_type = mention['type'].lower()
                 if 'subtype' not in mention.keys():
-                    #print(mention.keys())
                     ner_subtype = '.n/a'
                 else:
                     ner_subtype = '.' + mention['subtype'].lower()
 
                 if 'subsubtype' not in mention.keys():
-                    #print(mention.keys())
                     ner_subsubtype = '.n/a'
                 else:
                     ner_subsubtype = '.' + mention['subsubtype'].lower()
                 contain = False
                 unknown = 'n/a'
-                # for n_ner in nist_ner:
-                #     low_n_ner = n_ner.lower()
-                #     i
 
                 for n_ner in nist_ner:
                     low_n_ner = n_ner.lower()
-                    #print(low_n_ner)
                     if unknown not in ner_subsubtype:
                         if ner_subsubtype in low_n_ner:
                             mention['type'] = n_ner
                             contain = True
                             break
                     elif ner_type in low_n_ner and ner_subtype in low_n_ner:
-                        #print('consitent')
                         mention['type'] = n_ner
                         contain = True
                         break
@@ -261,7 +233,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         contain = True
                         break
                 if not contain:
-                    print(mention, ner_type, ner_subtype)
+                    print(mention, ner_type, ner_subtype, '2')
                     
                 single_mention = mention['headword'].lower()
                 has = 0
@@ -271,43 +243,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         new_type = nist_key[sm]
                 if has == 1:
                     mention['type'] = new_type
-                    #print('get key from nistkey is %s and mention is %s' % (new_type, mention['mention']))
 
-                    #mention['type'] = 'ldcOnt:TTL'
-                # for n_ner in nist_ner:
-
-                #     if ner_type in n_ner and ner_subsubtype in n_ner:
-                #         mention['type'] = n_ner
-                #         contain = True
-                #         #print(n_ner)
-                #         break
-                #     elif ner_type == 'N/A':
-                #         if ner_subsubtype in n_ner:
-                #             mention['type'] = n_ner
-                #             contain = True
-                #             break
-                #         #print(n_ner)
-                            
-                #     elif ner_subsubtype == '.N/a' or ner_subsubtype=='.Na':
-                #         #print(ner_type)
-                #         if ner_type == 'NUMERICAL' or ner_type == 'URL' or ner_type == 'TIME':
-                #             ner_type = 'VAL'
-                #         elif ner_type == 'TITLE':
-                #             ner_type = 'TTL'
-                #         mention['type'] = 'ldcOnt:' + ner_type
-                #         contain = True
-                #         #print(n_ner)
-                #         break
-                #     #elif ner_type
-                # if not contain:
-                #     print(ner_type, ner_subsubtype)
-                #     mention['type'] = 'ldcOnt:TTL'
-                # if mention['type'] == 'ldcOnt:N/A':
-                #     print(ner_type)
-                # for t in ['subtype', 'subsubtype']:
-                #     mention.pop(t, None)
-                #del mention['subtype']
-                #del mention['subsubtype']
             def filter_type(nn):
                 new_named_ents = []
                 for ne in nn:
@@ -317,7 +253,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         ne['type'] = aida_ner_type[ne['type'].lower()]
                         new_named_ents.append(ne)
                     else:
-                        print(ne['type'])
+                        print(ne['type'], '3')
                 nn = new_named_ents
                 if len(nn) == 0:
                     return nn
@@ -341,12 +277,9 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             named_ents = filter_type(named_ents)
             nominals = filter_type(nominals)
             fillers =filter_type(fillers)
-            # for i in range(len(nominals)):
-            #     nominals[i]['type'] = aida_ner_type[nominals[i]['type'].lower()]
-            # for i in range(len(fillers)):
-            #     fillers[i]['type'] = aida_ner_type[fillers[i]['type'].lower()]
 
-            out_doc.append({'docID': os.path.split(fname)[1], 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
+
+            out_doc.append({'docID': os.path.split(fname)[1], 'sent_rel': sent.get_text(), 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
         except Exception:
             sys.stderr.write("ERROR: Exception occurred while processing {0}, sentence: {1}\n".format(fname, sent.get_original_string()))
             traceback.print_exc()

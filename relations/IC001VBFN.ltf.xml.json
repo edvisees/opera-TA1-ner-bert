@@ -1,0 +1,609 @@
+[
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "The White House has insisted it had no involvement in an apparent assassination attempt on Venezuelan President Nicolas Maduro.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s1-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s1-e5",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.8015143821214746,
+                "span": [
+                    92,
+                    112
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s1-e5",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s1-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7545307622012061,
+                "span": [
+                    103,
+                    127
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "President Nicolas Maduro and his wife Cilia Flores were seen flinching and looking up at the explosions;  The socialist leader had a speech in the capital of Caracas cut short by a drone blast on Saturday, prompting a live television transmission to be pulled from air as he was whisked away and hundreds of soldiers broke rank in fear.",
+        "rels": [
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e5",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7676643759157513,
+                "span": [
+                    131,
+                    155
+                ]
+            },
+            {
+                "en1": "socialist",
+                "en2": "The socialist leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e9",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.8009376015162054,
+                "span": [
+                    241,
+                    257
+                ]
+            },
+            {
+                "en1": "The socialist leader",
+                "en2": "leader",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e9",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7677711572291706,
+                "span": [
+                    237,
+                    257
+                ]
+            },
+            {
+                "en1": "soldiers",
+                "en2": "rank",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e11",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s2-e12",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7745824053297483,
+                "span": [
+                    439,
+                    458
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "His wife, Cilia Flores, could be seen looking upwards and wincing just before the broadcast of the National Guard anniversary event came to an end.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Mr Maduro returned to television a few hours later and placed blame for the attack at the feet of domestic political opponents, which he said were backed by financiers from Miami and Colombian leader Juan Manuel Santos.",
+        "rels": [
+            {
+                "en1": "financiers",
+                "en2": "Miami",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7742416259125051,
+                "span": [
+                    775,
+                    796
+                ]
+            },
+            {
+                "en1": "Colombian",
+                "en2": "Juan Manuel Santos",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e6",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e8",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7944090732165903,
+                "span": [
+                    801,
+                    817
+                ]
+            },
+            {
+                "en1": "leader",
+                "en2": "Juan Manuel Santos",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e8",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s4-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7884267611123258,
+                "span": [
+                    811,
+                    836
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Venezuelan officials say six \"terrorists\" have been arrested.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Venezuelan officials",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s5-e1",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s5-e3",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7531960876382616,
+                "span": [
+                    839,
+                    859
+                ]
+            },
+            {
+                "en1": "six",
+                "en2": "six \"terrorists\"",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s5-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s5-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    864,
+                    880
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "One is accused of involvement in an attack on a military base last year, while another is said to have been arrested after anti-government protests in 2014.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s6-e1",
+                "en1": "One",
+                "en2": "a military base",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s6-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s6-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    901,
+                    962
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Earlier, US national security adviser John Bolton felt the need to deny any involvement on the part of the White House.",
+        "rels": [
+            {
+                "en1": "US",
+                "en2": "US national security adviser",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s7-e1",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s7-e6",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7677816504001161,
+                "span": [
+                    1068,
+                    1096
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "\"There is no US involvement in this at all,\" he told Fox News.  ''",
+        "rels": [
+            {
+                "en1": "Fox",
+                "en2": "Fox News",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s8-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s8-e3",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7624251444026979,
+                "span": [
+                    1233,
+                    1241
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "If the government of Venezuela has hard information that they want to present to us that would show a potential violation of US criminal law, we'll take a serious look at it.\"",
+        "rels": [
+            {
+                "en1": "the government",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s9-e4",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s9-e3",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7799164709586635,
+                "span": [
+                    1249,
+                    1276
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Earlier, Mr Maduro called on the Trump administration to \"fight\" the \"terrorist groups\" he believed had targeted him.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "John Bolton has denied US involvement in the incident;  Mr Bolton said his priority was to work with US officials in the country make sure any Americans there were safe, and that those working at the US embassy were secure.",
+        "rels": [
+            {
+                "en1": "US",
+                "en2": "Bolton",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e5",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e4",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7850111143465431,
+                "span": [
+                    1565,
+                    1607
+                ]
+            },
+            {
+                "en1": "US",
+                "en2": "officials",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e7",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e10",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7509391437370762,
+                "span": [
+                    1643,
+                    1655
+                ]
+            },
+            {
+                "en1": "the country",
+                "en2": "any Americans",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e11",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7599662047318088,
+                "span": [
+                    1659,
+                    1694
+                ]
+            },
+            {
+                "en1": "any Americans",
+                "en2": "US",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e8",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s11-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7806765974467462,
+                "span": [
+                    1681,
+                    1744
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "He said he felt \"pretty confident\" that all Americans were accounted for.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Colombia has dismissed claims that it was involved, describing them as \"absurd\".",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "\"It is customary for the Venezuelan leader to permanently blame Colombia for any type of situation,\" said a spokesman for its foreign ministry.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "the Venezuelan leader",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s14-e0",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s14-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7897389448489058,
+                "span": [
+                    1949,
+                    1966
+                ]
+            },
+            {
+                "en1": "a spokesman",
+                "en2": "its foreign ministry",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s14-e4",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s14-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7876568030722371,
+                "span": [
+                    2030,
+                    2066
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "\"We demand respect for President Juan Manual Santos, for the government and for the Colombian people.\"",
+        "rels": [
+            {
+                "en1": "President",
+                "en2": "Juan Manual Santos",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e2",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7932099962718395,
+                "span": [
+                    2092,
+                    2120
+                ]
+            },
+            {
+                "en1": "Juan Manual Santos",
+                "en2": "the government",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e2",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7791368485296022,
+                "span": [
+                    2102,
+                    2140
+                ]
+            },
+            {
+                "en1": "Colombian",
+                "en2": "the Colombian people",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s15-e6",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7895989408553882,
+                "span": [
+                    2153,
+                    2169
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "President Maduro is an unpopular figure in Venezuela;  Whoever the attackers were, Mr Rodriguez said they had \"failed\" - although seven of the National Guard were injured and have been receiving treatment.",
+        "rels": [
+            {
+                "en1": "President",
+                "en2": "Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e3",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7519545548232213,
+                "span": [
+                    2173,
+                    2189
+                ]
+            },
+            {
+                "en1": "President Maduro",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e9",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e8",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7912099132485276,
+                "span": [
+                    2173,
+                    2225
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "the attackers",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e9",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e10",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7636055490410464,
+                "span": [
+                    2216,
+                    2249
+                ]
+            },
+            {
+                "en1": "seven",
+                "en2": "National Guard",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s16-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2303,
+                    2330
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "The governments of El Salvador, Nicaragua and Bolivia have condemned the attack, as have the FARC, a Colombian terrorist group turned political party.",
+        "rels": [
+            {
+                "en1": "The governments",
+                "en2": "El Salvador",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e0",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e10",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7504438512526631,
+                "span": [
+                    2380,
+                    2410
+                ]
+            },
+            {
+                "en1": "El Salvador",
+                "en2": "Nicaragua",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e0",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e3",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7602721884124563,
+                "span": [
+                    2399,
+                    2421
+                ]
+            },
+            {
+                "en1": "Nicaragua",
+                "en2": "Bolivia",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e3",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7798824738662018,
+                "span": [
+                    2412,
+                    2433
+                ]
+            },
+            {
+                "en1": "Colombian",
+                "en2": "a Colombian terrorist group",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e8",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s17-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7514550127505628,
+                "span": [
+                    2481,
+                    2506
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Mr Maduro - who has become deeply unpopular since Venezuela's once thriving economy collapsed after oil prices plunged in 2014 - has said the culprits will be brought to justice \"no matter who falls\".",
+        "rels": [
+            {
+                "en1": "Venezuela",
+                "en2": "Venezuela's",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s18-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s18-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.778475515676323,
+                "span": [
+                    2582,
+                    2593
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "So far the only group to have attempted to claim responsibility are the little known Soldiers in T-shirts, who said their plan was to fly two drones loaded with C4 explosives over the presidential box.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "two drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s19-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s19-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2876,
+                    2886
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "In a post on Twitter, the group - formed by police helicopter pilot and actor Oscar Perez - said their assassination attempt had been foiled by government snipers.",
+        "rels": [
+            {
+                "en1": "the group",
+                "en2": "police helicopter pilot",
+                "ldcOnt:OrganizationAffiliation.Leadership_Leader": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e6",
+                "ldcOnt:OrganizationAffiliation.Leadership_Organization": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.Leadership",
+                "score": 0.7636132144471834,
+                "span": [
+                    2963,
+                    3008
+                ]
+            },
+            {
+                "en1": "police helicopter pilot",
+                "en2": "pilot",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7970999908440177,
+                "span": [
+                    2985,
+                    3008
+                ]
+            },
+            {
+                "en1": "pilot",
+                "en2": "Oscar Perez",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e2",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s20-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7623997560989275,
+                "span": [
+                    3003,
+                    3030
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "\"We have shown they are vulnerable, it was not achieved today but it is a matter of time,\" they added.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "Mr Perez was shot dead in a shootout with six colleagues in January for protesting against the government by throwing non-lethal stun grenades from a helicopter and firing blank cartridges near state buildings.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s22-e1",
+                "en1": "six",
+                "en2": "six colleagues",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s22-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s22-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3252,
+                    3266
+                ]
+            },
+            {
+                "en1": "firing blank cartridges",
+                "en2": "state buildings",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s22-e8",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VBFN.ltf.xml-s22-e9",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7857844940357016,
+                "span": [
+                    3375,
+                    3419
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VBFN.ltf.xml.json",
+        "inputSentence": "There has been no independent verification of the group's claim.",
+        "rels": []
+    }
+]

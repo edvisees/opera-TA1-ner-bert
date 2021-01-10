@@ -1,0 +1,8360 @@
+[
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": ".",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 0
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e0",
+    "char_begin": 66,
+    "char_end": 71,
+    "head_span": [
+     66,
+     71
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e1",
+    "char_begin": 222,
+    "char_end": 236,
+    "head_span": [
+     232,
+     236
+    ],
+    "mention": "SEPTEMBER 23RD",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "In Venezuela, doctor flees after being accused of terrorism amid fever outbreak ---- UPDATED AT THE BOTTOM OF THE POST;  In Venezuela, doctor flees after being accused of terrorism amid fever outbreak;  THIS NEWS IS FROM SEPTEMBER 23RD, but it might become significant.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e2",
+    "category": "NOM",
+    "char_begin": 4,
+    "char_end": 13,
+    "head_index": 1,
+    "head_span": [
+     4,
+     13
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     1,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e3",
+    "category": "NOM",
+    "char_begin": 97,
+    "char_end": 107,
+    "head_index": 17,
+    "head_span": [
+     101,
+     107
+    ],
+    "headword": "BOTTOM",
+    "mention": "THE BOTTOM",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     16,
+     18
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e4",
+    "category": "NOM",
+    "char_begin": 111,
+    "char_end": 119,
+    "head_index": 20,
+    "head_span": [
+     115,
+     119
+    ],
+    "headword": "POST",
+    "mention": "THE POST",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     19,
+     21
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s1-e5",
+    "category": "NOM",
+    "char_begin": 125,
+    "char_end": 134,
+    "head_index": 23,
+    "head_span": [
+     125,
+     134
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     23,
+     24
+    ]
+   }
+  ],
+  "offset": 1
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "(It's probably nothing.)",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 271
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e0",
+    "char_begin": 342,
+    "char_end": 349,
+    "head_span": [
+     342,
+     349
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e1",
+    "char_begin": 361,
+    "char_end": 366,
+    "head_span": [
+     361,
+     366
+    ],
+    "mention": "eight",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e2",
+    "char_begin": 463,
+    "char_end": 474,
+    "head_span": [
+     463,
+     474
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e3",
+    "char_begin": 493,
+    "char_end": 498,
+    "head_span": [
+     493,
+     498
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Eleven days after news broke that an unknown disease had killed eight people in the city of Maracay, Venezuela, doctors have concluded that the deaths were caused by chikungunya, a mosquito-borne virus.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e5",
+    "category": "NAM",
+    "char_begin": 389,
+    "char_end": 396,
+    "head_span": [
+     389,
+     396
+    ],
+    "headword": "Maracay",
+    "mention": "Maracay",
+    "score": "0.9976947",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e6",
+    "category": "NAM",
+    "char_begin": 398,
+    "char_end": 407,
+    "head_span": [
+     398,
+     407
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": "0.9899365",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e8",
+    "category": "NOM",
+    "char_begin": 331,
+    "char_end": 349,
+    "head_index": 8,
+    "head_span": [
+     342,
+     349
+    ],
+    "headword": "disease",
+    "mention": "an unknown disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     6,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e9",
+    "category": "NOM",
+    "char_begin": 361,
+    "char_end": 373,
+    "head_index": 12,
+    "head_span": [
+     367,
+     373
+    ],
+    "headword": "people",
+    "mention": "eight people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     11,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e10",
+    "category": "NOM",
+    "char_begin": 377,
+    "char_end": 385,
+    "head_index": 15,
+    "head_span": [
+     381,
+     385
+    ],
+    "headword": "city",
+    "mention": "the city",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     14,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e11",
+    "category": "NOM",
+    "char_begin": 389,
+    "char_end": 407,
+    "head_index": 19,
+    "head_span": [
+     398,
+     407
+    ],
+    "headword": "Venezuela",
+    "mention": "Maracay, Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     17,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e12",
+    "category": "NOM",
+    "char_begin": 409,
+    "char_end": 416,
+    "head_index": 21,
+    "head_span": [
+     409,
+     416
+    ],
+    "headword": "doctors",
+    "mention": "doctors",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     21,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e13",
+    "category": "NOM",
+    "char_begin": 463,
+    "char_end": 474,
+    "head_index": 30,
+    "head_span": [
+     463,
+     474
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     30,
+     31
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e14",
+    "category": "NOM",
+    "char_begin": 476,
+    "char_end": 498,
+    "head_index": 34,
+    "head_span": [
+     493,
+     498
+    ],
+    "headword": "virus",
+    "mention": "a mosquito-borne virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     32,
+     35
+    ]
+   }
+  ],
+  "offset": 297
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e0",
+    "char_begin": 628,
+    "char_end": 637,
+    "head_span": [
+     628,
+     637
+    ],
+    "mention": "President",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e1",
+    "char_begin": 662,
+    "char_end": 671,
+    "head_span": [
+     662,
+     671
+    ],
+    "mention": "officials",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e2",
+    "char_begin": 747,
+    "char_end": 752,
+    "head_span": [
+     747,
+     752
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e3",
+    "char_begin": 754,
+    "char_end": 757,
+    "head_span": [
+     754,
+     757
+    ],
+    "mention": "six",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e4",
+    "char_begin": 765,
+    "char_end": 770,
+    "head_span": [
+     765,
+     770
+    ],
+    "mention": "eight",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e5",
+    "char_begin": 811,
+    "char_end": 822,
+    "head_span": [
+     811,
+     822
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e6",
+    "char_begin": 905,
+    "char_end": 913,
+    "head_span": [
+     905,
+     913
+    ],
+    "mention": "minister",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Meanwhile, Ángel Sarmiento, the doctor who first announced the deaths, has fled the country after being accused of terrorism by President Nicolás Maduro.Although officials initially speculated that the deaths were caused by an unknown hemorrhagic fever, six of the eight original fatalities tested positive for chikungunya when samples were analyzed in nongovernmental labs, says Julio Castro, the health minister of the municipality of Sucre and a professor in the Institute of Tropical Medicine at the Central University of Venezuela (UCV).",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e8",
+    "category": "NAM",
+    "char_begin": 511,
+    "char_end": 526,
+    "head_span": [
+     517,
+     526
+    ],
+    "headword": "Sarmiento",
+    "mention": "Ángel Sarmiento",
+    "score": "0.9982147",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     2,
+     4
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e10",
+    "category": "NAM",
+    "char_begin": 638,
+    "char_end": 661,
+    "head_span": [
+     646,
+     661
+    ],
+    "headword": "Maduro.Although",
+    "mention": "Nicolás Maduro.Although",
+    "score": "0.9604596",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     26
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e12",
+    "category": "NAM",
+    "char_begin": 880,
+    "char_end": 892,
+    "head_span": [
+     886,
+     892
+    ],
+    "headword": "Castro",
+    "mention": "Julio Castro",
+    "score": "0.99853635",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     59,
+     61
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e13",
+    "category": "NAM",
+    "char_begin": 966,
+    "char_end": 996,
+    "head_span": [
+     988,
+     996
+    ],
+    "headword": "Medicine",
+    "mention": "Institute of Tropical Medicine",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     75,
+     79
+    ],
+    "type": "ldcOnt:COM.Equipment.MedicalEquipment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e14",
+    "category": "NAM",
+    "char_begin": 966,
+    "char_end": 1003,
+    "head_span": [
+     1000,
+     1003
+    ],
+    "headword": "the",
+    "mention": "Institute of Tropical Medicine at the",
+    "score": "0.8891593",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     75,
+     81
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e15",
+    "category": "NAM",
+    "char_begin": 1004,
+    "char_end": 1035,
+    "head_span": [
+     1026,
+     1035
+    ],
+    "headword": "Venezuela",
+    "mention": "Central University of Venezuela",
+    "score": "0.64989316",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     81,
+     85
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e17",
+    "category": "NAM",
+    "char_begin": 1037,
+    "char_end": 1040,
+    "head_span": [
+     1037,
+     1040
+    ],
+    "headword": "UCV",
+    "mention": "UCV",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     86,
+     87
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e19",
+    "category": "NOM",
+    "char_begin": 528,
+    "char_end": 538,
+    "head_index": 6,
+    "head_span": [
+     532,
+     538
+    ],
+    "headword": "doctor",
+    "mention": "the doctor",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     5,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e20",
+    "category": "NOM",
+    "char_begin": 580,
+    "char_end": 591,
+    "head_index": 16,
+    "head_span": [
+     584,
+     591
+    ],
+    "headword": "country",
+    "mention": "the country",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     15,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e21",
+    "category": "NOM",
+    "char_begin": 628,
+    "char_end": 661,
+    "head_index": 25,
+    "head_span": [
+     646,
+     661
+    ],
+    "headword": "Maduro.Although",
+    "mention": "President Nicolás Maduro.Although",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     23,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e22",
+    "category": "NOM",
+    "char_begin": 662,
+    "char_end": 671,
+    "head_index": 26,
+    "head_span": [
+     662,
+     671
+    ],
+    "headword": "officials",
+    "mention": "officials",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     26,
+     27
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e23",
+    "category": "NOM",
+    "char_begin": 724,
+    "char_end": 752,
+    "head_index": 38,
+    "head_span": [
+     747,
+     752
+    ],
+    "headword": "fever",
+    "mention": "an unknown hemorrhagic fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     35,
+     39
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e24",
+    "category": "NOM",
+    "char_begin": 761,
+    "char_end": 790,
+    "head_index": 45,
+    "head_span": [
+     780,
+     790
+    ],
+    "headword": "fatalities",
+    "mention": "the eight original fatalities",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     42,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e25",
+    "category": "NOM",
+    "char_begin": 811,
+    "char_end": 822,
+    "head_index": 49,
+    "head_span": [
+     811,
+     822
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     49,
+     50
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e26",
+    "category": "NOM",
+    "char_begin": 828,
+    "char_end": 835,
+    "head_index": 51,
+    "head_span": [
+     828,
+     835
+    ],
+    "headword": "samples",
+    "mention": "samples",
+    "score": 0.9,
+    "subsubtype": "MON",
+    "subtype": "MON",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     51,
+     52
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e27",
+    "category": "NOM",
+    "char_begin": 853,
+    "char_end": 873,
+    "head_index": 56,
+    "head_span": [
+     869,
+     873
+    ],
+    "headword": "labs",
+    "mention": "nongovernmental labs",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     55,
+     57
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e28",
+    "category": "NOM",
+    "char_begin": 894,
+    "char_end": 913,
+    "head_index": 64,
+    "head_span": [
+     905,
+     913
+    ],
+    "headword": "minister",
+    "mention": "the health minister",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     62,
+     65
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e29",
+    "category": "NOM",
+    "char_begin": 917,
+    "char_end": 933,
+    "head_index": 67,
+    "head_span": [
+     921,
+     933
+    ],
+    "headword": "municipality",
+    "mention": "the municipality",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     66,
+     68
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e30",
+    "category": "NOM",
+    "char_begin": 937,
+    "char_end": 942,
+    "head_index": 69,
+    "head_span": [
+     937,
+     942
+    ],
+    "headword": "Sucre",
+    "mention": "Sucre",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     69,
+     70
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e31",
+    "category": "NOM",
+    "char_begin": 947,
+    "char_end": 958,
+    "head_index": 72,
+    "head_span": [
+     949,
+     958
+    ],
+    "headword": "professor",
+    "mention": "a professor",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     71,
+     73
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e32",
+    "category": "NOM",
+    "char_begin": 962,
+    "char_end": 975,
+    "head_index": 75,
+    "head_span": [
+     966,
+     975
+    ],
+    "headword": "Institute",
+    "mention": "the Institute",
+    "score": 0.9,
+    "subsubtype": "ORG",
+    "subtype": "ORG",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     74,
+     76
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e33",
+    "category": "NOM",
+    "char_begin": 979,
+    "char_end": 996,
+    "head_index": 78,
+    "head_span": [
+     988,
+     996
+    ],
+    "headword": "Medicine",
+    "mention": "Tropical Medicine",
+    "score": 0.9,
+    "subsubtype": "MON",
+    "subtype": "MON",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     77,
+     79
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e34",
+    "category": "NOM",
+    "char_begin": 1000,
+    "char_end": 1022,
+    "head_index": 82,
+    "head_span": [
+     1012,
+     1022
+    ],
+    "headword": "University",
+    "mention": "the Central University",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     80,
+     83
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e35",
+    "category": "NOM",
+    "char_begin": 1026,
+    "char_end": 1035,
+    "head_index": 84,
+    "head_span": [
+     1026,
+     1035
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     84,
+     85
+    ]
+   }
+  ],
+  "offset": 500
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e0",
+    "char_begin": 1102,
+    "char_end": 1109,
+    "head_span": [
+     1102,
+     1109
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e1",
+    "char_begin": 1171,
+    "char_end": 1182,
+    "head_span": [
+     1171,
+     1182
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e2",
+    "char_begin": 1230,
+    "char_end": 1244,
+    "head_span": [
+     1240,
+     1244
+    ],
+    "mention": "late last year",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e3",
+    "char_begin": 1246,
+    "char_end": 1257,
+    "head_span": [
+     1246,
+     1257
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "\"We don’t think these deaths are due to an unknown or rare disease,\" he told ScienceInsider, adding that \"I have no doubt\" that chikungunya is responsible.After arriving in the Caribbean late last year, chikungunya has been sweeping the Americas.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e4",
+    "category": "NAM",
+    "char_begin": 1120,
+    "char_end": 1134,
+    "head_span": [
+     1120,
+     1134
+    ],
+    "headword": "ScienceInsider",
+    "mention": "ScienceInsider",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization.BroadcastingCompany"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e7",
+    "category": "NAM",
+    "char_begin": 1220,
+    "char_end": 1229,
+    "head_span": [
+     1220,
+     1229
+    ],
+    "headword": "Caribbean",
+    "mention": "Caribbean",
+    "score": "0.98850423",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     36,
+     37
+    ],
+    "type": "ldcOnt:LOC"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e8",
+    "category": "NAM",
+    "char_begin": 1280,
+    "char_end": 1288,
+    "head_span": [
+     1280,
+     1288
+    ],
+    "headword": "Americas",
+    "mention": "Americas",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     46,
+     47
+    ],
+    "type": "ldcOnt:LOC.Land.Continent"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e10",
+    "category": "NOM",
+    "char_begin": 1083,
+    "char_end": 1109,
+    "head_index": 14,
+    "head_span": [
+     1102,
+     1109
+    ],
+    "headword": "disease",
+    "mention": "an unknown or rare disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     10,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e11",
+    "category": "NOM",
+    "char_begin": 1171,
+    "char_end": 1182,
+    "head_index": 30,
+    "head_span": [
+     1171,
+     1182
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     30,
+     31
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e12",
+    "category": "NOM",
+    "char_begin": 1216,
+    "char_end": 1229,
+    "head_index": 36,
+    "head_span": [
+     1220,
+     1229
+    ],
+    "headword": "Caribbean",
+    "mention": "the Caribbean",
+    "score": 0.9,
+    "subsubtype": "LOC",
+    "subtype": "LOC",
+    "type": "ldcOnt:LOC.Position.Region",
+    "word_span": [
+     35,
+     37
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s5-e13",
+    "category": "NOM",
+    "char_begin": 1246,
+    "char_end": 1257,
+    "head_index": 41,
+    "head_span": [
+     1246,
+     1257
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     41,
+     42
+    ]
+   }
+  ],
+  "offset": 1043
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e0",
+    "char_begin": 1296,
+    "char_end": 1308,
+    "head_span": [
+     1299,
+     1308
+    ],
+    "mention": "19 September",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e1",
+    "char_begin": 1356,
+    "char_end": 1363,
+    "head_span": [
+     1356,
+     1363
+    ],
+    "mention": "729,178",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e2",
+    "char_begin": 1378,
+    "char_end": 1382,
+    "head_span": [
+     1378,
+     1382
+    ],
+    "mention": "9537",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "As of 19 September, the Pan-American Health Organization reported 729,178 suspected and 9537 confirmed cases in the region.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e3",
+    "category": "NAM",
+    "char_begin": 1314,
+    "char_end": 1346,
+    "head_span": [
+     1334,
+     1346
+    ],
+    "headword": "Organization",
+    "mention": "Pan-American Health Organization",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     9
+    ],
+    "type": "ldcOnt:ORG.Association"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e5",
+    "category": "NOM",
+    "char_begin": 1310,
+    "char_end": 1346,
+    "head_index": 8,
+    "head_span": [
+     1334,
+     1346
+    ],
+    "headword": "Organization",
+    "mention": "the Pan-American Health Organization",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     5,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e6",
+    "category": "NOM",
+    "char_begin": 1393,
+    "char_end": 1398,
+    "head_index": 15,
+    "head_span": [
+     1393,
+     1398
+    ],
+    "headword": "cases",
+    "mention": "cases",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     15,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e7",
+    "category": "NOM",
+    "char_begin": 1402,
+    "char_end": 1412,
+    "head_index": 18,
+    "head_span": [
+     1406,
+     1412
+    ],
+    "headword": "region",
+    "mention": "the region",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:LOC.Position.Region",
+    "subtype": "ldcOnt:LOC.Position.Region",
+    "type": "ldcOnt:LOC.Position.Region",
+    "word_span": [
+     17,
+     19
+    ]
+   }
+  ],
+  "offset": 1290
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e0",
+    "char_begin": 1450,
+    "char_end": 1457,
+    "head_span": [
+     1450,
+     1457
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e1",
+    "char_begin": 1479,
+    "char_end": 1485,
+    "head_span": [
+     1479,
+     1485
+    ],
+    "mention": "dengue",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e2",
+    "char_begin": 1486,
+    "char_end": 1491,
+    "head_span": [
+     1486,
+     1491
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "There is no vaccine or cure for the disease, which is similar to dengue fever and causes joint pain.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e3",
+    "category": "NOM",
+    "char_begin": 1446,
+    "char_end": 1457,
+    "head_index": 8,
+    "head_span": [
+     1450,
+     1457
+    ],
+    "headword": "disease",
+    "mention": "the disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     7,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e4",
+    "category": "NOM",
+    "char_begin": 1479,
+    "char_end": 1491,
+    "head_index": 15,
+    "head_span": [
+     1486,
+     1491
+    ],
+    "headword": "fever",
+    "mention": "dengue fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     14,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s7-e5",
+    "category": "NOM",
+    "char_begin": 1503,
+    "char_end": 1513,
+    "head_index": 19,
+    "head_span": [
+     1509,
+     1513
+    ],
+    "headword": "pain",
+    "mention": "joint pain",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.SymptomPresentation.SymptomPresentation",
+    "subtype": "ldcOnt:MHI.SymptomPresentation.SymptomPresentation",
+    "type": "ldcOnt:MHI.SymptomPresentation.SymptomPresentation",
+    "word_span": [
+     18,
+     20
+    ]
+   }
+  ],
+  "offset": 1414
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e0",
+    "char_begin": 1536,
+    "char_end": 1539,
+    "head_span": [
+     1536,
+     1539
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e1",
+    "char_begin": 1543,
+    "char_end": 1547,
+    "head_span": [
+     1543,
+     1547
+    ],
+    "mention": "1000",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e2",
+    "char_begin": 1575,
+    "char_end": 1579,
+    "head_span": [
+     1575,
+     1579
+    ],
+    "mention": "nine",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e3",
+    "char_begin": 1609,
+    "char_end": 1618,
+    "head_span": [
+     1612,
+     1618
+    ],
+    "mention": "30 August",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e4",
+    "char_begin": 1623,
+    "char_end": 1635,
+    "head_span": [
+     1626,
+     1635
+    ],
+    "mention": "15 September",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "It is fatal in about one in 1000 cases.Maracay’s cluster of nine fatalities, reported between 30 August and 15 September, has raised questions about exactly how many people are infected.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e5",
+    "category": "NOM",
+    "char_begin": 1548,
+    "char_end": 1563,
+    "head_index": 8,
+    "head_span": [
+     1548,
+     1561
+    ],
+    "headword": "cases.Maracay",
+    "mention": "cases.Maracay’s",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     8,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e6",
+    "category": "NOM",
+    "char_begin": 1548,
+    "char_end": 1571,
+    "head_index": 10,
+    "head_span": [
+     1564,
+     1571
+    ],
+    "headword": "cluster",
+    "mention": "cases.Maracay’s cluster",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     8,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e7",
+    "category": "NOM",
+    "char_begin": 1575,
+    "char_end": 1590,
+    "head_index": 13,
+    "head_span": [
+     1580,
+     1590
+    ],
+    "headword": "fatalities",
+    "mention": "nine fatalities",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     12,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e8",
+    "category": "NOM",
+    "char_begin": 1681,
+    "char_end": 1687,
+    "head_index": 30,
+    "head_span": [
+     1681,
+     1687
+    ],
+    "headword": "people",
+    "mention": "people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     30,
+     31
+    ]
+   }
+  ],
+  "offset": 1515
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The deadly cases are \"the tip of the iceberg,\" Castro believes.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s9-e0",
+    "category": "NAM",
+    "char_begin": 1749,
+    "char_end": 1755,
+    "head_span": [
+     1749,
+     1755
+    ],
+    "headword": "Castro",
+    "mention": "Castro",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s9-e2",
+    "category": "NOM",
+    "char_begin": 1702,
+    "char_end": 1718,
+    "head_index": 2,
+    "head_span": [
+     1713,
+     1718
+    ],
+    "headword": "cases",
+    "mention": "The deadly cases",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s9-e3",
+    "category": "NOM",
+    "char_begin": 1724,
+    "char_end": 1731,
+    "head_index": 6,
+    "head_span": [
+     1728,
+     1731
+    ],
+    "headword": "tip",
+    "mention": "the tip",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     5,
+     7
+    ]
+   }
+  ],
+  "offset": 1702
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e0",
+    "char_begin": 1791,
+    "char_end": 1797,
+    "head_span": [
+     1791,
+     1797
+    ],
+    "mention": "Monday",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e1",
+    "char_begin": 1810,
+    "char_end": 1813,
+    "head_span": [
+     1810,
+     1813
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e2",
+    "char_begin": 1867,
+    "char_end": 1875,
+    "head_span": [
+     1867,
+     1875
+    ],
+    "mention": "minister",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e3",
+    "char_begin": 1972,
+    "char_end": 1990,
+    "head_span": [
+     1983,
+     1990
+    ],
+    "mention": "65,000 and 117,000",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e4",
+    "char_begin": 2029,
+    "char_end": 2040,
+    "head_span": [
+     2029,
+     2040
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "In a press conference on Monday, Castro and two other health professionals—Gustavo Villasmil, health minister of the state of Miranda, and Manuel Olivares, a doctor at UCV’s hospital—estimated that between 65,000 and 117,000 people in Venezuela are infected with chikungunya.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e5",
+    "category": "NAM",
+    "char_begin": 1799,
+    "char_end": 1805,
+    "head_span": [
+     1799,
+     1805
+    ],
+    "headword": "Castro",
+    "mention": "Castro",
+    "score": "0.79722416",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e8",
+    "category": "NAM",
+    "char_begin": 1841,
+    "char_end": 1858,
+    "head_span": [
+     1849,
+     1858
+    ],
+    "headword": "Villasmil",
+    "mention": "Gustavo Villasmil",
+    "score": "0.9984841",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e9",
+    "category": "NAM",
+    "char_begin": 1905,
+    "char_end": 1920,
+    "head_span": [
+     1912,
+     1920
+    ],
+    "headword": "Olivares",
+    "mention": "Manuel Olivares",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     26,
+     28
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Spokesperson"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e11",
+    "category": "NOM",
+    "char_begin": 1769,
+    "char_end": 1787,
+    "head_index": 3,
+    "head_span": [
+     1777,
+     1787
+    ],
+    "headword": "conference",
+    "mention": "a press conference",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     1,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e12",
+    "category": "NOM",
+    "char_begin": 1810,
+    "char_end": 1840,
+    "head_index": 12,
+    "head_span": [
+     1827,
+     1840
+    ],
+    "headword": "professionals",
+    "mention": "two other health professionals",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     9,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e13",
+    "category": "NOM",
+    "char_begin": 1860,
+    "char_end": 1875,
+    "head_index": 18,
+    "head_span": [
+     1867,
+     1875
+    ],
+    "headword": "minister",
+    "mention": "health minister",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     17,
+     19
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e14",
+    "category": "NOM",
+    "char_begin": 1879,
+    "char_end": 1888,
+    "head_index": 21,
+    "head_span": [
+     1883,
+     1888
+    ],
+    "headword": "state",
+    "mention": "the state",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     20,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e15",
+    "category": "NOM",
+    "char_begin": 1892,
+    "char_end": 1899,
+    "head_index": 23,
+    "head_span": [
+     1892,
+     1899
+    ],
+    "headword": "Miranda",
+    "mention": "Miranda",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     23,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e16",
+    "category": "NOM",
+    "char_begin": 1922,
+    "char_end": 1930,
+    "head_index": 30,
+    "head_span": [
+     1924,
+     1930
+    ],
+    "headword": "doctor",
+    "mention": "a doctor",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     29,
+     31
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e17",
+    "category": "NOM",
+    "char_begin": 1934,
+    "char_end": 1948,
+    "head_index": 34,
+    "head_span": [
+     1940,
+     1948
+    ],
+    "headword": "hospital",
+    "mention": "UCV’s hospital",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Building",
+    "subtype": "ldcOnt:FAC.Building",
+    "type": "ldcOnt:FAC.Building",
+    "word_span": [
+     32,
+     35
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e18",
+    "category": "NOM",
+    "char_begin": 1964,
+    "char_end": 1997,
+    "head_index": 42,
+    "head_span": [
+     1991,
+     1997
+    ],
+    "headword": "people",
+    "mention": "between 65,000 and 117,000 people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     38,
+     43
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e19",
+    "category": "NOM",
+    "char_begin": 2001,
+    "char_end": 2010,
+    "head_index": 44,
+    "head_span": [
+     2001,
+     2010
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     44,
+     45
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e20",
+    "category": "NOM",
+    "char_begin": 2029,
+    "char_end": 2040,
+    "head_index": 48,
+    "head_span": [
+     2029,
+     2040
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     48,
+     49
+    ]
+   }
+  ],
+  "offset": 1766
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They reached that figure by using World Health Organization standards for calculating the spread of epidemics.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s11-e0",
+    "category": "NAM",
+    "char_begin": 2076,
+    "char_end": 2101,
+    "head_span": [
+     2089,
+     2101
+    ],
+    "headword": "Organization",
+    "mention": "World Health Organization",
+    "score": "0.8975772",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     9
+    ],
+    "type": "ldcOnt:ORG.International"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 2042
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e0",
+    "char_begin": 2280,
+    "char_end": 2283,
+    "head_span": [
+     2280,
+     2283
+    ],
+    "mention": "398",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e1",
+    "char_begin": 2293,
+    "char_end": 2304,
+    "head_span": [
+     2293,
+     2304
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e2",
+    "char_begin": 2309,
+    "char_end": 2314,
+    "head_span": [
+     2309,
+     2314
+    ],
+    "mention": "three",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e3",
+    "char_begin": 2358,
+    "char_end": 2365,
+    "head_span": [
+     2358,
+     2365
+    ],
+    "mention": "malaria",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e4",
+    "char_begin": 2370,
+    "char_end": 2376,
+    "head_span": [
+     2370,
+     2376
+    ],
+    "mention": "dengue",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e5",
+    "char_begin": 2552,
+    "char_end": 2563,
+    "head_span": [
+     2552,
+     2563
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "But it is dramatically higher than the official tallies released by Venezuela’s federal health ministry, which recognizes just 398 cases of chikungunya and three deaths.Many infectious diseases, including malaria and dengue, are on the rise in Venezuela, where the public health system has been crippled by a lack of funds and medicine (including antifever drugs that can help treat the symptoms of chikungunya).",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e6",
+    "category": "NOM",
+    "char_begin": 2221,
+    "char_end": 2232,
+    "head_index": 11,
+    "head_span": [
+     2221,
+     2230
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     11,
+     13
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e7",
+    "category": "NOM",
+    "char_begin": 2221,
+    "char_end": 2256,
+    "head_index": 15,
+    "head_span": [
+     2248,
+     2256
+    ],
+    "headword": "ministry",
+    "mention": "Venezuela’s federal health ministry",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     11,
+     16
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e8",
+    "category": "NOM",
+    "char_begin": 2275,
+    "char_end": 2289,
+    "head_index": 21,
+    "head_span": [
+     2284,
+     2289
+    ],
+    "headword": "cases",
+    "mention": "just 398 cases",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     19,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e9",
+    "category": "NOM",
+    "char_begin": 2293,
+    "char_end": 2346,
+    "head_index": 28,
+    "head_span": [
+     2338,
+     2346
+    ],
+    "headword": "diseases",
+    "mention": "chikungunya and three deaths.Many infectious diseases",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     23,
+     29
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e10",
+    "category": "NOM",
+    "char_begin": 2358,
+    "char_end": 2376,
+    "head_index": 33,
+    "head_span": [
+     2370,
+     2376
+    ],
+    "headword": "dengue",
+    "mention": "malaria and dengue",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     31,
+     34
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e11",
+    "category": "NOM",
+    "char_begin": 2397,
+    "char_end": 2406,
+    "head_index": 40,
+    "head_span": [
+     2397,
+     2406
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     40,
+     41
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e12",
+    "category": "NOM",
+    "char_begin": 2414,
+    "char_end": 2438,
+    "head_index": 46,
+    "head_span": [
+     2432,
+     2438
+    ],
+    "headword": "system",
+    "mention": "the public health system",
+    "score": 0.9,
+    "subsubtype": "ORG",
+    "subtype": "ORG",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     43,
+     47
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e13",
+    "category": "NOM",
+    "char_begin": 2470,
+    "char_end": 2488,
+    "head_index": 56,
+    "head_span": [
+     2480,
+     2488
+    ],
+    "headword": "medicine",
+    "mention": "funds and medicine",
+    "score": 0.9,
+    "subsubtype": "MON",
+    "subtype": "MON",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     54,
+     57
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e14",
+    "category": "NOM",
+    "char_begin": 2500,
+    "char_end": 2515,
+    "head_index": 60,
+    "head_span": [
+     2510,
+     2515
+    ],
+    "headword": "drugs",
+    "mention": "antifever drugs",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:COM.Equipment.MedicalEquipment",
+    "subtype": "ldcOnt:COM.Equipment.MedicalEquipment",
+    "type": "ldcOnt:COM.Equipment.MedicalEquipment",
+    "word_span": [
+     59,
+     61
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e15",
+    "category": "NOM",
+    "char_begin": 2536,
+    "char_end": 2548,
+    "head_index": 66,
+    "head_span": [
+     2540,
+     2548
+    ],
+    "headword": "symptoms",
+    "mention": "the symptoms",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     65,
+     67
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e16",
+    "category": "NOM",
+    "char_begin": 2552,
+    "char_end": 2563,
+    "head_index": 68,
+    "head_span": [
+     2552,
+     2563
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     68,
+     69
+    ]
+   }
+  ],
+  "offset": 2153
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Sarmiento’s comments about the deaths in Maracay appear to have been the straw that broke the camel’s back when it came to criticism of the government’s public health record, Villasmil says.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s13-e0",
+    "category": "NAM",
+    "char_begin": 2741,
+    "char_end": 2750,
+    "head_span": [
+     2741,
+     2750
+    ],
+    "headword": "Villasmil",
+    "mention": "Villasmil",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     33,
+     34
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Spokesperson"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s13-e2",
+    "category": "NOM",
+    "char_begin": 2607,
+    "char_end": 2614,
+    "head_index": 7,
+    "head_span": [
+     2607,
+     2614
+    ],
+    "headword": "Maracay",
+    "mention": "Maracay",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     7,
+     8
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s13-e3",
+    "category": "NOM",
+    "char_begin": 2702,
+    "char_end": 2718,
+    "head_index": 27,
+    "head_span": [
+     2706,
+     2716
+    ],
+    "headword": "government",
+    "mention": "the government’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     26,
+     29
+    ]
+   }
+  ],
+  "offset": 2566
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s14-e0",
+    "char_begin": 2757,
+    "char_end": 2760,
+    "head_span": [
+     2757,
+     2760
+    ],
+    "mention": "Now",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Now facing prosecution, Sarmiento fled to an undisclosed location in Central America.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s14-e2",
+    "category": "NAM",
+    "char_begin": 2781,
+    "char_end": 2790,
+    "head_span": [
+     2781,
+     2790
+    ],
+    "headword": "Sarmiento",
+    "mention": "Sarmiento",
+    "score": "0.9980398",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s14-e3",
+    "category": "NAM",
+    "char_begin": 2826,
+    "char_end": 2841,
+    "head_span": [
+     2834,
+     2841
+    ],
+    "headword": "America",
+    "mention": "Central America",
+    "score": "0.7992044",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     13
+    ],
+    "type": "ldcOnt:LOC.Position.Region"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s14-e5",
+    "category": "NOM",
+    "char_begin": 2799,
+    "char_end": 2822,
+    "head_index": 9,
+    "head_span": [
+     2814,
+     2822
+    ],
+    "headword": "location",
+    "mention": "an undisclosed location",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     7,
+     10
+    ]
+   }
+  ],
+  "offset": 2757
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Villasmil and Castro remain in Venezuela but have left their homes after participating in the press conference, as a precaution against retaliation.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e0",
+    "category": "NAM",
+    "char_begin": 2843,
+    "char_end": 2852,
+    "head_span": [
+     2843,
+     2852
+    ],
+    "headword": "Villasmil",
+    "mention": "Villasmil",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e2",
+    "category": "NAM",
+    "char_begin": 2857,
+    "char_end": 2863,
+    "head_span": [
+     2857,
+     2863
+    ],
+    "headword": "Castro",
+    "mention": "Castro",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e4",
+    "category": "NOM",
+    "char_begin": 2874,
+    "char_end": 2883,
+    "head_index": 5,
+    "head_span": [
+     2874,
+     2883
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     5,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e5",
+    "category": "NOM",
+    "char_begin": 2898,
+    "char_end": 2909,
+    "head_index": 10,
+    "head_span": [
+     2904,
+     2909
+    ],
+    "headword": "homes",
+    "mention": "their homes",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     9,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e6",
+    "category": "NOM",
+    "char_begin": 2933,
+    "char_end": 2953,
+    "head_index": 16,
+    "head_span": [
+     2943,
+     2953
+    ],
+    "headword": "conference",
+    "mention": "the press conference",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     14,
+     17
+    ]
+   }
+  ],
+  "offset": 2843
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e0",
+    "char_begin": 3061,
+    "char_end": 3066,
+    "head_span": [
+     3061,
+     3066
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e1",
+    "char_begin": 3067,
+    "char_end": 3075,
+    "head_span": [
+     3067,
+     3075
+    ],
+    "mention": "syndrome",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e2",
+    "char_begin": 3095,
+    "char_end": 3098,
+    "head_span": [
+     3095,
+     3098
+    ],
+    "mention": "ten",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e3",
+    "char_begin": 3141,
+    "char_end": 3146,
+    "head_span": [
+     3141,
+     3146
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e4",
+    "char_begin": 3147,
+    "char_end": 3155,
+    "head_span": [
+     3147,
+     3155
+    ],
+    "mention": "syndrome",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e5",
+    "char_begin": 3233,
+    "char_end": 3236,
+    "head_span": [
+     3233,
+     3236
+    ],
+    "mention": "ten",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Posted in Health, Latin America Mysterious outbreak of hemorrhagic fever syndrome in Venezuela kills ten; \"An outbreak of a mysterious hemorrhagic fever syndrome in the Venezuelan state of Aragua and the country’s capital Caracas has left ten people dead in the last three weeks.\"",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e6",
+    "category": "NAM",
+    "char_begin": 3012,
+    "char_end": 3017,
+    "head_span": [
+     3012,
+     3017
+    ],
+    "headword": "Latin",
+    "mention": "Latin",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:LOC.Position.Region"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e8",
+    "category": "NAM",
+    "char_begin": 3163,
+    "char_end": 3173,
+    "head_span": [
+     3163,
+     3173
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.99314076",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     28,
+     29
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e10",
+    "category": "NOM",
+    "char_begin": 3049,
+    "char_end": 3075,
+    "head_index": 11,
+    "head_span": [
+     3067,
+     3075
+    ],
+    "headword": "syndrome",
+    "mention": "hemorrhagic fever syndrome",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     9,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e11",
+    "category": "NOM",
+    "char_begin": 3079,
+    "char_end": 3088,
+    "head_index": 13,
+    "head_span": [
+     3079,
+     3088
+    ],
+    "headword": "Venezuela",
+    "mention": "Venezuela",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     13,
+     14
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e12",
+    "category": "NOM",
+    "char_begin": 3116,
+    "char_end": 3155,
+    "head_index": 25,
+    "head_span": [
+     3147,
+     3155
+    ],
+    "headword": "syndrome",
+    "mention": "a mysterious hemorrhagic fever syndrome",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     21,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e13",
+    "category": "NOM",
+    "char_begin": 3159,
+    "char_end": 3179,
+    "head_index": 29,
+    "head_span": [
+     3174,
+     3179
+    ],
+    "headword": "state",
+    "mention": "the Venezuelan state",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     27,
+     30
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e14",
+    "category": "NOM",
+    "char_begin": 3183,
+    "char_end": 3189,
+    "head_index": 31,
+    "head_span": [
+     3183,
+     3189
+    ],
+    "headword": "Aragua",
+    "mention": "Aragua",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "subtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "word_span": [
+     31,
+     32
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e15",
+    "category": "NOM",
+    "char_begin": 3194,
+    "char_end": 3207,
+    "head_index": 34,
+    "head_span": [
+     3198,
+     3205
+    ],
+    "headword": "country",
+    "mention": "the country’s",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     33,
+     36
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e16",
+    "category": "NOM",
+    "char_begin": 3216,
+    "char_end": 3223,
+    "head_index": 37,
+    "head_span": [
+     3216,
+     3223
+    ],
+    "headword": "Caracas",
+    "mention": "Caracas",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.UrbanArea.City",
+    "subtype": "ldcOnt:GPE.UrbanArea.City",
+    "type": "ldcOnt:GPE.UrbanArea.City",
+    "word_span": [
+     37,
+     38
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e17",
+    "category": "NOM",
+    "char_begin": 3233,
+    "char_end": 3243,
+    "head_index": 41,
+    "head_span": [
+     3237,
+     3243
+    ],
+    "headword": "people",
+    "mention": "ten people",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     40,
+     42
+    ]
+   }
+  ],
+  "offset": 2994
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e0",
+    "char_begin": 3288,
+    "char_end": 3293,
+    "head_span": [
+     3288,
+     3293
+    ],
+    "mention": "Ebola",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e1",
+    "char_begin": 3300,
+    "char_end": 3308,
+    "head_span": [
+     3300,
+     3308
+    ],
+    "mention": "syndrome",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e2",
+    "char_begin": 3344,
+    "char_end": 3349,
+    "head_span": [
+     3344,
+     3349
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Similar to Ebola, this syndrome causes patients to experience high fever, skin rashes and bleeding.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e3",
+    "category": "NOM",
+    "char_begin": 3288,
+    "char_end": 3293,
+    "head_index": 2,
+    "head_span": [
+     3288,
+     3293
+    ],
+    "headword": "Ebola",
+    "mention": "Ebola",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     2,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e4",
+    "category": "NOM",
+    "char_begin": 3295,
+    "char_end": 3308,
+    "head_index": 5,
+    "head_span": [
+     3300,
+     3308
+    ],
+    "headword": "syndrome",
+    "mention": "this syndrome",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     4,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s17-e5",
+    "category": "NOM",
+    "char_begin": 3316,
+    "char_end": 3324,
+    "head_index": 7,
+    "head_span": [
+     3316,
+     3324
+    ],
+    "headword": "patients",
+    "mention": "patients",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     7,
+     8
+    ]
+   }
+  ],
+  "offset": 3277
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s18-e0",
+    "char_begin": 3416,
+    "char_end": 3423,
+    "head_span": [
+     3416,
+     3423
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "It has been described as an aggressive disease that leads to a fatal deterioration of health within 72 hours.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s18-e1",
+    "category": "NOM",
+    "char_begin": 3402,
+    "char_end": 3423,
+    "head_index": 7,
+    "head_span": [
+     3416,
+     3423
+    ],
+    "headword": "disease",
+    "mention": "an aggressive disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     5,
+     8
+    ]
+   }
+  ],
+  "offset": 3377
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Doctors have urged government authorities to declare a state of emergency in Aragua state; however they have received resistance from a surprising source.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e0",
+    "category": "NAM",
+    "char_begin": 3566,
+    "char_end": 3572,
+    "head_span": [
+     3566,
+     3572
+    ],
+    "headword": "Aragua",
+    "mention": "Aragua",
+    "score": "0.7689564",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e1",
+    "category": "NAM",
+    "char_begin": 3566,
+    "char_end": 3578,
+    "head_span": [
+     3573,
+     3578
+    ],
+    "headword": "state",
+    "mention": "Aragua state",
+    "score": "0.9968688",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     14
+    ],
+    "type": "ldcOnt:GPE"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e2",
+    "category": "NOM",
+    "char_begin": 3489,
+    "char_end": 3496,
+    "head_index": 0,
+    "head_span": [
+     3489,
+     3496
+    ],
+    "headword": "Doctors",
+    "mention": "Doctors",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     0,
+     1
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e3",
+    "category": "NOM",
+    "char_begin": 3508,
+    "char_end": 3530,
+    "head_index": 4,
+    "head_span": [
+     3519,
+     3530
+    ],
+    "headword": "authorities",
+    "mention": "government authorities",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     3,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e4",
+    "category": "NOM",
+    "char_begin": 3542,
+    "char_end": 3549,
+    "head_index": 8,
+    "head_span": [
+     3544,
+     3549
+    ],
+    "headword": "state",
+    "mention": "a state",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     7,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e5",
+    "category": "NOM",
+    "char_begin": 3623,
+    "char_end": 3642,
+    "head_index": 23,
+    "head_span": [
+     3636,
+     3642
+    ],
+    "headword": "source",
+    "mention": "a surprising source",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     21,
+     24
+    ]
+   }
+  ],
+  "offset": 3489
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e0",
+    "char_begin": 3656,
+    "char_end": 3664,
+    "head_span": [
+     3656,
+     3664
+    ],
+    "mention": "Governor",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e1",
+    "char_begin": 3728,
+    "char_end": 3735,
+    "head_span": [
+     3728,
+     3735
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e2",
+    "char_begin": 3757,
+    "char_end": 3766,
+    "head_span": [
+     3757,
+     3766
+    ],
+    "mention": "president",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "The state Governor, Tareck El Aissami, has not only denied medical reports of the disease, but has accused the president of the Aragua state Medical Association, Angel Sarmiento, of \"creating anxiety.\"",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e4",
+    "category": "NAM",
+    "char_begin": 3666,
+    "char_end": 3683,
+    "head_span": [
+     3676,
+     3683
+    ],
+    "headword": "Aissami",
+    "mention": "Tareck El Aissami",
+    "score": "0.9990478",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     4,
+     7
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e5",
+    "category": "NAM",
+    "char_begin": 3774,
+    "char_end": 3780,
+    "head_span": [
+     3774,
+     3780
+    ],
+    "headword": "Aragua",
+    "mention": "Aragua",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e6",
+    "category": "NAM",
+    "char_begin": 3774,
+    "char_end": 3806,
+    "head_span": [
+     3795,
+     3806
+    ],
+    "headword": "Association",
+    "mention": "Aragua state Medical Association",
+    "score": "0.9758842",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     29
+    ],
+    "type": "ldcOnt:ORG.Association"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e7",
+    "category": "NAM",
+    "char_begin": 3808,
+    "char_end": 3823,
+    "head_span": [
+     3814,
+     3823
+    ],
+    "headword": "Sarmiento",
+    "mention": "Angel Sarmiento",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     30,
+     32
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e9",
+    "category": "NOM",
+    "char_begin": 3646,
+    "char_end": 3664,
+    "head_index": 2,
+    "head_span": [
+     3656,
+     3664
+    ],
+    "headword": "Governor",
+    "mention": "The state Governor",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.Governor",
+    "subtype": "ldcOnt:PER.Politician.Governor",
+    "type": "ldcOnt:PER.Politician.Governor",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e10",
+    "category": "NOM",
+    "char_begin": 3724,
+    "char_end": 3735,
+    "head_index": 16,
+    "head_span": [
+     3728,
+     3735
+    ],
+    "headword": "disease",
+    "mention": "the disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     15,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e11",
+    "category": "NOM",
+    "char_begin": 3753,
+    "char_end": 3766,
+    "head_index": 22,
+    "head_span": [
+     3757,
+     3766
+    ],
+    "headword": "president",
+    "mention": "the president",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "subtype": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment",
+    "word_span": [
+     21,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e12",
+    "category": "NOM",
+    "char_begin": 3770,
+    "char_end": 3786,
+    "head_index": 26,
+    "head_span": [
+     3781,
+     3786
+    ],
+    "headword": "state",
+    "mention": "the Aragua state",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     24,
+     27
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e13",
+    "category": "NOM",
+    "char_begin": 3787,
+    "char_end": 3806,
+    "head_index": 28,
+    "head_span": [
+     3795,
+     3806
+    ],
+    "headword": "Association",
+    "mention": "Medical Association",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Association",
+    "subtype": "ldcOnt:ORG.Association",
+    "type": "ldcOnt:ORG.Association",
+    "word_span": [
+     27,
+     29
+    ]
+   }
+  ],
+  "offset": 3646
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e0",
+    "char_begin": 3863,
+    "char_end": 3871,
+    "head_span": [
+     3863,
+     3871
+    ],
+    "mention": "Governor",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e1",
+    "char_begin": 3905,
+    "char_end": 3913,
+    "head_span": [
+     3905,
+     3913
+    ],
+    "mention": "Minister",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e2",
+    "char_begin": 3939,
+    "char_end": 3942,
+    "head_span": [
+     3939,
+     3942
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "More on dear Governor: Tarek Al-Aissami,the Venezuelan Minister of Interior and Justice, one of the key figures of the Chavez's government, is accused by the media of having used this position to issue passports to members of Hamas and Hezbollah.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e4",
+    "category": "NAM",
+    "char_begin": 3873,
+    "char_end": 3889,
+    "head_span": [
+     3879,
+     3889
+    ],
+    "headword": "Al-Aissami",
+    "mention": "Tarek Al-Aissami",
+    "score": "0.9988669",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     5,
+     7
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e5",
+    "category": "NAM",
+    "char_begin": 3894,
+    "char_end": 3904,
+    "head_span": [
+     3894,
+     3904
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.9908728",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e7",
+    "category": "NAM",
+    "char_begin": 3969,
+    "char_end": 3975,
+    "head_span": [
+     3969,
+     3975
+    ],
+    "headword": "Chavez",
+    "mention": "Chavez",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     23,
+     24
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e10",
+    "category": "NAM",
+    "char_begin": 4076,
+    "char_end": 4081,
+    "head_span": [
+     4076,
+     4081
+    ],
+    "headword": "Hamas",
+    "mention": "Hamas",
+    "score": "0.99678755",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     43,
+     44
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e11",
+    "category": "NAM",
+    "char_begin": 4086,
+    "char_end": 4095,
+    "head_span": [
+     4086,
+     4095
+    ],
+    "headword": "Hezbollah",
+    "mention": "Hezbollah",
+    "score": "0.9493158",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     45,
+     46
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization.NonGovernmentMilitia"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e13",
+    "category": "NOM",
+    "char_begin": 3858,
+    "char_end": 3871,
+    "head_index": 3,
+    "head_span": [
+     3863,
+     3871
+    ],
+    "headword": "Governor",
+    "mention": "dear Governor",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.Politician.Governor",
+    "subtype": "ldcOnt:PER.Politician.Governor",
+    "type": "ldcOnt:PER.Politician.Governor",
+    "word_span": [
+     2,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e14",
+    "category": "NOM",
+    "char_begin": 3890,
+    "char_end": 3913,
+    "head_index": 10,
+    "head_span": [
+     3905,
+     3913
+    ],
+    "headword": "Minister",
+    "mention": "the Venezuelan Minister",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     8,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e15",
+    "category": "NOM",
+    "char_begin": 3965,
+    "char_end": 3988,
+    "head_index": 25,
+    "head_span": [
+     3978,
+     3988
+    ],
+    "headword": "government",
+    "mention": "the Chavez's government",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     22,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e17",
+    "category": "NOM",
+    "char_begin": 4052,
+    "char_end": 4061,
+    "head_index": 39,
+    "head_span": [
+     4052,
+     4061
+    ],
+    "headword": "passports",
+    "mention": "passports",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:COM",
+    "subtype": "ldcOnt:COM",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     39,
+     40
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e18",
+    "category": "NOM",
+    "char_begin": 4065,
+    "char_end": 4072,
+    "head_index": 41,
+    "head_span": [
+     4065,
+     4072
+    ],
+    "headword": "members",
+    "mention": "members",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     41,
+     42
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e16",
+    "category": "NOM",
+    "char_begin": 4029,
+    "char_end": 4095,
+    "head_index": 36,
+    "head_span": [
+     4034,
+     4042
+    ],
+    "headword": "position",
+    "mention": "this position to issue passports to members of Hamas and Hezbollah",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     35,
+     46
+    ]
+   }
+  ],
+  "offset": 3850
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e0",
+    "char_begin": 4135,
+    "char_end": 4139,
+    "head_span": [
+     4135,
+     4139
+    ],
+    "mention": "1980",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e1",
+    "char_begin": 4145,
+    "char_end": 4151,
+    "head_span": [
+     4145,
+     4151
+    ],
+    "mention": "father",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Born in Lebanon of Syrian descent in 1980; his father, Carlos Al-Aissami, was the head of the Venezuelan branch of the Iraqi Baath political party.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e3",
+    "category": "NAM",
+    "char_begin": 4106,
+    "char_end": 4113,
+    "head_span": [
+     4106,
+     4113
+    ],
+    "headword": "Lebanon",
+    "mention": "Lebanon",
+    "score": "0.98387927",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e5",
+    "category": "NAM",
+    "char_begin": 4117,
+    "char_end": 4123,
+    "head_span": [
+     4117,
+     4123
+    ],
+    "headword": "Syrian",
+    "mention": "Syrian",
+    "score": "0.9608164",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e7",
+    "category": "NAM",
+    "char_begin": 4153,
+    "char_end": 4170,
+    "head_span": [
+     4160,
+     4170
+    ],
+    "headword": "Al-Aissami",
+    "mention": "Carlos Al-Aissami",
+    "score": "0.9959616",
+    "subsubtype": "n/a",
+    "subtype": "ProfessionalPosition",
+    "token_span": [
+     12,
+     14
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e9",
+    "category": "NAM",
+    "char_begin": 4192,
+    "char_end": 4202,
+    "head_span": [
+     4192,
+     4202
+    ],
+    "headword": "Venezuelan",
+    "mention": "Venezuelan",
+    "score": "0.98487955",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     20,
+     21
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e11",
+    "category": "NAM",
+    "char_begin": 4217,
+    "char_end": 4222,
+    "head_span": [
+     4217,
+     4222
+    ],
+    "headword": "Iraqi",
+    "mention": "Iraqi",
+    "score": "0.6717113",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     25
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e10",
+    "category": "NAM",
+    "char_begin": 4217,
+    "char_end": 4228,
+    "head_span": [
+     4223,
+     4228
+    ],
+    "headword": "Baath",
+    "mention": "Iraqi Baath",
+    "score": "0.93445987",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     26
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e12",
+    "category": "NAM",
+    "char_begin": 4223,
+    "char_end": 4228,
+    "head_span": [
+     4223,
+     4228
+    ],
+    "headword": "Baath",
+    "mention": "Baath",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e13",
+    "category": "NOM",
+    "char_begin": 4141,
+    "char_end": 4151,
+    "head_index": 10,
+    "head_span": [
+     4145,
+     4151
+    ],
+    "headword": "father",
+    "mention": "his father",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     9,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e14",
+    "category": "NOM",
+    "char_begin": 4188,
+    "char_end": 4209,
+    "head_index": 21,
+    "head_span": [
+     4203,
+     4209
+    ],
+    "headword": "branch",
+    "mention": "the Venezuelan branch",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     19,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e15",
+    "category": "NOM",
+    "char_begin": 4213,
+    "char_end": 4244,
+    "head_index": 27,
+    "head_span": [
+     4239,
+     4244
+    ],
+    "headword": "party",
+    "mention": "the Iraqi Baath political party",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     23,
+     28
+    ]
+   }
+  ],
+  "offset": 4098
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e0",
+    "char_begin": 4300,
+    "char_end": 4306,
+    "head_span": [
+     4300,
+     4306
+    ],
+    "mention": "father",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e1",
+    "char_begin": 4425,
+    "char_end": 4430,
+    "head_span": [
+     4425,
+     4430
+    ],
+    "mention": "Sheik",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "According to reports, before the invasion of Iraq his father held a press conference in which he described himself as a Taliban and called Osama Bin Laden, \"the great Mujahedeen, Sheik Osama bin Laden. \"",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e2",
+    "category": "NAM",
+    "char_begin": 4366,
+    "char_end": 4373,
+    "head_span": [
+     4366,
+     4373
+    ],
+    "headword": "Taliban",
+    "mention": "Taliban",
+    "score": "0.9628576",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     22,
+     23
+    ],
+    "type": "ldcOnt:ORG.MilitaryOrganization.NonGovernmentMilitia"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e4",
+    "category": "NAM",
+    "char_begin": 4385,
+    "char_end": 4400,
+    "head_span": [
+     4395,
+     4400
+    ],
+    "headword": "Laden",
+    "mention": "Osama Bin Laden",
+    "score": "0.73708034",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     28
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e6",
+    "category": "NAM",
+    "char_begin": 4413,
+    "char_end": 4423,
+    "head_span": [
+     4413,
+     4423
+    ],
+    "headword": "Mujahedeen",
+    "mention": "Mujahedeen",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     32,
+     33
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e7",
+    "category": "NAM",
+    "char_begin": 4431,
+    "char_end": 4446,
+    "head_span": [
+     4441,
+     4446
+    ],
+    "headword": "Laden",
+    "mention": "Osama bin Laden",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     35,
+     38
+    ],
+    "type": "ldcOnt:PER"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e9",
+    "category": "NOM",
+    "char_begin": 4291,
+    "char_end": 4295,
+    "head_index": 8,
+    "head_span": [
+     4291,
+     4295
+    ],
+    "headword": "Iraq",
+    "mention": "Iraq",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     8,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e10",
+    "category": "NOM",
+    "char_begin": 4296,
+    "char_end": 4306,
+    "head_index": 10,
+    "head_span": [
+     4300,
+     4306
+    ],
+    "headword": "father",
+    "mention": "his father",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     9,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e11",
+    "category": "NOM",
+    "char_begin": 4312,
+    "char_end": 4330,
+    "head_index": 14,
+    "head_span": [
+     4320,
+     4330
+    ],
+    "headword": "conference",
+    "mention": "a press conference",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     12,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e12",
+    "category": "NOM",
+    "char_begin": 4364,
+    "char_end": 4373,
+    "head_index": 22,
+    "head_span": [
+     4366,
+     4373
+    ],
+    "headword": "Taliban",
+    "mention": "a Taliban",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     21,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e13",
+    "category": "NOM",
+    "char_begin": 4403,
+    "char_end": 4423,
+    "head_index": 32,
+    "head_span": [
+     4413,
+     4423
+    ],
+    "headword": "Mujahedeen",
+    "mention": "the great Mujahedeen",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     30,
+     33
+    ]
+   }
+  ],
+  "offset": 4246
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e0",
+    "char_begin": 4450,
+    "char_end": 4451,
+    "head_span": [
+     4450,
+     4451
+    ],
+    "mention": "1",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e1",
+    "char_begin": 4457,
+    "char_end": 4465,
+    "head_span": [
+     4457,
+     4465
+    ],
+    "mention": "Minister",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e2",
+    "char_begin": 4529,
+    "char_end": 4538,
+    "head_span": [
+     4529,
+     4538
+    ],
+    "mention": "assistant",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e3",
+    "char_begin": 4546,
+    "char_end": 4555,
+    "head_span": [
+     4546,
+     4555
+    ],
+    "mention": "secretary",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "[1] The Minister's great-uncle Shibli Al-Aissami was a prominent ideologist and assistant to the secretary general of the Baath party in Baghdad during the Saddam Hussein regime.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e4",
+    "category": "NAM",
+    "char_begin": 4480,
+    "char_end": 4497,
+    "head_span": [
+     4487,
+     4497
+    ],
+    "headword": "Al-Aissami",
+    "mention": "Shibli Al-Aissami",
+    "score": "0.99843365",
+    "subsubtype": "n/a",
+    "subtype": "Politician",
+    "token_span": [
+     7,
+     9
+    ],
+    "type": "ldcOnt:PER.Politician"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e5",
+    "category": "NAM",
+    "char_begin": 4571,
+    "char_end": 4576,
+    "head_span": [
+     4571,
+     4576
+    ],
+    "headword": "Baath",
+    "mention": "Baath",
+    "score": "0.9419934",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     21,
+     22
+    ],
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e8",
+    "category": "NAM",
+    "char_begin": 4586,
+    "char_end": 4593,
+    "head_span": [
+     4586,
+     4593
+    ],
+    "headword": "Baghdad",
+    "mention": "Baghdad",
+    "score": "0.993381",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     24,
+     25
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e9",
+    "category": "NAM",
+    "char_begin": 4605,
+    "char_end": 4619,
+    "head_span": [
+     4612,
+     4619
+    ],
+    "headword": "Hussein",
+    "mention": "Saddam Hussein",
+    "score": "0.9415049",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     27,
+     29
+    ],
+    "type": "ldcOnt:PER.Politician.HeadOfGovernment"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e11",
+    "category": "NOM",
+    "char_begin": 4453,
+    "char_end": 4467,
+    "head_index": 4,
+    "head_span": [
+     4457,
+     4465
+    ],
+    "headword": "Minister",
+    "mention": "The Minister's",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister",
+    "word_span": [
+     3,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e12",
+    "category": "NOM",
+    "char_begin": 4453,
+    "char_end": 4479,
+    "head_index": 6,
+    "head_span": [
+     4468,
+     4479
+    ],
+    "headword": "great-uncle",
+    "mention": "The Minister's great-uncle",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     3,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e13",
+    "category": "NOM",
+    "char_begin": 4502,
+    "char_end": 4538,
+    "head_index": 14,
+    "head_span": [
+     4529,
+     4538
+    ],
+    "headword": "assistant",
+    "mention": "a prominent ideologist and assistant",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     10,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e14",
+    "category": "NOM",
+    "char_begin": 4542,
+    "char_end": 4563,
+    "head_index": 18,
+    "head_span": [
+     4556,
+     4563
+    ],
+    "headword": "general",
+    "mention": "the secretary general",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     16,
+     19
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e15",
+    "category": "NOM",
+    "char_begin": 4567,
+    "char_end": 4582,
+    "head_index": 22,
+    "head_span": [
+     4577,
+     4582
+    ],
+    "headword": "party",
+    "mention": "the Baath party",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "PoliticalOrganization",
+    "type": "ldcOnt:ORG.PoliticalOrganization.Party",
+    "word_span": [
+     20,
+     23
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e16",
+    "category": "NOM",
+    "char_begin": 4601,
+    "char_end": 4626,
+    "head_index": 29,
+    "head_span": [
+     4620,
+     4626
+    ],
+    "headword": "regime",
+    "mention": "the Saddam Hussein regime",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     26,
+     30
+    ]
+   }
+  ],
+  "offset": 4449
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e0",
+    "char_begin": 4629,
+    "char_end": 4630,
+    "head_span": [
+     4629,
+     4630
+    ],
+    "mention": "2",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e1",
+    "char_begin": 4654,
+    "char_end": 4657,
+    "head_span": [
+     4654,
+     4657
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e2",
+    "char_begin": 4718,
+    "char_end": 4729,
+    "head_span": [
+     4718,
+     4729
+    ],
+    "mention": "Chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "[2] UPDATED --- There are two interesting comments to this point posted to the story ...  Chikungunya?",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e3",
+    "category": "NOM",
+    "char_begin": 4718,
+    "char_end": 4729,
+    "head_index": 18,
+    "head_span": [
+     4718,
+     4729
+    ],
+    "headword": "Chikungunya",
+    "mention": "Chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     18,
+     19
+    ]
+   }
+  ],
+  "offset": 4628
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e0",
+    "char_begin": 4794,
+    "char_end": 4799,
+    "head_span": [
+     4794,
+     4799
+    ],
+    "mention": "eight",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e1",
+    "char_begin": 5049,
+    "char_end": 5054,
+    "head_span": [
+     5049,
+     5054
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Early reports said epidemiologists ruled that out in the first eight cases... Another report said autopsy revealed multiple complications in victims: hepatomegaly, strong steatosis, congestive spleen, pale kidneys, hemorrhagic enterocolitis, erosive pleuritis and petechiae in the upper limbs… (they didn't die from a fever).",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e2",
+    "category": "NOM",
+    "char_begin": 4750,
+    "char_end": 4765,
+    "head_index": 3,
+    "head_span": [
+     4750,
+     4765
+    ],
+    "headword": "epidemiologists",
+    "mention": "epidemiologists",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     3,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e3",
+    "category": "NOM",
+    "char_begin": 4784,
+    "char_end": 4805,
+    "head_index": 11,
+    "head_span": [
+     4800,
+     4805
+    ],
+    "headword": "cases",
+    "mention": "the first eight cases",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     8,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e4",
+    "category": "NOM",
+    "char_begin": 4872,
+    "char_end": 4879,
+    "head_index": 21,
+    "head_span": [
+     4872,
+     4879
+    ],
+    "headword": "victims",
+    "mention": "victims",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER",
+    "subtype": "ldcOnt:PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     21,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e5",
+    "category": "NOM",
+    "char_begin": 5047,
+    "char_end": 5054,
+    "head_index": 53,
+    "head_span": [
+     5049,
+     5054
+    ],
+    "headword": "fever",
+    "mention": "a fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     52,
+     54
+    ]
+   }
+  ],
+  "offset": 4731
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e0",
+    "char_begin": 5092,
+    "char_end": 5097,
+    "head_span": [
+     5092,
+     5097
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e1",
+    "char_begin": 5166,
+    "char_end": 5177,
+    "head_span": [
+     5166,
+     5177
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e2",
+    "char_begin": 5178,
+    "char_end": 5181,
+    "head_span": [
+     5178,
+     5181
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e3",
+    "char_begin": 5225,
+    "char_end": 5230,
+    "head_span": [
+     5225,
+     5230
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e4",
+    "char_begin": 5253,
+    "char_end": 5256,
+    "head_span": [
+     5253,
+     5256
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e5",
+    "char_begin": 5381,
+    "char_end": 5392,
+    "head_span": [
+     5381,
+     5392
+    ],
+    "mention": "chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "All had same symptoms [hemorrhagic fever] all died within 72 hours... seems they've got more of a problem if chikungunya now causes such a virulent form of hemorrhagic fever... (US too since it's now in Florida) The government was too quick to go after the doctors, they suppress information and I don't trust them at all...chikungunya?",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e6",
+    "category": "NAM",
+    "char_begin": 5235,
+    "char_end": 5237,
+    "head_span": [
+     5235,
+     5237
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.9830241",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     35,
+     36
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e8",
+    "category": "NOM",
+    "char_begin": 5065,
+    "char_end": 5078,
+    "head_index": 3,
+    "head_span": [
+     5070,
+     5078
+    ],
+    "headword": "symptoms",
+    "mention": "same symptoms",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     2,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e9",
+    "category": "NOM",
+    "char_begin": 5080,
+    "char_end": 5097,
+    "head_index": 6,
+    "head_span": [
+     5092,
+     5097
+    ],
+    "headword": "fever",
+    "mention": "hemorrhagic fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     5,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e10",
+    "category": "NOM",
+    "char_begin": 5166,
+    "char_end": 5177,
+    "head_index": 23,
+    "head_span": [
+     5166,
+     5177
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     23,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e11",
+    "category": "NOM",
+    "char_begin": 5213,
+    "char_end": 5230,
+    "head_index": 32,
+    "head_span": [
+     5225,
+     5230
+    ],
+    "headword": "fever",
+    "mention": "hemorrhagic fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     31,
+     33
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e12",
+    "category": "NOM",
+    "char_begin": 5260,
+    "char_end": 5267,
+    "head_index": 42,
+    "head_span": [
+     5260,
+     5267
+    ],
+    "headword": "Florida",
+    "mention": "Florida",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "subtype": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState",
+    "word_span": [
+     42,
+     43
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e13",
+    "category": "NOM",
+    "char_begin": 5269,
+    "char_end": 5283,
+    "head_index": 45,
+    "head_span": [
+     5273,
+     5283
+    ],
+    "headword": "government",
+    "mention": "The government",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     44,
+     46
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e14",
+    "category": "NOM",
+    "char_begin": 5310,
+    "char_end": 5321,
+    "head_index": 53,
+    "head_span": [
+     5314,
+     5321
+    ],
+    "headword": "doctors",
+    "mention": "the doctors",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "type": "ldcOnt:PER.ProfessionalPosition.MedicalPersonnel",
+    "word_span": [
+     52,
+     54
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s27-e15",
+    "category": "NOM",
+    "char_begin": 5381,
+    "char_end": 5392,
+    "head_index": 67,
+    "head_span": [
+     5381,
+     5392
+    ],
+    "headword": "chikungunya",
+    "mention": "chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     67,
+     68
+    ]
+   }
+  ],
+  "offset": 5057
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "I don't know but I think not.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 5394
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e0",
+    "char_begin": 5448,
+    "char_end": 5458,
+    "head_span": [
+     5455,
+     5458
+    ],
+    "mention": "7 days ago",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e1",
+    "char_begin": 5518,
+    "char_end": 5529,
+    "head_span": [
+     5518,
+     5529
+    ],
+    "mention": "Chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e2",
+    "char_begin": 5565,
+    "char_end": 5568,
+    "head_span": [
+     5565,
+     5568
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e3",
+    "char_begin": 5608,
+    "char_end": 5620,
+    "head_span": [
+     5608,
+     5620
+    ],
+    "mention": "spokesperson",
+    "type": "ldcOnt:TTL"
+   }
+  ],
+  "inputSentence": "Kathy Stuart no2msmBS • 7 days ago I do have to agree with you that the information that this Chikungunya does seem a bit specious as it was one of the first diseases that the medical spokesperson said had been ruled out.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e4",
+    "category": "NAM",
+    "char_begin": 5424,
+    "char_end": 5436,
+    "head_span": [
+     5430,
+     5436
+    ],
+    "headword": "Stuart",
+    "mention": "Kathy Stuart",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Journalist"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e6",
+    "category": "NOM",
+    "char_begin": 5513,
+    "char_end": 5529,
+    "head_index": 19,
+    "head_span": [
+     5518,
+     5529
+    ],
+    "headword": "Chikungunya",
+    "mention": "this Chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     18,
+     20
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e7",
+    "category": "NOM",
+    "char_begin": 5572,
+    "char_end": 5590,
+    "head_index": 32,
+    "head_span": [
+     5582,
+     5590
+    ],
+    "headword": "diseases",
+    "mention": "the first diseases",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     30,
+     33
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e8",
+    "category": "NOM",
+    "char_begin": 5596,
+    "char_end": 5620,
+    "head_index": 36,
+    "head_span": [
+     5608,
+     5620
+    ],
+    "headword": "spokesperson",
+    "mention": "the medical spokesperson",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:PER.ProfessionalPosition.Spokesperson",
+    "subtype": "ldcOnt:PER.ProfessionalPosition.Spokesperson",
+    "type": "ldcOnt:PER.ProfessionalPosition.Spokesperson",
+    "word_span": [
+     34,
+     37
+    ]
+   }
+  ],
+  "offset": 5424
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "It is also, as far as I have read not known to cause the terrible symptoms from which these patients died.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s30-e0",
+    "category": "NOM",
+    "char_begin": 5699,
+    "char_end": 5720,
+    "head_index": 16,
+    "head_span": [
+     5712,
+     5720
+    ],
+    "headword": "symptoms",
+    "mention": "the terrible symptoms",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     14,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s30-e1",
+    "category": "NOM",
+    "char_begin": 5732,
+    "char_end": 5746,
+    "head_index": 20,
+    "head_span": [
+     5738,
+     5746
+    ],
+    "headword": "patients",
+    "mention": "these patients",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     19,
+     21
+    ]
+   }
+  ],
+  "offset": 5646
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s31-e0",
+    "char_begin": 5764,
+    "char_end": 5770,
+    "head_span": [
+     5764,
+     5770
+    ],
+    "mention": "Dengue",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "There is a Dengue varient that does cause hemorrhagic symptoms.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s31-e1",
+    "category": "NOM",
+    "char_begin": 5795,
+    "char_end": 5815,
+    "head_index": 9,
+    "head_span": [
+     5807,
+     5815
+    ],
+    "headword": "symptoms",
+    "mention": "hemorrhagic symptoms",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     8,
+     10
+    ]
+   }
+  ],
+  "offset": 5753
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e0",
+    "char_begin": 5853,
+    "char_end": 5864,
+    "head_span": [
+     5853,
+     5864
+    ],
+    "mention": "Chikungunya",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e1",
+    "char_begin": 5936,
+    "char_end": 5939,
+    "head_span": [
+     5936,
+     5939
+    ],
+    "mention": "now",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "As for the US having a problem with Chikungunya it is all over the country, initially brought home by travelers and is now spreading through mosquitoes.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e2",
+    "category": "NAM",
+    "char_begin": 5828,
+    "char_end": 5830,
+    "head_span": [
+     5828,
+     5830
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.9930524",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e4",
+    "category": "NOM",
+    "char_begin": 5853,
+    "char_end": 5864,
+    "head_index": 8,
+    "head_span": [
+     5853,
+     5864
+    ],
+    "headword": "Chikungunya",
+    "mention": "Chikungunya",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     8,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e5",
+    "category": "NOM",
+    "char_begin": 5880,
+    "char_end": 5891,
+    "head_index": 14,
+    "head_span": [
+     5884,
+     5891
+    ],
+    "headword": "country",
+    "mention": "the country",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     13,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e6",
+    "category": "NOM",
+    "char_begin": 5911,
+    "char_end": 5915,
+    "head_index": 18,
+    "head_span": [
+     5911,
+     5915
+    ],
+    "headword": "home",
+    "mention": "home",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     18,
+     19
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e7",
+    "category": "NOM",
+    "char_begin": 5919,
+    "char_end": 5928,
+    "head_index": 20,
+    "head_span": [
+     5919,
+     5928
+    ],
+    "headword": "travelers",
+    "mention": "travelers",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     20,
+     21
+    ]
+   }
+  ],
+  "offset": 5817
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e0",
+    "char_begin": 6000,
+    "char_end": 6003,
+    "head_span": [
+     6000,
+     6003
+    ],
+    "mention": "600",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "There are at this time around 600 known cases in the US.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e1",
+    "category": "NAM",
+    "char_begin": 6023,
+    "char_end": 6025,
+    "head_span": [
+     6023,
+     6025
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.9899128",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e3",
+    "category": "NOM",
+    "char_begin": 6000,
+    "char_end": 6015,
+    "head_index": 8,
+    "head_span": [
+     6010,
+     6015
+    ],
+    "headword": "cases",
+    "mention": "600 known cases",
+    "score": 0.9,
+    "subsubtype": "PER",
+    "subtype": "PER",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     6,
+     9
+    ]
+   }
+  ],
+  "offset": 5970
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Most so far imported but some locally acquired.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 6027
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s35-e0",
+    "char_begin": 6114,
+    "char_end": 6119,
+    "head_span": [
+     6114,
+     6119
+    ],
+    "mention": "EBOLA",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "WHAT IF THIS IS BIO-TERROR, NOT SIMPLE EBOLA?",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s35-e1",
+    "category": "NOM",
+    "char_begin": 6103,
+    "char_end": 6119,
+    "head_index": 8,
+    "head_span": [
+     6114,
+     6119
+    ],
+    "headword": "EBOLA",
+    "mention": "NOT SIMPLE EBOLA",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     6,
+     9
+    ]
+   }
+  ],
+  "offset": 6075
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e0",
+    "char_begin": 6211,
+    "char_end": 6214,
+    "head_span": [
+     6211,
+     6214
+    ],
+    "mention": "CEO",
+    "type": "ldcOnt:TTL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e1",
+    "char_begin": 6312,
+    "char_end": 6319,
+    "head_span": [
+     6312,
+     6319
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e2",
+    "char_begin": 6320,
+    "char_end": 6329,
+    "head_span": [
+     6320,
+     6329
+    ],
+    "mention": "currently",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e3",
+    "char_begin": 6395,
+    "char_end": 6400,
+    "head_span": [
+     6395,
+     6400
+    ],
+    "mention": "Ebola",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e4",
+    "char_begin": 6425,
+    "char_end": 6430,
+    "head_span": [
+     6425,
+     6430
+    ],
+    "mention": "Virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e5",
+    "char_begin": 6464,
+    "char_end": 6469,
+    "head_span": [
+     6464,
+     6469
+    ],
+    "mention": "24:50",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "ON the; Sean Hannity Radio Show; a caller named \"Mike\" who claimed to be a scientist and CEO of a large corporation during which he claimed that the government is in fact lying and that the disease currently causing problems in Dallas, TX and throughout West Africa is not Ebola but in fact the Marburg Virus (listen at this link towards the 24:50 mark).",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e7",
+    "category": "NAM",
+    "char_begin": 6130,
+    "char_end": 6142,
+    "head_span": [
+     6135,
+     6142
+    ],
+    "headword": "Hannity",
+    "mention": "Sean Hannity",
+    "score": "0.6879675",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:PER"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e8",
+    "category": "NAM",
+    "char_begin": 6171,
+    "char_end": 6175,
+    "head_span": [
+     6171,
+     6175
+    ],
+    "headword": "Mike",
+    "mention": "Mike",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e10",
+    "category": "NAM",
+    "char_begin": 6350,
+    "char_end": 6356,
+    "head_span": [
+     6350,
+     6356
+    ],
+    "headword": "Dallas",
+    "mention": "Dallas",
+    "score": "0.9969212",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     45,
+     46
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e12",
+    "category": "NAM",
+    "char_begin": 6358,
+    "char_end": 6360,
+    "head_span": [
+     6358,
+     6360
+    ],
+    "headword": "TX",
+    "mention": "TX",
+    "score": "0.9939375",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     47,
+     48
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e14",
+    "category": "NAM",
+    "char_begin": 6376,
+    "char_end": 6387,
+    "head_span": [
+     6381,
+     6387
+    ],
+    "headword": "Africa",
+    "mention": "West Africa",
+    "score": "0.8290817",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     50,
+     52
+    ],
+    "type": "ldcOnt:LOC"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e16",
+    "category": "NAM",
+    "char_begin": 6417,
+    "char_end": 6424,
+    "head_span": [
+     6417,
+     6424
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     59,
+     60
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e15",
+    "category": "NAM",
+    "char_begin": 6417,
+    "char_end": 6430,
+    "head_span": [
+     6425,
+     6430
+    ],
+    "headword": "Virus",
+    "mention": "Marburg Virus",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     59,
+     61
+    ],
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e17",
+    "category": "NOM",
+    "char_begin": 6155,
+    "char_end": 6163,
+    "head_index": 9,
+    "head_span": [
+     6157,
+     6163
+    ],
+    "headword": "caller",
+    "mention": "a caller",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Way.Street",
+    "subtype": "ldcOnt:FAC.Way.Street",
+    "type": "ldcOnt:FAC.Way.Street",
+    "word_span": [
+     8,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e18",
+    "category": "NOM",
+    "char_begin": 6195,
+    "char_end": 6214,
+    "head_index": 21,
+    "head_span": [
+     6211,
+     6214
+    ],
+    "headword": "CEO",
+    "mention": "a scientist and CEO",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     18,
+     22
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e19",
+    "category": "NOM",
+    "char_begin": 6218,
+    "char_end": 6237,
+    "head_index": 25,
+    "head_span": [
+     6226,
+     6237
+    ],
+    "headword": "corporation",
+    "mention": "a large corporation",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG.CommercialOrganization.Corporation",
+    "word_span": [
+     23,
+     26
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e20",
+    "category": "NOM",
+    "char_begin": 6267,
+    "char_end": 6281,
+    "head_index": 32,
+    "head_span": [
+     6271,
+     6281
+    ],
+    "headword": "government",
+    "mention": "the government",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:ORG.Government",
+    "subtype": "ldcOnt:ORG.Government",
+    "type": "ldcOnt:ORG.Government",
+    "word_span": [
+     31,
+     33
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e21",
+    "category": "NOM",
+    "char_begin": 6308,
+    "char_end": 6319,
+    "head_index": 40,
+    "head_span": [
+     6312,
+     6319
+    ],
+    "headword": "disease",
+    "mention": "the disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     39,
+     41
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e22",
+    "category": "NOM",
+    "char_begin": 6395,
+    "char_end": 6400,
+    "head_index": 54,
+    "head_span": [
+     6395,
+     6400
+    ],
+    "headword": "Ebola",
+    "mention": "Ebola",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     54,
+     55
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e23",
+    "category": "NOM",
+    "char_begin": 6413,
+    "char_end": 6430,
+    "head_index": 60,
+    "head_span": [
+     6425,
+     6430
+    ],
+    "headword": "Virus",
+    "mention": "the Marburg Virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     58,
+     61
+    ]
+   }
+  ],
+  "offset": 6122
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The caller was indeed verified by Hannity’s staff so the conversation was quite disturbing not just because of his conclusions, but the other drastic paths his information could lead anyone with a brain into concluding.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s37-e0",
+    "category": "NOM",
+    "char_begin": 6478,
+    "char_end": 6488,
+    "head_index": 1,
+    "head_span": [
+     6482,
+     6488
+    ],
+    "headword": "caller",
+    "mention": "The caller",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:FAC.Way.Street",
+    "subtype": "ldcOnt:FAC.Way.Street",
+    "type": "ldcOnt:FAC.Way.Street",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s37-e1",
+    "category": "NOM",
+    "char_begin": 6512,
+    "char_end": 6527,
+    "head_index": 8,
+    "head_span": [
+     6522,
+     6527
+    ],
+    "headword": "staff",
+    "mention": "Hannity’s staff",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     6,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s37-e2",
+    "category": "NOM",
+    "char_begin": 6673,
+    "char_end": 6680,
+    "head_index": 34,
+    "head_span": [
+     6675,
+     6680
+    ],
+    "headword": "brain",
+    "mention": "a brain",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:FAC",
+    "word_span": [
+     33,
+     35
+    ]
+   }
+  ],
+  "offset": 6478
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "The Soviet Union had an extensive biological warfare division and unfortunately for the United States, much of what was created by their labs might be intact or worse, in the hands of other nations or powers more willing to use these weapons to achieve their goals of weakening the U.S. and its allies.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e1",
+    "category": "NAM",
+    "char_begin": 6703,
+    "char_end": 6715,
+    "head_span": [
+     6710,
+     6715
+    ],
+    "headword": "Union",
+    "mention": "Soviet Union",
+    "score": "0.9947326",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     3
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e3",
+    "category": "NAM",
+    "char_begin": 6787,
+    "char_end": 6800,
+    "head_span": [
+     6794,
+     6800
+    ],
+    "headword": "States",
+    "mention": "United States",
+    "score": "0.9928364",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     15
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e4",
+    "category": "NAM",
+    "char_begin": 6981,
+    "char_end": 6985,
+    "head_span": [
+     6981,
+     6985
+    ],
+    "headword": "U.S.",
+    "mention": "U.S.",
+    "score": "0.9340486",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     51,
+     52
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e5",
+    "category": "NOM",
+    "char_begin": 6699,
+    "char_end": 6715,
+    "head_index": 2,
+    "head_span": [
+     6710,
+     6715
+    ],
+    "headword": "Union",
+    "mention": "The Soviet Union",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e6",
+    "category": "NOM",
+    "char_begin": 6720,
+    "char_end": 6760,
+    "head_index": 8,
+    "head_span": [
+     6752,
+     6760
+    ],
+    "headword": "division",
+    "mention": "an extensive biological warfare division",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     4,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e7",
+    "category": "NOM",
+    "char_begin": 6783,
+    "char_end": 6800,
+    "head_index": 14,
+    "head_span": [
+     6794,
+     6800
+    ],
+    "headword": "States",
+    "mention": "the United States",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     12,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e8",
+    "category": "NOM",
+    "char_begin": 6830,
+    "char_end": 6840,
+    "head_index": 23,
+    "head_span": [
+     6836,
+     6840
+    ],
+    "headword": "labs",
+    "mention": "their labs",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     22,
+     24
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e9",
+    "category": "NOM",
+    "char_begin": 6927,
+    "char_end": 6940,
+    "head_index": 43,
+    "head_span": [
+     6933,
+     6940
+    ],
+    "headword": "weapons",
+    "mention": "these weapons",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     42,
+     44
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e10",
+    "category": "NOM",
+    "char_begin": 6977,
+    "char_end": 6985,
+    "head_index": 51,
+    "head_span": [
+     6981,
+     6985
+    ],
+    "headword": "U.S.",
+    "mention": "the U.S.",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     50,
+     52
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e11",
+    "category": "NOM",
+    "char_begin": 6990,
+    "char_end": 7000,
+    "head_index": 54,
+    "head_span": [
+     6994,
+     7000
+    ],
+    "headword": "allies",
+    "mention": "its allies",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     53,
+     55
+    ]
+   }
+  ],
+  "offset": 6699
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s39-e0",
+    "char_begin": 7042,
+    "char_end": 7046,
+    "head_span": [
+     7042,
+     7046
+    ],
+    "mention": "1972",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "What happened to the Soviet program in 1972?",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s39-e1",
+    "category": "NAM",
+    "char_begin": 7024,
+    "char_end": 7030,
+    "head_span": [
+     7024,
+     7030
+    ],
+    "headword": "Soviet",
+    "mention": "Soviet",
+    "score": "0.9562693",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:GPE.OrganizationOfCountries.OrganizationOfCountries"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 7003
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They signed the same international treaty the U.S. signed, ostensibly banning offensive BW research, didn’t they?",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s40-e0",
+    "category": "NAM",
+    "char_begin": 7094,
+    "char_end": 7098,
+    "head_span": [
+     7094,
+     7098
+    ],
+    "headword": "U.S.",
+    "mention": "U.S.",
+    "score": "0.92376983",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     7,
+     8
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s40-e1",
+    "category": "NAM",
+    "char_begin": 7136,
+    "char_end": 7138,
+    "head_span": [
+     7136,
+     7138
+    ],
+    "headword": "BW",
+    "mention": "BW",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "DaggerKnifeSword",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:WEA.DaggerKnifeSword"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s40-e2",
+    "category": "NOM",
+    "char_begin": 7090,
+    "char_end": 7098,
+    "head_index": 7,
+    "head_span": [
+     7094,
+     7098
+    ],
+    "headword": "U.S.",
+    "mention": "the U.S.",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     6,
+     8
+    ]
+   }
+  ],
+  "offset": 7048
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e0",
+    "char_begin": 7176,
+    "char_end": 7180,
+    "head_span": [
+     7176,
+     7180
+    ],
+    "mention": "1972",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Patrick:   In 1972, just as they signed the Biological Convention, the Soviet Union expanded their program.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e1",
+    "category": "NAM",
+    "char_begin": 7162,
+    "char_end": 7169,
+    "head_span": [
+     7162,
+     7169
+    ],
+    "headword": "Patrick",
+    "mention": "Patrick",
+    "score": "0.91936016",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e2",
+    "category": "NAM",
+    "char_begin": 7206,
+    "char_end": 7227,
+    "head_span": [
+     7217,
+     7227
+    ],
+    "headword": "Convention",
+    "mention": "Biological Convention",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     12
+    ],
+    "type": "ldcOnt:LAW"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e3",
+    "category": "NAM",
+    "char_begin": 7233,
+    "char_end": 7245,
+    "head_span": [
+     7240,
+     7245
+    ],
+    "headword": "Union",
+    "mention": "Soviet Union",
+    "score": "0.9473443",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     16
+    ],
+    "type": "ldcOnt:GPE.OrganizationOfCountries.OrganizationOfCountries"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e5",
+    "category": "NOM",
+    "char_begin": 7202,
+    "char_end": 7227,
+    "head_index": 11,
+    "head_span": [
+     7217,
+     7227
+    ],
+    "headword": "Convention",
+    "mention": "the Biological Convention",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     9,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e6",
+    "category": "NOM",
+    "char_begin": 7229,
+    "char_end": 7245,
+    "head_index": 15,
+    "head_span": [
+     7240,
+     7245
+    ],
+    "headword": "Union",
+    "mention": "the Soviet Union",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     13,
+     16
+    ]
+   }
+  ],
+  "offset": 7162
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Since they didn’t have the United States to follow, they went out on their own.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s42-e0",
+    "category": "NAM",
+    "char_begin": 7297,
+    "char_end": 7310,
+    "head_span": [
+     7304,
+     7310
+    ],
+    "headword": "States",
+    "mention": "United States",
+    "score": "0.9788411",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     6,
+     8
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s42-e2",
+    "category": "NOM",
+    "char_begin": 7293,
+    "char_end": 7310,
+    "head_index": 7,
+    "head_span": [
+     7304,
+     7310
+    ],
+    "headword": "States",
+    "mention": "the United States",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     5,
+     8
+    ]
+   }
+  ],
+  "offset": 7270
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "And at that point they started concentrating on lethal agents.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7350
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They weaponized anthrax.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7415
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They weaponized smallpox.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7440
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They weaponized Yersinia pestis or plague.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s46-e0",
+    "category": "NAM",
+    "char_begin": 7482,
+    "char_end": 7490,
+    "head_span": [
+     7482,
+     7490
+    ],
+    "headword": "Yersinia",
+    "mention": "Yersinia",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     3
+    ],
+    "type": "ldcOnt:LOC.Position.Region"
+   }
+  ],
+  "nominalMentions": [],
+  "offset": 7466
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s47-e0",
+    "char_begin": 7533,
+    "char_end": 7538,
+    "head_span": [
+     7533,
+     7538
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "They weaponized Marburg virus.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s47-e1",
+    "category": "NOM",
+    "char_begin": 7525,
+    "char_end": 7538,
+    "head_index": 3,
+    "head_span": [
+     7533,
+     7538
+    ],
+    "headword": "virus",
+    "mention": "Marburg virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     2,
+     4
+    ]
+   }
+  ],
+  "offset": 7509
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "They grew it to high concentrations in guinea pigs.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7540
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s49-e0",
+    "char_begin": 7592,
+    "char_end": 7595,
+    "head_span": [
+     7592,
+     7595
+    ],
+    "mention": "Now",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Now, it takes a lot of guinea pigs to produce the amount of dry powder they had on hand when supposedly their program came to an end.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s49-e1",
+    "category": "NOM",
+    "char_begin": 7718,
+    "char_end": 7724,
+    "head_index": 27,
+    "head_span": [
+     7721,
+     7724
+    ],
+    "headword": "end",
+    "mention": "an end",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     26,
+     28
+    ]
+   }
+  ],
+  "offset": 7592
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s50-e0",
+    "char_begin": 7793,
+    "char_end": 7798,
+    "head_span": [
+     7793,
+     7798
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "They produced a very, very effective, scary product with Marburg virus.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s50-e1",
+    "category": "NAM",
+    "char_begin": 7785,
+    "char_end": 7792,
+    "head_span": [
+     7785,
+     7792
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s50-e2",
+    "category": "NOM",
+    "char_begin": 7742,
+    "char_end": 7779,
+    "head_index": 9,
+    "head_span": [
+     7772,
+     7779
+    ],
+    "headword": "product",
+    "mention": "a very, very effective, scary product",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:COM",
+    "subtype": "ldcOnt:COM",
+    "type": "ldcOnt:COM",
+    "word_span": [
+     2,
+     10
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s50-e3",
+    "category": "NOM",
+    "char_begin": 7785,
+    "char_end": 7798,
+    "head_index": 12,
+    "head_span": [
+     7793,
+     7798
+    ],
+    "headword": "virus",
+    "mention": "Marburg virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     11,
+     13
+    ]
+   }
+  ],
+  "offset": 7728
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "NOVA: Why is that so scary?",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7802
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s52-e0",
+    "char_begin": 7857,
+    "char_end": 7862,
+    "head_span": [
+     7857,
+     7862
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Patrick: Because Marburg virus is lethal.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s52-e1",
+    "category": "NAM",
+    "char_begin": 7832,
+    "char_end": 7839,
+    "head_span": [
+     7832,
+     7839
+    ],
+    "headword": "Patrick",
+    "mention": "Patrick",
+    "score": "0.9845048",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:PER.ProfessionalPosition.Minister"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s52-e2",
+    "category": "NAM",
+    "char_begin": 7849,
+    "char_end": 7856,
+    "head_span": [
+     7849,
+     7856
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     4
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s52-e3",
+    "category": "NOM",
+    "char_begin": 7857,
+    "char_end": 7862,
+    "head_index": 4,
+    "head_span": [
+     7857,
+     7862
+    ],
+    "headword": "virus",
+    "mention": "virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     4,
+     5
+    ]
+   }
+  ],
+  "offset": 7832
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e0",
+    "char_begin": 7888,
+    "char_end": 7891,
+    "head_span": [
+     7888,
+     7891
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e1",
+    "char_begin": 7895,
+    "char_end": 7898,
+    "head_span": [
+     7895,
+     7898
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e2",
+    "char_begin": 7899,
+    "char_end": 7904,
+    "head_span": [
+     7899,
+     7904
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "It only takes one to two virus particles to cause an infection of the respiratory tract.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e3",
+    "category": "NOM",
+    "char_begin": 7940,
+    "char_end": 7961,
+    "head_index": 15,
+    "head_span": [
+     7956,
+     7961
+    ],
+    "headword": "tract",
+    "mention": "the respiratory tract",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     13,
+     16
+    ]
+   }
+  ],
+  "offset": 7874
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "There is no vaccine.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 7963
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s55-e0",
+    "char_begin": 7988,
+    "char_end": 7992,
+    "head_span": [
+     7988,
+     7992
+    ],
+    "mention": "once",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s55-e1",
+    "char_begin": 8010,
+    "char_end": 8017,
+    "head_span": [
+     8010,
+     8017
+    ],
+    "mention": "disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s55-e2",
+    "char_begin": 8033,
+    "char_end": 8036,
+    "head_span": [
+     8033,
+     8036
+    ],
+    "mention": "one",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "And once you contract the disease, there is only one way to go, and that’s death.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s55-e3",
+    "category": "NOM",
+    "char_begin": 8006,
+    "char_end": 8017,
+    "head_index": 5,
+    "head_span": [
+     8010,
+     8017
+    ],
+    "headword": "disease",
+    "mention": "the disease",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     4,
+     6
+    ]
+   }
+  ],
+  "offset": 7984
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "So it is very scary.",
+  "namedMentions": [],
+  "nominalMentions": [],
+  "offset": 8066
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e0",
+    "char_begin": 8101,
+    "char_end": 8106,
+    "head_span": [
+     8101,
+     8106
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Hemorrhagic fever viruses have been weaponized by the former Soviet Union, Russia, and the United States.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e2",
+    "category": "NAM",
+    "char_begin": 8150,
+    "char_end": 8162,
+    "head_span": [
+     8157,
+     8162
+    ],
+    "headword": "Union",
+    "mention": "Soviet Union",
+    "score": "0.99481636",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     11
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e4",
+    "category": "NAM",
+    "char_begin": 8164,
+    "char_end": 8170,
+    "head_span": [
+     8164,
+     8170
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.9944395",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e5",
+    "category": "NAM",
+    "char_begin": 8180,
+    "char_end": 8193,
+    "head_span": [
+     8187,
+     8193
+    ],
+    "headword": "States",
+    "mention": "United States",
+    "score": "0.99218786",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     16,
+     18
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e7",
+    "category": "NOM",
+    "char_begin": 8089,
+    "char_end": 8114,
+    "head_index": 2,
+    "head_span": [
+     8107,
+     8114
+    ],
+    "headword": "viruses",
+    "mention": "Hemorrhagic fever viruses",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e8",
+    "category": "NOM",
+    "char_begin": 8139,
+    "char_end": 8162,
+    "head_index": 10,
+    "head_span": [
+     8157,
+     8162
+    ],
+    "headword": "Union",
+    "mention": "the former Soviet Union",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e9",
+    "category": "NOM",
+    "char_begin": 8176,
+    "char_end": 8193,
+    "head_index": 17,
+    "head_span": [
+     8187,
+     8193
+    ],
+    "headword": "States",
+    "mention": "the United States",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     15,
+     18
+    ]
+   }
+  ],
+  "offset": 8089
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s58-e0",
+    "char_begin": 8225,
+    "char_end": 8230,
+    "head_span": [
+     8225,
+     8230
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "There are reports that yellow fever may have been weaponized by North Korea.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s58-e1",
+    "category": "NOM",
+    "char_begin": 8218,
+    "char_end": 8230,
+    "head_index": 5,
+    "head_span": [
+     8225,
+     8230
+    ],
+    "headword": "fever",
+    "mention": "yellow fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     4,
+     6
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s58-e2",
+    "category": "NOM",
+    "char_begin": 8259,
+    "char_end": 8270,
+    "head_index": 12,
+    "head_span": [
+     8265,
+     8270
+    ],
+    "headword": "Korea",
+    "mention": "North Korea",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     11,
+     13
+    ]
+   }
+  ],
+  "offset": 8195
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e0",
+    "char_begin": 8345,
+    "char_end": 8350,
+    "head_span": [
+     8345,
+     8350
+    ],
+    "mention": "Ebola",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e1",
+    "char_begin": 8426,
+    "char_end": 8430,
+    "head_span": [
+     8426,
+     8430
+    ],
+    "mention": "1992",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "The former Soviet Union and Russia produced large quantities of Marburg, Ebola, Lassa, and New World arenaviruses (specifically, Junin and Machupo) until 1992.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e3",
+    "category": "NAM",
+    "char_begin": 8283,
+    "char_end": 8295,
+    "head_span": [
+     8290,
+     8295
+    ],
+    "headword": "Union",
+    "mention": "Soviet Union",
+    "score": "0.99478996",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     2,
+     4
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e5",
+    "category": "NAM",
+    "char_begin": 8300,
+    "char_end": 8306,
+    "head_span": [
+     8300,
+     8306
+    ],
+    "headword": "Russia",
+    "mention": "Russia",
+    "score": "0.99566615",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     5,
+     6
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e6",
+    "category": "NAM",
+    "char_begin": 8336,
+    "char_end": 8343,
+    "head_span": [
+     8336,
+     8343
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     10,
+     11
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e8",
+    "category": "NAM",
+    "char_begin": 8352,
+    "char_end": 8357,
+    "head_span": [
+     8352,
+     8357
+    ],
+    "headword": "Lassa",
+    "mention": "Lassa",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     14,
+     15
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e9",
+    "category": "NAM",
+    "char_begin": 8401,
+    "char_end": 8406,
+    "head_span": [
+     8401,
+     8406
+    ],
+    "headword": "Junin",
+    "mention": "Junin",
+    "score": "0.7036966",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     23,
+     24
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e10",
+    "category": "NAM",
+    "char_begin": 8411,
+    "char_end": 8418,
+    "head_span": [
+     8411,
+     8418
+    ],
+    "headword": "Machupo",
+    "mention": "Machupo",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     25,
+     26
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e11",
+    "category": "NOM",
+    "char_begin": 8272,
+    "char_end": 8295,
+    "head_index": 3,
+    "head_span": [
+     8290,
+     8295
+    ],
+    "headword": "Union",
+    "mention": "The former Soviet Union",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     0,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e12",
+    "category": "NOM",
+    "char_begin": 8336,
+    "char_end": 8385,
+    "head_index": 19,
+    "head_span": [
+     8373,
+     8385
+    ],
+    "headword": "arenaviruses",
+    "mention": "Marburg, Ebola, Lassa, and New World arenaviruses",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     10,
+     20
+    ]
+   }
+  ],
+  "offset": 8272
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e0",
+    "char_begin": 8505,
+    "char_end": 8510,
+    "head_span": [
+     8505,
+     8510
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Soviet Union researchers quantified the aerosol infectivity of Marburg virus for monkeys, determining that no more than a few virions are required to cause infection.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e2",
+    "category": "NAM",
+    "char_begin": 8434,
+    "char_end": 8446,
+    "head_span": [
+     8441,
+     8446
+    ],
+    "headword": "Union",
+    "mention": "Soviet Union",
+    "score": "0.9961887",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     2
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e3",
+    "category": "NAM",
+    "char_begin": 8497,
+    "char_end": 8504,
+    "head_span": [
+     8497,
+     8504
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:ORG"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e4",
+    "category": "NOM",
+    "char_begin": 8434,
+    "char_end": 8458,
+    "head_index": 2,
+    "head_span": [
+     8447,
+     8458
+    ],
+    "headword": "researchers",
+    "mention": "Soviet Union researchers",
+    "score": 0.9,
+    "subsubtype": "Scientist",
+    "subtype": "ProfessionalPosition",
+    "type": "ldcOnt:PER.ProfessionalPosition.Scientist",
+    "word_span": [
+     0,
+     3
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e5",
+    "category": "NOM",
+    "char_begin": 8497,
+    "char_end": 8510,
+    "head_index": 9,
+    "head_span": [
+     8505,
+     8510
+    ],
+    "headword": "virus",
+    "mention": "Marburg virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     8,
+     10
+    ]
+   }
+  ],
+  "offset": 8434
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e0",
+    "char_begin": 8608,
+    "char_end": 8613,
+    "head_span": [
+     8608,
+     8613
+    ],
+    "mention": "fever",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e1",
+    "char_begin": 8745,
+    "char_end": 8749,
+    "head_span": [
+     8745,
+     8749
+    ],
+    "mention": "1969",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "Yellow fever and Rift Valley fever viruses were developed as weapons by the US offensive biological weapons program prior to its termination in 1969.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e2",
+    "category": "NAM",
+    "char_begin": 8618,
+    "char_end": 8629,
+    "head_span": [
+     8623,
+     8629
+    ],
+    "headword": "Valley",
+    "mention": "Rift Valley",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     3,
+     5
+    ],
+    "type": "ldcOnt:LOC.Position.Region"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e4",
+    "category": "NAM",
+    "char_begin": 8677,
+    "char_end": 8679,
+    "head_span": [
+     8677,
+     8679
+    ],
+    "headword": "US",
+    "mention": "US",
+    "score": "0.993658",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     13,
+     14
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e6",
+    "category": "NOM",
+    "char_begin": 8601,
+    "char_end": 8613,
+    "head_index": 1,
+    "head_span": [
+     8608,
+     8613
+    ],
+    "headword": "fever",
+    "mention": "Yellow fever",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     0,
+     2
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e7",
+    "category": "NOM",
+    "char_begin": 8618,
+    "char_end": 8643,
+    "head_index": 6,
+    "head_span": [
+     8636,
+     8643
+    ],
+    "headword": "viruses",
+    "mention": "Rift Valley fever viruses",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     3,
+     7
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e8",
+    "category": "NOM",
+    "char_begin": 8662,
+    "char_end": 8669,
+    "head_index": 10,
+    "head_span": [
+     8662,
+     8669
+    ],
+    "headword": "weapons",
+    "mention": "weapons",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     10,
+     11
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s61-e9",
+    "category": "NOM",
+    "char_begin": 8726,
+    "char_end": 8741,
+    "head_index": 21,
+    "head_span": [
+     8730,
+     8741
+    ],
+    "headword": "termination",
+    "mention": "its termination",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:GPE.Country.Country",
+    "subtype": "ldcOnt:GPE.Country.Country",
+    "type": "ldcOnt:GPE.Country.Country",
+    "word_span": [
+     20,
+     22
+    ]
+   }
+  ],
+  "offset": 8601
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e0",
+    "char_begin": 8830,
+    "char_end": 8835,
+    "head_span": [
+     8830,
+     8835
+    ],
+    "mention": "Ebola",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e1",
+    "char_begin": 8836,
+    "char_end": 8841,
+    "head_span": [
+     8836,
+     8841
+    ],
+    "mention": "virus",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "The Japanese terrorist cult Aum Shinrikyo unsuccessfully attempted to obtain Ebola virus as part of an effort to create biological weapons.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e3",
+    "category": "NAM",
+    "char_begin": 8757,
+    "char_end": 8765,
+    "head_span": [
+     8757,
+     8765
+    ],
+    "headword": "Japanese",
+    "mention": "Japanese",
+    "score": "0.99018013",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     1,
+     2
+    ],
+    "type": "ldcOnt:GPE"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e4",
+    "category": "NAM",
+    "char_begin": 8781,
+    "char_end": 8784,
+    "head_span": [
+     8781,
+     8784
+    ],
+    "headword": "Aum",
+    "mention": "Aum",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     5
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e5",
+    "category": "NAM",
+    "char_begin": 8781,
+    "char_end": 8794,
+    "head_span": [
+     8785,
+     8794
+    ],
+    "headword": "Shinrikyo",
+    "mention": "Aum Shinrikyo",
+    "score": "0.988009",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     4,
+     6
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e6",
+    "category": "NOM",
+    "char_begin": 8830,
+    "char_end": 8841,
+    "head_index": 11,
+    "head_span": [
+     8836,
+     8841
+    ],
+    "headword": "virus",
+    "mention": "Ebola virus",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     10,
+     12
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e7",
+    "category": "NOM",
+    "char_begin": 8873,
+    "char_end": 8891,
+    "head_index": 20,
+    "head_span": [
+     8884,
+     8891
+    ],
+    "headword": "weapons",
+    "mention": "biological weapons",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     19,
+     21
+    ]
+   }
+  ],
+  "offset": 8753
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s63-e0",
+    "char_begin": 8996,
+    "char_end": 9001,
+    "head_span": [
+     8996,
+     9001
+    ],
+    "mention": "Ebola",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "Several studies have demonstrated successful infection of nonhuman primates by aerosol preparations of Ebola, Marburg, Lassa, and New World arena-viruses.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s63-e2",
+    "category": "NAM",
+    "char_begin": 9003,
+    "char_end": 9010,
+    "head_span": [
+     9003,
+     9010
+    ],
+    "headword": "Marburg",
+    "mention": "Marburg",
+    "score": "0.6002183",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     15,
+     16
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s63-e3",
+    "category": "NAM",
+    "char_begin": 9012,
+    "char_end": 9017,
+    "head_span": [
+     9012,
+     9017
+    ],
+    "headword": "Lassa",
+    "mention": "Lassa",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s63-e5",
+    "category": "NOM",
+    "char_begin": 8951,
+    "char_end": 8968,
+    "head_index": 8,
+    "head_span": [
+     8960,
+     8968
+    ],
+    "headword": "primates",
+    "mention": "nonhuman primates",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     7,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s63-e6",
+    "category": "NOM",
+    "char_begin": 9023,
+    "char_end": 9046,
+    "head_index": 22,
+    "head_span": [
+     9033,
+     9046
+    ],
+    "headword": "arena-viruses",
+    "mention": "New World arena-viruses",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     20,
+     23
+    ]
+   }
+  ],
+  "offset": 8893
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Arguments asserting that the absence of effective antiviral therapy and vaccines would make these viruses too dangerous to develop as weapons are not supported by the historical record.",
+  "namedMentions": [],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s64-e0",
+    "category": "NOM",
+    "char_begin": 9142,
+    "char_end": 9155,
+    "head_index": 14,
+    "head_span": [
+     9148,
+     9155
+    ],
+    "headword": "viruses",
+    "mention": "these viruses",
+    "score": 0.9,
+    "subsubtype": "ldcOnt:MHI.Disease.Disease",
+    "subtype": "ldcOnt:MHI.Disease.Disease",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     13,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s64-e1",
+    "category": "NOM",
+    "char_begin": 9184,
+    "char_end": 9191,
+    "head_index": 20,
+    "head_span": [
+     9184,
+     9191
+    ],
+    "headword": "weapons",
+    "mention": "weapons",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:WEA",
+    "word_span": [
+     20,
+     21
+    ]
+   }
+  ],
+  "offset": 9050
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e0",
+    "char_begin": 9241,
+    "char_end": 9245,
+    "head_span": [
+     9241,
+     9245
+    ],
+    "mention": "1999",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e1",
+    "char_begin": 9263,
+    "char_end": 9270,
+    "head_span": [
+     9263,
+     9270
+    ],
+    "mention": "Disease",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e2",
+    "char_begin": 9395,
+    "char_end": 9402,
+    "head_span": [
+     9395,
+     9402
+    ],
+    "mention": "illness",
+    "score": "0.9",
+    "type": "ldcOnt:MHI.Disease.Disease"
+   }
+  ],
+  "inputSentence": "In 1999, the Centers for Disease Control and Prevention (CDC) classified the HFVs as category A bioweapon agents, based on the potential to cause widespread illness and death, ease of dissemination or person-to-person transmission, potential for major public health impact, and requirement of special action for public health preparedness.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e4",
+    "category": "NAM",
+    "char_begin": 9251,
+    "char_end": 9293,
+    "head_span": [
+     9283,
+     9293
+    ],
+    "headword": "Prevention",
+    "mention": "Centers for Disease Control and Prevention",
+    "score": "0.984063",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     4,
+     10
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e5",
+    "category": "NAM",
+    "char_begin": 9295,
+    "char_end": 9298,
+    "head_span": [
+     9295,
+     9298
+    ],
+    "headword": "CDC",
+    "mention": "CDC",
+    "score": "0.7085962",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:ORG.Government.Agency"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e7",
+    "category": "NOM",
+    "char_begin": 9247,
+    "char_end": 9258,
+    "head_index": 4,
+    "head_span": [
+     9251,
+     9258
+    ],
+    "headword": "Centers",
+    "mention": "the Centers",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     3,
+     5
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e8",
+    "category": "NOM",
+    "char_begin": 9384,
+    "char_end": 9402,
+    "head_index": 29,
+    "head_span": [
+     9395,
+     9402
+    ],
+    "headword": "illness",
+    "mention": "widespread illness",
+    "score": 0.9,
+    "subsubtype": "Disease",
+    "subtype": "MHI",
+    "type": "ldcOnt:MHI.Disease.Disease",
+    "word_span": [
+     28,
+     30
+    ]
+   }
+  ],
+  "offset": 9238
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "AND THEN THERE'S THIS:  BREAKING: DHS Search of Mobile Home Park Linked to Missing Liberian Muslims?",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e0",
+    "category": "NAM",
+    "char_begin": 9614,
+    "char_end": 9617,
+    "head_span": [
+     9614,
+     9617
+    ],
+    "headword": "DHS",
+    "mention": "DHS",
+    "score": "0.60705996",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     8,
+     9
+    ],
+    "type": "ldcOnt:ORG"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e2",
+    "category": "NAM",
+    "char_begin": 9628,
+    "char_end": 9634,
+    "head_span": [
+     9628,
+     9634
+    ],
+    "headword": "Mobile",
+    "mention": "Mobile",
+    "score": "0.8217305",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     12
+    ],
+    "type": "ldcOnt:LOC"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e1",
+    "category": "NAM",
+    "char_begin": 9628,
+    "char_end": 9644,
+    "head_span": [
+     9640,
+     9644
+    ],
+    "headword": "Park",
+    "mention": "Mobile Home Park",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     11,
+     14
+    ],
+    "type": "ldcOnt:FAC.Building"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e3",
+    "category": "NAM",
+    "char_begin": 9663,
+    "char_end": 9671,
+    "head_span": [
+     9663,
+     9671
+    ],
+    "headword": "Liberian",
+    "mention": "Liberian",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.Country.Country"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e4",
+    "category": "NOM",
+    "char_begin": 9663,
+    "char_end": 9679,
+    "head_index": 18,
+    "head_span": [
+     9672,
+     9679
+    ],
+    "headword": "Muslims",
+    "mention": "Liberian Muslims",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     17,
+     19
+    ]
+   }
+  ],
+  "offset": 9580
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e0",
+    "char_begin": 9703,
+    "char_end": 9720,
+    "head_span": [
+     9716,
+     9720
+    ],
+    "mention": "earlier this week",
+    "score": "0.9",
+    "type": "aida:date_time"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e1",
+    "char_begin": 9727,
+    "char_end": 9730,
+    "head_span": [
+     9727,
+     9730
+    ],
+    "mention": "two",
+    "score": "0.9",
+    "type": "ldcOnt:VAL"
+   }
+  ],
+  "inputSentence": "Gotnews.com reported earlier this week about two Muslim men who were missing from a Liberian freighter’s passenger manifest.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e2",
+    "category": "NAM",
+    "char_begin": 9682,
+    "char_end": 9693,
+    "head_span": [
+     9682,
+     9693
+    ],
+    "headword": "Gotnews.com",
+    "mention": "Gotnews.com",
+    "score": "0.9622405",
+    "subsubtype": "n/a",
+    "subtype": "CommercialOrganization",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:ORG.CommercialOrganization"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e3",
+    "category": "NOM",
+    "char_begin": 9727,
+    "char_end": 9741,
+    "head_index": 8,
+    "head_span": [
+     9738,
+     9741
+    ],
+    "headword": "men",
+    "mention": "two Muslim men",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     6,
+     9
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e4",
+    "category": "NOM",
+    "char_begin": 9764,
+    "char_end": 9786,
+    "head_index": 15,
+    "head_span": [
+     9775,
+     9784
+    ],
+    "headword": "freighter",
+    "mention": "a Liberian freighter’s",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "Watercraft",
+    "type": "ldcOnt:VEH.Watercraft",
+    "word_span": [
+     13,
+     17
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e5",
+    "category": "NOM",
+    "char_begin": 9764,
+    "char_end": 9796,
+    "head_index": 17,
+    "head_span": [
+     9787,
+     9796
+    ],
+    "headword": "passenger",
+    "mention": "a Liberian freighter’s passenger",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:PER",
+    "word_span": [
+     13,
+     18
+    ]
+   }
+  ],
+  "offset": 9682
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [],
+  "inputSentence": "Our law enforcement source confirms that this search by DHS of a mobile home park in the Cheasepeake, VA area is related to the missing Muslim men.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e0",
+    "category": "NAM",
+    "char_begin": 9864,
+    "char_end": 9867,
+    "head_span": [
+     9864,
+     9867
+    ],
+    "headword": "DHS",
+    "mention": "DHS",
+    "score": "0.63423795",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     9,
+     10
+    ],
+    "type": "ldcOnt:ORG.Government.Agency"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e2",
+    "category": "NAM",
+    "char_begin": 9897,
+    "char_end": 9908,
+    "head_span": [
+     9897,
+     9908
+    ],
+    "headword": "Cheasepeake",
+    "mention": "Cheasepeake",
+    "score": "0.6",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     17,
+     18
+    ],
+    "type": "ldcOnt:GPE.UrbanArea"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e4",
+    "category": "NAM",
+    "char_begin": 9910,
+    "char_end": 9912,
+    "head_span": [
+     9910,
+     9912
+    ],
+    "headword": "VA",
+    "mention": "VA",
+    "score": "0.691691",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     19,
+     20
+    ],
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e6",
+    "category": "NOM",
+    "char_begin": 9808,
+    "char_end": 9834,
+    "head_index": 3,
+    "head_span": [
+     9828,
+     9834
+    ],
+    "headword": "source",
+    "mention": "Our law enforcement source",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     0,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e7",
+    "category": "NOM",
+    "char_begin": 9871,
+    "char_end": 9889,
+    "head_index": 14,
+    "head_span": [
+     9885,
+     9889
+    ],
+    "headword": "park",
+    "mention": "a mobile home park",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     11,
+     15
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e8",
+    "category": "NOM",
+    "char_begin": 9910,
+    "char_end": 9917,
+    "head_index": 20,
+    "head_span": [
+     9913,
+     9917
+    ],
+    "headword": "area",
+    "mention": "VA area",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     19,
+     21
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e9",
+    "category": "NOM",
+    "char_begin": 9932,
+    "char_end": 9954,
+    "head_index": 27,
+    "head_span": [
+     9951,
+     9954
+    ],
+    "headword": "men",
+    "mention": "the missing Muslim men",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     24,
+     28
+    ]
+   }
+  ],
+  "offset": 9808
+ },
+ {
+  "docID": "JC002YGFT.ltf.xml",
+  "fillerMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e0",
+    "char_begin": 10062,
+    "char_end": 10076,
+    "head_span": [
+     10069,
+     10076
+    ],
+    "mention": "Friday morning",
+    "score": "0.9",
+    "type": "aida:date_time"
+   }
+  ],
+  "inputSentence": "WAVY.COM reports:  Department of Homeland Security executed search warrants in a Chesapeake trailer park Friday morning.",
+  "namedMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e1",
+    "category": "NAM",
+    "char_begin": 9957,
+    "char_end": 9965,
+    "head_span": [
+     9957,
+     9965
+    ],
+    "headword": "WAVY.COM",
+    "mention": "WAVY.COM",
+    "score": "0.7193238",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     0,
+     1
+    ],
+    "type": "ldcOnt:GPE.UrbanArea.City"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e2",
+    "category": "NAM",
+    "char_begin": 9976,
+    "char_end": 10007,
+    "head_span": [
+     9999,
+     10007
+    ],
+    "headword": "Security",
+    "mention": "Department of Homeland Security",
+    "score": "0.9867115",
+    "subsubtype": "n/a",
+    "subtype": "Government",
+    "token_span": [
+     3,
+     7
+    ],
+    "type": "ldcOnt:ORG.Government"
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e3",
+    "category": "NAM",
+    "char_begin": 10038,
+    "char_end": 10048,
+    "head_span": [
+     10038,
+     10048
+    ],
+    "headword": "Chesapeake",
+    "mention": "Chesapeake",
+    "score": "0.8889206",
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "token_span": [
+     12,
+     13
+    ],
+    "type": "ldcOnt:GPE.ProvinceState.ProvinceState"
+   }
+  ],
+  "nominalMentions": [
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e5",
+    "category": "NOM",
+    "char_begin": 9976,
+    "char_end": 9986,
+    "head_index": 3,
+    "head_span": [
+     9976,
+     9986
+    ],
+    "headword": "Department",
+    "mention": "Department",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:ORG",
+    "word_span": [
+     3,
+     4
+    ]
+   },
+   {
+    "@id": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e6",
+    "category": "NOM",
+    "char_begin": 10036,
+    "char_end": 10061,
+    "head_index": 14,
+    "head_span": [
+     10057,
+     10061
+    ],
+    "headword": "park",
+    "mention": "a Chesapeake trailer park",
+    "score": 0.9,
+    "subsubtype": "n/a",
+    "subtype": "n/a",
+    "type": "ldcOnt:LOC",
+    "word_span": [
+     11,
+     15
+    ]
+   }
+  ],
+  "offset": 9957
+ }
+]

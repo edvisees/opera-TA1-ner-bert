@@ -1,0 +1,74 @@
+T0	per_politician_unspecified 1 18	Diputado opositor
+T1	per_politician_headofgovernment 61 67	Maduro
+T2	sid_political_opposition 10 18	opositor
+T3	per_politician_headofgovernment 130 152	el presidente del país
+T4	gpe_country_country 80 89	Venezuela
+T5	gpe_country_country 148 152	país
+T6	per_politician_headofgovernment 154 168	Nicolás Maduro
+T7	fac_way_street 268 325	la zona que fue atacada con drones cargados de explosivos
+T8	veh_aircraft_drone 296 325	drones cargados de explosivos
+T9	loc_position_crimescene 432 453	lugar de la explosión
+T10	fac_way_street 220 235	avenida Bolívar
+T11	fac_way_street 342 361	espacio para la paz
+T12	gpe_country_country 256 266	venezolana
+T13	per_unspecified_unspecified 393 453	los niños de los edificios cercanos al lugar de la explosión
+T14	per_unspecified_unspecified 455 460	Ellos
+T15	veh_aircraft_drone 517 527	los drones
+T16	fac_building_governmentbuilding 611 630	Palacio de Gobierno
+T17	org_commercialorganization_unspecified 644 653	la prensa
+T18	per_politician_unspecified 808 834	diputado opositor detenido
+T19	per_professionalposition_minister 740 755	Jorge Rodríguez
+T20	gpe_country_country 712 722	venezolano
+T21	per_professionalposition_minister 700 738	El ministro venezolano de Comunicación
+T22	sid_political_opposition 817 825	opositor
+T23	per_politician_unspecified 837 851	Juan Requesens
+T24	per_unspecified_unspecified 875 888	otro detenido
+T25	per_unspecified_unspecified 988 1000	Julio Borges
+T26	veh_aircraft_drone 941 951	los drones
+T27	sid_political_opposition 979 987	opositor
+T28	per_unspecified_unspecified 969 987	referente opositor
+T29	gpe_country_country 1195 1203	Colombia
+T30	gpe_country_country 1205 1209	país
+T31	gpe_country_country 1210 1214	cuyo
+T32	per_politician_headofgovernment 1210 1231	cuyo nuevo presidente
+T33	per_politician_headofgovernment 1233 1243	Iván Duque
+T34	per_politician_headofgovernment 1248 1250	se
+T35	per_unspecified_unspecified 1114 1126	Julio Borges
+T36	sid_political_opposition 1178 1186	opositor
+T37	per_unspecified_unspecified 1175 1186	el opositor
+T38	gpe_country_country 1324 1332	Colombia
+T39	per_unspecified_unspecified 1351 1372	otros tres sindicados
+T40	per_unspecified_unspecified 1378 1438	responsables de la operación de uno de los drones explosivos
+T41	veh_aircraft_drone 1410 1438	uno de los drones explosivos
+T42	veh_aircraft_drone 1417 1438	los drones explosivos
+T43	per_unspecified_unspecified 1480 1493	los detenidos
+T44	per_politician_headofgovernment 1548 1561	el presidente
+T45	per_politician_headofgovernment 1573 1575	su
+T46	per_professionalposition_minister 1440 1467	El ministro de Comunicación
+T47	conflict_attack_bombing 45 53	atentado
+E0	conflict_attack_bombing:T47 attacker:T0 target:T1
+T48	conflict_attack_bombing 114 122	atentado
+E1	conflict_attack_bombing:T48 target:T3 place:T4
+T49	conflict_attack_bombing 284 291	atacada
+E2	conflict_attack_bombing:T49 place:T7 instrument:T8
+T50	conflict_attack_bombing 444 453	explosión
+E3	conflict_attack_bombing:T50 place:T9
+T51	contact_mediastatement_broadcast 634 653	ofrecía a la prensa
+E4	contact_mediastatement_broadcast:T51 place:T16 recipient:T17
+T52	conflict_attack_bombing 690 698	atentado
+E5	conflict_attack_bombing:T52
+T53	contact_mediastatement_broadcast 785 794	confesión
+E6	contact_mediastatement_broadcast:T53 communicator:T18
+T54	justice_arrestjaildetain_arrestjaildetain 826 834	detenido
+E7	justice_arrestjaildetain_arrestjaildetain:T54 detainee:T18
+T55	contact_mediastatement_broadcast 852 860	confirmó
+E8	contact_mediastatement_broadcast:T55 communicator:T23
+T56	justice_arrestjaildetain_arrestjaildetain 880 888	detenido
+E9	justice_arrestjaildetain_arrestjaildetain:T56 detainee:T24
+T57	justice_arrestjaildetain_arrestjaildetain 1484 1493	detenidos
+E10	justice_arrestjaildetain_arrestjaildetain:T57 detainee:T43
+R1	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T2 Arg2:T0
+R2	organizationaffiliation_employmentmembership_employment Arg1:T20 Arg2:T21
+R3	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T22 Arg2:T18
+R4	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T27 Arg2:T28
+R5	generalaffiliation_memberoriginreligionethnicity_unspecified Arg1:T36 Arg2:T37

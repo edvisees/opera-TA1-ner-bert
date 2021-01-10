@@ -1,0 +1,414 @@
+origin	entity_type	entityid	name	asciiname	latitude	longitude	feature_class	feature_class_name	feature_code	feature_code_name	feature_code_description	country_code	country_code_name	cc2	admin1_code	admin1_code_name	admin2_code	admin2_code_name	admin3_code	admin4_code	population	elevation	dem	timezone	modification_date	per_gpe_loc_of_association	per_title_or_position	per_org_of_association	per_role_in_incident	per_year_of_birth	per_year_of_death	per_gender	per_family_member	note	aim	org_date_established	date_established_note	org_website	org_gpe_loc_of_association	org_members_employees_per	org_parent_org	executive_board_members	jurisdiction	trusteeship_council	national_societies	external_link
+AIDA_AUG_PHASE1	FAC	80000001	Mykhaylo Chechetov's home																																											
+AIDA_AUG_PHASE1	FAC	80000002	Oleg Kalashnikov's home																																											
+AIDA_AUG_PHASE1	FAC	80000003	Anti-Maidan camp																																											
+AIDA_AUG_PHASE1	FAC	80000004	Cathedral Square (a.k.a. Sobornaya Square)																																											
+AIDA_AUG_PHASE1	FAC	80000005	Grecheskaya Square (a.k.a. Hretska Square, Hretska Ploshcha, Greek Square)																																											
+AIDA_AUG_PHASE1	FAC	80000006	Kulikovo Field (a.k.a. Kulykove Pole)																																											
+AIDA_AUG_PHASE1	FAC	80000007	Oleksandrovsky Avenue (a.k.a. Aleksandrovsky Avenue, Hretska Street)																																											
+AIDA_AUG_PHASE1	FAC	80000008	Trade Unions House (a.k.a. Trade Unions Building)																																											
+AIDA_AUG_PHASE1	FAC	80000010	Kramatorsk city council building																																											
+AIDA_AUG_PHASE1	FAC	80000011	Kramatorsk police station																																											
+AIDA_AUG_PHASE1	FAC	80000012	Pro-Russian Checkpoint																																											
+AIDA_AUG_PHASE1	FAC	80000013	Security Service of Ukraine (SBU) building																																											
+AIDA_AUG_PHASE1	FAC	80000014	Sloviansk Police Headquarters																																											
+AIDA_AUG_PHASE1	FAC	80000015	Television tower																																											
+AIDA_AUG_PHASE1	FAC	80000016	Conservatory Building																																											
+AIDA_AUG_PHASE1	FAC	80000017	Globus Shopping Center																																											
+AIDA_AUG_PHASE1	FAC	80000018	Hotel Ukrayina (a.k.a. Ukrainia Hotel)																																											
+AIDA_AUG_PHASE1	FAC	80000019	Instytutska Street																																											
+AIDA_AUG_PHASE1	FAC	80000020	Maidan Nezalezhnosti (a.k.a. Maidan, Independence Square)																																											
+AIDA_AUG_PHASE1	FAC	80000021	Mariinsky Park																																											
+AIDA_AUG_PHASE1	FAC	80000022	October Palace																																											
+AIDA_AUG_PHASE1	FAC	80000023	Verkhovna Rada building																																											
+AIDA_AUG_PHASE1	FAC	80000024	Artemivsk highway																																											
+AIDA_AUG_PHASE1	FAC	80000025	Russia-Ukraine Border																																											
+AIDA_AUG_PHASE1	GPE	80000046	Donetsk People's Republic (a.k.a. DPR, DNR)																																											
+AIDA_AUG_PHASE1	GPE	80000054	New Russia (a.k.a. Novorosssiya)																																											
+AIDA_AUG_PHASE1	GPE	80000056	Krasnoarmeisk (a.k.a. Krasnoarmeysk, Pokrovsk)																																											
+AIDA_AUG_PHASE1	GPE	80000058	Luhansk People's Republic (a.k.a. LPR, LNR)																																											
+AIDA_AUG_PHASE1	LOC	80000062	Eastern Ukraine																																											
+AIDA_AUG_PHASE1	ORG	80000063	Government of Ukraine																																											
+AIDA_AUG_PHASE1	ORG	80000064	Mirotvorets Centre																																											
+AIDA_AUG_PHASE1	ORG	80000065	Party of Regions (a.k.a. Partia Regionov, Partiya Regionov)																																											
+AIDA_AUG_PHASE1	ORG	80000066	Security Service of Ukraine (a.k.a. SSU, SBU)																																											
+AIDA_AUG_PHASE1	ORG	80000067	State Property Fund of Ukraine																																											
+AIDA_AUG_PHASE1	ORG	80000068	Ukrainian Insurgent Army (a.k.a. UPA)																																											
+AIDA_AUG_PHASE1	ORG	80000069	Central Intelligence Agency (a.k.a. CIA)																																											
+AIDA_AUG_PHASE1	ORG	80000070	FC Chornomorets Odesa																																											
+AIDA_AUG_PHASE1	ORG	80000071	FC Metalist Kharkiv																																											
+AIDA_AUG_PHASE1	ORG	80000072	May 2 Group (a.k.a. Group of May 2)																																											
+AIDA_AUG_PHASE1	ORG	80000073	Odessa Police																																											
+AIDA_AUG_PHASE1	ORG	80000074	Odesskaya Druzhina (a.k.a. Odesska Druzhyna)																																											
+AIDA_AUG_PHASE1	ORG	80000075	Russian government																																											
+AIDA_AUG_PHASE1	ORG	80000076	Ukrainian Orthodox Church																																											
+AIDA_AUG_PHASE1	ORG	80000077	45th Guards Regiment of the Airborne Forces of RF																																											
+AIDA_AUG_PHASE1	ORG	80000078	Armed Forces of Ukraine																																											
+AIDA_AUG_PHASE1	ORG	80000079	Donbass People's Militia (a.k.a. DPM)																																											
+AIDA_AUG_PHASE1	ORG	80000080	Federal Security Service (a.k.a. FSB)																																											
+AIDA_AUG_PHASE1	ORG	80000081	Fight clubs																																											
+AIDA_AUG_PHASE1	ORG	80000082	Main Intelligence Directorate (a.k.a. GRU)																																											
+AIDA_AUG_PHASE1	ORG	80000083	Right Sector																																											
+AIDA_AUG_PHASE1	ORG	80000084	Military forces of Russia																																											
+AIDA_AUG_PHASE1	ORG	80000085	Special Forces of Russia (a.k.a. Spetsnaz)																																											
+AIDA_AUG_PHASE1	ORG	80000086	Special Forces of Ukraine (a.k.a. Spetsnaz)																																											
+AIDA_AUG_PHASE1	ORG	80000087	The National Guard of Ukraine (a.k.a. NGU)																																											
+AIDA_AUG_PHASE1	ORG	80000088	Ukraine's 25th paratrooper division																																											
+AIDA_AUG_PHASE1	ORG	80000089	Ukrainian Forces "Omega" Division																																											
+AIDA_AUG_PHASE1	ORG	80000090	Ukrainian Ground Forces																																											
+AIDA_AUG_PHASE1	ORG	80000091	Anti-Terrorist Operation force																																											
+AIDA_AUG_PHASE1	ORG	80000092	Ministry of Defense of Russia																																											
+AIDA_AUG_PHASE1	ORG	80000093	Berkut Riot Police																																											
+AIDA_AUG_PHASE1	ORG	80000094	Maidan People's Union																																											
+AIDA_AUG_PHASE1	ORG	80000095	Omega division																																											
+AIDA_AUG_PHASE1	ORG	80000096	Russian Ministry of Internal Affairs																																											
+AIDA_AUG_PHASE1	ORG	80000097	Tiger Special forces																																											
+AIDA_AUG_PHASE1	ORG	80000098	Ukrainian General Prosecutor's Office																																											
+AIDA_AUG_PHASE1	ORG	80000099	Ukrainian Institute for National Memory																																											
+AIDA_AUG_PHASE1	ORG	80000100	Ukrainian Internal Affairs Ministry																																											
+AIDA_AUG_PHASE1	ORG	80000101	Trilateral Contact Group on Ukraine																																											
+AIDA_AUG_PHASE1	ORG	80000103	Verkhovna Rada																																											
+AIDA_AUG_PHASE1	ORG	80000104	Central Election Commission																																											
+AIDA_AUG_PHASE1	ORG	80000105	Donetsk regional administration																																											
+AIDA_AUG_PHASE1	ORG	80000107	Russian National Unity (a.k.a. RNU)																																											
+AIDA_AUG_PHASE1	ORG	80000108	U.S. State Department																																											
+AIDA_AUG_PHASE1	PER	80000109	Andrey Medvedko																																											
+AIDA_AUG_PHASE1	PER	80000110	Denis Polischuk																																											
+AIDA_AUG_PHASE1	PER	80000111	Mykhaylo Chechetov (a.k.a. Mikhailo, Mykhailo)																																											
+AIDA_AUG_PHASE1	PER	80000112	Mykola Serhiyenko (a.k.a. Nikolai Sergienko)																																											
+AIDA_AUG_PHASE1	PER	80000113	Oleg Kalashnikov (a.k.a. Oleh Kalashnikov)																																											
+AIDA_AUG_PHASE1	PER	80000114	Oleksandr Bordyuh (a.k.a. Alexander Bordiuga)																																											
+AIDA_AUG_PHASE1	PER	80000115	Oleksandr Peklushenko (a.k.a. Aleksandr Peklushenko)																																											
+AIDA_AUG_PHASE1	PER	80000116	Oleksiy Kolesnik (a.k.a Oleksiy Kolesnyk, Aleksey Kolesnik, Алексей Колесник)																																											
+AIDA_AUG_PHASE1	PER	80000117	Oles Buzyna (a.k.a. Oleg Buzina)																																											
+AIDA_AUG_PHASE1	PER	80000119	Rinat Akhmetov																																											
+AIDA_AUG_PHASE1	PER	80000120	Sergey Melnychuk (a.k.a. Sergei, Serhiy, Melnichuk)																																											
+AIDA_AUG_PHASE1	PER	80000121	Sergey Sukhobok [Russian: Серге́й Сухобо́к ; Ukrainian: Сергій Сухобок ; aka Sergei/Serhiy]																																											
+AIDA_AUG_PHASE1	PER	80000122	Serhiy Walter (a.k.a. Sergiy Valter)																																											
+AIDA_AUG_PHASE1	PER	80000123	Stanislav Melnyk (a.k.a. Stanislav Melnik)																																											
+AIDA_AUG_PHASE1	PER	80000124	Unaffiliated assassin																																											
+AIDA_AUG_PHASE1	PER	80000126	Witnesses of Buzyna murder																																											
+AIDA_AUG_PHASE1	PER	80000127	Andriy Parubiy																																											
+AIDA_AUG_PHASE1	PER	80000128	Dmitry Gumenyuk																																											
+AIDA_AUG_PHASE1	PER	80000129	Firefighters in Odessa																																											
+AIDA_AUG_PHASE1	PER	80000130	Football Ultras in Odessa																																											
+AIDA_AUG_PHASE1	PER	80000131	Igor Bolyansky																																											
+AIDA_AUG_PHASE1	PER	80000132	Igor Ivanov																																											
+AIDA_AUG_PHASE1	PER	80000133	Peter Lutsyuk (a.k.a. Petro Lutsiuk, Petr Lutsyuk)																																											
+AIDA_AUG_PHASE1	PER	80000134	Pregnant woman in Trade Unions Building																																											
+AIDA_AUG_PHASE1	PER	80000135	Sergey Dolzhenkov																																											
+AIDA_AUG_PHASE1	PER	80000136	Sergey Pashinsky (a.k.a. Sergei Pashinsky)																																											
+AIDA_AUG_PHASE1	PER	80000137	Vitaly Budko																																											
+AIDA_AUG_PHASE1	PER	80000138	Yevgeny Mefedov																																											
+AIDA_AUG_PHASE1	PER	80000139	Alexander Mozhaev (a.k.a. Babay, Bogeyman)																																											
+AIDA_AUG_PHASE1	PER	80000140	Igor Perepechayenko																																											
+AIDA_AUG_PHASE1	PER	80000141	Igor Strelkov (a.k.a. Igor Girkin)																																											
+AIDA_AUG_PHASE1	PER	80000142	Vladimir Lukin																																											
+AIDA_AUG_PHASE1	PER	80000144	Viktor Yanukovych																																											
+AIDA_AUG_PHASE1	PER	80000145	Alexander Yakimenko																																											
+AIDA_AUG_PHASE1	PER	80000146	Anatoli Strelchenko																																											
+AIDA_AUG_PHASE1	PER	80000147	Dmytro Sadovnyk																																											
+AIDA_AUG_PHASE1	PER	80000148	Heavenly Hundred																																											
+AIDA_AUG_PHASE1	PER	80000149	Ivan Bubenchyk																																											
+AIDA_AUG_PHASE1	PER	80000150	Lesia Orobets (a.k.a. Lesya Orobets)																																											
+AIDA_AUG_PHASE1	PER	80000151	Olga Bogomolets																																											
+AIDA_AUG_PHASE1	PER	80000152	Sergei [protester who started shooting at police]																																											
+AIDA_AUG_PHASE1	PER	80000153	Serhiy Kusiuk (a.k.a. Sergey Kusiuk)																																											
+AIDA_AUG_PHASE1	PER	80000154	Serhiy Nigoyan																																											
+AIDA_AUG_PHASE1	PER	80000155	snipers shooting during Maidan																																											
+AIDA_AUG_PHASE1	PER	80000156	Titushky																																											
+AIDA_AUG_PHASE1	PER	80000157	Urmas Paet																																											
+AIDA_AUG_PHASE1	PER	80000158	Vitali Klitschko																																											
+AIDA_AUG_PHASE1	PER	80000159	Vitaliy Zakharchenko																																											
+AIDA_AUG_PHASE1	PER	80000160	Alexander Zakharchenko																																											
+AIDA_AUG_PHASE1	PER	80000161	Eduard Basurin																																											
+AIDA_AUG_PHASE1	PER	80000162	Igor Plotnitsky																																											
+AIDA_AUG_PHASE1	PER	80000165	Alexander Barkashov																																											
+AIDA_AUG_PHASE1	PER	80000166	Andriy Mahera (a.k.a. Andriy Mager)																																											
+AIDA_AUG_PHASE1	PER	80000167	Denis Pushilin																																											
+AIDA_AUG_PHASE1	PER	80000168	Dmytro Boitsov (a.k.a. Dmitri, Dima)																																											
+AIDA_AUG_PHASE1	PER	80000169	Donetsk and Luhansk voters living in Russia																																											
+AIDA_AUG_PHASE1	PER	80000171	Non-OSCE observers of the referendum																																											
+AIDA_AUG_PHASE1	PER	80000172	Roman Lyakhin (a.k.a. Roman Lyagin)																																											
+AIDA_AUG_PHASE1	PER	80000174	Serhiy Taruta																																											
+AIDA_AUG_PHASE1	SID	80000305	Neo-Nazi																																											
+AIDA_AUG_PHASE1	BAL	80000291	"Yes" ballots seized in Sloviansk																																											
+AIDA_AUG_PHASE1	BAL	80000292	Pre-filled fraudulent ballots																																											
+AIDA_AUG_PHASE1	COM	80000293	Mykhaylo Chechetov's note																																											
+AIDA_AUG_PHASE1	CRM	80000294	Abuse of authority																																											
+AIDA_AUG_PHASE1	CRM	80000295	Forgery																																											
+AIDA_AUG_PHASE1	CRM	80000296	Fraud																																											
+AIDA_AUG_PHASE1	CRM	80000297	Malfeasance																																											
+AIDA_AUG_PHASE1	CRM	80000298	Mass murder																																											
+AIDA_AUG_PHASE1	LAW	80000299	Donetsk Status Referendum																																											
+AIDA_AUG_PHASE1	LAW	80000300	Luhansk Status Referendum																																											
+AIDA_AUG_PHASE1	LAW	80000301	Donbass Status Referendum																																											
+AIDA_AUG_PHASE1	SID	80000302	Anti-Maidan																																											
+AIDA_AUG_PHASE1	SID	80000303	Pro-Russian																																											
+AIDA_AUG_PHASE1	SID	80000304	Pro-Maidan																																											
+AIDA_AUG_PHASE1	SID	80000306	Ukrainian-nationalist																																											
+AIDA_AUG_PHASE1	SID	80000307	Separatist																																											
+AIDA_AUG_PHASE1	SID	80000308	Pro-accession to Russia referendum stance																																											
+AIDA_AUG_PHASE1	SID	80000309	Pro-federalization of Ukraine referendum stance																																											
+AIDA_AUG_PHASE1	SID	80000310	Pro-increased autonomy referendum stance																																											
+AIDA_AUG_PHASE1	SID	80000311	Pro-independence referendum stance																																											
+AIDA_AUG_PHASE1	VEH	80000312	Russian armored vehicles that were in Kramatorsk																																											
+AIDA_AUG_PHASE1	VEH	80000313	Ukrainian Armoured Personnel Carriers (a.k.a. APC) separatists captured or received in Sloviansk																																											
+AIDA_AUG_PHASE1	WEA	80000314	Mykola Serhiyenko's rifle																																											
+AIDA_AUG_PHASE1	WEA	80000315	Stanislav Melnyk's rifle																																											
+AIDA_AUG_PHASE1	WEA	80000316	Baseball bats that were used in Odessa by Odesskaya Druzhina																																											
+AIDA_AUG_PHASE1	WEA	80000317	Chloroform that was used in the Trade Unions House																																											
+AIDA_AUG_PHASE1	WEA	80000318	Firearms that were used in Odessa by Odesskaya Druzhina																																											
+AIDA_AUG_PHASE1	WEA	80000319	Molotov cocktails that were used in Odessa																																											
+AIDA_AUG_PHASE1	WEA	80000320	Rocks that were used as weapons in Odessa																																											
+AIDA_AUG_PHASE1	WEA	80000321	Russian anti-tank guided missile (a.k.a. ATGM) used by separatists																																											
+AIDA_AUG_PHASE1	WEA	80000322	Russian Kalashnikov rifles (a.k.a. AK-47) that were used by separatists																																											
+AIDA_AUG_PHASE1	WEA	80000323	Russian man-portable air-defense systems (a.k.a. MANPADS) that were used by separatists																																											
+AIDA_AUG_PHASE1	WEA	80000324	Shotguns that were used by police during Maidan protests																																											
+AIDA_AUG_PHASE1	WEA	80000325	Firearms that were used by snipers during Maidan protests																																											
+AIDA_AUG_PHASE1	WEA	80000326	Grenades that were used during Maidan protests																																											
+AIDA_AUG_PHASE1	WEA	80000327	Paving blocks that were used as weapons during Maidan protests																																											
+AIDA_AUG_PHASE1	WEA	80000328	Water cannon that was used during Maidan protests																																											
+AIDA_AUG_PHASE1	WEA	80000329	Separatist artillery in Debaltseve which was subject to Minsk II protocol																																											
+AIDA_AUG_PHASE1	WEA	80000330	Ukrainian artillery in Debaltseve which was subject to Minsk II protocol																																											
+AIDA_AUG_PHASE1	ORG	80000331	Svoboda Party																																											
+AIDA_AUG_PHASE1	WEA	80000332	Sergei's Saiga hunting rifle																																											
+AIDA_AUG_PHASE1	FAC	80000334	Maidan post office																																											
+AIDA_AUG_PHASE1	FAC	80000353	Pro-Russian Checkpoint																																											
+AIDA_AUG_PHASE1	SID	80000357	Ukrainian Unity																																											
+AIDA_AUG_PHASE1	SID	80000358	anti-government																																											
+AIDA_AUG_PHASE1	SID	80000359	anti-Kiev																																											
+AIDA_AUG_PHASE1	SID	80000360	pro-Ukrainian																																											
+AIDA_AUG_PHASE1	SID	80000361	pro-regime																																											
+AIDA_AUG_PHASE1	COM	80000364	red armbands																																											
+AIDA_AUG_PHASE1	FAC	80000373	Oles Buzyna's home																																											
+AIDA_AUG_PHASE1	SID	80000374	Far-right																																											
+AIDA_AUG_PHASE2	PER	80000375	A group of men trained by paramilitary forces in neighboring Colombia																																											
+AIDA_AUG_PHASE2	PER	80000376	A group of military dissidents/defectors																																											
+AIDA_AUG_PHASE2	PER	80000377	Alberto Bracho (a.k.a. Alberto José Bracho Rozquez, Alberto Rozquez, "Porto")																																											
+AIDA_AUG_PHASE2	PER	80000378	Alcira Marina Carrizo de Colmenares																																											
+AIDA_AUG_PHASE2	PER	80000379	Alejandro Pérez (a.k.a. Maj. Gen. Alejandro Pérez)																																											
+AIDA_AUG_PHASE2	PER	80000380	Alfredo Guerrero																																											
+AIDA_AUG_PHASE2	PER	80000381	Andrea Rivas Anzola (a.k.a. Andrea Elena Rivas Anzola)																																											
+AIDA_AUG_PHASE2	PER	80000382	Ángela Lizbeth Expósito Carrillo (a.k.a. Ángela Lizbeth Expósito, "La Perrera") 																																											
+AIDA_AUG_PHASE2	PER	80000383	Argenis G. Valero Ruiz (a.k.a. Argenis Valero Ruiz, Argenis Valero, "Ingeniero")																																											
+AIDA_AUG_PHASE2	ORG	80000384	Bolivarian National Guard of Venezuela																																											
+AIDA_AUG_PHASE2	PER	80000385	Brayan Oropeza (a.k.a. Brayan de Jesus Oropeza Ruíz, "Poeta")																																											
+AIDA_AUG_PHASE2	PER	80000386	Bryan de Jesús																																											
+AIDA_AUG_PHASE2	COM	80000387	Cell phone signal blocker																																											
+AIDA_AUG_PHASE2	PER	80000388	Cono Sapiensa García																																											
+AIDA_AUG_PHASE2	PER	80000389	Darwin Mina Banguera																																											
+AIDA_AUG_PHASE2	PER	80000390	David Alexander Beaumont Álvarez																																											
+AIDA_AUG_PHASE2	PER	80000391	Deserters of the Chilean President Sebastián Piñera's right-wing government																																											
+AIDA_AUG_PHASE2	PER	80000392	Diplomats in Chile, Columbia, and Mexico																																											
+AIDA_AUG_PHASE2	FAC	80000393	Don Eduardo apartment block																																											
+AIDA_AUG_PHASE2	COM	80000394	Drone battery																																											
+AIDA_AUG_PHASE2	VEH	80000395	Drone(s) which crashed and/or exploded near Maduro																																											
+AIDA_AUG_PHASE2	PER	80000396	Elisa Martínez																																											
+AIDA_AUG_PHASE2	PER	80000397	Elvis Arnaldo Rivas Barrios (a.k.a. Elvis Rivas Barrios)																																											
+AIDA_AUG_PHASE2	PER	80000398	Emilendris Carolina Benítez Rosales																																											
+AIDA_AUG_PHASE2	PER	80000399	Eugenio Escalona Jiménez																																											
+AIDA_AUG_PHASE2	PER	80000400	Fabiana Yani Pernía (a.k.a. Yanni Fabiana Pernia Coronel, María)																																											
+AIDA_AUG_PHASE2	PER	80000401	Fernando Albán Salazar																																											
+AIDA_AUG_PHASE2	COM	80000402	Gas cylinder (propane tank)																																											
+AIDA_AUG_PHASE2	ORG	80000403	Government of Chile																																											
+AIDA_AUG_PHASE2	ORG	80000404	Government of Colombia																																											
+AIDA_AUG_PHASE2	ORG	80000405	Government of Mexico																																											
+AIDA_AUG_PHASE2	ORG	80000406	Government of Spain																																											
+AIDA_AUG_PHASE2	ORG	80000407	Government of Venezuela																																											
+AIDA_AUG_PHASE2	PER	80000408	Gregorio José Yaguas Monje (a.k.a. "Latino")																																											
+AIDA_AUG_PHASE2	WEA	80000409	Gunpowder																																											
+AIDA_AUG_PHASE2	PER	80000410	Hector Armando Hernández Da Costa																																											
+AIDA_AUG_PHASE2	PER	80000411	Henryberth Emmanuel Rivas Vivas (a.k.a. Henry Berth Rivas, "Morfeo")																																											
+AIDA_AUG_PHASE2	PER	80000412	Iván Arcay																																											
+AIDA_AUG_PHASE2	PER	80000413	Jaime Bayly																																											
+AIDA_AUG_PHASE2	PER	80000414	Jemmy Ruiz																																											
+AIDA_AUG_PHASE2	PER	80000415	Jonathan Medina (a.k.a. Yonathan Medina)																																											
+AIDA_AUG_PHASE2	PER	80000416	José Eloy Rivas Díaz																																											
+AIDA_AUG_PHASE2	PER	80000417	José Miguel Estrada González (a.k.a. "Zamurito")																																											
+AIDA_AUG_PHASE2	PER	80000418	José Pinto Hernández (a.k.a. José del Carmen Pinto Hernández)																																											
+AIDA_AUG_PHASE2	PER	80000419	José Rivas																																											
+AIDA_AUG_PHASE2	PER	80000420	Juan Carlos Monasterios (a.k.a. Juan Carlos Monasterios Venegas)																																											
+AIDA_AUG_PHASE2	PER	80000421	Juan Manuel Santos Calderón (a.k.a. Juan Manuel Santos)																																											
+AIDA_AUG_PHASE2	PER	80000422	Juan Requesens																																											
+AIDA_AUG_PHASE2	PER	80000423	Julio Borges																																											
+AIDA_AUG_PHASE2	PER	80000424	Laidez Zalazar (a.k.a. "Avia")																																											
+AIDA_AUG_PHASE2	WEA	80000425	Lead																																											
+AIDA_AUG_PHASE2	PER	80000426	Leaders of Venezuelan Ultra-Right groups																																											
+AIDA_AUG_PHASE2	PER	80000427	Luceidy Mina																																											
+AIDA_AUG_PHASE2	PER	80000428	Luis Guerra																																											
+AIDA_AUG_PHASE2	PER	80000429	Luisa Ortega Díaz (a.k.a. Luisa Marvelia Ortega Díaz)																																											
+AIDA_AUG_PHASE2	PER	80000430	Mauricio Jimenez Pinzon (a.k.a. Mauricio Pinzon)																																											
+AIDA_AUG_PHASE2	PER	80000431	Maydelen Da Silva																																											
+AIDA_AUG_PHASE2	PER	80000432	Member of an unnamed civilian group																																											
+AIDA_AUG_PHASE2	ORG	80000433	National Bolivarian Armed Forces of Venezuela																																											
+AIDA_AUG_PHASE2	ORG	80000434	Operation Phoenix (a.k.a. Operación Fénix, The Fenix Group)																																											
+AIDA_AUG_PHASE2	PER	80000435	Osman Delgado Tabosky (a.k.a. Osman Alexis Delgado Tabosky, "Jeremías")																																											
+AIDA_AUG_PHASE2	PER	80000436	Oswaldo Valentín García Palomo (a.k.a. Oswaldo García Palomo, Oswaldo García, "Aquiles")																																											
+AIDA_AUG_PHASE2	PER	80000437	Pedro Zambrano (a.k.a. Col. Pedro Zambrano)																																											
+AIDA_AUG_PHASE2	PER	80000438	People living in Florida																																											
+AIDA_AUG_PHASE2	WEA	80000439	Plastic explosives (including C4)																																											
+AIDA_AUG_PHASE2	COM	80000440	Radio frequency inhibitor																																											
+AIDA_AUG_PHASE2	PER	80000441	Ramón Santiago Velasco Garcia (a.k.a. Ramón Velasco Garcia, Ramón Velasco, "Corocoro")																																											
+AIDA_AUG_PHASE2	PER	80000442	Rayder Alexender Russo Marques (a.k.a. Raider Russo, "Teniente Pico," "Pico")																																											
+AIDA_AUG_PHASE2	PER	80000443	Salvatore Lucchese 																																											
+AIDA_AUG_PHASE2	PER	80000444	Seven members of the Bolivarian Armed Forces																																											
+AIDA_AUG_PHASE2	PER	80000445	Snipers who shot down drone(s)																																											
+AIDA_AUG_PHASE2	PER	80000446	Thais del Carmen Valeria Viloria (a.k.a. Carmen Valera)																																											
+AIDA_AUG_PHASE2	ORG	80000447	The National Movement of Soldiers in T-Shirts (a.k.a. Soldiers in T-Shirts, El Movimiento Nacional Soldados de Franelas, Soldados de Franelas, MNSF)																																											
+AIDA_AUG_PHASE2	SID	80000448	The Opposition																																											
+AIDA_AUG_PHASE2	PER	80000449	The Resistance																																											
+AIDA_AUG_PHASE2	SID	80000450	Ultra-Right																																											
+AIDA_AUG_PHASE2	PER	80000451	Venezuelan dissidents in the United States																																											
+AIDA_AUG_PHASE2	ORG	80000452	Venezuelan police																																											
+AIDA_AUG_PHASE2	PER	80000453	Virginia Antonieta Da Silva-Pio Porta (a.k.a. "Génesis")																																											
+AIDA_AUG_PHASE2	PER	80000454	Yilber Alberto Escalona Torrealba (a.k.a. Gilbert Alberto Escalona Torrealba, Yilbert Escalona, Explosive Pastor, "Pastor")																																											
+AIDA_AUG_PHASE2	MHI	80000455	Chikungunya (a.k.a. Chikunguña, CHIKV, Chik-v, Chick-v virus)																																											
+AIDA_AUG_PHASE2	MHI	80000456	Ebola (a.k.a. Ebola virus disease)																																											
+AIDA_AUG_PHASE2	MHI	80000457	Dengue (a.k.a. dengue fever)																																											
+AIDA_AUG_PHASE2	FAC	80000459	Avenida Bolívar																																											
+AIDA_AUG_PHASE2	MHI	80000460	Meningococcemia / meningitis																																											
+AIDA_AUG_PHASE2	MHI	80000461	Viral hemorrhagic fever																																											
+AIDA_AUG_PHASE2	MHI	80000462	Acute hemorrhagic fever syndrome																																											
+AIDA_AUG_PHASE2	MHI	80000463	Hypovolemic shock																																											
+AIDA_AUG_PHASE2	MHI	80000464	Cancer																																											
+AIDA_AUG_PHASE2	MHI	80000465	Skin infection																																											
+AIDA_AUG_PHASE2	MHI	80000466	Leukemia																																											
+AIDA_AUG_PHASE2	MHI	80000467	Diabetes																																											
+AIDA_AUG_PHASE2	MHI	80000468	Hemorrhage (a.k.a. hamorrhagic incident)																																											
+AIDA_AUG_PHASE2	MHI	80000469	Disseminated intravascular coagulation																																											
+AIDA_AUG_PHASE2	MHI	80000470	Multiorgan failure																																											
+AIDA_AUG_PHASE2	MHI	80000471	Liver failure																																											
+AIDA_AUG_PHASE2	MHI	80000472	Kidney failure																																											
+AIDA_AUG_PHASE2	MHI	80000473	Generalized malaise																																											
+AIDA_AUG_PHASE2	MHI	80000474	Breathing difficulty																																											
+AIDA_AUG_PHASE2	MHI	80000475	Fever																																											
+AIDA_AUG_PHASE2	MHI	80000476	Spots on the skin (maculopapular rash)																																											
+AIDA_AUG_PHASE2	MHI	80000477	Blisters																																											
+AIDA_AUG_PHASE2	MHI	80000478	Boils																																											
+AIDA_AUG_PHASE2	MHI	80000479	Sepsis																																											
+AIDA_AUG_PHASE2	MHI	80000480	Bleeding from the mouth																																											
+AIDA_AUG_PHASE2	MHI	80000481	Bleeding from the nose																																											
+AIDA_AUG_PHASE2	MHI	80000482	Bleeding from the ears																																											
+AIDA_AUG_PHASE2	ORG	80000483	Ministry of Popuar Power for Health (a.k.a. Health Ministry)																																											
+AIDA_AUG_PHASE2	PER	80000484	Globalists																																											
+AIDA_AUG_PHASE2	SID	80000485	Globalist (pro-globalism)																																											
+AIDA_AUG_PHASE2	MHI	80000486	Unidentified illness / virus / bacterium																																											
+AIDA_AUG_PHASE2	MHI	80000487	Venezuelan hemorrhagic fever / Guanarito virus																																											
+AIDA_AUG_PHASE2	MHI	80000488	Unidentified mosquito-borne illness																																											
+AIDA_AUG_PHASE2	PER	80000489	Ángel Sarmiento																																											
+AIDA_AUG_PHASE2	FAC	80000490	Maracay Central Hospital																																											
+AIDA_AUG_PHASE2	ORG	80000491	State Bar Association of Medical Doctors in Aragua																																											
+AIDA_AUG_PHASE2	ORG	80000492	Democratic Action																																											
+AIDA_AUG_PHASE2	PER	80000493	Maria Eugenia Landaeta																																											
+AIDA_AUG_PHASE2	ORG	80000494	University Hospital of Caracas (a.k.a. El Clínico)																																											
+AIDA_AUG_PHASE2	PER	80000495	Tareck Zaidan El Aissami Maddah (a.k.a. Tareck El Aissami)																																											
+AIDA_AUG_PHASE2	PER	80000496	Injured soldiers																																											
+AIDA_AUG_PHASE2	PER	80000497	Anti-Chavistas																																											
+AIDA_AUG_PHASE2	SID	80000498	Anti-Venezuelan government																																											
+AIDA_AUG_PHASE2	PER	80000499	Antonio José Benavides Torres (a.k.a. Antonio José Benavides)																																											
+AIDA_AUG_PHASE2	PER	80000500	Armed motorcyclists who killed Carlos Moreno																																											
+AIDA_AUG_PHASE2	PER	80000501	Armed motorcyclists who killed Paola Ramírez																																											
+AIDA_AUG_PHASE2	WEA	80000502	Ball bearing																																											
+AIDA_AUG_PHASE2	FAC	80000503	Barricades																																											
+AIDA_AUG_PHASE2	WEA	80000504	Blunt objects																																											
+AIDA_AUG_PHASE2	PER	80000505	Carlos José Moreno Barón (a.k.a. Carlos José Moreno, Carlos Moreno)																																											
+AIDA_AUG_PHASE2	SID	80000506	Chavismo																																											
+AIDA_AUG_PHASE2	PER	80000507	Chavistas																																											
+AIDA_AUG_PHASE2	COM	80000508	Consumer goods																																											
+AIDA_AUG_PHASE2	PER	80000509	Donald Trump																																											
+AIDA_AUG_PHASE2	COM	80000510	Food																																											
+AIDA_AUG_PHASE2	COM	80000511	Garbage																																											
+AIDA_AUG_PHASE2	PER	80000512	Government supporters who fired on protesters																																											
+AIDA_AUG_PHASE2	WEA	80000513	Homemade weapon																																											
+AIDA_AUG_PHASE2	FAC	80000514	Hugo Rafael Chávez Frías Maternal and Children's Hospital (a.k.a. maternity hospital, maternity ward)																																											
+AIDA_AUG_PHASE2	PER	80000515	Hungry Venezuelans																																											
+AIDA_AUG_PHASE2	COM	80000516	Imported goods																																											
+AIDA_AUG_PHASE2	PER	80000517	Iván Alexis Pernía Dávila (a.k.a. Iván Aleisis Pernía Dávila, Ivan Alexis Pernia Perez, Alexis Pernia Dávila, Ivan Pernia, Pernia Dávila)																																											
+AIDA_AUG_PHASE2	WEA	80000518	Marble																																											
+AIDA_AUG_PHASE2	COM	80000519	Medical supplies																																											
+AIDA_AUG_PHASE2	COM	80000520	Medicine																																											
+AIDA_AUG_PHASE2	SID	80000521	Middle class																																											
+AIDA_AUG_PHASE2	PER	80000522	Middle class Venezuelans																																											
+AIDA_AUG_PHASE2	PER	80000523	Miguel Fernando Castillo Bracho (a.k.a. Miguel Castillo Bracho)																																											
+AIDA_AUG_PHASE2	PER	80000524	National Guardsman																																											
+AIDA_AUG_PHASE2	PER	80000525	Néstor Reverol (a.k.a. Néstor Luis Reverol Torres)																																											
+AIDA_AUG_PHASE2	ORG	80000526	Opposition businesses																																											
+AIDA_AUG_PHASE2	ORG	80000527	Organization of American States																																											
+AIDA_AUG_PHASE2	PER	80000528	Paola Ramírez																																											
+AIDA_AUG_PHASE2	PER	80000529	People arrested during protesters																																											
+AIDA_AUG_PHASE2	PER	80000530	People injured during protests																																											
+AIDA_AUG_PHASE2	PER	80000531	People killed during protests																																											
+AIDA_AUG_PHASE2	FAC	80000532	Plaza San Carlos (a.k.a. Plaza las palomas)																																											
+AIDA_AUG_PHASE2	PER	80000533	Poor Venezuelans																																											
+AIDA_AUG_PHASE2	ORG	80000534	Pro-government armed militia																																											
+AIDA_AUG_PHASE2	PER	80000535	Pro-opposition actors in the economic sector																																											
+AIDA_AUG_PHASE2	SID	80000536	Pro-Venezuelan government																																											
+AIDA_AUG_PHASE2	PER	80000537	Protesters																																											
+AIDA_AUG_PHASE2	PER	80000538	Rich Venezuelans																																											
+AIDA_AUG_PHASE2	PER	80000539	Right-wing terrorists																																											
+AIDA_AUG_PHASE2	WEA	80000540	Sharp objects																																											
+AIDA_AUG_PHASE2	PER	80000541	Shooter on a roof																																											
+AIDA_AUG_PHASE2	WEA	80000542	Smoke grenade																																											
+AIDA_AUG_PHASE2	WEA	80000543	Stones																																											
+AIDA_AUG_PHASE2	FAC	80000544	Stores owned by opposition supporters																																											
+AIDA_AUG_PHASE2	WEA	80000545	Tear gas																																											
+AIDA_AUG_PHASE2	WEA	80000546	Tear gas canister																																											
+AIDA_AUG_PHASE2	WEA	80000547	Biological weapon																																											
+AIDA_AUG_PHASE2	WEA	80000548	Carcinogenic substance																																											
+AIDA_AUG_PHASE2	MHI	80000549	Colon cancer, bowel cancer																																											
+AIDA_AUG_PHASE2	PER	80000550	Cuban doctors																																											
+AIDA_AUG_PHASE2	ORG	80000551	Cuban Revolutionary Armed Forces																																											
+AIDA_AUG_PHASE2	FAC	80000552	Dr. Carlos Arvelo Military Hospital (a.k.a. military hospital)																																											
+AIDA_AUG_PHASE2	ORG	80000553	Drug Enforcement Administration (a.k.a. DEA)																																											
+AIDA_AUG_PHASE2	PER	80000554	Fidel Castro (a.k.a. Fidel Alejandro Castro Ruz)																																											
+AIDA_AUG_PHASE2	WEA	80000555	Genetic weapon																																											
+AIDA_AUG_PHASE2	PER	80000556	Government of Cuba																																											
+AIDA_AUG_PHASE2	MHI	80000557	Heart attack																																											
+AIDA_AUG_PHASE2	PER	80000558	Hugo Chávez																																											
+AIDA_AUG_PHASE2	PER	80000559	Leamsy Salazar (a.k.a. Leamsy Villafaña José Salazar)																																											
+AIDA_AUG_PHASE2	MHI	80000560	Lung cancer																																											
+AIDA_AUG_PHASE2	MHI	80000561	Lung complications from smoking (not lung infection)																																											
+AIDA_AUG_PHASE2	MHI	80000562	Lung infection (not pneumonia)																																											
+AIDA_AUG_PHASE2	PER	80000563	María Gabriela Chávez																																											
+AIDA_AUG_PHASE2	FAC	80000564	Miraflores Palace																																											
+AIDA_AUG_PHASE2	PER	80000565	Naomi Campbell																																											
+AIDA_AUG_PHASE2	MHI	80000566	Pain in pelvis																																											
+AIDA_AUG_PHASE2	MHI	80000567	Pelvic abscess																																											
+AIDA_AUG_PHASE2	MHI	80000568	Pneumonia																																											
+AIDA_AUG_PHASE2	MHI	80000569	Prostate cancer																																											
+AIDA_AUG_PHASE2	MHI	80000570	Respiratory complications, infection, or failure																																											
+AIDA_AUG_PHASE2	PER	80000571	Rosa Virginia Chávez Colmenares																																											
+AIDA_AUG_PHASE2	MHI	80000572	Sarcoma																																											
+AIDA_AUG_PHASE2	PER	80000573	Sean Penn																																											
+AIDA_AUG_PHASE2	PER	80000574	Simón Bolívar																																											
+AIDA_AUG_PHASE2	MHI	80000575	Stomach cancer																																											
+AIDA_AUG_PHASE2	MHI	80000576	Tumor																																											
+AIDA_AUG_PHASE2	MHI	80000577	Unconsciousness, brain death, or coma																																											
+AIDA_AUG_PHASE2	COM	80000578	"350 Libertad" banner																																											
+AIDA_AUG_PHASE2	PER	80000579	Álvaro Uribe Vélez (a.k.a. Álvaro Uribe)																																											
+AIDA_AUG_PHASE2	PER	80000580	Andrés Pastrana Arango (a.k.a. Andrés Pastrana)																																											
+AIDA_AUG_PHASE2	WEA	80000581	Blank firearm cartridges																																											
+AIDA_AUG_PHASE2	PER	80000582	Coalition of military members, police officers, and civilians																																											
+AIDA_AUG_PHASE2	ORG	80000583	Cuerpo de Investigaciones Científicas, Penales y Criminalísticas (a.k.a. CICPC)																																											
+AIDA_AUG_PHASE2	FAC	80000584	Federal Legislative Palace (a.k.a. Capitolio, National Assembly)																																											
+AIDA_AUG_PHASE2	COM	80000585	Grenade fragments																																											
+AIDA_AUG_PHASE2	WEA	80000586	Grenade(s)																																											
+AIDA_AUG_PHASE2	PER	80000587	Group financed by the Opposition																																											
+AIDA_AUG_PHASE2	FAC	80000588	Interior Ministry building																																											
+AIDA_AUG_PHASE2	WEA	80000589	Israeli-made grenades																																											
+AIDA_AUG_PHASE2	WEA	80000590	Live rounds																																											
+AIDA_AUG_PHASE2	PER	80000591	Luisa Marvelia Ortega Díaz (a.k.a. Luisa Ortega Díaz)																																											
+AIDA_AUG_PHASE2	PER	80000592	Miguel Eduardo Rodríguez Torres (a.k.a. Miguel Rodríguez Torres)																																											
+AIDA_AUG_PHASE2	ORG	80000593	Ministry of the Popular Power for Interior, Justice and Peace (a.k.a. Ministry of Interior and Justice, Ministry of Justice, Interior Ministry)																																											
+AIDA_AUG_PHASE2	ORG	80000594	National Equilibrium Movement (a.k.a. MEN)																																											
+AIDA_AUG_PHASE2	PER	80000595	National Guardsmen protecting the Supreme Tribunal building																																											
+AIDA_AUG_PHASE2	PER	80000596	Óscar Alberto Pérez (a.k.a. Óscar Pérez)																																											
+AIDA_AUG_PHASE2	PER	80000597	People celebrating National Journalists Day at the Interior and Justice Ministry building																																											
+AIDA_AUG_PHASE2	VEH	80000598	Police helicopter																																											
+AIDA_AUG_PHASE2	WEA	80000599	Stun grenade(s)																																											
+AIDA_AUG_PHASE2	ORG	80000600	Supreme Tribunal of Justice (a.k.a. TSJ, Supreme Court, Supreme Tribunal)																																											
+AIDA_AUG_PHASE2	FAC	80000601	Supreme Tribunal of Justice building (a.k.a. Supreme Court)																																											
+AIDA_AUG_PHASE2	PER	80000602	Tarek William Saab																																											
+AIDA_AUG_PHASE2	ORG	80000603	U.S. Embassy in Venezuela																																											
+AIDA_AUG_PHASE2	SID	80000604	Venezuelan right																																											

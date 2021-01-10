@@ -1,0 +1,1437 @@
+[
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": ".",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "In Venezuela, doctor flees after being accused of terrorism amid fever outbreak ---- UPDATED AT THE BOTTOM OF THE POST;  In Venezuela, doctor flees after being accused of terrorism amid fever outbreak;  THIS NEWS IS FROM SEPTEMBER 23RD, but it might become significant.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "(It's probably nothing.)",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Eleven days after news broke that an unknown disease had killed eight people in the city of Maracay, Venezuela, doctors have concluded that the deaths were caused by chikungunya, a mosquito-borne virus.",
+        "rels": [
+            {
+                "en1": "eight",
+                "en2": "eight people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e9",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    361,
+                    373
+                ]
+            },
+            {
+                "en1": "eight people",
+                "en2": "the city",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e10",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e9",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7907655302989725,
+                "span": [
+                    361,
+                    385
+                ]
+            },
+            {
+                "en1": "the city",
+                "en2": "Maracay",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e10",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7963459914235963,
+                "span": [
+                    377,
+                    396
+                ]
+            },
+            {
+                "en1": "Maracay",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7637738422413833,
+                "span": [
+                    389,
+                    407
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "Maracay, Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7627181759180574,
+                "span": [
+                    398,
+                    407
+                ]
+            },
+            {
+                "en1": "Maracay, Venezuela",
+                "en2": "doctors",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e11",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s3-e12",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7896272397354436,
+                "span": [
+                    389,
+                    416
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Meanwhile, \u00c1ngel Sarmiento, the doctor who first announced the deaths, has fled the country after being accused of terrorism by President Nicol\u00e1s Maduro.Although officials initially speculated that the deaths were caused by an unknown hemorrhagic fever, six of the eight original fatalities tested positive for chikungunya when samples were analyzed in nongovernmental labs, says Julio Castro, the health minister of the municipality of Sucre and a professor in the Institute of Tropical Medicine at the Central University of Venezuela (UCV).",
+        "rels": [
+            {
+                "en1": "the country",
+                "en2": "Nicol\u00e1s Maduro.Although",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e20",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e10",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7936114069553458,
+                "span": [
+                    580,
+                    637
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicol\u00e1s Maduro.Although",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e10",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7633387629606985,
+                "span": [
+                    628,
+                    661
+                ]
+            },
+            {
+                "en1": "six",
+                "en2": "the eight original fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e24",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e3",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    754,
+                    790
+                ]
+            },
+            {
+                "en1": "eight",
+                "en2": "the eight original fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e24",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e4",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    765,
+                    790
+                ]
+            },
+            {
+                "en1": "the health minister",
+                "en2": "minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e28",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e6",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.789038251683918,
+                "span": [
+                    894,
+                    913
+                ]
+            },
+            {
+                "en1": "a professor",
+                "en2": "the Institute",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e31",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e32",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7563820600311745,
+                "span": [
+                    947,
+                    975
+                ]
+            },
+            {
+                "en1": "Institute of Tropical Medicine at the",
+                "en2": "the Central University",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e14",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e34",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7702094412726255,
+                "span": [
+                    966,
+                    1022
+                ]
+            },
+            {
+                "en1": "the Central University",
+                "en2": "Central University of Venezuela",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e15",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e34",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7825058345534939,
+                "span": [
+                    1000,
+                    1035
+                ]
+            },
+            {
+                "en1": "Central University of Venezuela",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e15",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e35",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7995141953831161,
+                "span": [
+                    1004,
+                    1035
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "UCV",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e35",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s4-e17",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7648181474378469,
+                "span": [
+                    1026,
+                    1040
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "\"We don\u2019t think these deaths are due to an unknown or rare disease,\" he told ScienceInsider, adding that \"I have no doubt\" that chikungunya is responsible.After arriving in the Caribbean late last year, chikungunya has been sweeping the Americas.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "As of 19 September, the Pan-American Health Organization reported 729,178 suspected and 9537 confirmed cases in the region.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e2",
+                "en1": "729,178",
+                "en2": "cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s6-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1356,
+                    1398
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "There is no vaccine or cure for the disease, which is similar to dengue fever and causes joint pain.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "It is fatal in about one in 1000 cases.Maracay\u2019s cluster of nine fatalities, reported between 30 August and 15 September, has raised questions about exactly how many people are infected.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e1",
+                "en1": "one",
+                "en2": "cases.Maracay\u2019s",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e5",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1536,
+                    1563
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e3",
+                "en1": "nine",
+                "en2": "nine fatalities",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s8-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1575,
+                    1590
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The deadly cases are \"the tip of the iceberg,\" Castro believes.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "In a press conference on Monday, Castro and two other health professionals\u2014Gustavo Villasmil, health minister of the state of Miranda, and Manuel Olivares, a doctor at UCV\u2019s hospital\u2014estimated that between 65,000 and 117,000 people in Venezuela are infected with chikungunya.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e0",
+                "en1": "two",
+                "en2": "two other health professionals",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e12",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1810,
+                    1840
+                ]
+            },
+            {
+                "en1": "health minister",
+                "en2": "minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e13",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7570212502047372,
+                "span": [
+                    1860,
+                    1875
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e0",
+                "en1": "65,000 and 117,000",
+                "en2": "between 65,000 and 117,000 people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e18",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e3",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1972,
+                    1997
+                ]
+            },
+            {
+                "en1": "between 65,000 and 117,000 people",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e19",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s10-e18",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7906835667782249,
+                "span": [
+                    1964,
+                    2010
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They reached that figure by using World Health Organization standards for calculating the spread of epidemics.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "But it is dramatically higher than the official tallies released by Venezuela\u2019s federal health ministry, which recognizes just 398 cases of chikungunya and three deaths.Many infectious diseases, including malaria and dengue, are on the rise in Venezuela, where the public health system has been crippled by a lack of funds and medicine (including antifever drugs that can help treat the symptoms of chikungunya).",
+        "rels": [
+            {
+                "en1": "Venezuela\u2019s",
+                "en2": "Venezuela\u2019s federal health ministry",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e6",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7548214271717232,
+                "span": [
+                    2221,
+                    2256
+                ]
+            },
+            {
+                "en1": "398",
+                "en2": "just 398 cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e8",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2280,
+                    2289
+                ]
+            },
+            {
+                "en1": "three",
+                "en2": "chikungunya and three deaths.Many infectious diseases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e9",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s12-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2309,
+                    2346
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Sarmiento\u2019s comments about the deaths in Maracay appear to have been the straw that broke the camel\u2019s back when it came to criticism of the government\u2019s public health record, Villasmil says.",
+        "rels": [
+            {
+                "en1": "Maracay",
+                "en2": "the government\u2019s",
+                "ldcOnt:GeneralAffiliation.Sponsorship_ActorOrEvent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s13-e2",
+                "ldcOnt:GeneralAffiliation.Sponsorship_Sponsor": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s13-e3",
+                "rel": "ldcOnt:GeneralAffiliation.Sponsorship",
+                "score": 0.4504016564245337,
+                "span": [
+                    2607,
+                    2718
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Now facing prosecution, Sarmiento fled to an undisclosed location in Central America.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Villasmil and Castro remain in Venezuela but have left their homes after participating in the press conference, as a precaution against retaliation.",
+        "rels": [
+            {
+                "en1": "Castro",
+                "en2": "Venezuela",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s15-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7712091607613458,
+                "span": [
+                    2857,
+                    2883
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Posted in Health, Latin America Mysterious outbreak of hemorrhagic fever syndrome in Venezuela kills ten; \"An outbreak of a mysterious hemorrhagic fever syndrome in the Venezuelan state of Aragua and the country\u2019s capital Caracas has left ten people dead in the last three weeks.\"",
+        "rels": [
+            {
+                "en1": "ten",
+                "en2": "fever",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3095,
+                    3146
+                ]
+            },
+            {
+                "en1": "the country\u2019s",
+                "en2": "Caracas",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e15",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e16",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7724553621136512,
+                "span": [
+                    3194,
+                    3223
+                ]
+            },
+            {
+                "en1": "ten",
+                "en2": "ten people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e17",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s16-e5",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3233,
+                    3243
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Similar to Ebola, this syndrome causes patients to experience high fever, skin rashes and bleeding.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "It has been described as an aggressive disease that leads to a fatal deterioration of health within 72 hours.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Doctors have urged government authorities to declare a state of emergency in Aragua state; however they have received resistance from a surprising source.",
+        "rels": [
+            {
+                "en1": "Aragua",
+                "en2": "Aragua state",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e0",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s19-e1",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7717205953968514,
+                "span": [
+                    3566,
+                    3578
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The state Governor, Tareck El Aissami, has not only denied medical reports of the disease, but has accused the president of the Aragua state Medical Association, Angel Sarmiento, of \"creating anxiety.\"",
+        "rels": [
+            {
+                "en1": "The state Governor",
+                "en2": "Governor",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e9",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7945731423250607,
+                "span": [
+                    3646,
+                    3664
+                ]
+            },
+            {
+                "en1": "Governor",
+                "en2": "Tareck El Aissami",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7601736696627094,
+                "span": [
+                    3656,
+                    3683
+                ]
+            },
+            {
+                "en1": "the president",
+                "en2": "president",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e11",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7871644728656644,
+                "span": [
+                    3753,
+                    3766
+                ]
+            },
+            {
+                "en1": "Aragua state Medical Association",
+                "en2": "Medical Association",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e6",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e13",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7516792531993649,
+                "span": [
+                    3774,
+                    3806
+                ]
+            },
+            {
+                "en1": "Medical Association",
+                "en2": "Angel Sarmiento",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e7",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s20-e13",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7565610135319553,
+                "span": [
+                    3787,
+                    3823
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "More on dear Governor: Tarek Al-Aissami,the Venezuelan Minister of Interior and Justice, one of the key figures of the Chavez's government, is accused by the media of having used this position to issue passports to members of Hamas and Hezbollah.",
+        "rels": [
+            {
+                "en1": "dear Governor",
+                "en2": "Governor",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e13",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7873361912925141,
+                "span": [
+                    3858,
+                    3871
+                ]
+            },
+            {
+                "en1": "Governor",
+                "en2": "Tarek Al-Aissami",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e4",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7825956492871025,
+                "span": [
+                    3863,
+                    3889
+                ]
+            },
+            {
+                "en1": "Tarek Al-Aissami",
+                "en2": "Venezuelan",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7532999176376858,
+                "span": [
+                    3873,
+                    3904
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "the Venezuelan Minister",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e14",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7815893230003196,
+                "span": [
+                    3894,
+                    3913
+                ]
+            },
+            {
+                "en1": "the Venezuelan Minister",
+                "en2": "Minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e14",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.753905803869756,
+                "span": [
+                    3890,
+                    3913
+                ]
+            },
+            {
+                "en1": "one",
+                "en2": "Chavez",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    3939,
+                    3975
+                ]
+            },
+            {
+                "en1": "Chavez",
+                "en2": "the Chavez's government",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e7",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e15",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7751380283411338,
+                "span": [
+                    3969,
+                    3988
+                ]
+            },
+            {
+                "en1": "members",
+                "en2": "Hamas",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e18",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s21-e10",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7613382294873667,
+                "span": [
+                    4065,
+                    4081
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Born in Lebanon of Syrian descent in 1980; his father, Carlos Al-Aissami, was the head of the Venezuelan branch of the Iraqi Baath political party.",
+        "rels": [
+            {
+                "en1": "father",
+                "en2": "Carlos Al-Aissami",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7972679113697,
+                "span": [
+                    4145,
+                    4170
+                ]
+            },
+            {
+                "en1": "Carlos Al-Aissami",
+                "en2": "Venezuelan",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e7",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s22-e9",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7515351668079463,
+                "span": [
+                    4153,
+                    4202
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "According to reports, before the invasion of Iraq his father held a press conference in which he described himself as a Taliban and called Osama Bin Laden, \"the great Mujahedeen, Sheik Osama bin Laden. \"",
+        "rels": [
+            {
+                "en1": "Iraq",
+                "en2": "his father",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e9",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e10",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7508888742716342,
+                "span": [
+                    4291,
+                    4306
+                ]
+            },
+            {
+                "en1": "Mujahedeen",
+                "en2": "the great Mujahedeen",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e6",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e13",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7956442613957226,
+                "span": [
+                    4413,
+                    4423
+                ]
+            },
+            {
+                "en1": "Sheik",
+                "en2": "Osama bin Laden",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s23-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7923656294015273,
+                "span": [
+                    4425,
+                    4446
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "[1] The Minister's great-uncle Shibli Al-Aissami was a prominent ideologist and assistant to the secretary general of the Baath party in Baghdad during the Saddam Hussein regime.",
+        "rels": [
+            {
+                "en1": "1",
+                "en2": "The Minister's",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e11",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4450,
+                    4467
+                ]
+            },
+            {
+                "en1": "The Minister's",
+                "en2": "Minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e11",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7551431212504067,
+                "span": [
+                    4453,
+                    4465
+                ]
+            },
+            {
+                "en1": "Minister",
+                "en2": "The Minister's great-uncle",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e12",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7942243544446475,
+                "span": [
+                    4457,
+                    4479
+                ]
+            },
+            {
+                "en1": "The Minister's great-uncle",
+                "en2": "Shibli Al-Aissami",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e12",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.756511295555312,
+                "span": [
+                    4453,
+                    4497
+                ]
+            },
+            {
+                "en1": "a prominent ideologist and assistant",
+                "en2": "assistant",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e13",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e2",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7848051831387718,
+                "span": [
+                    4502,
+                    4538
+                ]
+            },
+            {
+                "en1": "secretary",
+                "en2": "the secretary general",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e14",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e3",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7709354093544099,
+                "span": [
+                    4546,
+                    4563
+                ]
+            },
+            {
+                "en1": "the secretary general",
+                "en2": "Baath",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e14",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e5",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7588492366183139,
+                "span": [
+                    4542,
+                    4576
+                ]
+            },
+            {
+                "en1": "the Baath party",
+                "en2": "Baghdad",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e8",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s24-e15",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7605997252826101,
+                "span": [
+                    4567,
+                    4593
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "[2] UPDATED --- There are two interesting comments to this point posted to the story ...  Chikungunya?",
+        "rels": [
+            {
+                "en1": "2",
+                "en2": "Chikungunya",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4629,
+                    4729
+                ]
+            },
+            {
+                "en1": "two",
+                "en2": "Chikungunya",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s25-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4654,
+                    4729
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Early reports said epidemiologists ruled that out in the first eight cases... Another report said autopsy revealed multiple complications in victims: hepatomegaly, strong steatosis, congestive spleen, pale kidneys, hemorrhagic enterocolitis, erosive pleuritis and petechiae in the upper limbs\u2026 (they didn't die from a fever).",
+        "rels": [
+            {
+                "en1": "eight",
+                "en2": "the first eight cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s26-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    4794,
+                    4805
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "All had same symptoms [hemorrhagic fever] all died within 72 hours... seems they've got more of a problem if chikungunya now causes such a virulent form of hemorrhagic fever... (US too since it's now in Florida) The government was too quick to go after the doctors, they suppress information and I don't trust them at all...chikungunya?",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "I don't know but I think not.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Kathy Stuart no2msmBS \u2022 7 days ago I do have to agree with you that the information that this Chikungunya does seem a bit specious as it was one of the first diseases that the medical spokesperson said had been ruled out.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e0",
+                "en1": "one",
+                "en2": "the first diseases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e7",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    5565,
+                    5590
+                ]
+            },
+            {
+                "en1": "the medical spokesperson",
+                "en2": "spokesperson",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e8",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s29-e3",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7978812798425694,
+                "span": [
+                    5596,
+                    5620
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "It is also, as far as I have read not known to cause the terrible symptoms from which these patients died.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "There is a Dengue varient that does cause hemorrhagic symptoms.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "As for the US having a problem with Chikungunya it is all over the country, initially brought home by travelers and is now spreading through mosquitoes.",
+        "rels": [
+            {
+                "en1": "home",
+                "en2": "travelers",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e6",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s32-e7",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7518515362575143,
+                "span": [
+                    5911,
+                    5928
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "There are at this time around 600 known cases in the US.",
+        "rels": [
+            {
+                "en1": "600",
+                "en2": "600 known cases",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    6000,
+                    6015
+                ]
+            },
+            {
+                "en1": "600 known cases",
+                "en2": "US",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e1",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s33-e3",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7868832203912666,
+                "span": [
+                    6000,
+                    6025
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Most so far imported but some locally acquired.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "WHAT IF THIS IS BIO-TERROR, NOT SIMPLE EBOLA?",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "ON the; Sean Hannity Radio Show; a caller named \"Mike\" who claimed to be a scientist and CEO of a large corporation during which he claimed that the government is in fact lying and that the disease currently causing problems in Dallas, TX and throughout West Africa is not Ebola but in fact the Marburg Virus (listen at this link towards the 24:50 mark).",
+        "rels": [
+            {
+                "en1": "a scientist and CEO",
+                "en2": "CEO",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e18",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7639385402206528,
+                "span": [
+                    6195,
+                    6214
+                ]
+            },
+            {
+                "en1": "Dallas",
+                "en2": "TX",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e10",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s36-e12",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7813261534277256,
+                "span": [
+                    6350,
+                    6360
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The caller was indeed verified by Hannity\u2019s staff so the conversation was quite disturbing not just because of his conclusions, but the other drastic paths his information could lead anyone with a brain into concluding.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The Soviet Union had an extensive biological warfare division and unfortunately for the United States, much of what was created by their labs might be intact or worse, in the hands of other nations or powers more willing to use these weapons to achieve their goals of weakening the U.S. and its allies.",
+        "rels": [
+            {
+                "en1": "Soviet Union",
+                "en2": "The Soviet Union",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e1",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7705558402793473,
+                "span": [
+                    6703,
+                    6715
+                ]
+            },
+            {
+                "en1": "The Soviet Union",
+                "en2": "an extensive biological warfare division",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s38-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7841887967961947,
+                "span": [
+                    6699,
+                    6760
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "What happened to the Soviet program in 1972?",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They signed the same international treaty the U.S. signed, ostensibly banning offensive BW research, didn\u2019t they?",
+        "rels": [
+            {
+                "en1": "U.S.",
+                "en2": "the U.S.",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s40-e0",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s40-e2",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7622569669346307,
+                "span": [
+                    7094,
+                    7098
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Patrick:   In 1972, just as they signed the Biological Convention, the Soviet Union expanded their program.",
+        "rels": [
+            {
+                "en1": "Soviet Union",
+                "en2": "the Soviet Union",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e3",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s41-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.772419012154833,
+                "span": [
+                    7233,
+                    7245
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Since they didn\u2019t have the United States to follow, they went out on their own.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "And at that point they started concentrating on lethal agents.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They weaponized anthrax.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They weaponized smallpox.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They weaponized Yersinia pestis or plague.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They weaponized Marburg virus.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They grew it to high concentrations in guinea pigs.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Now, it takes a lot of guinea pigs to produce the amount of dry powder they had on hand when supposedly their program came to an end.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "They produced a very, very effective, scary product with Marburg virus.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "NOVA: Why is that so scary?",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Patrick: Because Marburg virus is lethal.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "It only takes one to two virus particles to cause an infection of the respiratory tract.",
+        "rels": [
+            {
+                "en1": "one",
+                "en2": "virus",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    7888,
+                    7904
+                ]
+            },
+            {
+                "en1": "two",
+                "en2": "virus",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s53-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    7895,
+                    7904
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "There is no vaccine.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "And once you contract the disease, there is only one way to go, and that\u2019s death.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "So it is very scary.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Hemorrhagic fever viruses have been weaponized by the former Soviet Union, Russia, and the United States.",
+        "rels": [
+            {
+                "en1": "Soviet Union",
+                "en2": "the former Soviet Union",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e2",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7710463197481181,
+                "span": [
+                    8150,
+                    8162
+                ]
+            },
+            {
+                "en1": "the former Soviet Union",
+                "en2": "Russia",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e4",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7645909948436178,
+                "span": [
+                    8139,
+                    8170
+                ]
+            },
+            {
+                "en1": "Russia",
+                "en2": "United States",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s57-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7613448851726795,
+                "span": [
+                    8164,
+                    8193
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "There are reports that yellow fever may have been weaponized by North Korea.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The former Soviet Union and Russia produced large quantities of Marburg, Ebola, Lassa, and New World arenaviruses (specifically, Junin and Machupo) until 1992.",
+        "rels": [
+            {
+                "en1": "Soviet Union",
+                "en2": "The former Soviet Union",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e3",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7904243339705441,
+                "span": [
+                    8283,
+                    8295
+                ]
+            },
+            {
+                "en1": "The former Soviet Union",
+                "en2": "Russia",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e5",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s59-e11",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7932686683945761,
+                "span": [
+                    8272,
+                    8306
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Soviet Union researchers quantified the aerosol infectivity of Marburg virus for monkeys, determining that no more than a few virions are required to cause infection.",
+        "rels": [
+            {
+                "en1": "Soviet Union",
+                "en2": "Soviet Union researchers",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e2",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s60-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.763589293576424,
+                "span": [
+                    8434,
+                    8458
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Yellow fever and Rift Valley fever viruses were developed as weapons by the US offensive biological weapons program prior to its termination in 1969.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "The Japanese terrorist cult Aum Shinrikyo unsuccessfully attempted to obtain Ebola virus as part of an effort to create biological weapons.",
+        "rels": [
+            {
+                "en1": "Japanese",
+                "en2": "Aum",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e3",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e4",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.762978203880012,
+                "span": [
+                    8757,
+                    8784
+                ]
+            },
+            {
+                "en1": "Aum",
+                "en2": "Aum Shinrikyo",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s62-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7885488958093432,
+                "span": [
+                    8781,
+                    8794
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Several studies have demonstrated successful infection of nonhuman primates by aerosol preparations of Ebola, Marburg, Lassa, and New World arena-viruses.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Arguments asserting that the absence of effective antiviral therapy and vaccines would make these viruses too dangerous to develop as weapons are not supported by the historical record.",
+        "rels": []
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "In 1999, the Centers for Disease Control and Prevention (CDC) classified the HFVs as category A bioweapon agents, based on the potential to cause widespread illness and death, ease of dissemination or person-to-person transmission, potential for major public health impact, and requirement of special action for public health preparedness.",
+        "rels": [
+            {
+                "en1": "Centers for Disease Control and Prevention",
+                "en2": "CDC",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s65-e5",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7985027690024349,
+                "span": [
+                    9251,
+                    9298
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "AND THEN THERE'S THIS:  BREAKING: DHS Search of Mobile Home Park Linked to Missing Liberian Muslims?",
+        "rels": [
+            {
+                "en1": "Liberian",
+                "en2": "Liberian Muslims",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e3",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s66-e4",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7941769973396018,
+                "span": [
+                    9663,
+                    9679
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Gotnews.com reported earlier this week about two Muslim men who were missing from a Liberian freighter\u2019s passenger manifest.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e0",
+                "en1": "two",
+                "en2": "two Muslim men",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s67-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    9727,
+                    9741
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "Our law enforcement source confirms that this search by DHS of a mobile home park in the Cheasepeake, VA area is related to the missing Muslim men.",
+        "rels": [
+            {
+                "en1": "Cheasepeake",
+                "en2": "VA",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s68-e4",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7820653435349262,
+                "span": [
+                    9897,
+                    9912
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "JC002YGFT.ltf.xml.json",
+        "inputSentence": "WAVY.COM reports:  Department of Homeland Security executed search warrants in a Chesapeake trailer park Friday morning.",
+        "rels": [
+            {
+                "en1": "Department",
+                "en2": "Department of Homeland Security",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e5",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-JC002YGFT.ltf.xml-s69-e2",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.8003648324422378,
+                "span": [
+                    9976,
+                    10007
+                ]
+            }
+        ]
+    }
+]

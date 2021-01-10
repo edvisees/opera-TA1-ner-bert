@@ -1,0 +1,62 @@
+T0	per_unspecified_unspecified 204 213	9 человек
+T1	gpe_country_country 57 66	Венесуэлы
+T2	mhi_disease_disease 141 171	эпидемии вирусного заболевания
+T3	per_professionalposition_medicalpersonnel 119 124	врачу
+T4	org_government_unspecified 43 66	Правительство Венесуэлы
+T5	mhi_disease_disease 150 171	вирусного заболевания
+T6	org_government_unspecified 43 56	Правительство
+T7	per_unspecified_unspecified 206 213	человек
+T8	val_number_number 204 205	9
+T9	per_professionalposition_medicalpersonnel 235 241	врачей
+T10	ttl_unspecified_unspecified 215 241	Президенту Коллегии врачей
+T11	ttl_unspecified_unspecified 215 254	Президенту Коллегии врачей штата Арагуа
+T12	per_professionalposition_medicalpersonnel 255 271	Анхелю Сармьенто
+T13	sid_political_opposition 383 392	оппозиция
+T14	per_politician_headofgovernment 414 446	Глава государства Николас Мадуро
+T15	gpe_country_country 420 431	государства
+T16	ttl_unspecified_unspecified 414 431	Глава государства
+T17	per_politician_headofgovernment 432 446	Николас Мадуро
+T18	per_professionalposition_medicalpersonnel 526 531	врачи
+T19	gpe_country_country 558 562	Кубы
+T20	gpe_country_country 507 513	страну
+T21	gpe_country_country 542 547	стран
+T22	per_politician_headofgovernment 564 573	Президент
+T23	per_professionalposition_medicalpersonnel 619 636	доктора Сармьенто
+T24	gpe_urbanarea_city 680 690	г. Маракай
+T25	fac_building_unspecified 672 690	клинике г. Маракай
+T26	gpe_urbanarea_city 683 690	Маракай
+T27	fac_building_unspecified 672 679	клинике
+T28	per_unspecified_unspecified 702 716	девять человек
+T29	val_number_number 702 708	девять
+T30	per_unspecified_unspecified 743 746	они
+T31	mhi_disease_disease 760 790	эпидемии вирусного заболевания
+T32	per_professionalposition_medicalpersonnel 728 737	Сармьенто
+T33	gpe_country_country 820 826	страну
+T34	per_professionalposition_medicalpersonnel 792 808	Анхель Сармьенто
+T35	per_professionalposition_medicalpersonnel 903 906	ему
+T36	per_professionalposition_medicalpersonnel 869 871	он
+T37	life_die_nonviolentdeath 196 203	погибло
+E0	life_die_nonviolentdeath:T37 victim:T0 place:T1 medicalissue:T2
+T38	genericcrime_genericcrime_genericcrime 90 118	"психологическом терроризме"
+E1	genericcrime_genericcrime_genericcrime:T38 perpetrator:T3 place:T1
+T39	disaster_diseaseoutbreak_diseaseoutbreak 141 149	эпидемии
+E2	disaster_diseaseoutbreak_diseaseoutbreak:T39 place:T1 disease:T2
+T40	justice_initiatejudicialprocess_chargeindict 67 87	предъявило обвинение
+E3	justice_initiatejudicialprocess_chargeindict:T40 prosecutor:T4 defendant:T3
+T41	justice_initiatejudicialprocess_chargeindict 279 289	заключение
+E4	justice_initiatejudicialprocess_chargeindict:T41 defendant:T12
+T42	conflict_attack_biologicalchemicalpoisonattack 340 367	"бактериологической войной"
+E5	conflict_attack_biologicalchemicalpoisonattack:T42 attacker:T13
+T43	movement_transportperson_selfmotion 518 525	прибыли
+E6	movement_transportperson_selfmotion:T43 transporter:T18 origin:T19 destination:T20
+T44	life_die_nonviolentdeath 691 701	скончались
+E7	life_die_nonviolentdeath:T44 victim:T0 place:T24
+T45	life_die_nonviolentdeath 747 753	умерли
+E8	life_die_nonviolentdeath:T45 victim:T30 medicalissue:T31 place:T24
+T46	movement_transportperson_selfmotion 809 819	не покинул
+E9	movement_transportperson_selfmotion:T46 transporter:T12 origin:T33
+R1	measurement_size_count Arg1:T7 Arg2:T8
+R2	personalsocial_role_titleformofaddress Arg1:T11 Arg2:T12
+R3	personalsocial_role_titleformofaddress Arg1:T16 Arg2:T17
+R4	physical_locatednear_unspecified Arg1:T27 Arg2:T24
+R5	measurement_size_count Arg1:T28 Arg2:T29

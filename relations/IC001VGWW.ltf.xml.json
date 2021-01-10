@@ -1,0 +1,605 @@
+[
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": ".6 People Arrested After Assassination Attempt on Venezuelan President Nicolas Maduro;  Six people have been arrested after Saturday\u2019s apparent assassination attempt on President Nicolas Maduro in the Venezuelan capital of Caracas, the nation\u2019s interior minister said on national TV.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e3",
+                "en1": ".6",
+                "en2": ".6 People",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e14",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    0,
+                    9
+                ]
+            },
+            {
+                "en1": "Venezuelan",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e6",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e9",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7887624823087666,
+                "span": [
+                    50,
+                    70
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e9",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e1",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7615749215060075,
+                "span": [
+                    61,
+                    85
+                ]
+            },
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e3",
+                "en1": "Six",
+                "en2": "Six people",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e16",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e2",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    88,
+                    98
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Nicolas Maduro",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e11",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e4",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7833232584659882,
+                "span": [
+                    169,
+                    193
+                ]
+            },
+            {
+                "en1": "the nation\u2019s",
+                "en2": "the nation\u2019s interior minister",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e19",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e20",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7591543212771878,
+                "span": [
+                    232,
+                    262
+                ]
+            },
+            {
+                "en1": "the nation\u2019s interior minister",
+                "en2": "interior minister",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e20",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s0-e5",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7770196623390316,
+                "span": [
+                    232,
+                    262
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Maduro survived the assault after several drones armed with explosives flew toward him during a speech at a military parade, an attack he blamed on far-right elements and Colombia\u2019s outgoing president, Juan Manuel Santos.",
+        "rels": [
+            {
+                "en1": "Colombia\u2019s",
+                "en2": "Colombia\u2019s outgoing president",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e7",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e8",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7695932828700988,
+                "span": [
+                    456,
+                    485
+                ]
+            },
+            {
+                "en1": "Colombia\u2019s outgoing president",
+                "en2": "president",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e8",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7887417030200136,
+                "span": [
+                    456,
+                    485
+                ]
+            },
+            {
+                "en1": "president",
+                "en2": "Juan Manuel Santos",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e1",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s1-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.764639877245872,
+                "span": [
+                    476,
+                    505
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Those arrested are accused of \"terrorism and assassination,\" Interior Minister Nestor Reverol said Sunday.",
+        "rels": [
+            {
+                "en1": "terrorism and assassination",
+                "en2": "Nestor Reverol",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7528435019413421,
+                "span": [
+                    539,
+                    586
+                ]
+            },
+            {
+                "en1": "Interior Minister",
+                "en2": "Nestor Reverol",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e2",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s2-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7700291738212752,
+                "span": [
+                    569,
+                    601
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Reverol said one of the detained had an outstanding arrest warrant for his alleged role in the August 2017 attack on a military base in Valencia.",
+        "rels": [
+            {
+                "aida:time": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e1",
+                "en1": "one",
+                "en2": "a military base",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e4",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    629,
+                    748
+                ]
+            },
+            {
+                "en1": "a military base",
+                "en2": "Valencia",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e4",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s3-e5",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.785021329653003,
+                "span": [
+                    733,
+                    760
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Another of the detained people was previously arrested during the 2014 anti-government protests.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Reverol said he doesn\u2019t rule out further arrests.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Attackers used two DJI M600 drones that each carried 1 kilogram of C-4 explosive, Reverol said.",
+        "rels": [
+            {
+                "en1": "two",
+                "en2": "DJI M600",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    926,
+                    938
+                ]
+            },
+            {
+                "en1": "1",
+                "en2": "Reverol",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e3",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s6-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    964,
+                    1000
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "The munitions could cause damage in a radius of 50 meters, and intelligence services were able to identify the nearby streets that were used for launching the drones from a distance, he said.",
+        "rels": [
+            {
+                "en1": "50",
+                "en2": "the nearby streets",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s7-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1056,
+                    1133
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "One of the drones flew over the presidential stage with the intention of being detonated by the attackers, but he said the authorities were able to cause it to lose control and detonate outside the area the attackers targeted.",
+        "rels": [
+            {
+                "en1": "One",
+                "en2": "the drones",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e1",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1201,
+                    1218
+                ]
+            },
+            {
+                "en1": "the area",
+                "en2": "the attackers",
+                "ldcOnt:Physical.LocatedNear_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e5",
+                "ldcOnt:Physical.LocatedNear_Place": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s8-e4",
+                "rel": "ldcOnt:Physical.LocatedNear",
+                "score": 0.7973781556276952,
+                "span": [
+                    1395,
+                    1417
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Reverol said the second drone lost control and fell into an apartment building, where it exploded on the first floor.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "The incident took place as Maduro was speaking at a commemoration of the 81st anniversary of the Venezuelan national guard that featured a military parade.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "Venezuelan national guard",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e0",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e1",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7741522591485452,
+                "span": [
+                    1645,
+                    1670
+                ]
+            },
+            {
+                "en1": "Venezuelan national guard",
+                "en2": "the Venezuelan national guard",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e4",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s10-e1",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7897901386307913,
+                "span": [
+                    1645,
+                    1670
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Live footage of the event showed him suddenly looking up startled midspeech, while beside him his wife, Cilia Flores, winced after a loud bang and dozens of soldiers were seen scattering.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Seven members of the national guard were hurt during the attack.",
+        "rels": [
+            {
+                "en1": "Seven",
+                "en2": "Seven members",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e2",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e0",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    1893,
+                    1906
+                ]
+            },
+            {
+                "en1": "Seven members",
+                "en2": "national guard",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e2",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e1",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7576874460638601,
+                "span": [
+                    1893,
+                    1928
+                ]
+            },
+            {
+                "en1": "national guard",
+                "en2": "the national guard",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e3",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s12-e1",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.765755871414709,
+                "span": [
+                    1914,
+                    1928
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Venezuela\u2019s attorney general, Tarek William Saab, said he had ordered an investigation into the incident, assigning three prosecutors to the investigation.",
+        "rels": [
+            {
+                "en1": "Venezuela\u2019s",
+                "en2": "Venezuela\u2019s attorney general",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e5",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7770672336601852,
+                "span": [
+                    1959,
+                    1987
+                ]
+            },
+            {
+                "en1": "Venezuela\u2019s attorney general",
+                "en2": "attorney general",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e5",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7546374203202676,
+                "span": [
+                    1959,
+                    1987
+                ]
+            },
+            {
+                "en1": "attorney general",
+                "en2": "Tarek William Saab",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e2",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7591456094066071,
+                "span": [
+                    1971,
+                    2007
+                ]
+            },
+            {
+                "en1": "three",
+                "en2": "three prosecutors",
+                "ldcOnt:Measurement.Size.Count_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e6",
+                "ldcOnt:Measurement.Size.Count_Measurement": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s13-e1",
+                "rel": "ldcOnt:Measurement.Size.Count",
+                "score": 0.9,
+                "span": [
+                    2075,
+                    2092
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Maduro appeared on national TV a couple of hours later, when he spoke about the investigation and arrests.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "He said the Venezuelan political far right in collaboration with the Colombian far right and Colombian President Santos were behind the attack.",
+        "rels": [
+            {
+                "en1": "Colombian",
+                "en2": "Santos",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e6",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e7",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7511608927059336,
+                "span": [
+                    2317,
+                    2336
+                ]
+            },
+            {
+                "en1": "President",
+                "en2": "Santos",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e7",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s15-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7586942624411521,
+                "span": [
+                    2327,
+                    2343
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "He also blamed Venezuelans living in the United States.",
+        "rels": []
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "\"The preliminary investigation indicates that many of those responsible for the attack, the financiers and planners, live in the United States in the state of Florida,\" Maduro said.",
+        "rels": [
+            {
+                "en1": "the financiers and planners",
+                "en2": "United States",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e0",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e2",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.757547468119096,
+                "span": [
+                    2513,
+                    2567
+                ]
+            },
+            {
+                "en1": "Florida",
+                "en2": "Maduro",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e5",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s17-e6",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7506895439939877,
+                "span": [
+                    2584,
+                    2600
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "\"I hope the Trump administration is willing to fight terrorist groups that commit attacks in peaceful countries in our continent, in this case Venezuela.\"",
+        "rels": [
+            {
+                "en1": "terrorist groups",
+                "en2": "peaceful countries",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e5",
+                "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation_Organization": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e6",
+                "rel": "ldcOnt:GeneralAffiliation.OrganizationPoliticalReligiousAffiliation",
+                "score": 0.7811404175172196,
+                "span": [
+                    2661,
+                    2719
+                ]
+            },
+            {
+                "en1": "peaceful countries",
+                "en2": "Venezuela",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e2",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7559831869003358,
+                "span": [
+                    2701,
+                    2760
+                ]
+            },
+            {
+                "en1": "Venezuela",
+                "en2": "this case Venezuela",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e2",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s18-e7",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7953600469317361,
+                "span": [
+                    2751,
+                    2760
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "The Venezuelan government has long blamed Colombia for plotting overthrows, and far-right elements in Bogota and Miami for attempting to undercut Maduro.",
+        "rels": [
+            {
+                "en1": "Venezuelan",
+                "en2": "The Venezuelan government",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Parent": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e0",
+                "ldcOnt:PartWhole.Subsidiary.NationalityCitizen_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e6",
+                "rel": "ldcOnt:PartWhole.Subsidiary.NationalityCitizen",
+                "score": 0.7608877039645442,
+                "span": [
+                    2768,
+                    2789
+                ]
+            },
+            {
+                "en1": "Miami",
+                "en2": "Bogota and Miami",
+                "ldcOnt:PartWhole.Subsidiary_Parent": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e4",
+                "ldcOnt:PartWhole.Subsidiary_Subsidiary": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s19-e8",
+                "rel": "ldcOnt:PartWhole.Subsidiary",
+                "score": 0.7649753496184597,
+                "span": [
+                    2877,
+                    2882
+                ]
+            }
+        ]
+    },
+    {
+        "docID": "IC001VGWW.ltf.xml.json",
+        "inputSentence": "Ivan Duque takes over as the Colombian President this week.",
+        "rels": [
+            {
+                "en1": "Ivan Duque",
+                "en2": "Colombian",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_Employee": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e3",
+                "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment_PlaceOfEmployment": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e4",
+                "rel": "ldcOnt:OrganizationAffiliation.EmploymentMembership.Employment",
+                "score": 0.7875221363781767,
+                "span": [
+                    2918,
+                    2956
+                ]
+            },
+            {
+                "en1": "Colombian",
+                "en2": "the Colombian President",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_EntityOrFiller": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e4",
+                "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e6",
+                "rel": "ldcOnt:GeneralAffiliation.MemberOriginReligionEthnicity",
+                "score": 0.7719576654104532,
+                "span": [
+                    2947,
+                    2966
+                ]
+            },
+            {
+                "en1": "the Colombian President",
+                "en2": "President",
+                "ldcOnt:PersonalSocial.Role_Person": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e6",
+                "ldcOnt:PersonalSocial.Role_Role": "LDC2018E01-opera-text-entity-mention-IC001VGWW.ltf.xml-s20-e0",
+                "rel": "ldcOnt:PersonalSocial.Role",
+                "score": 0.7517689997147818,
+                "span": [
+                    2943,
+                    2966
+                ]
+            }
+        ]
+    }
+]
