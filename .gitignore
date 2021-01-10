@@ -5,3 +5,7 @@ __pycache__/
 log.*
 *.log
 logs
+annotated_data/
+pred_entity/
+
+
