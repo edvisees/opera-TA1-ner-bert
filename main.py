@@ -14,14 +14,13 @@ import json
 import traceback
 from zs_mapper import A20_NER_MAP
 script_dir=os.path.dirname(os.path.realpath(__file__))
-
+with open('gazetteer/ldc2wikidata.txt', 'r') as f:
+    ldc2wd_dict = {}
+    for line in f:
+        line = line.strip().split('\t')
+        if len(line) > 2:
+            ldc2wd_dict[line[1].lower()] = line[2]
 nist_ner = []
-# with open('LDCOntologyM36.jsonld') as f:
-#     ldc_onto = json.load(f)
-#     for data in ldc_onto['frames']:
-#         #print(data)
-#         if data['@type'] == 'entity_type':
-#             nist_ner.append(data['@id'])
 aida_ner_type = {}
 with open('aida_ner.txt') as f:
     next(f)
@@ -36,6 +35,11 @@ with open('aida_ner.txt') as f:
         type_name = 'ldcOnt:' + type_name
         aida_ner_type[type_name.lower()] = type_name
         nist_ner.append(type_name)
+
+for new_type in ['BOD.fluids', 'BOD.fluids', 'BOD.organ', 'COM.Equipment.PPE', 'COM.vaccine', 'PTH.virus', 'PTH.virus.coronovirus']:
+    type_name = 'ldcOnt:' + new_type
+    nist_ner.append(type_name)
+    aida_ner_type[type_name.lower()] = type_name
 
 nist_key = {}
 nist_key['people'] = 'ldcOnt:PER'
@@ -62,7 +66,7 @@ for nn in nist_ner:
             sstype_list.append(n_sstype)
             nist_key[n_sstype.lower()] = ori_nn
     else:
-        print(nn)
+        print(nn, 'not correct format')
 for k, vs in A20_NER_MAP.items():
     for v in vs:
         if v in nist_key:
@@ -119,64 +123,12 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
             fillers = extract_filler(sent, sent.annotation, ners)
             fil_list = []
             fillers = sorted(fillers, key=lambda tupe: int(tupe['char_begin']))
-            # print(fillers)
-            # merge fillers
             f_i = 0
             f_j = 1
-            # new_fillers = []
-            # if len(fillers) > 1:
-            #     #new_fillers = [fillers[0]]
-            #     while f_i < len(fillers) and f_j < len(fillers):
-            #         i_filler = fillers[f_i]
-            #         j_filler = fillers[f_j]
-            #         if i_filler['mention'] == j_filler['mention']:
-            #             f_j += 1
-            #             continue
-            #         if i_filler['mention'] in j_filler['mention'] or j_filler['mention'] in i_filler['mention']:
-            #             if i_filler['char_end'] - i_filler['char_begin'] > j_filler['char_end'] - j_filler['char_begin']:
-            #                 f_j += 1
-            #             else:
-            #                 f_i = f_j
-            #                 f_j += 1
-            #         else:
-            #             new_fillers.append(i_filler)
-            #             f_i = f_j
-            #             f_j += 1
-            #     new_fillers.append(fillers[f_i])
-            #     fillers = new_fillers
-            # print(fillers)
             for m_id, mention in enumerate(fillers):
                 ner_type = mention['type'].lower()
-                mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)
-                
-                # if 'subtype' not in mention.keys():
-                #     ner_subtype = '.n/a'
-                # else:
-                #     ner_subtype = '.' + mention['subtype'].lower()
-
-                # if 'subsubtype' not in mention.keys():
-                #     ner_subsubtype = '.n/a'
-                # else:
-                #     ner_subsubtype = '.' + mention['subsubtype'].lower()
+                mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id)             
                 contain = False
-                # unknown = 'n/a'
-                # for n_ner in nist_ner:
-                #     low_n_ner = n_ner.lower()
-                    # if unknown not in ner_subsubtype:
-                    #     if ner_subsubtype in low_n_ner:
-                    #         mention['type'] = n_ner
-                    #         contain = True
-                    #         break
-                    # elif ner_type in low_n_ner and ner_subtype in low_n_ner:
-                    #     mention['type'] = n_ner
-                    #     contain = True
-                    #     break
-                    # elif ner_type == 'n/a':
-                    #     if ner_subtype in low_n_ner:
-                    #         mention['type'] = n_ner
-                    #         contain = True
-                    #         break
-                    # elif ner_subtype == '.n/a' or ner_subtype == '.na':
                 if ner_type == 'NUMERICAL'.lower():
                     ner_type = 'VAL.Number.Number'
                 if ner_type == 'URL'.lower():
@@ -185,10 +137,6 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     ner_type = 'TTL'
                 if 'date_time' not in ner_type:
                     mention['type'] = 'ldcOnt:' + ner_type.upper()
-                # contain = True
-                #     break
-                # if not contain:
-                #     print(mention, ner_type, ner_subtype, '1')
                     
             for m_id, mention in enumerate(named_ents + nominals):
                 mention['@id'] = 'LDC2018E01-opera-text-entity-mention-{}-s{}-e{}'.format(os.path.split(fname)[1], sid,  m_id + len(fillers))
@@ -243,7 +191,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                         new_type = nist_key[sm]
                 if has == 1:
                     mention['type'] = new_type
-
+                
             def filter_type(nn):
                 new_named_ents = []
                 for ne in nn:
@@ -273,6 +221,9 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
 
                     else:
                         new_named_ents.append(entities[i])
+                for idx in range(len(new_named_ents)):
+                    inp_type = new_named_ents[idx]['type'][7:]
+                    new_named_ents[idx]['wikidata'] = ldc2wd_dict.get(inp_type.lower(), 'none')
                 return new_named_ents
             named_ents = filter_type(named_ents)
             nominals = filter_type(nominals)

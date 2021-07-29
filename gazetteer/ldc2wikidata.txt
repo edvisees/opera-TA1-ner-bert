@@ -1,0 +1,232 @@
+LDC tag		Q node tag (can be a boolean expression)	Comments	
+LDC_ent_001	BAL (backoff)	political_candidate_Q19772737 | ballot_Q905151		
+LDC_ent_002	BAL.BallotSlate	political_candidate_Q19772737		
+LDC_ent_003	BAL.PaperBallot 	ballot_Q905151		
+				
+LDC_ent_004	COM	work_product_Q15401930 | artificial_physical_object_Q8205328 | debris_Q637703	Added debris_Q637703	
+LDC_ent_005	COM.Document	written_work_Q47461344	document_Q49848 is a subclass of written_work_Q47461344	
+LDC_ent_006	COM.Document.Map	map_Q4006		
+LDC_ent_007	COM.Document.PersonalIdentification	identity_document_Q47988		
+LDC_ent_008	COM.Equipment	equipment_Q16798631 | humanitarian_aid_Q826745	Added humanitarian_aid_Q826745	
+LDC_ent_009	COM.Equipment.HumanitarianAid	humanitarian_aid_Q826745	Q826745 is an activity, not an entity; LDC means any object that plays a role in that activity	
+LDC_ent_010	COM.Equipment.MedicalEquipment	medical_equipment_Q6657015		
+LDC_ent_011	COM.Equipment.MilitaryEquipment	military_equipment_Q18643213	weapon is a subclass of military equipment	
+LDC_ent_012	COM.Equipment.Satellite	artificial_satellite_Q26540		
+LDC_ent_013	COM.Flag.Flag	flag_Q14660		
+LDC_ent_014	COM.Wreckage.Wreckage	debris_Q637703	This is not exactly what LDC means	
+				
+LDC_ent_028	FAC	artificial_geographic_entity_Q27096235		
+LDC_ent_029	FAC.Building	building_Q41176 | polling_place_Q335778	Added polling_place_Q335778	
+LDC_ent_030	FAC.Building.ApartmentBuilding	apartment_building_Q13402009		
+LDC_ent_031	FAC.Building.GovernmentBuilding	government_building_Q16831714		
+LDC_ent_032	FAC.Building.House	house_Q3947		
+LDC_ent_033	FAC.Building.OfficeBuilding	office_building_Q1021645		
+LDC_ent_034	FAC.Building.School	school_building_Q1244442 | school_Q3914	When a school is mentioned we may not know if it is a building or an institution	
+LDC_ent_035	FAC.Building.StoreShop	shop_Q213441	This is both a place and an organization	
+LDC_ent_036	FAC.Building.VotingFacility	polling_place_Q335778		
+LDC_ent_037	FAC.GeographicalAreaBoundary	boundary_Q1307347 &  human_made_geographic_feature_Q811430 | political_border_Q1292279 | frontier_Q1355821 | checkpoint_Q88871664	Added political_border_Q1292279 | frontier_Q1355821 | checkpoint_Q88871664	
+LDC_ent_038	FAC.GeographicalAreaBoundary.Border	political_border_Q1292279 | frontier_Q1355821		
+LDC_ent_039	FAC.GeographicalAreaBoundary.Checkpoint	checkpoint_Q88871664		
+LDC_ent_040	FAC.Installation	architectural_structure_Q811979 | facility_Q13226383	building_complex_Q1497364 is a subclass of architectural_structure_Q811979; It could also be artificial_physical_structure_Q102074988 which is 1 step up	
+LDC_ent_041	FAC.Installation.Airport	aerodrome_Q62447		
+LDC_ent_042	FAC.Installation.MilitaryInstallation	military_facility_Q18691599		
+LDC_ent_043	FAC.Installation.TrainStation	railway_station_Q55488		
+LDC_ent_044	FAC.Structure	human_made_geographic_feature_Q811430		
+LDC_ent_045	FAC.Structure.Barricade	barricade_Q81715		
+LDC_ent_046	FAC.Structure.Bridge	bridge_Q12280		
+LDC_ent_047	FAC.Structure.Plaza	square_Q174782	Plaza is a square_Q174782; is there a square which is not a plaza?	
+LDC_ent_048	FAC.Structure.Tower	tower_Q12518		
+LDC_ent_049	FAC.Way	thoroughfare_Q83620		
+LDC_ent_050	FAC.Way.Highway	highway_Q269949		
+LDC_ent_051	FAC.Way.Street	street_Q79007		
+				
+LDC_ent_052	GPE	political_territorial_entity_Q1048835 | urban_area_Q702492 | intergovernmental_organization_Q245065 | village_Q532	This covers everyting included in GPE	
+LDC_ent_053	GPE.Country.Country	country_Q6256		
+LDC_ent_054	GPE.OrganizationOfCountries.OrganizationOfCountries	intergovernmental_organization_Q245065		
+LDC_ent_055	GPE.ProvinceState.ProvinceState	administrative_territorial_entity_Q56061		
+LDC_ent_056	GPE.UrbanArea	urban_area_Q702492		
+LDC_ent_057	GPE.UrbanArea.City	city_Q515		
+LDC_ent_058	GPE.UrbanArea.Village	village_Q532		
+				
+LDC_ent_192	INF.TopicFIller.TopicFIller	information_Q11028 | research_object_Q4330518 | plan_Q1371819		
+				
+LDC_ent_059	LAW	law_Q7748 | referndum_Q43109	Added referndum_Q43109	
+LDC_ent_060	LAW.Referendum.Referendum	referndum_Q43109		
+				
+LDC_ent_061	LOC	geographic_entity_Q27096213		
+LDC_ent_062	LOC.GeographicPoint	geographic_location_Q2221906 | postal_address_Q319608	Added postal_address_Q319608	
+LDC_ent_063	LOC.GeographicPoint.Address	postal_address_Q319608		
+LDC_ent_064	LOC.Land	landmass_Q205895		
+LDC_ent_065	LOC.Land.Continent	continent_Q5107		
+LDC_ent_066	LOC.Position	location_Q17334923 | airspace_Q272730	geographic_region_Q82794 is a subclass of location_Q17334923; added	airspace_Q272730
+LDC_ent_067	LOC.Position.AirSpace	airspace_Q272730		
+LDC_ent_068	LOC.Position.CrimeScene	crime_scene_Q1360677		
+LDC_ent_069	LOC.Position.Field	field_Q188869		
+LDC_ent_070	LOC.Position.Neighborhood	neighborhood_Q123705		
+LDC_ent_071	LOC.Position.Region	geographic_region_Q82794	More general than Human-geographic territorial entity (Q15642541); includes tropical region	
+				
+LDC_ent_188	MHI	health_problem_Q2057971		
+LDC_ent_189	MHI.Disease	disease_Q12136		
+LDC_ent_190	MHI.SymptomPresentation.SymptomPresentation	symptom_Q169872		
+				
+LDC_ent_072	MON	money_Q1368 | asset_Q46737	Put asset_Q46737 back	
+LDC_ent_073	MON.Assets.Assets	asset_Q46737		
+LDC_ent_074	MON.Cash.Cash	cash_Q693464		
+				
+LDC_ent_075	ORG	organization_Q43229		
+LDC_ent_076	ORG.Association	association_Q15911314 | team_Q327245	Added team_Q327245	
+LDC_ent_077	ORG.Association.Club	club_Q988108		
+LDC_ent_078	ORG.Association.Team	team_Q327245		
+LDC_ent_079	ORG.CommercialOrganization	business_Q4830453 | broadcaster_Q15265344 | company_Q783794 | manufacturer_Q13235160	broadcaster_Q15265344 is not a business_Q4830453 in WD	
+LDC_ent_080	ORG.CommercialOrganization.BroadcastingCompany	broadcaster_Q15265344		
+LDC_ent_081	ORG.CommercialOrganization.Corporation	corporation_Q167037		
+LDC_ent_082	ORG.CommercialOrganization.Manufacturer	manufacturer_Q13235160	fabricator_Q42855995 is a subclass of manufacturer_Q13235160	
+LDC_ent_083	ORG.CommercialOrganization.NewsAgency	news_agency_Q192283		
+LDC_ent_084	ORG.CriminalOrganization.CriminalOrganization	criminal_organization_Q1788992		
+LDC_ent_085	ORG.Government	government_Q7188 |  government_agency_Q327333 | legislative_house_Q10553309 | railway_Q22667	railway_Q22667 is not in government_Q7188 in WD	
+LDC_ent_086	ORG.Government.Agency	government_agency_Q327333		
+LDC_ent_087	ORG.Government.Council	government_agency_Q327333	No government council in WD, not different from government agency	
+LDC_ent_088	ORG.Government.FireDepartment	fire_department_Q6498663		
+LDC_ent_089	ORG.Government.LawEnforcementAgency	law_enforcement_agency_Q732717		
+LDC_ent_090	ORG.Government.LegislativeBody	legislative_house_Q10553309		
+LDC_ent_091	ORG.Government.ProsecutorOffice	prosecutors_office_Q1092499		
+LDC_ent_092	ORG.Government.Railway	railway_Q22667 | railway_company_Q249556	Returned railway_company_Q249556	
+LDC_ent_093	ORG.International	international_organization_Q484652		
+LDC_ent_094	ORG.International.Commission	international_organization_Q484652	has no WD equivalents	
+LDC_ent_095	ORG.International.MonitoringGroup	international_organization_Q484652	has no WD equivalents	
+LDC_ent_096	ORG.MilitaryOrganization	armed_organization_Q17149090 | military_intelligence_agency_Q72857065		
+LDC_ent_097	ORG.MilitaryOrganization.GovernmentArmedForces	military_Q8473	armed_forces_Q772547 is a subset of military_Q8473	
+LDC_ent_098	ORG.MilitaryOrganization.Intelligence	military_intelligence_agency_Q72857065		
+LDC_ent_099	ORG.MilitaryOrganization.NonGovernmentMilitia	militia_Q153936 | irregular_military_Q1673189	Could be either one	
+LDC_ent_100	ORG.PoliticalOrganization	political_organisation_Q7210356 | court_Q41487	court_Q41487 is not a political_organisation_Q7210356 in WD !!	
+LDC_ent_101	ORG.PoliticalOrganization.Court	court_Q41487		
+LDC_ent_102	ORG.PoliticalOrganization.Party	political_party_Q7278		
+				
+LDC_ent_103	PER	person_Q215627		
+LDC_ent_104	PER.Combatant	combatant_Q1414937 | sniper_Q201948	sniper_Q201948 is not a combatant_Q1414937 in WD	
+LDC_ent_105	PER.Combatant.Mercenary	mercenary_Q178197		
+LDC_ent_106	PER.Combatant.Sniper	sniper_Q201948		
+LDC_ent_107	PER.Fan	fan_Q193432		
+LDC_ent_108	PER.Fan.SportsFan	supporter_Q16678266		
+LDC_ent_109	PER.MilitaryPersonnel	military personnel_Q47064		
+LDC_ent_110	PER.MilitaryPersonnel.MilitaryOfficer	military officer_Q189290		
+LDC_ent_111	PER.Police	police_officer_Q384593		
+LDC_ent_112	PER.Police.ChiefOfPolice	chief_of_police_Q2855502		
+LDC_ent_113	PER.Politician	politician_Q82955		
+LDC_ent_114	PER.Politician.Governor	governor_Q132050		
+LDC_ent_115	PER.Politician.HeadOfGovernment	head_of_government_Q2285706 | head_of state_Q48352		
+LDC_ent_116	PER.Politician.Mayor	mayor_Q30185		
+LDC_ent_117	PER.ProfessionalPosition	professional_Q702269 | firefighter_Q107711 | spokesperson_Q17221 | spy_Q9352089	occupation_Q12737077 is an activity, not an entity in WD	
+LDC_ent_118	PER.ProfessionalPosition.Ambassador	ambassador_Q121998		
+LDC_ent_119	PER.ProfessionalPosition.Firefighter	firefighter_Q107711		
+LDC_ent_120	PER.ProfessionalPosition.Journalist	journalist_Q1930187		
+LDC_ent_121	PER.ProfessionalPosition.Minister	minister_Q83307		
+LDC_ent_122	PER.ProfessionalPosition.MedicalPersonnel	health_professional_Q11974939		
+LDC_ent_123	PER.ProfessionalPosition.Scientist	scientist_Q901		
+LDC_ent_124	PER.ProfessionalPosition.Spokesperson	spokesperson_Q17221		
+LDC_ent_125	PER.ProfessionalPosition.Spy	spy_Q9352089		
+LDC_ent_126	PER.Protester	political_activist_Q11499147	protester_Q7623053 is a subclass of political_activist_Q11499147 without any additional information in WD	
+LDC_ent_127	PER.Protester.ProtestLeader	political_activist_Q11499147 &  leader_Q1251441		
+				
+LDC_ent_128	RES	voting_result_Q51591359 | voter_turnout_Q1339847 | electoral_result _Q19571328	Added electoral_result _Q19571328	
+LDC_ent_129	RES.NumberPercentageVotes.NumberPercentageVotes		not in WD	
+LDC_ent_130	RES.TurnoutVoters.TurnoutVoters	voter_turnout_Q1339847		
+				
+LDC_ent_131	SID	group_of_humans_Q16334295 | supporter_Q16678266	not in WD	
+LDC_ent_132	SID.Cultural.Cultural	group_of_humans_Q16334295	not in WD	
+LDC_ent_133	SID.Ideological.Ideological	political_ideology_Q12909644 | group_of_humans_Q16334295		
+LDC_ent_134	SID.Political.Opposition	political_opposition_Q192852		
+LDC_ent_135	SID.Religious.Religious	religious_community_Q2742167		
+LDC_ent_136	SID.Sports.Sports	supporter_Q16678266	this is a subclass of person	
+				
+LDC_ent_137	TTL	title_Q216353 | rank_Q4189293		
+				
+LDC_ent_138	VAL	property_Q937228	We use property_Q937228 instead of quantity_Q309314 to accommodate things like "good" or "bad"	
+LDC_ent_139	VAL.Number.Number	number_Q11563		
+				
+LDC_ent_140	VEH	vehicle_Q42889		
+LDC_ent_141	VEH.Aircraft	aircraft_Q11436		
+LDC_ent_142	VEH.Aircraft.Airplane	fixed-wing_aircraft_Q2875704		
+LDC_ent_143	VEH.Aircraft.CargoAircraft	cargo_aircraft_Q19799		
+LDC_ent_191	VEH.Aircraft.Drone	unmanned_aerial_vehicle_Q484000		
+LDC_ent_144	VEH.Aircraft.Helicopter	helicopter_Q34486		
+LDC_ent_145	VEH.MilitaryVehicle	military_vehicle_Q1184840 | naval_ship_Q177597	fighter is a military vehicle but naval ship isn't	
+LDC_ent_146	VEH.MilitaryVehicle.FighterAircraft	fighter_Q127771		
+LDC_ent_147	VEH.MilitaryVehicle.MilitaryBoat	naval_vessel_Q177597	warship is a subclass	
+LDC_ent_148	VEH.MilitaryVehicle.MilitaryTransportAircraft	airlifter_Q1445518		
+LDC_ent_149	VEH.MilitaryVehicle.Tank	tank_Q12876		
+LDC_ent_150	VEH.Rocket.Rocket	rocket_Q41291		
+LDC_ent_151	VEH.Watercraft	watercraft_Q1229765		
+LDC_ent_152	VEH.Watercraft.Boat	ship_Q11446 | boat_Q35872		
+LDC_ent_153	VEH.Watercraft.Yacht	yacht_Q170173		
+LDC_ent_154	VEH.WheeledVehicle	wheeled_vehicle_Q15618781 | bus_Q5638 | fire_engine_Q208281		
+LDC_ent_155	VEH.WheeledVehicle.Bus	bus_Q5638		
+LDC_ent_156	VEH.WheeledVehicle.Car	motor_car_Q1420		
+LDC_ent_157	VEH.WheeledVehicle.FireApparatus	fire_engine_Q208281		
+LDC_ent_158	VEH.WheeledVehicle.Train	train_Q870		
+LDC_ent_159	VEH.WheeledVehicle.Truck	truck_Q43193		
+				
+LDC_ent_160	WEA	weapon_Q728		
+LDC_ent_161	WEA.Bomb	bomb_Q127197		
+LDC_ent_162	WEA.Bomb.Grenade	grenade_Q19267880		
+LDC_ent_163	WEA.Bomb.MolotovCocktail	Molotov_cocktail_Q167096		
+LDC_ent_164	WEA.Bullets	bullet_Q174583 | ammunition_Q185785	In WD bullet is a subclass of ammunition - we have to use them interchangeably	
+LDC_ent_165	WEA.Bullets.Ammunition	ammunition_Q185785 | bullet_Q174583	cartridge_Q37144 is too specific - it is a subclass of ammunition	
+LDC_ent_166	WEA.Bullets.LiveRounds	live-fire_ammunition_Q9150205		
+LDC_ent_167	WEA.Bullets.RubberBullets	rubber_bullet_Q913345		
+LDC_ent_168	WEA.Cannon.Cannon	cannon_Q81103		
+LDC_ent_169	WEA.Club	club_Q392326 | baseball_bat_Q809910		
+LDC_ent_170	WEA.Club.Bat	baseball_bat_Q809910	LDC means a bat, not any kind of a stick	
+LDC_ent_171	WEA.DaggerKnifeSword	close_combat_weapon_Q222405		
+LDC_ent_172	WEA.DaggerKnifeSword.Hatchet	axe_Q39397		
+LDC_ent_173	WEA.Gas	chemical_weapon_Q3639228		
+LDC_ent_174	WEA.Gas.PoisonGas	poison_gas_Q55942755		
+LDC_ent_175	WEA.Gas.TearGas	tear_gas_Q190512		
+LDC_ent_176	WEA.GrenadeLauncher.GrenadeLauncher	grenade_launcher_Q184613		
+LDC_ent_177	WEA.Gun	projectile_weapon_Q1194773 | artillery_Q64418		
+LDC_ent_178	WEA.Gun.Artillery	artillery_Q64418	artillery_gun_Q1246258 is a subclass	
+LDC_ent_179	WEA.Gun.Firearm	firearm_Q12796		
+LDC_ent_180	WEA.MissileSystem	missile_system_Q4389307 | missile_Q974850 | rocket_launcher_Q3216918		
+LDC_ent_181	WEA.MissileSystem.AirToAirMissile	air-to-air_missile_Q243249		
+LDC_ent_182	WEA.MissileSystem.AntiAircraftMissle	surface-to-air_missile_Q466704		
+LDC_ent_183	WEA.MissileSystem.MissileLauncher	rocket_launcher_Q3216918		
+LDC_ent_184	WEA.MissileSystem.Missile	missile_Q974850		
+LDC_ent_185	WEA.MissileSystem.SurfaceToAirMissile	surface-to-air_missile_Q466704		
+LDC_ent_186	WEA.ThrownProjectile	throwing_weapon_Q1566976		
+LDC_ent_187	WEA.ThrownProjectile.Rock	throwing_weapon_Q1566976	No rock as weapon in WD	
+				
+LDC_KAIROS_ent_001	ABS	intellectual_work_Q15621286 | intellectual_property_Q131257		
+LDC_KAIROS_ent_002	AML	animal_Q729		
+LDC_KAIROS_ent_003	BAL	political_candidate_Q19772737 | ballot_Q905151		
+LDC_KAIROS_ent_004	BOD	anatomical_structure_Q4936952		
+LDC_KAIROS_ent_005	COM	work_product_Q15401930 | artificial_physical_object_Q8205328 | debris_Q637703		
+LDC_KAIROS_ent_006	FAC	artificial_geographic_entity_Q27096235		
+LDC_KAIROS_ent_007	GPE	political_territorial_entity_Q1048835 | urban_area_Q702492 | intergovernmental_organization_Q245065 | village_Q532		
+LDC_KAIROS_ent_008	INF	information_Q11028 | research_object_Q4330518 | plan_Q1371819		
+LDC_KAIROS_ent_009	LAW	law_Q7748 | referndum_Q43109		
+LDC_KAIROS_ent_010	LOC	geographic_entity_Q27096213		
+LDC_KAIROS_ent_011	MHI	health_problem_Q2057971		
+LDC_KAIROS_ent_012	MON	money_Q1368 | asset_Q46737		
+LDC_KAIROS_ent_013	NAT	natural_physical_object_Q16686022		
+LDC_KAIROS_ent_014	ORG	organization_Q43229		
+LDC_KAIROS_ent_015	PER	person_Q215627		
+LDC_KAIROS_ent_016	PLA	plant_Q756		
+LDC_KAIROS_ent_017	PTH	disease_causative_agent_Q2826767		
+LDC_KAIROS_ent_018	RES	voting_result_Q51591359 | voter_turnout_Q1339847 | electoral_result _Q19571328		
+LDC_KAIROS_ent_019	SEN	sentence_Q1763090		
+LDC_KAIROS_ent_020	SID	group_of_humans_Q16334295 | supporter_Q16678266		
+LDC_KAIROS_ent_021	TTL	title_Q216353 | rank_Q4189293		
+LDC_KAIROS_ent_022	VAL	property_Q937228		
+LDC_KAIROS_ent_023	VEH	vehicle_Q42889		
+LDC_KAIROS_ent_024	WEA	weapon_Q728		
+				
+New Pandemic Types				
+	BOD.fluids	body_fluids_Q1058795		
+	BOD.organ	animal_organ_Q24060765		
+	COM.Equipment.PPE	Personal_Protective_Equipment_Q1058795		
+	COM.vaccine	vaccine_Q134808		
+	PTH.virus	virus_Q808		
+	PTH.virus.coronovirus	SARS-CoV-2_Q82069695		
+				
+Pandemic Type Revision				
+LDC_ent_128	RES	voting_result_Q51591359 | voter_turnout_Q1339847 | electoral_result _Q19571328 | test results_Q2671652	added test results.  https://www.wikidata.org/wiki/Q2671652	

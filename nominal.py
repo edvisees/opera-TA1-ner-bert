@@ -26,12 +26,21 @@ with open('type_entity.tab') as f:
                 entity_type_dict[entities[-1]] = entity_type
         else:
             entity_type_dict[entity] = entity_type
-mhi_list = set()
 
-with open('gazetteer/mhi.lst', 'r') as f:
-    mhi_kb_dic = {}
-    for line in f:
-        mhi_list.add(line.strip().lower())
+def read_gazetteer_list(file_path):
+    gaze_list = set()
+    with open(file_path, 'r') as f:
+        for line in f:
+            gaze_list.add(line.strip().lower())
+    return gaze_list
+mhi_list = read_gazetteer_list('gazetteer/mhi.lst')
+vaccine_list = read_gazetteer_list('gazetteer/vaccine.lst')
+virus_list = read_gazetteer_list('gazetteer/vaccine.lst')
+# with open('gazetteer/vaccine.lst')
+# with open('gazetteer/mhi.lst', 'r') as f:
+#     mhi_kb_dic = {}
+#     for line in f:
+#         mhi_list.add(line.strip().lower())
 
 def extract_nominals(sent, nlp, ners):
     mentions = extract_NP_or_PRP(sent, nlp)
@@ -56,9 +65,12 @@ def extract_nominals(sent, nlp, ners):
         #     m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:LOC.Position.Region', 'LOC', 'LOC'
         elif 'drone' in m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:VEH.Aircraft.Drone', 'Aircraft', 'Drone'
+        elif any(s in m['headword'].lower() for s in ['covid', 'coronovirus']):
+            m['type'], m['subtype'], m['subsubtype'] = 'PTH.virus.coronovirus', 'PTH', 'virus'
         elif m['headword'].lower() in mhi_list:
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MHI.Disease.Disease', 'MHI', 'Disease'
-        
+        elif m['headword'].lower() in vaccine_list:
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM.vaccine', 'COM', 'vaccine'
     mentions = list(filter_nominals(mentions))
     return mentions
 
