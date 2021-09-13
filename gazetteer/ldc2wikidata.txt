@@ -221,12 +221,12 @@ LDC_KAIROS_ent_023	VEH	vehicle_Q42889
 LDC_KAIROS_ent_024	WEA	weapon_Q728		
 				
 New Pandemic Types				
-	BOD.fluids	body_fluids_Q1058795		
-	BOD.organ	animal_organ_Q24060765		
-	COM.Equipment.PPE	Personal_Protective_Equipment_Q1058795		
-	COM.vaccine	vaccine_Q134808		
-	PTH.virus	virus_Q808		
-	PTH.virus.coronovirus	SARS-CoV-2_Q82069695		
+New Pandemic	BOD.fluids	body_fluids_Q1058795		
+New Pandemic	BOD.organ	animal_organ_Q24060765		
+New Pandemic	COM.Equipment.PPE	Personal_Protective_Equipment_Q1058795		
+New Pandemic	COM.vaccine	vaccine_Q134808		
+New Pandemic	PTH.virus	virus_Q808		
+New Pandemic	PTH.virus.coronovirus	SARS-CoV-2_Q82069695		
 				
 Pandemic Type Revision				
 LDC_ent_128	RES	voting_result_Q51591359 | voter_turnout_Q1339847 | electoral_result _Q19571328 | test results_Q2671652	added test results.  https://www.wikidata.org/wiki/Q2671652	

@@ -46,6 +46,15 @@ def extract_nominals(sent, nlp, ners):
     mentions = extract_NP_or_PRP(sent, nlp)
     mentions = remove_spurious_mentions(mentions, ners)
     mentions = remove_duplicate_mentions(mentions)
+    domain_fillers = []
+    for wid, word in enumerate(sent.words):
+        if any(s in word.word.lower() for s in ['covid', 'coronovirus', 'coronavirus']):
+            domain_filler = {'mention': word.word, 'token_span': [wid, wid+1], 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:MHI.Disease.Disease', 'headword': word.word, 'category': 'NOM', 'score': 0.9}
+            domain_fillers.append(domain_filler)
+        if any(s in word.word.lower() for s in vaccine_list):
+            domain_filler = {'mention': word.word, 'token_span': [wid, wid+1], 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:COM.vaccine', 'headword': word.word, 'category': 'NOM', 'score': 0.9}
+            domain_fillers.append(domain_filler)
+
     for m in mentions:
         m['type'], m['subtype'], m['subsubtype'] = get_semantic_class_with_subtype(m['headword'])
         
@@ -59,19 +68,23 @@ def extract_nominals(sent, nlp, ners):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG', 'ORG', 'ORG'
         elif 'fund' in  m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MON', 'MON', 'MON'
+        elif any(s in m['headword'].lower() for s in ['u.s.']):
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:GPE.Country.Country', 'GPE', 'GPE'
         # elif 'medicine' in  m['headword'].lower() or 'sample' in m['headword'].lower():
         #     m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM', 'MON', 'MON'
         # elif 'caribbean' in  m['headword'].lower():
         #     m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:LOC.Position.Region', 'LOC', 'LOC'
         elif 'drone' in m['headword'].lower():
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:VEH.Aircraft.Drone', 'Aircraft', 'Drone'
+        elif any(s in m['headword'].lower() for s in ['sars']):
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:PTH.virus.coronovirus', 'PTH', 'virus'
         elif any(s in m['headword'].lower() for s in ['covid', 'coronovirus']):
-            m['type'], m['subtype'], m['subsubtype'] = 'PTH.virus.coronovirus', 'PTH', 'virus'
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MHI.Disease.Disease', 'MHI', 'Disease'
         elif m['headword'].lower() in mhi_list:
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:MHI.Disease.Disease', 'MHI', 'Disease'
         elif m['headword'].lower() in vaccine_list:
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:COM.vaccine', 'COM', 'vaccine'
-    mentions = list(filter_nominals(mentions))
+    mentions = list(filter_nominals(mentions)) + domain_fillers
     return mentions
 
 def extract_NP_or_PRP(sent, nlp):
@@ -133,7 +146,6 @@ def remove_spurious_mentions(mentions, ners):
     return filtered
         
 def remove_duplicate_mentions(mentions):
-    #print(mentions)
     to_remove = set()
     mentions = sorted(mentions, key=cmp_to_key(lambda a, b: 
         ((a['word_span'][1] - a['word_span'][0] - b['word_span'][1] - b['word_span'][0])) if a['head_index'] == b['head_index'] else a['head_index'] - b['head_index']))

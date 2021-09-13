@@ -7,20 +7,29 @@ with open('gazetteer/jobtitles.lst', 'r') as f:
         title_list.add(line.strip().lower())
 title_list.add('president')
 
-mhi_list = set()
-with open('gazetteer/mhi.lst', 'r') as f:
-    mhi_kb_dic = {}
-    for line in f:
-        mhi_list.add(line.strip().lower())
+# mhi_list = set()
+# with open('gazetteer/mhi.lst', 'r') as f:
+#     mhi_kb_dic = {}
+#     for line in f:
+#         mhi_list.add(line.strip().lower())
 
 def extract_filler(sent, nlp, ners):
     titles = extract_title(sent, nlp, ners)
     times = extract_time(sent, nlp)
     numericals = extract_numerical(sent, nlp)
     urls = extract_url(sent)
+    # domain_fillers = extract_domain_important(sent)
     all_fillers = titles + times + numericals + urls
     return all_fillers
 
+
+def extract_domain_important(sent):
+    domain_fillers = []
+    for wid, word in enumerate(sent.words):
+        if any(s in word.word.lower() for s in ['covid', 'coronovirus']):
+            domain_filler = {'mention': word.word, 'token_span': [wid, wid+1], 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcont:mhi.disease.disease'}
+            domain_fillers.append(domain_filler)
+    return domain_fillers
 
 
 def extract_title(sent, nlp, ners):

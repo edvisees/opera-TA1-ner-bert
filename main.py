@@ -7,6 +7,7 @@ from typing import *
 import json
 import pickle
 import sys
+from collections import defaultdict
 from multiprocessing.dummy import Pool as ThreadPool
 import time
 from threading import Semaphore
@@ -20,6 +21,17 @@ with open('gazetteer/ldc2wikidata.txt', 'r') as f:
         line = line.strip().split('\t')
         if len(line) > 2:
             ldc2wd_dict[line[1].lower()] = line[2]
+with open('covid_ontology.json', 'r') as f:
+    covid_ontology = json.load(f)
+
+covid_ent_ontology = defaultdict(list)
+for k, v in covid_ontology['entities'].items():
+    assert len(v) == 1
+    wd_node = v[0]['wd_node']
+    ldc_types = v[0]['ldc_types']
+    for ldc_type in ldc_types:
+        covid_ent_ontology[ldc_type['name'].replace('.Unspecified', '').lower()].append(wd_node)
+
 nist_ner = []
 aida_ner_type = {}
 with open('aida_ner.txt') as f:
@@ -36,7 +48,7 @@ with open('aida_ner.txt') as f:
         aida_ner_type[type_name.lower()] = type_name
         nist_ner.append(type_name)
 
-for new_type in ['BOD.fluids', 'BOD.fluids', 'BOD.organ', 'COM.Equipment.PPE', 'COM.vaccine', 'PTH.virus', 'PTH.virus.coronovirus']:
+for new_type in ['BOD.fluids', 'BOD.organ', 'COM.Equipment.PPE', 'COM.vaccine', 'PTH.virus', 'PTH.virus.coronovirus']:
     type_name = 'ldcOnt:' + new_type
     nist_ner.append(type_name)
     aida_ner_type[type_name.lower()] = type_name
@@ -135,7 +147,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     ner_type = 'VAL'
                 elif ner_type == 'title':
                     ner_type = 'TTL'
-                if 'date_time' not in ner_type:
+                if 'date_time' not in ner_type and ':' not in ner_type:
                     mention['type'] = 'ldcOnt:' + ner_type.upper()
                     
             for m_id, mention in enumerate(named_ents + nominals):
@@ -194,6 +206,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 
             def filter_type(nn):
                 new_named_ents = []
+
                 for ne in nn:
                     if ne['type'] == 'aida:date_time':
                         new_named_ents.append(ne)
@@ -224,10 +237,27 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                 for idx in range(len(new_named_ents)):
                     inp_type = new_named_ents[idx]['type'][7:]
                     new_named_ents[idx]['wikidata'] = ldc2wd_dict.get(inp_type.lower(), 'none')
+                for idx in range(len(new_named_ents)):
+                    inp_type = new_named_ents[idx]['type'][7:]
+                    wd_node = covid_ent_ontology.get(inp_type.lower(), ['none'])
+                    new_named_ents[idx]['wd_node'] = ','.join(wd_node)
                 return new_named_ents
             named_ents = filter_type(named_ents)
             nominals = filter_type(nominals)
             fillers =filter_type(fillers)
+
+            new_named_ents = []
+            for i in range(len(named_ents)):
+                overlapped = False
+                for j in range(len(nominals)):
+                    cur_entity = named_ents[i]
+                    cur_nominal = nominals[j]
+                    if max(cur_entity['char_begin'], cur_nominal['char_begin']) <= min(cur_entity['char_end'], cur_nominal['char_end']):
+                        if cur_entity['headword'] == cur_nominal['headword']:
+                            overlapped = True
+                if not overlapped:
+                    new_named_ents.append(named_ents[i])
+            named_ents = new_named_ents
 
 
             out_doc.append({'docID': os.path.split(fname)[1], 'sent_rel': sent.get_text(), 'inputSentence': sent.get_original_string(), 'offset': sent.begin-1, 'namedMentions': named_ents, 'nominalMentions': nominals, 'fillerMentions': fillers})
