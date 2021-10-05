@@ -51,19 +51,22 @@ def extract_nominals(sent, nlp, ners):
         if any(s in word.word.lower() for s in ['covid', 'coronovirus', 'coronavirus']):
             domain_filler = {'mention': word.word, 'token_span': [wid, wid+1], 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:MHI.Disease.Disease', 'headword': word.word, 'category': 'NOM', 'score': 0.9}
             domain_fillers.append(domain_filler)
-        if any(s in word.word.lower() for s in vaccine_list):
+        if any(s == word.word.lower() for s in vaccine_list):
             domain_filler = {'mention': word.word, 'token_span': [wid, wid+1], 'char_begin': word.begin-1, 'char_end': word.end, 'head_span': [word.begin-1, word.end], 'type': 'ldcOnt:COM.vaccine', 'headword': word.word, 'category': 'NOM', 'score': 0.9}
             domain_fillers.append(domain_filler)
 
     for m in mentions:
         m['type'], m['subtype'], m['subsubtype'] = get_semantic_class_with_subtype(m['headword'])
-        
+        if m['type'] != 'n/a':
+            m['type'] = 'ldcOnt:' + m['type']
         for k, v in nist_key.items():    
             if k in m['mention'].lower().split():
                 m['type'], m['subtype'], m['subsubtype'] = v, v, v
                 break
         if  any(s in m['headword'].lower() for s in ['cases', 'fatalities', 'vote']):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:PER', 'PER', 'PER'
+        elif m['mention'].lower() == 'Facebook Messenger'.lower():
+            m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG.CommercialOrganization', 'PER', 'PER'
         elif any(s in m['headword'].lower() for s in ['system', 'institute']):
             m['type'], m['subtype'], m['subsubtype'] = 'ldcOnt:ORG', 'ORG', 'ORG'
         elif 'fund' in  m['headword'].lower():

@@ -27,7 +27,7 @@ with open('covid_ontology.json', 'r') as f:
 covid_ent_ontology = defaultdict(list)
 for k, v in covid_ontology['entities'].items():
     assert len(v) == 1
-    wd_node = v[0]['wd_node']
+    wd_node = '_'.join((v[0]['name'], v[0]['wd_node']))
     ldc_types = v[0]['ldc_types']
     for ldc_type in ldc_types:
         covid_ent_ontology[ldc_type['name'].replace('.Unspecified', '').lower()].append(wd_node)
@@ -239,7 +239,24 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     new_named_ents[idx]['wikidata'] = ldc2wd_dict.get(inp_type.lower(), 'none')
                 for idx in range(len(new_named_ents)):
                     inp_type = new_named_ents[idx]['type'][7:]
-                    wd_node = covid_ent_ontology.get(inp_type.lower(), ['none'])
+                    wd_node = ['none']
+                    if inp_type.lower() in covid_ent_ontology:
+                        wd_node = covid_ent_ontology.get(inp_type.lower())
+                    else:
+                        inp_type_split = inp_type.lower().split('.')
+                        if len(inp_type) == 3:
+                            if '.'.join(inp_type_split[:-1]) in covid_ent_ontology:
+                                wd_node = covid_ent_ontology.get('.'.join(inp_type_split[:-1]))
+                            elif inp_type_split[0] in covid_ent_ontology:
+                                wd_node = covid_ent_ontology.get(inp_type_split[0])
+                        else:
+                            if inp_type_split[0] in covid_ent_ontology:
+                                wd_node = covid_ent_ontology.get(inp_type_split[0])
+                    # wd_node = covid_ent_ontology.get(inp_type.lower(), ['none'])
+                    new_named_ents[idx]['ldc_type'] = new_named_ents[idx]['type']
+                    if 'none' not in wd_node:
+                        new_named_ents[idx]['type'] = 'aida:' + wd_node[0]
+                    
                     new_named_ents[idx]['wd_node'] = ','.join(wd_node)
                 return new_named_ents
             named_ents = filter_type(named_ents)
@@ -316,7 +333,8 @@ def main():
     decisions = None
     # with StanfordCoreNLP('/home/xianyang/stanford-corenlp-full-2017-06-09/') as nlp:
     # with StanfordCoreNLP('http://localhost', port=9006) as nlp:
-    with StanfordCoreNLP(os.path.join(script_dir, 'stanford-corenlp-full-2017-06-09'), memory='8g') as nlp:
+    port=((9000+int(os.environ['TA1_PORT_OFFSET'])) if 'TA1_PORT_OFFSET' in os.environ else None)
+    with StanfordCoreNLP(os.path.join(script_dir, 'stanford-corenlp-full-2017-06-09'), port=port, memory='8g') as nlp:
         start_time = time.time()
         if read_raw:
             files = os.listdir(input_dir)

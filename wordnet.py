@@ -246,7 +246,7 @@ def get_semantic_class_with_subtype(lemma):
         subtype, subsubtype = 'WheeledVehicle', 'Truck'
     if subtype != 'n/a' or subsubtype != 'n/a':
         return type, subtype, subsubtype
-    if is_hypernym(CRIME, term):
-        type = 'CRM'
+    # if is_hypernym(CRIME, term):
+    #     type = 'CRM'
 
     return type, subtype, subsubtype

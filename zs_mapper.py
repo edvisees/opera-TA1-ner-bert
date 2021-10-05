@@ -136,7 +136,7 @@ A20_NER_MAP = {
         "region", "región", "область", "caribbean",
     ],
     "MHI.SymptomPresentation.SymptomPresentation": [
-        "piel", "dolor", "pain", "skin"
+        "piel", "dolor", "pain", "skin", "cough"
     ],
     "MHI.Disease.Disease": [
         "disease", "illness", "enfermedad", "болезнь", "заболевание",
