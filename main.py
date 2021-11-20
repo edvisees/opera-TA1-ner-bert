@@ -19,8 +19,9 @@ with open('gazetteer/ldc2wikidata.txt', 'r') as f:
     ldc2wd_dict = {}
     for line in f:
         line = line.strip().split('\t')
-        if len(line) > 2:
-            ldc2wd_dict[line[1].lower()] = line[2]
+        if len(line) > 1:
+            ldc2wd_dict[line[0].lower()] = line[1]
+
 with open('covid_ontology.json', 'r') as f:
     covid_ontology = json.load(f)
 
@@ -255,7 +256,7 @@ def run_document(fname, nlp, ontology, decisionsi, out_fname=None, raw=False):
                     # wd_node = covid_ent_ontology.get(inp_type.lower(), ['none'])
                     new_named_ents[idx]['ldc_type'] = new_named_ents[idx]['type']
                     if 'none' not in wd_node:
-                        new_named_ents[idx]['type'] = 'aida:' + wd_node[0]
+                        new_named_ents[idx]['type'] = new_named_ents[idx]['wikidata']
                     
                     new_named_ents[idx]['wd_node'] = ','.join(wd_node)
                 return new_named_ents
